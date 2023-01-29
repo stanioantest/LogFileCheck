@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.Office.Interop.Excel;
 using System.Runtime.InteropServices;
+using Label = System.Windows.Forms.Label;
 
 namespace LogFileCheck
 {
@@ -25,6 +26,11 @@ namespace LogFileCheck
         List<string> WeldingEnergyUSL = new List<string>();
         List<List<string>> listOfLslUsl = new List<List<string>>();
         List<List<string>> listOfAV = new List<List<string>>();
+        List<string> txt_rangeValLSL = new List<string>();
+        List<string> txt_rangeValUSL = new List<string>();
+        List<Label> lbl_status = new List<Label>();
+        List<Label> lbl_statusBackColor = new List<Label>();
+
         int numarDeRanduri = 0;
 
 
@@ -39,7 +45,7 @@ namespace LogFileCheck
         private void button1_Click(object sender, EventArgs e)
         {
             InitializareRange();
-            // adaugarea in Lista de List a valorilor LSL si USL
+            // adaugarea in Lista de List a valorilor LSL - USL si AV
             listOfLslUsl.Add(WeldingdistanceLSL);
             listOfLslUsl.Add(WeldingdistanceUSL);
             listOfAV.Add(WeldingdistanceAV);
@@ -47,6 +53,19 @@ namespace LogFileCheck
             listOfLslUsl.Add(WeldingEnergyUSL);
             listOfAV.Add(WeldingEnergyAV);
 
+            txt_rangeValLSL.Add(txt_rangeWeldingDistanceValLSL.Text);
+            txt_rangeValUSL.Add(txt_rangeWeldingDistanceValUSL.Text);
+            txt_rangeValLSL.Add(txt_rangeWeldingEnergyValLSL.Text);
+            txt_rangeValUSL.Add(txt_rangeWeldingEnergyValUSL.Text);
+
+
+            // Se folosesc pentru metoda ComparareValoriAV
+            lbl_status.Add(lbl_statusWeldingDistanceAV);
+            lbl_status.Add(lbl_statusWeldingEnergyAV);
+
+            lbl_statusBackColor.Add(lbl_statusWeldingDistanceAV);
+            lbl_statusBackColor.Add(lbl_statusWeldingEnergyAV);
+            
             // citirea din fisierul excell a valorilor AV
 
             for (int i = 0; i < listOfAV.Count; i++)
@@ -56,8 +75,10 @@ namespace LogFileCheck
             txt_rangeWeldingDistanceValAV.Text = WeldingdistanceAV[0];
             txt_rangeWeldingEnergyValAV.Text = WeldingEnergyAV[0];
 
-            ComparareValoriWeldingdistanceAV();
-            ComparareValoriWeldingEnergyAV();
+            ComparareValoriAV();
+
+          //  ComparareValoriWeldingdistanceAV();
+          // ComparareValoriWeldingEnergyAV();
 
             // citirea din fisierul excell a valorilor LSL si USL         
 
@@ -173,6 +194,38 @@ namespace LogFileCheck
 
 
         }
+
+        // test
+
+        public void ComparareValoriAV()
+        {
+            for (int i = 0; i < listOfAV.Count; i++)
+            {
+                for (int j = 0; j < listOfAV[i].Count; j++)
+                {
+                    if (Convert.ToDouble(listOfAV[i][j]) >= Convert.ToDouble(txt_rangeValLSL[i].ToString()) && Convert.ToDouble(listOfAV[i][j]) <= Convert.ToDouble(txt_rangeValUSL[i].ToString()))
+                    {
+                        lbl_status[i].Text = "OK";
+                        lbl_statusBackColor[i].BackColor = Color.GreenYellow;
+ 
+                    }
+
+                    else
+                    {
+                        lbl_status[i].Text = "NOK";
+                        lbl_statusBackColor[i].BackColor = Color.Red;
+                        break;
+                    }
+                }
+            }
+        }
+
+
+
+        // test terminare
+
+        /*
+
         // welding distance
         public void ComparareValoriWeldingdistanceAV()
         {
@@ -193,6 +246,7 @@ namespace LogFileCheck
             }
 
         }
+        */
         public void ComparareValoriWeldingdistanceLSL()
         {
             for (int i = 0; i < WeldingdistanceLSL.Count; i++)
@@ -236,6 +290,7 @@ namespace LogFileCheck
         }
 
         // welding energy
+        /*
         public void ComparareValoriWeldingEnergyAV()
         {
             for (int i = 0; i < WeldingEnergyAV.Count; i++)
@@ -253,9 +308,12 @@ namespace LogFileCheck
                     lbl_statusWeldingEnergyAV.BackColor = Color.Red;
                     break;
                 }
+
+                
             }
 
         }
+        */
 
         public void ComparareValoriWeldingEnergyLSL()
         {
