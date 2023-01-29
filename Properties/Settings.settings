@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LogFileCheck.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="txt_rangeWeldingDistance" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AUM2:AUM</Value>
+    </Setting>
+    <Setting Name="txt_logfile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\Roboti\MFU\02.DataLogFile_31.10.2022Copy.xlsx</Value>
+    </Setting>
+    <Setting Name="txt_rangeWeldingDistanceValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.16</Value>
+    </Setting>
+    <Setting Name="txt_rangeWeldingDistanceValUSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0.3</Value>
+    </Setting>
+    <Setting Name="txt_rangeWeldingDistanceLSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AUK2:AUK</Value>
+    </Setting>
+    <Setting Name="txt_rangeWeldingDistanceUSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AUP2:AUP</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
