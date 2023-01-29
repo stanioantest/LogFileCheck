@@ -20,6 +20,9 @@ namespace LogFileCheck
         List<string> WeldingdistanceAV = new List<string>();
         List<string> WeldingdistanceLSL = new List<string>();
         List<string> WeldingdistanceUSL = new List<string>();
+        List<string> WeldingEnergyAV = new List<string>();
+        List<string> WeldingEnergyLSL = new List<string>();
+        List<string> WeldingEnergyUSL = new List<string>();
         List<List<string>> listOfLslUsl = new List<List<string>>();
         List<List<string>> listOfAV = new List<List<string>>();
         int numarDeRanduri = 0;
@@ -40,6 +43,9 @@ namespace LogFileCheck
             listOfLslUsl.Add(WeldingdistanceLSL);
             listOfLslUsl.Add(WeldingdistanceUSL);
             listOfAV.Add(WeldingdistanceAV);
+            listOfLslUsl.Add(WeldingEnergyLSL);
+            listOfLslUsl.Add(WeldingEnergyUSL);
+            listOfAV.Add(WeldingEnergyAV);
 
             // citirea din fisierul excell a valorilor AV
 
@@ -48,8 +54,10 @@ namespace LogFileCheck
                 ReadExcelFile(rangeDeCititAV[i], i);
             }
             txt_rangeWeldingDistanceValAV.Text = WeldingdistanceAV[0];
+            txt_rangeWeldingEnergyValAV.Text = WeldingEnergyAV[0];
 
             ComparareValoriWeldingdistanceAV();
+            ComparareValoriWeldingEnergyAV();
 
             // citirea din fisierul excell a valorilor LSL si USL         
 
@@ -59,7 +67,8 @@ namespace LogFileCheck
             }
             ComparareValoriWeldingdistanceLSL();
             ComparareValoriWeldingdistanceUSL();
-
+            ComparareValoriWeldingEnergyLSL();
+            ComparareValoriWeldingEnergyUSL();
         }
         // citirea fisierului excel pentru a afla numarul de randuri care contin date
         public int AflareRanduriDinExcell()
@@ -133,10 +142,22 @@ namespace LogFileCheck
             txt_rangeWeldingDistanceLSL.Text = Properties.Settings.Default.txt_rangeWeldingDistanceLSL + AflareRanduriDinExcell().ToString();
             string WeldingdistanceUSLRange = Properties.Settings.Default.txt_rangeWeldingDistanceUSL + AflareRanduriDinExcell().ToString();
             txt_rangeWeldingDistanceUSL.Text = Properties.Settings.Default.txt_rangeWeldingDistanceUSL + AflareRanduriDinExcell().ToString();
+
+            string WeldingEnergyAVRange = Properties.Settings.Default.txt_rangeWeldingEnergy + AflareRanduriDinExcell().ToString();
+            txt_rangeWeldingEnergy.Text = Properties.Settings.Default.txt_rangeWeldingEnergy + AflareRanduriDinExcell().ToString();
+            string WeldinEnergyLSLRange = Properties.Settings.Default.txt_rangeWeldingEnergyLSL + AflareRanduriDinExcell().ToString();
+            txt_rangeWeldingEnergyLSL.Text = Properties.Settings.Default.txt_rangeWeldingEnergyLSL + AflareRanduriDinExcell().ToString();
+            string WeldingEnergyUSLRange = Properties.Settings.Default.txt_rangeWeldingEnergyUSL + AflareRanduriDinExcell().ToString();
+            txt_rangeWeldingEnergyUSL.Text = Properties.Settings.Default.txt_rangeWeldingEnergyUSL + AflareRanduriDinExcell().ToString();
+
+            /// welding distance av range
             rangeDeCititAV.Add(WeldingdistanceAVRange);
             rangeDeCititLslUsl.Add(WeldingdistanceLSLRange);
             rangeDeCititLslUsl.Add(WeldingdistanceUSLRange);
-
+            // welding energy av range
+            rangeDeCititAV.Add(WeldingEnergyAVRange);
+            rangeDeCititLslUsl.Add(WeldinEnergyLSLRange);
+            rangeDeCititLslUsl.Add(WeldingEnergyUSLRange);
 
 
 
@@ -147,8 +168,12 @@ namespace LogFileCheck
             txt_rangeWeldingDistanceValLSL.Text = Properties.Settings.Default.txt_rangeWeldingDistanceValLSL.ToString();
             txt_rangeWeldingDistanceValUSL.Text = Properties.Settings.Default.txt_rangeWeldingDistanceValUSL.ToString();
 
+            txt_rangeWeldingEnergyValLSL.Text = Properties.Settings.Default.txt_rangeWeldingEnergyValLSL.ToString();
+            txt_rangeWeldingEnergyValUSL.Text = Properties.Settings.Default.txt_rangeWeldingEnergyValUSL.ToString();
+
 
         }
+        // welding distance
         public void ComparareValoriWeldingdistanceAV()
         {
             for (int i = 0; i < WeldingdistanceAV.Count; i++)
@@ -204,6 +229,70 @@ namespace LogFileCheck
                 {
                     lbl_statusWeldingDistanceUSL.Text = "NOK";
                     lbl_statusWeldingDistanceUSL.BackColor = Color.Red;
+                    break;
+                }
+            }
+
+        }
+
+        // welding energy
+        public void ComparareValoriWeldingEnergyAV()
+        {
+            for (int i = 0; i < WeldingEnergyAV.Count; i++)
+            {
+                if (Convert.ToDouble(WeldingEnergyAV[i]) >= Convert.ToDouble(txt_rangeWeldingEnergyValLSL.Text.ToString()) && Convert.ToDouble(WeldingdistanceAV[i]) <= Convert.ToDouble(txt_rangeWeldingEnergyValUSL.Text.ToString()))
+                   
+                {
+                    lbl_statusWeldingEnergyAV.Text = "OK";
+                    lbl_statusWeldingEnergyAV.BackColor = Color.GreenYellow;
+                }
+
+                else
+                {
+                    lbl_statusWeldingEnergyAV.Text = "NOK";
+                    lbl_statusWeldingEnergyAV.BackColor = Color.Red;
+                    break;
+                }
+            }
+
+        }
+
+        public void ComparareValoriWeldingEnergyLSL()
+        {
+            for (int i = 0; i < WeldingEnergyLSL.Count; i++)
+            {
+                if (WeldingEnergyLSL[i].Equals(txt_rangeWeldingEnergyValLSL.Text.ToString()))
+                {
+                    lbl_statusWeldingEnergyLSL.Text = "OK";
+                    lbl_statusWeldingEnergyLSL.BackColor = Color.GreenYellow;
+                }
+
+
+                else
+                {
+                    lbl_statusWeldingEnergyLSL.Text = "NOK";
+                    lbl_statusWeldingEnergyLSL.BackColor = Color.Red;
+                    break;
+                }
+            }
+
+        }
+
+        public void ComparareValoriWeldingEnergyUSL()
+        {
+            for (int i = 0; i < WeldingEnergyUSL.Count; i++)
+            {
+                if (WeldingEnergyUSL[i].Equals(txt_rangeWeldingEnergyValUSL.Text.ToString()))
+                {
+                    lbl_statusWeldingEnergyUSL.Text = "OK";
+                    lbl_statusWeldingEnergyUSL.BackColor = Color.GreenYellow;
+                }
+
+
+                else
+                {
+                    lbl_statusWeldingEnergyUSL.Text = "NOK";
+                    lbl_statusWeldingEnergyUSL.BackColor = Color.Red;
                     break;
                 }
             }

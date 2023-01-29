@@ -94,5 +94,65 @@ namespace LogFileCheck.Properties {
                 this["txt_rangeWeldingDistanceUSL"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AUS2:AUS")]
+        public string txt_rangeWeldingEnergy {
+            get {
+                return ((string)(this["txt_rangeWeldingEnergy"]));
+            }
+            set {
+                this["txt_rangeWeldingEnergy"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("5")]
+        public double txt_rangeWeldingEnergyValLSL {
+            get {
+                return ((double)(this["txt_rangeWeldingEnergyValLSL"]));
+            }
+            set {
+                this["txt_rangeWeldingEnergyValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("50")]
+        public string txt_rangeWeldingEnergyValUSL {
+            get {
+                return ((string)(this["txt_rangeWeldingEnergyValUSL"]));
+            }
+            set {
+                this["txt_rangeWeldingEnergyValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AUQ2:AUQ")]
+        public string txt_rangeWeldingEnergyLSL {
+            get {
+                return ((string)(this["txt_rangeWeldingEnergyLSL"]));
+            }
+            set {
+                this["txt_rangeWeldingEnergyLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AUV2:AUV")]
+        public string txt_rangeWeldingEnergyUSL {
+            get {
+                return ((string)(this["txt_rangeWeldingEnergyUSL"]));
+            }
+            set {
+                this["txt_rangeWeldingEnergyUSL"] = value;
+            }
+        }
     }
 }

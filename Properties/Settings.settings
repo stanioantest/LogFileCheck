@@ -20,5 +20,20 @@
     <Setting Name="txt_rangeWeldingDistanceUSL" Type="System.String" Scope="User">
       <Value Profile="(Default)">AUP2:AUP</Value>
     </Setting>
+    <Setting Name="txt_rangeWeldingEnergy" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AUS2:AUS</Value>
+    </Setting>
+    <Setting Name="txt_rangeWeldingEnergyValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="txt_rangeWeldingEnergyValUSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="txt_rangeWeldingEnergyLSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AUQ2:AUQ</Value>
+    </Setting>
+    <Setting Name="txt_rangeWeldingEnergyUSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AUV2:AUV</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
