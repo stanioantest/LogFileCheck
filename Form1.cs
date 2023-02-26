@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using Microsoft.Office.Interop.Excel;
 using System.Runtime.InteropServices;
 using Label = System.Windows.Forms.Label;
+using System.Threading;
 
 namespace LogFileCheck
 {
@@ -21,9 +22,15 @@ namespace LogFileCheck
         List<string> WeldingdistanceAV = new List<string>();
         List<string> WeldingdistanceLSL = new List<string>();
         List<string> WeldingdistanceUSL = new List<string>();
+
         List<string> WeldingEnergyAV = new List<string>();
         List<string> WeldingEnergyLSL = new List<string>();
         List<string> WeldingEnergyUSL = new List<string>();
+
+        List<string> AirFlowFlowVolumeAV = new List<string>();
+        List<string> AirFlowFlowVolumeLSL = new List<string>();
+        List<string> AirFlowFlowVolumeUSL = new List<string>();
+
         List<List<string>> listOfLslUsl = new List<List<string>>();
         List<List<string>> listOfAV = new List<List<string>>();
         List<string> txt_rangeValLSL = new List<string>();
@@ -44,28 +51,43 @@ namespace LogFileCheck
 
         private void button1_Click(object sender, EventArgs e)
         {
-            InitializareRange();
+           
+
+                InitializareRange();
             // adaugarea in Lista de List a valorilor LSL - USL si AV
             listOfLslUsl.Add(WeldingdistanceLSL);
             listOfLslUsl.Add(WeldingdistanceUSL);
             listOfAV.Add(WeldingdistanceAV);
+
             listOfLslUsl.Add(WeldingEnergyLSL);
             listOfLslUsl.Add(WeldingEnergyUSL);
             listOfAV.Add(WeldingEnergyAV);
+
+            listOfLslUsl.Add(AirFlowFlowVolumeLSL);
+            listOfLslUsl.Add(AirFlowFlowVolumeUSL);
+            listOfAV.Add(AirFlowFlowVolumeAV);
 
             txt_rangeValLSL.Add(txt_rangeWeldingDistanceValLSL.Text);
             txt_rangeValUSL.Add(txt_rangeWeldingDistanceValUSL.Text);
             txt_rangeValLSL.Add(txt_rangeWeldingEnergyValLSL.Text);
             txt_rangeValUSL.Add(txt_rangeWeldingEnergyValUSL.Text);
 
+            txt_rangeValLSL.Add(txt_rangeAirFlowFlowVolumeValLSL.Text);
+            txt_rangeValUSL.Add(txt_rangeAirFlowFlowVolumeValUSL.Text);
+
 
             // Se folosesc pentru metoda ComparareValoriAV
             lbl_status.Add(lbl_statusWeldingDistanceAV);
             lbl_status.Add(lbl_statusWeldingEnergyAV);
+            lbl_status.Add(lbl_statusAirFlowFlowVolumeAV);
+
 
             lbl_statusBackColor.Add(lbl_statusWeldingDistanceAV);
             lbl_statusBackColor.Add(lbl_statusWeldingEnergyAV);
-            
+            lbl_statusBackColor.Add(lbl_statusAirFlowFlowVolumeAV);
+
+
+
             // citirea din fisierul excell a valorilor AV
 
             for (int i = 0; i < listOfAV.Count; i++)
@@ -75,12 +97,17 @@ namespace LogFileCheck
             txt_rangeWeldingDistanceValAV.Text = WeldingdistanceAV[0];
             txt_rangeWeldingEnergyValAV.Text = WeldingEnergyAV[0];
 
+            txt_rangeAirFlowFlowVolumeValAV.Text = AirFlowFlowVolumeAV[0];
+
             ComparareValoriAV();
 
           //  ComparareValoriWeldingdistanceAV();
           // ComparareValoriWeldingEnergyAV();
 
-            // citirea din fisierul excell a valorilor LSL si USL         
+            // citirea din fisierul excell a valorilor LSL si USL
+            // 
+
+
 
             for (int i = 0; i < listOfLslUsl.Count; i++)
             {
@@ -90,7 +117,11 @@ namespace LogFileCheck
             ComparareValoriWeldingdistanceUSL();
             ComparareValoriWeldingEnergyLSL();
             ComparareValoriWeldingEnergyUSL();
+            ComparareValoriAirFlowFlowVolumeLSL();
+            ComparareValoriAirFlowFlowVolumeUSL();
+           
         }
+
         // citirea fisierului excel pentru a afla numarul de randuri care contin date
         public int AflareRanduriDinExcell()
         {
@@ -108,10 +139,11 @@ namespace LogFileCheck
             return numarDeRanduri;
         }
         // functia care permite citirea din fisierul excell a valorilor AV
-        public void ReadExcelFile(string rangeDeCititAV,int i)
+        public  void ReadExcelFile(string rangeDeCititAV,int i)
         {
+            
 
-            string filePath = txt_logfile.Text;
+                string filePath = txt_logfile.Text;
             Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.Application();
             Workbook workbook = excel.Workbooks.Open(filePath);
             Worksheet sheet = workbook.Worksheets[1];
@@ -128,12 +160,14 @@ namespace LogFileCheck
             Marshal.ReleaseComObject(workbook);
             Marshal.ReleaseComObject(sheet);
             Marshal.ReleaseComObject(excel);
+            
         }
         // functia care permite citirea din fisierul excell a valorilor LSL si USL
-        public void ReadExcelFile4(string rangeDeCitit, int i)
+        public  void ReadExcelFile4(string rangeDeCitit, int i)
         {
+            
 
-            string filePath = txt_logfile.Text;
+                string filePath = txt_logfile.Text;
             Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.Application();
             Workbook workbook = excel.Workbooks.Open(filePath);
             Worksheet sheet = workbook.Worksheets[1];
@@ -150,6 +184,8 @@ namespace LogFileCheck
             Marshal.ReleaseComObject(workbook);
             Marshal.ReleaseComObject(sheet);
             Marshal.ReleaseComObject(excel);
+
+       
         }
 
         //initializarea valorilor range
@@ -171,6 +207,13 @@ namespace LogFileCheck
             string WeldingEnergyUSLRange = Properties.Settings.Default.txt_rangeWeldingEnergyUSL + AflareRanduriDinExcell().ToString();
             txt_rangeWeldingEnergyUSL.Text = Properties.Settings.Default.txt_rangeWeldingEnergyUSL + AflareRanduriDinExcell().ToString();
 
+            string AirFlowFlowVolumeAVRange = Properties.Settings.Default.txt_rangeAirFlowFlowVolume + AflareRanduriDinExcell().ToString();
+            txt_rangeAirFlowFlowVolume.Text = Properties.Settings.Default.txt_rangeAirFlowFlowVolume + AflareRanduriDinExcell().ToString();
+            string AirFlowFlowVolumeLSLRange = Properties.Settings.Default.txt_rangeAirFlowFlowVolumeLSL + AflareRanduriDinExcell().ToString();
+            txt_rangeAirFlowFlowVolumeLSL.Text = Properties.Settings.Default.txt_rangeAirFlowFlowVolumeLSL + AflareRanduriDinExcell().ToString();
+            string AirFlowFlowVolumeUSLRange = Properties.Settings.Default.txt_rangeAirFlowFlowVolumeUSL + AflareRanduriDinExcell().ToString();
+            txt_rangeAirFlowFlowVolumeUSL.Text = Properties.Settings.Default.txt_rangeAirFlowFlowVolumeUSL + AflareRanduriDinExcell().ToString();
+
             /// welding distance av range
             rangeDeCititAV.Add(WeldingdistanceAVRange);
             rangeDeCititLslUsl.Add(WeldingdistanceLSLRange);
@@ -179,6 +222,10 @@ namespace LogFileCheck
             rangeDeCititAV.Add(WeldingEnergyAVRange);
             rangeDeCititLslUsl.Add(WeldinEnergyLSLRange);
             rangeDeCititLslUsl.Add(WeldingEnergyUSLRange);
+            // AirFlowFlowVolume av range
+            rangeDeCititAV.Add(AirFlowFlowVolumeAVRange);
+            rangeDeCititLslUsl.Add(AirFlowFlowVolumeLSLRange);
+            rangeDeCititLslUsl.Add(AirFlowFlowVolumeUSLRange);
 
 
 
@@ -192,10 +239,12 @@ namespace LogFileCheck
             txt_rangeWeldingEnergyValLSL.Text = Properties.Settings.Default.txt_rangeWeldingEnergyValLSL.ToString();
             txt_rangeWeldingEnergyValUSL.Text = Properties.Settings.Default.txt_rangeWeldingEnergyValUSL.ToString();
 
+            txt_rangeAirFlowFlowVolumeValLSL.Text = Properties.Settings.Default.txt_rangeAirFlowFlowVolumeValLSL.ToString();
+            txt_rangeAirFlowFlowVolumeValUSL.Text = Properties.Settings.Default.txt_rangeAirFlowFlowVolumeValUSL.ToString();
 
         }
 
-        // test
+        // pentru a compara valorile AV si a afisa OK sau NOK
 
         public void ComparareValoriAV()
         {
@@ -207,7 +256,6 @@ namespace LogFileCheck
                     {
                         lbl_status[i].Text = "OK";
                         lbl_statusBackColor[i].BackColor = Color.GreenYellow;
- 
                     }
 
                     else
@@ -222,31 +270,7 @@ namespace LogFileCheck
 
 
 
-        // test terminare
 
-        /*
-
-        // welding distance
-        public void ComparareValoriWeldingdistanceAV()
-        {
-            for (int i = 0; i < WeldingdistanceAV.Count; i++)
-            {
-                if (Convert.ToDouble(WeldingdistanceAV[i]) >= Convert.ToDouble(txt_rangeWeldingDistanceValLSL.Text.ToString()) && Convert.ToDouble(WeldingdistanceAV[i]) <= Convert.ToDouble(txt_rangeWeldingDistanceValUSL.Text.ToString()))
-                {
-                    lbl_statusWeldingDistanceAV.Text = "OK";
-                    lbl_statusWeldingDistanceAV.BackColor = Color.GreenYellow;
-                }
-
-                else
-                {
-                    lbl_statusWeldingDistanceAV.Text = "NOK";
-                    lbl_statusWeldingDistanceAV.BackColor = Color.Red;
-                    break;
-                }
-            }
-
-        }
-        */
         public void ComparareValoriWeldingdistanceLSL()
         {
             for (int i = 0; i < WeldingdistanceLSL.Count; i++)
@@ -289,31 +313,7 @@ namespace LogFileCheck
 
         }
 
-        // welding energy
-        /*
-        public void ComparareValoriWeldingEnergyAV()
-        {
-            for (int i = 0; i < WeldingEnergyAV.Count; i++)
-            {
-                if (Convert.ToDouble(WeldingEnergyAV[i]) >= Convert.ToDouble(txt_rangeWeldingEnergyValLSL.Text.ToString()) && Convert.ToDouble(WeldingdistanceAV[i]) <= Convert.ToDouble(txt_rangeWeldingEnergyValUSL.Text.ToString()))
-                   
-                {
-                    lbl_statusWeldingEnergyAV.Text = "OK";
-                    lbl_statusWeldingEnergyAV.BackColor = Color.GreenYellow;
-                }
-
-                else
-                {
-                    lbl_statusWeldingEnergyAV.Text = "NOK";
-                    lbl_statusWeldingEnergyAV.BackColor = Color.Red;
-                    break;
-                }
-
-                
-            }
-
-        }
-        */
+       
 
         public void ComparareValoriWeldingEnergyLSL()
         {
@@ -357,5 +357,58 @@ namespace LogFileCheck
 
         }
 
+        public void ComparareValoriAirFlowFlowVolumeLSL()
+        {
+            for (int i = 0; i < AirFlowFlowVolumeLSL.Count; i++)
+            {
+                if (AirFlowFlowVolumeLSL[i].Equals(txt_rangeAirFlowFlowVolumeValLSL.Text.ToString()))
+                {
+                    lbl_statusAirFlowFlowVolumeLSL.Text = "OK";
+                    lbl_statusAirFlowFlowVolumeLSL.BackColor = Color.GreenYellow;
+                }
+
+
+                else
+                {
+                    lbl_statusAirFlowFlowVolumeLSL.Text = "NOK";
+                    lbl_statusAirFlowFlowVolumeLSL.BackColor = Color.Red;
+                    break;
+                }
+            }
+
+        }
+
+        public void ComparareValoriAirFlowFlowVolumeUSL()
+        {
+            for (int i = 0; i < AirFlowFlowVolumeUSL.Count; i++)
+            {
+                if (AirFlowFlowVolumeUSL[i].Equals(txt_rangeAirFlowFlowVolumeValUSL.Text.ToString()))
+                {
+                    lbl_statusAirFlowFlowVolumeUSL.Text = "OK";
+                    lbl_statusAirFlowFlowVolumeUSL.BackColor = Color.GreenYellow;
+                }
+
+
+                else
+                {
+                    lbl_statusAirFlowFlowVolumeUSL.Text = "NOK";
+                    lbl_statusAirFlowFlowVolumeUSL.BackColor = Color.Red;
+                    break;
+                }
+            }
+
+        }
+
+
     }
+    // nu e introdus
+    /*
+    St010.Welding.Frequency.AV
+    St010.Welding.Weldingforce
+    St010.Airflowtest.Time.AV
+
+     */
+
 }
+
+

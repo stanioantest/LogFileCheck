@@ -54,6 +54,25 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusAirFlowFlowVolumeAV = new System.Windows.Forms.Label();
+            this.lbl_statusAirFlowFlowVolumeLSL = new System.Windows.Forms.Label();
+            this.lbl_statusAirFlowFlowVolumeUSL = new System.Windows.Forms.Label();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeAirFlowFlowVolume = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txt_rangeAirFlowFlowVolumeUSL = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.txt_rangeAirFlowFlowVolumeLSL = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeAirFlowFlowVolumeValAV = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.txt_rangeAirFlowFlowVolumeValLSL = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.txt_rangeAirFlowFlowVolumeValUSL = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.lbl_statusWeldingEnergyAV = new System.Windows.Forms.Label();
@@ -74,16 +93,44 @@
             this.txt_rangeWeldingEnergyValUSL = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.groupBox16 = new System.Windows.Forms.GroupBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.groupBox9.SuspendLayout();
+            this.groupBox10.SuspendLayout();
+            this.groupBox11.SuspendLayout();
+            this.groupBox12.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupBox7.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.groupBox13.SuspendLayout();
+            this.groupBox14.SuspendLayout();
+            this.groupBox15.SuspendLayout();
+            this.groupBox16.SuspendLayout();
             this.SuspendLayout();
             // 
             // txt_logfile
@@ -310,12 +357,13 @@
             this.tabControl1.Location = new System.Drawing.Point(17, 78);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1211, 342);
+            this.tabControl1.Size = new System.Drawing.Size(1211, 540);
             this.tabControl1.TabIndex = 21;
             // 
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tabPage1.Controls.Add(this.groupBox9);
             this.tabPage1.Controls.Add(this.groupBox5);
             this.tabPage1.Controls.Add(this.groupBox1);
             this.tabPage1.Controls.Add(this.textBox1);
@@ -323,9 +371,187 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1203, 313);
+            this.tabPage1.Size = new System.Drawing.Size(1203, 511);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "ST10";
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.groupBox10);
+            this.groupBox9.Controls.Add(this.groupBox11);
+            this.groupBox9.Controls.Add(this.groupBox12);
+            this.groupBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.groupBox9.Location = new System.Drawing.Point(754, 16);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(370, 169);
+            this.groupBox9.TabIndex = 22;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "ST10 Air Flow Volume";
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.Controls.Add(this.lbl_statusAirFlowFlowVolumeAV);
+            this.groupBox10.Controls.Add(this.lbl_statusAirFlowFlowVolumeLSL);
+            this.groupBox10.Controls.Add(this.lbl_statusAirFlowFlowVolumeUSL);
+            this.groupBox10.Location = new System.Drawing.Point(280, 36);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(68, 118);
+            this.groupBox10.TabIndex = 24;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "Status";
+            // 
+            // lbl_statusAirFlowFlowVolumeAV
+            // 
+            this.lbl_statusAirFlowFlowVolumeAV.AutoSize = true;
+            this.lbl_statusAirFlowFlowVolumeAV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusAirFlowFlowVolumeAV.Name = "lbl_statusAirFlowFlowVolumeAV";
+            this.lbl_statusAirFlowFlowVolumeAV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusAirFlowFlowVolumeAV.TabIndex = 13;
+            this.lbl_statusAirFlowFlowVolumeAV.Text = "--";
+            // 
+            // lbl_statusAirFlowFlowVolumeLSL
+            // 
+            this.lbl_statusAirFlowFlowVolumeLSL.AutoSize = true;
+            this.lbl_statusAirFlowFlowVolumeLSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusAirFlowFlowVolumeLSL.Name = "lbl_statusAirFlowFlowVolumeLSL";
+            this.lbl_statusAirFlowFlowVolumeLSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusAirFlowFlowVolumeLSL.TabIndex = 10;
+            this.lbl_statusAirFlowFlowVolumeLSL.Text = "--";
+            // 
+            // lbl_statusAirFlowFlowVolumeUSL
+            // 
+            this.lbl_statusAirFlowFlowVolumeUSL.AutoSize = true;
+            this.lbl_statusAirFlowFlowVolumeUSL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusAirFlowFlowVolumeUSL.Name = "lbl_statusAirFlowFlowVolumeUSL";
+            this.lbl_statusAirFlowFlowVolumeUSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusAirFlowFlowVolumeUSL.TabIndex = 11;
+            this.lbl_statusAirFlowFlowVolumeUSL.Text = "--";
+            // 
+            // groupBox11
+            // 
+            this.groupBox11.Controls.Add(this.txt_rangeAirFlowFlowVolume);
+            this.groupBox11.Controls.Add(this.label17);
+            this.groupBox11.Controls.Add(this.txt_rangeAirFlowFlowVolumeUSL);
+            this.groupBox11.Controls.Add(this.label18);
+            this.groupBox11.Controls.Add(this.txt_rangeAirFlowFlowVolumeLSL);
+            this.groupBox11.Controls.Add(this.label19);
+            this.groupBox11.Location = new System.Drawing.Point(10, 36);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Size = new System.Drawing.Size(154, 118);
+            this.groupBox11.TabIndex = 22;
+            this.groupBox11.TabStop = false;
+            this.groupBox11.Text = "Range";
+            // 
+            // txt_rangeAirFlowFlowVolume
+            // 
+            this.txt_rangeAirFlowFlowVolume.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeAirFlowFlowVolume.Name = "txt_rangeAirFlowFlowVolume";
+            this.txt_rangeAirFlowFlowVolume.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeAirFlowFlowVolume.TabIndex = 2;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(5, 90);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(33, 16);
+            this.label17.TabIndex = 17;
+            this.label17.Text = "USL";
+            // 
+            // txt_rangeAirFlowFlowVolumeUSL
+            // 
+            this.txt_rangeAirFlowFlowVolumeUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeAirFlowFlowVolumeUSL.Name = "txt_rangeAirFlowFlowVolumeUSL";
+            this.txt_rangeAirFlowFlowVolumeUSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeAirFlowFlowVolumeUSL.TabIndex = 18;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(5, 26);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(25, 16);
+            this.label18.TabIndex = 5;
+            this.label18.Text = "AV";
+            // 
+            // txt_rangeAirFlowFlowVolumeLSL
+            // 
+            this.txt_rangeAirFlowFlowVolumeLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeAirFlowFlowVolumeLSL.Name = "txt_rangeAirFlowFlowVolumeLSL";
+            this.txt_rangeAirFlowFlowVolumeLSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeAirFlowFlowVolumeLSL.TabIndex = 15;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(5, 58);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(30, 16);
+            this.label19.TabIndex = 16;
+            this.label19.Text = "LSL";
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.Controls.Add(this.txt_rangeAirFlowFlowVolumeValAV);
+            this.groupBox12.Controls.Add(this.label20);
+            this.groupBox12.Controls.Add(this.txt_rangeAirFlowFlowVolumeValLSL);
+            this.groupBox12.Controls.Add(this.label21);
+            this.groupBox12.Controls.Add(this.txt_rangeAirFlowFlowVolumeValUSL);
+            this.groupBox12.Controls.Add(this.label22);
+            this.groupBox12.Location = new System.Drawing.Point(170, 36);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(104, 118);
+            this.groupBox12.TabIndex = 23;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "Values";
+            // 
+            // txt_rangeAirFlowFlowVolumeValAV
+            // 
+            this.txt_rangeAirFlowFlowVolumeValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeAirFlowFlowVolumeValAV.Name = "txt_rangeAirFlowFlowVolumeValAV";
+            this.txt_rangeAirFlowFlowVolumeValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeAirFlowFlowVolumeValAV.TabIndex = 12;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(4, 28);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(25, 16);
+            this.label20.TabIndex = 6;
+            this.label20.Text = "AV";
+            // 
+            // txt_rangeAirFlowFlowVolumeValLSL
+            // 
+            this.txt_rangeAirFlowFlowVolumeValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeAirFlowFlowVolumeValLSL.Name = "txt_rangeAirFlowFlowVolumeValLSL";
+            this.txt_rangeAirFlowFlowVolumeValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeAirFlowFlowVolumeValLSL.TabIndex = 7;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(4, 58);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(30, 16);
+            this.label21.TabIndex = 6;
+            this.label21.Text = "LSL";
+            // 
+            // txt_rangeAirFlowFlowVolumeValUSL
+            // 
+            this.txt_rangeAirFlowFlowVolumeValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeAirFlowFlowVolumeValUSL.Name = "txt_rangeAirFlowFlowVolumeValUSL";
+            this.txt_rangeAirFlowFlowVolumeValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeAirFlowFlowVolumeValUSL.TabIndex = 9;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(4, 87);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(33, 16);
+            this.label22.TabIndex = 8;
+            this.label22.Text = "USL";
             // 
             // groupBox5
             // 
@@ -507,13 +733,191 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tabPage2.Controls.Add(this.groupBox13);
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1203, 313);
+            this.tabPage2.Size = new System.Drawing.Size(1203, 511);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.tabPage2.Text = "ST21";
+            // 
+            // groupBox13
+            // 
+            this.groupBox13.Controls.Add(this.groupBox14);
+            this.groupBox13.Controls.Add(this.groupBox15);
+            this.groupBox13.Controls.Add(this.groupBox16);
+            this.groupBox13.Location = new System.Drawing.Point(6, 17);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Size = new System.Drawing.Size(366, 169);
+            this.groupBox13.TabIndex = 21;
+            this.groupBox13.TabStop = false;
+            this.groupBox13.Text = "ST10 Ultrasonic Welding Distance";
+            // 
+            // groupBox14
+            // 
+            this.groupBox14.Controls.Add(this.label8);
+            this.groupBox14.Controls.Add(this.label9);
+            this.groupBox14.Controls.Add(this.label10);
+            this.groupBox14.Location = new System.Drawing.Point(286, 36);
+            this.groupBox14.Name = "groupBox14";
+            this.groupBox14.Size = new System.Drawing.Size(68, 118);
+            this.groupBox14.TabIndex = 21;
+            this.groupBox14.TabStop = false;
+            this.groupBox14.Text = "Status";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(15, 29);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(15, 16);
+            this.label8.TabIndex = 13;
+            this.label8.Text = "--";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(15, 61);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(15, 16);
+            this.label9.TabIndex = 10;
+            this.label9.Text = "--";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(15, 87);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(15, 16);
+            this.label10.TabIndex = 11;
+            this.label10.Text = "--";
+            // 
+            // groupBox15
+            // 
+            this.groupBox15.Controls.Add(this.textBox2);
+            this.groupBox15.Controls.Add(this.label23);
+            this.groupBox15.Controls.Add(this.textBox3);
+            this.groupBox15.Controls.Add(this.label24);
+            this.groupBox15.Controls.Add(this.textBox4);
+            this.groupBox15.Controls.Add(this.label25);
+            this.groupBox15.Location = new System.Drawing.Point(176, 36);
+            this.groupBox15.Name = "groupBox15";
+            this.groupBox15.Size = new System.Drawing.Size(104, 118);
+            this.groupBox15.TabIndex = 1;
+            this.groupBox15.TabStop = false;
+            this.groupBox15.Text = "Values";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(43, 26);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(48, 22);
+            this.textBox2.TabIndex = 12;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(4, 28);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(25, 16);
+            this.label23.TabIndex = 6;
+            this.label23.Text = "AV";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(43, 55);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(48, 22);
+            this.textBox3.TabIndex = 7;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(4, 58);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(30, 16);
+            this.label24.TabIndex = 6;
+            this.label24.Text = "LSL";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(43, 84);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(48, 22);
+            this.textBox4.TabIndex = 9;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(4, 87);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(33, 16);
+            this.label25.TabIndex = 8;
+            this.label25.Text = "USL";
+            // 
+            // groupBox16
+            // 
+            this.groupBox16.Controls.Add(this.textBox5);
+            this.groupBox16.Controls.Add(this.label26);
+            this.groupBox16.Controls.Add(this.textBox6);
+            this.groupBox16.Controls.Add(this.label27);
+            this.groupBox16.Controls.Add(this.textBox7);
+            this.groupBox16.Controls.Add(this.label28);
+            this.groupBox16.Location = new System.Drawing.Point(16, 36);
+            this.groupBox16.Name = "groupBox16";
+            this.groupBox16.Size = new System.Drawing.Size(154, 118);
+            this.groupBox16.TabIndex = 0;
+            this.groupBox16.TabStop = false;
+            this.groupBox16.Text = "Range";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(43, 26);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 22);
+            this.textBox5.TabIndex = 2;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(5, 90);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(33, 16);
+            this.label26.TabIndex = 17;
+            this.label26.Text = "USL";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(43, 84);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(100, 22);
+            this.textBox6.TabIndex = 18;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(5, 26);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(25, 16);
+            this.label27.TabIndex = 5;
+            this.label27.Text = "AV";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(43, 55);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(100, 22);
+            this.textBox7.TabIndex = 15;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(5, 58);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(30, 16);
+            this.label28.TabIndex = 16;
+            this.label28.Text = "LSL";
             // 
             // Form1
             // 
@@ -537,6 +941,13 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox10.ResumeLayout(false);
+            this.groupBox10.PerformLayout();
+            this.groupBox11.ResumeLayout(false);
+            this.groupBox11.PerformLayout();
+            this.groupBox12.ResumeLayout(false);
+            this.groupBox12.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
@@ -544,6 +955,14 @@
             this.groupBox8.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.groupBox13.ResumeLayout(false);
+            this.groupBox14.ResumeLayout(false);
+            this.groupBox14.PerformLayout();
+            this.groupBox15.ResumeLayout(false);
+            this.groupBox15.PerformLayout();
+            this.groupBox16.ResumeLayout(false);
+            this.groupBox16.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -577,7 +996,6 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Label lbl_statusWeldingEnergyAV;
@@ -597,6 +1015,45 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox txt_rangeWeldingEnergyValUSL;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.GroupBox groupBox10;
+        private System.Windows.Forms.Label lbl_statusAirFlowFlowVolumeAV;
+        private System.Windows.Forms.Label lbl_statusAirFlowFlowVolumeLSL;
+        private System.Windows.Forms.Label lbl_statusAirFlowFlowVolumeUSL;
+        private System.Windows.Forms.GroupBox groupBox11;
+        private System.Windows.Forms.TextBox txt_rangeAirFlowFlowVolume;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox txt_rangeAirFlowFlowVolumeUSL;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox txt_rangeAirFlowFlowVolumeLSL;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.GroupBox groupBox12;
+        private System.Windows.Forms.TextBox txt_rangeAirFlowFlowVolumeValAV;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox txt_rangeAirFlowFlowVolumeValLSL;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox txt_rangeAirFlowFlowVolumeValUSL;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.GroupBox groupBox13;
+        private System.Windows.Forms.GroupBox groupBox14;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.GroupBox groupBox15;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.GroupBox groupBox16;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label28;
     }
 }
 

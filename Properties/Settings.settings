@@ -35,5 +35,20 @@
     <Setting Name="txt_rangeWeldingEnergyUSL" Type="System.String" Scope="User">
       <Value Profile="(Default)">AUV2:AUV</Value>
     </Setting>
+    <Setting Name="txt_rangeAirFlowFlowVolume" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AVX2:AVX</Value>
+    </Setting>
+    <Setting Name="txt_rangeAirFlowFlowVolumeValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="txt_rangeAirFlowFlowVolumeValUSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="txt_rangeAirFlowFlowVolumeLSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AVV2:AVV</Value>
+    </Setting>
+    <Setting Name="txt_rangeAirFlowFlowVolumeUSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AWA2:AWA</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

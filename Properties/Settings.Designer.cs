@@ -154,5 +154,65 @@ namespace LogFileCheck.Properties {
                 this["txt_rangeWeldingEnergyUSL"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AVX2:AVX")]
+        public string txt_rangeAirFlowFlowVolume {
+            get {
+                return ((string)(this["txt_rangeAirFlowFlowVolume"]));
+            }
+            set {
+                this["txt_rangeAirFlowFlowVolume"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("8")]
+        public double txt_rangeAirFlowFlowVolumeValLSL {
+            get {
+                return ((double)(this["txt_rangeAirFlowFlowVolumeValLSL"]));
+            }
+            set {
+                this["txt_rangeAirFlowFlowVolumeValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("20")]
+        public double txt_rangeAirFlowFlowVolumeValUSL {
+            get {
+                return ((double)(this["txt_rangeAirFlowFlowVolumeValUSL"]));
+            }
+            set {
+                this["txt_rangeAirFlowFlowVolumeValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AVV2:AVV")]
+        public string txt_rangeAirFlowFlowVolumeLSL {
+            get {
+                return ((string)(this["txt_rangeAirFlowFlowVolumeLSL"]));
+            }
+            set {
+                this["txt_rangeAirFlowFlowVolumeLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AWA2:AWA")]
+        public string txt_rangeAirFlowFlowVolumeUSL {
+            get {
+                return ((string)(this["txt_rangeAirFlowFlowVolumeUSL"]));
+            }
+            set {
+                this["txt_rangeAirFlowFlowVolumeUSL"] = value;
+            }
+        }
     }
 }
