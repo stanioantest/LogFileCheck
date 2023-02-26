@@ -31,6 +31,14 @@ namespace LogFileCheck
         List<string> AirFlowFlowVolumeLSL = new List<string>();
         List<string> AirFlowFlowVolumeUSL = new List<string>();
 
+        List<string> Scara1FittingPins0AV = new List<string>();
+        List<string> Scara1FittingPins0LSL = new List<string>();
+        List<string> Scara1FittingPins0USL = new List<string>();
+
+        List<string> Scara1FittingPins1AV = new List<string>();
+        List<string> Scara1FittingPins1LSL = new List<string>();
+        List<string> Scara1FittingPins1USL = new List<string>();
+
         List<List<string>> listOfLslUsl = new List<List<string>>();
         List<List<string>> listOfAV = new List<List<string>>();
         List<string> txt_rangeValLSL = new List<string>();
@@ -67,6 +75,14 @@ namespace LogFileCheck
             listOfLslUsl.Add(AirFlowFlowVolumeUSL);
             listOfAV.Add(AirFlowFlowVolumeAV);
 
+            listOfLslUsl.Add(Scara1FittingPins0LSL);
+            listOfLslUsl.Add(Scara1FittingPins0USL);
+            listOfAV.Add(Scara1FittingPins0AV);
+
+            listOfLslUsl.Add(Scara1FittingPins1LSL);
+            listOfLslUsl.Add(Scara1FittingPins1USL);
+            listOfAV.Add(Scara1FittingPins1AV);
+
             txt_rangeValLSL.Add(txt_rangeWeldingDistanceValLSL.Text);
             txt_rangeValUSL.Add(txt_rangeWeldingDistanceValUSL.Text);
             txt_rangeValLSL.Add(txt_rangeWeldingEnergyValLSL.Text);
@@ -75,16 +91,26 @@ namespace LogFileCheck
             txt_rangeValLSL.Add(txt_rangeAirFlowFlowVolumeValLSL.Text);
             txt_rangeValUSL.Add(txt_rangeAirFlowFlowVolumeValUSL.Text);
 
+            txt_rangeValLSL.Add(txt_rangeScara1FittingPins0ValLSL.Text);
+            txt_rangeValUSL.Add(txt_rangeScara1FittingPins0ValUSL.Text);
+
+            txt_rangeValLSL.Add(txt_rangeScara1FittingPins1ValLSL.Text);
+            txt_rangeValUSL.Add(txt_rangeScara1FittingPins1ValUSL.Text);
+
 
             // Se folosesc pentru metoda ComparareValoriAV
             lbl_status.Add(lbl_statusWeldingDistanceAV);
             lbl_status.Add(lbl_statusWeldingEnergyAV);
             lbl_status.Add(lbl_statusAirFlowFlowVolumeAV);
+            lbl_status.Add(lbl_statusScara1FittingPins0AV);
+            lbl_status.Add(lbl_statusScara1FittingPins1AV);
 
 
             lbl_statusBackColor.Add(lbl_statusWeldingDistanceAV);
             lbl_statusBackColor.Add(lbl_statusWeldingEnergyAV);
             lbl_statusBackColor.Add(lbl_statusAirFlowFlowVolumeAV);
+            lbl_statusBackColor.Add(lbl_statusScara1FittingPins0AV);
+            lbl_statusBackColor.Add(lbl_statusScara1FittingPins1AV);
 
 
 
@@ -96,17 +122,14 @@ namespace LogFileCheck
             }
             txt_rangeWeldingDistanceValAV.Text = WeldingdistanceAV[0];
             txt_rangeWeldingEnergyValAV.Text = WeldingEnergyAV[0];
-
             txt_rangeAirFlowFlowVolumeValAV.Text = AirFlowFlowVolumeAV[0];
+            txt_rangeScara1FittingPins0ValAV.Text = Scara1FittingPins0AV[0];
+            txt_rangeScara1FittingPins1ValAV.Text = Scara1FittingPins1AV[0];
+
 
             ComparareValoriAV();
 
-          //  ComparareValoriWeldingdistanceAV();
-          // ComparareValoriWeldingEnergyAV();
-
             // citirea din fisierul excell a valorilor LSL si USL
-            // 
-
 
 
             for (int i = 0; i < listOfLslUsl.Count; i++)
@@ -119,7 +142,11 @@ namespace LogFileCheck
             ComparareValoriWeldingEnergyUSL();
             ComparareValoriAirFlowFlowVolumeLSL();
             ComparareValoriAirFlowFlowVolumeUSL();
-           
+            ComparareValoriScara1FittingPins0LSL();
+            ComparareValoriScara1FittingPins0USL();
+            ComparareValoriScara1FittingPins1LSL();
+            ComparareValoriScara1FittingPins1USL();
+
         }
 
         // citirea fisierului excel pentru a afla numarul de randuri care contin date
@@ -192,27 +219,45 @@ namespace LogFileCheck
         public void InitializareRange()
         {
             txt_mediacoloana.Text = AflareRanduriDinExcell().ToString();
+            
 
-            string WeldingdistanceAVRange = Properties.Settings.Default.txt_rangeWeldingDistance + AflareRanduriDinExcell().ToString();
-            txt_rangeWeldingDistance.Text = Properties.Settings.Default.txt_rangeWeldingDistance + AflareRanduriDinExcell().ToString();
-            string WeldingdistanceLSLRange = Properties.Settings.Default.txt_rangeWeldingDistanceLSL + AflareRanduriDinExcell().ToString();
-            txt_rangeWeldingDistanceLSL.Text = Properties.Settings.Default.txt_rangeWeldingDistanceLSL + AflareRanduriDinExcell().ToString();
-            string WeldingdistanceUSLRange = Properties.Settings.Default.txt_rangeWeldingDistanceUSL + AflareRanduriDinExcell().ToString();
-            txt_rangeWeldingDistanceUSL.Text = Properties.Settings.Default.txt_rangeWeldingDistanceUSL + AflareRanduriDinExcell().ToString();
+            string WeldingdistanceAVRange = Properties.Settings.Default.txt_rangeWeldingDistance + txt_mediacoloana.Text;
+            txt_rangeWeldingDistance.Text = Properties.Settings.Default.txt_rangeWeldingDistance + txt_mediacoloana.Text;
+            string WeldingdistanceLSLRange = Properties.Settings.Default.txt_rangeWeldingDistanceLSL + txt_mediacoloana.Text;
+            txt_rangeWeldingDistanceLSL.Text = Properties.Settings.Default.txt_rangeWeldingDistanceLSL + txt_mediacoloana.Text;
+            string WeldingdistanceUSLRange = Properties.Settings.Default.txt_rangeWeldingDistanceUSL + txt_mediacoloana.Text;
+            txt_rangeWeldingDistanceUSL.Text = Properties.Settings.Default.txt_rangeWeldingDistanceUSL + txt_mediacoloana.Text;
 
-            string WeldingEnergyAVRange = Properties.Settings.Default.txt_rangeWeldingEnergy + AflareRanduriDinExcell().ToString();
-            txt_rangeWeldingEnergy.Text = Properties.Settings.Default.txt_rangeWeldingEnergy + AflareRanduriDinExcell().ToString();
-            string WeldinEnergyLSLRange = Properties.Settings.Default.txt_rangeWeldingEnergyLSL + AflareRanduriDinExcell().ToString();
-            txt_rangeWeldingEnergyLSL.Text = Properties.Settings.Default.txt_rangeWeldingEnergyLSL + AflareRanduriDinExcell().ToString();
-            string WeldingEnergyUSLRange = Properties.Settings.Default.txt_rangeWeldingEnergyUSL + AflareRanduriDinExcell().ToString();
-            txt_rangeWeldingEnergyUSL.Text = Properties.Settings.Default.txt_rangeWeldingEnergyUSL + AflareRanduriDinExcell().ToString();
+            string WeldingEnergyAVRange = Properties.Settings.Default.txt_rangeWeldingEnergy + txt_mediacoloana.Text;
+            txt_rangeWeldingEnergy.Text = Properties.Settings.Default.txt_rangeWeldingEnergy + txt_mediacoloana.Text;
+            string WeldinEnergyLSLRange = Properties.Settings.Default.txt_rangeWeldingEnergyLSL + txt_mediacoloana.Text;
+            txt_rangeWeldingEnergyLSL.Text = Properties.Settings.Default.txt_rangeWeldingEnergyLSL + txt_mediacoloana.Text;
+            string WeldingEnergyUSLRange = Properties.Settings.Default.txt_rangeWeldingEnergyUSL + txt_mediacoloana.Text;
+            txt_rangeWeldingEnergyUSL.Text = Properties.Settings.Default.txt_rangeWeldingEnergyUSL + txt_mediacoloana.Text;
 
-            string AirFlowFlowVolumeAVRange = Properties.Settings.Default.txt_rangeAirFlowFlowVolume + AflareRanduriDinExcell().ToString();
-            txt_rangeAirFlowFlowVolume.Text = Properties.Settings.Default.txt_rangeAirFlowFlowVolume + AflareRanduriDinExcell().ToString();
-            string AirFlowFlowVolumeLSLRange = Properties.Settings.Default.txt_rangeAirFlowFlowVolumeLSL + AflareRanduriDinExcell().ToString();
-            txt_rangeAirFlowFlowVolumeLSL.Text = Properties.Settings.Default.txt_rangeAirFlowFlowVolumeLSL + AflareRanduriDinExcell().ToString();
-            string AirFlowFlowVolumeUSLRange = Properties.Settings.Default.txt_rangeAirFlowFlowVolumeUSL + AflareRanduriDinExcell().ToString();
-            txt_rangeAirFlowFlowVolumeUSL.Text = Properties.Settings.Default.txt_rangeAirFlowFlowVolumeUSL + AflareRanduriDinExcell().ToString();
+            string AirFlowFlowVolumeAVRange = Properties.Settings.Default.txt_rangeAirFlowFlowVolume + txt_mediacoloana.Text;
+            txt_rangeAirFlowFlowVolume.Text = Properties.Settings.Default.txt_rangeAirFlowFlowVolume + txt_mediacoloana.Text;
+            string AirFlowFlowVolumeLSLRange = Properties.Settings.Default.txt_rangeAirFlowFlowVolumeLSL + txt_mediacoloana.Text;
+            txt_rangeAirFlowFlowVolumeLSL.Text = Properties.Settings.Default.txt_rangeAirFlowFlowVolumeLSL + txt_mediacoloana.Text;
+            string AirFlowFlowVolumeUSLRange = Properties.Settings.Default.txt_rangeAirFlowFlowVolumeUSL + txt_mediacoloana.Text;
+            txt_rangeAirFlowFlowVolumeUSL.Text = Properties.Settings.Default.txt_rangeAirFlowFlowVolumeUSL + txt_mediacoloana.Text;
+
+
+            string Scara1FittingPins0AVRange = Properties.Settings.Default.txt_rangeScara1FittingPins0 + txt_mediacoloana.Text;
+            txt_rangeScara1FittingPins0.Text = Properties.Settings.Default.txt_rangeScara1FittingPins0 + txt_mediacoloana.Text;
+            string Scara1FittingPins0LSLRange = Properties.Settings.Default.txt_rangeScara1FittingPins0LSL + txt_mediacoloana.Text;
+            txt_rangeScara1FittingPins0LSL.Text = Properties.Settings.Default.txt_rangeScara1FittingPins0LSL + txt_mediacoloana.Text;
+            string Scara1FittingPins0USLRange = Properties.Settings.Default.txt_rangeScara1FittingPins0USL + txt_mediacoloana.Text;
+            txt_rangeScara1FittingPins0USL.Text = Properties.Settings.Default.txt_rangeScara1FittingPins0USL + txt_mediacoloana.Text;
+
+            string Scara1FittingPins1AVRange = Properties.Settings.Default.txt_rangeScara1FittingPins1 + txt_mediacoloana.Text;
+            txt_rangeScara1FittingPins1.Text = Properties.Settings.Default.txt_rangeScara1FittingPins1 + txt_mediacoloana.Text;
+            string Scara1FittingPins1LSLRange = Properties.Settings.Default.txt_rangeScara1FittingPins1LSL + txt_mediacoloana.Text;
+            txt_rangeScara1FittingPins1LSL.Text = Properties.Settings.Default.txt_rangeScara1FittingPins1LSL + txt_mediacoloana.Text;
+            string Scara1FittingPins1USLRange = Properties.Settings.Default.txt_rangeScara1FittingPins1USL + txt_mediacoloana.Text;
+            txt_rangeScara1FittingPins1USL.Text = Properties.Settings.Default.txt_rangeScara1FittingPins1USL + txt_mediacoloana.Text;
+
+
 
             /// welding distance av range
             rangeDeCititAV.Add(WeldingdistanceAVRange);
@@ -226,6 +271,16 @@ namespace LogFileCheck
             rangeDeCititAV.Add(AirFlowFlowVolumeAVRange);
             rangeDeCititLslUsl.Add(AirFlowFlowVolumeLSLRange);
             rangeDeCititLslUsl.Add(AirFlowFlowVolumeUSLRange);
+
+            // ST21 Scara1FittingPins0 av range
+            rangeDeCititAV.Add(Scara1FittingPins0AVRange);
+            rangeDeCititLslUsl.Add(Scara1FittingPins0LSLRange);
+            rangeDeCititLslUsl.Add(Scara1FittingPins0USLRange);
+
+            // ST21 Scara1FittingPins1 av range
+            rangeDeCititAV.Add(Scara1FittingPins1AVRange);
+            rangeDeCititLslUsl.Add(Scara1FittingPins1LSLRange);
+            rangeDeCititLslUsl.Add(Scara1FittingPins1USLRange);
 
 
 
@@ -241,6 +296,12 @@ namespace LogFileCheck
 
             txt_rangeAirFlowFlowVolumeValLSL.Text = Properties.Settings.Default.txt_rangeAirFlowFlowVolumeValLSL.ToString();
             txt_rangeAirFlowFlowVolumeValUSL.Text = Properties.Settings.Default.txt_rangeAirFlowFlowVolumeValUSL.ToString();
+
+            txt_rangeScara1FittingPins0ValLSL.Text = Properties.Settings.Default.txt_rangeScara1FittingPins0ValLSL.ToString();
+            txt_rangeScara1FittingPins0ValUSL.Text = Properties.Settings.Default.txt_rangeScara1FittingPins0ValUSL.ToString();
+
+            txt_rangeScara1FittingPins1ValLSL.Text = Properties.Settings.Default.txt_rangeScara1FittingPins1ValLSL.ToString();
+            txt_rangeScara1FittingPins1ValUSL.Text = Properties.Settings.Default.txt_rangeScara1FittingPins1ValUSL.ToString();
 
         }
 
@@ -399,6 +460,89 @@ namespace LogFileCheck
 
         }
 
+        public void ComparareValoriScara1FittingPins0LSL()
+        {
+            for (int i = 0; i < Scara1FittingPins0LSL.Count; i++)
+            {
+                if (Scara1FittingPins0LSL[i].Equals(txt_rangeScara1FittingPins0ValLSL.Text.ToString()))
+                {
+                    lbl_statusScara1FittingPins0LSL.Text = "OK";
+                    lbl_statusScara1FittingPins0LSL.BackColor = Color.GreenYellow;
+                }
+
+
+                else
+                {
+                    lbl_statusScara1FittingPins0LSL.Text = "NOK";
+                    lbl_statusScara1FittingPins0LSL.BackColor = Color.Red;
+                    break;
+                }
+            }
+
+        }
+
+        public void ComparareValoriScara1FittingPins0USL()
+        {
+            for (int i = 0; i < Scara1FittingPins0USL.Count; i++)
+            {
+                if (Scara1FittingPins0USL[i].Equals(txt_rangeScara1FittingPins0ValUSL.Text.ToString()))
+                {
+                    lbl_statusScara1FittingPins0USL.Text = "OK";
+                    lbl_statusScara1FittingPins0USL.BackColor = Color.GreenYellow;
+                }
+
+
+                else
+                {
+                    lbl_statusScara1FittingPins0USL.Text = "NOK";
+                    lbl_statusScara1FittingPins0USL.BackColor = Color.Red;
+                    break;
+                }
+            }
+
+        }
+
+        public void ComparareValoriScara1FittingPins1LSL()
+        {
+            for (int i = 0; i < Scara1FittingPins1LSL.Count; i++)
+            {
+                if (Scara1FittingPins1LSL[i].Equals(txt_rangeScara1FittingPins1ValLSL.Text.ToString()))
+                {
+                    lbl_statusScara1FittingPins1LSL.Text = "OK";
+                    lbl_statusScara1FittingPins1LSL.BackColor = Color.GreenYellow;
+                }
+
+
+                else
+                {
+                    lbl_statusScara1FittingPins1LSL.Text = "NOK";
+                    lbl_statusScara1FittingPins1LSL.BackColor = Color.Red;
+                    break;
+                }
+            }
+
+        }
+
+        public void ComparareValoriScara1FittingPins1USL()
+        {
+            for (int i = 0; i < Scara1FittingPins1USL.Count; i++)
+            {
+                if (Scara1FittingPins1USL[i].Equals(txt_rangeScara1FittingPins1ValUSL.Text.ToString()))
+                {
+                    lbl_statusScara1FittingPins1USL.Text = "OK";
+                    lbl_statusScara1FittingPins1USL.BackColor = Color.GreenYellow;
+                }
+
+
+                else
+                {
+                    lbl_statusScara1FittingPins1USL.Text = "NOK";
+                    lbl_statusScara1FittingPins1USL.BackColor = Color.Red;
+                    break;
+                }
+            }
+
+        }
 
     }
     // nu e introdus

@@ -95,23 +95,42 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lbl_statusScara1FittingPins0AV = new System.Windows.Forms.Label();
+            this.lbl_statusScara1FittingPins0LSL = new System.Windows.Forms.Label();
+            this.lbl_statusScara1FittingPins0USL = new System.Windows.Forms.Label();
             this.groupBox15 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_rangeScara1FittingPins0ValAV = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_rangeScara1FittingPins0ValLSL = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txt_rangeScara1FittingPins0ValUSL = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.groupBox16 = new System.Windows.Forms.GroupBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txt_rangeScara1FittingPins0 = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txt_rangeScara1FittingPins0USL = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txt_rangeScara1FittingPins0LSL = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
+            this.groupBox17 = new System.Windows.Forms.GroupBox();
+            this.groupBox18 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusScara1FittingPins1AV = new System.Windows.Forms.Label();
+            this.lbl_statusScara1FittingPins1LSL = new System.Windows.Forms.Label();
+            this.lbl_statusScara1FittingPins1USL = new System.Windows.Forms.Label();
+            this.groupBox19 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeScara1FittingPins1ValAV = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.txt_rangeScara1FittingPins1ValLSL = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.txt_rangeScara1FittingPins1ValUSL = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.groupBox20 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeScara1FittingPins1 = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.txt_rangeScara1FittingPins1USL = new System.Windows.Forms.TextBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.txt_rangeScara1FittingPins1LSL = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -131,6 +150,10 @@
             this.groupBox14.SuspendLayout();
             this.groupBox15.SuspendLayout();
             this.groupBox16.SuspendLayout();
+            this.groupBox17.SuspendLayout();
+            this.groupBox18.SuspendLayout();
+            this.groupBox19.SuspendLayout();
+            this.groupBox20.SuspendLayout();
             this.SuspendLayout();
             // 
             // txt_logfile
@@ -357,7 +380,7 @@
             this.tabControl1.Location = new System.Drawing.Point(17, 78);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1211, 540);
+            this.tabControl1.Size = new System.Drawing.Size(1500, 540);
             this.tabControl1.TabIndex = 21;
             // 
             // tabPage1
@@ -371,7 +394,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1203, 511);
+            this.tabPage1.Size = new System.Drawing.Size(1492, 511);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "ST10";
             // 
@@ -734,11 +757,12 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tabPage2.Controls.Add(this.groupBox17);
             this.tabPage2.Controls.Add(this.groupBox13);
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1203, 511);
+            this.tabPage2.Size = new System.Drawing.Size(1492, 511);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "ST21";
             // 
@@ -752,13 +776,13 @@
             this.groupBox13.Size = new System.Drawing.Size(366, 169);
             this.groupBox13.TabIndex = 21;
             this.groupBox13.TabStop = false;
-            this.groupBox13.Text = "ST10 Ultrasonic Welding Distance";
+            this.groupBox13.Text = "ST21 Scara 1 FittingPins 0";
             // 
             // groupBox14
             // 
-            this.groupBox14.Controls.Add(this.label8);
-            this.groupBox14.Controls.Add(this.label9);
-            this.groupBox14.Controls.Add(this.label10);
+            this.groupBox14.Controls.Add(this.lbl_statusScara1FittingPins0AV);
+            this.groupBox14.Controls.Add(this.lbl_statusScara1FittingPins0LSL);
+            this.groupBox14.Controls.Add(this.lbl_statusScara1FittingPins0USL);
             this.groupBox14.Location = new System.Drawing.Point(286, 36);
             this.groupBox14.Name = "groupBox14";
             this.groupBox14.Size = new System.Drawing.Size(68, 118);
@@ -766,40 +790,40 @@
             this.groupBox14.TabStop = false;
             this.groupBox14.Text = "Status";
             // 
-            // label8
+            // lbl_statusScara1FittingPins0AV
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(15, 29);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(15, 16);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "--";
+            this.lbl_statusScara1FittingPins0AV.AutoSize = true;
+            this.lbl_statusScara1FittingPins0AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusScara1FittingPins0AV.Name = "lbl_statusScara1FittingPins0AV";
+            this.lbl_statusScara1FittingPins0AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScara1FittingPins0AV.TabIndex = 13;
+            this.lbl_statusScara1FittingPins0AV.Text = "--";
             // 
-            // label9
+            // lbl_statusScara1FittingPins0LSL
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(15, 61);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(15, 16);
-            this.label9.TabIndex = 10;
-            this.label9.Text = "--";
+            this.lbl_statusScara1FittingPins0LSL.AutoSize = true;
+            this.lbl_statusScara1FittingPins0LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusScara1FittingPins0LSL.Name = "lbl_statusScara1FittingPins0LSL";
+            this.lbl_statusScara1FittingPins0LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScara1FittingPins0LSL.TabIndex = 10;
+            this.lbl_statusScara1FittingPins0LSL.Text = "--";
             // 
-            // label10
+            // lbl_statusScara1FittingPins0USL
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(15, 87);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(15, 16);
-            this.label10.TabIndex = 11;
-            this.label10.Text = "--";
+            this.lbl_statusScara1FittingPins0USL.AutoSize = true;
+            this.lbl_statusScara1FittingPins0USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusScara1FittingPins0USL.Name = "lbl_statusScara1FittingPins0USL";
+            this.lbl_statusScara1FittingPins0USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScara1FittingPins0USL.TabIndex = 11;
+            this.lbl_statusScara1FittingPins0USL.Text = "--";
             // 
             // groupBox15
             // 
-            this.groupBox15.Controls.Add(this.textBox2);
+            this.groupBox15.Controls.Add(this.txt_rangeScara1FittingPins0ValAV);
             this.groupBox15.Controls.Add(this.label23);
-            this.groupBox15.Controls.Add(this.textBox3);
+            this.groupBox15.Controls.Add(this.txt_rangeScara1FittingPins0ValLSL);
             this.groupBox15.Controls.Add(this.label24);
-            this.groupBox15.Controls.Add(this.textBox4);
+            this.groupBox15.Controls.Add(this.txt_rangeScara1FittingPins0ValUSL);
             this.groupBox15.Controls.Add(this.label25);
             this.groupBox15.Location = new System.Drawing.Point(176, 36);
             this.groupBox15.Name = "groupBox15";
@@ -808,12 +832,12 @@
             this.groupBox15.TabStop = false;
             this.groupBox15.Text = "Values";
             // 
-            // textBox2
+            // txt_rangeScara1FittingPins0ValAV
             // 
-            this.textBox2.Location = new System.Drawing.Point(43, 26);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(48, 22);
-            this.textBox2.TabIndex = 12;
+            this.txt_rangeScara1FittingPins0ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScara1FittingPins0ValAV.Name = "txt_rangeScara1FittingPins0ValAV";
+            this.txt_rangeScara1FittingPins0ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScara1FittingPins0ValAV.TabIndex = 12;
             // 
             // label23
             // 
@@ -824,12 +848,12 @@
             this.label23.TabIndex = 6;
             this.label23.Text = "AV";
             // 
-            // textBox3
+            // txt_rangeScara1FittingPins0ValLSL
             // 
-            this.textBox3.Location = new System.Drawing.Point(43, 55);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(48, 22);
-            this.textBox3.TabIndex = 7;
+            this.txt_rangeScara1FittingPins0ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScara1FittingPins0ValLSL.Name = "txt_rangeScara1FittingPins0ValLSL";
+            this.txt_rangeScara1FittingPins0ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScara1FittingPins0ValLSL.TabIndex = 7;
             // 
             // label24
             // 
@@ -840,12 +864,12 @@
             this.label24.TabIndex = 6;
             this.label24.Text = "LSL";
             // 
-            // textBox4
+            // txt_rangeScara1FittingPins0ValUSL
             // 
-            this.textBox4.Location = new System.Drawing.Point(43, 84);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(48, 22);
-            this.textBox4.TabIndex = 9;
+            this.txt_rangeScara1FittingPins0ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScara1FittingPins0ValUSL.Name = "txt_rangeScara1FittingPins0ValUSL";
+            this.txt_rangeScara1FittingPins0ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScara1FittingPins0ValUSL.TabIndex = 9;
             // 
             // label25
             // 
@@ -858,11 +882,11 @@
             // 
             // groupBox16
             // 
-            this.groupBox16.Controls.Add(this.textBox5);
+            this.groupBox16.Controls.Add(this.txt_rangeScara1FittingPins0);
             this.groupBox16.Controls.Add(this.label26);
-            this.groupBox16.Controls.Add(this.textBox6);
+            this.groupBox16.Controls.Add(this.txt_rangeScara1FittingPins0USL);
             this.groupBox16.Controls.Add(this.label27);
-            this.groupBox16.Controls.Add(this.textBox7);
+            this.groupBox16.Controls.Add(this.txt_rangeScara1FittingPins0LSL);
             this.groupBox16.Controls.Add(this.label28);
             this.groupBox16.Location = new System.Drawing.Point(16, 36);
             this.groupBox16.Name = "groupBox16";
@@ -871,12 +895,12 @@
             this.groupBox16.TabStop = false;
             this.groupBox16.Text = "Range";
             // 
-            // textBox5
+            // txt_rangeScara1FittingPins0
             // 
-            this.textBox5.Location = new System.Drawing.Point(43, 26);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 2;
+            this.txt_rangeScara1FittingPins0.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScara1FittingPins0.Name = "txt_rangeScara1FittingPins0";
+            this.txt_rangeScara1FittingPins0.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScara1FittingPins0.TabIndex = 2;
             // 
             // label26
             // 
@@ -887,12 +911,12 @@
             this.label26.TabIndex = 17;
             this.label26.Text = "USL";
             // 
-            // textBox6
+            // txt_rangeScara1FittingPins0USL
             // 
-            this.textBox6.Location = new System.Drawing.Point(43, 84);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 22);
-            this.textBox6.TabIndex = 18;
+            this.txt_rangeScara1FittingPins0USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScara1FittingPins0USL.Name = "txt_rangeScara1FittingPins0USL";
+            this.txt_rangeScara1FittingPins0USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScara1FittingPins0USL.TabIndex = 18;
             // 
             // label27
             // 
@@ -903,12 +927,12 @@
             this.label27.TabIndex = 5;
             this.label27.Text = "AV";
             // 
-            // textBox7
+            // txt_rangeScara1FittingPins0LSL
             // 
-            this.textBox7.Location = new System.Drawing.Point(43, 55);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 22);
-            this.textBox7.TabIndex = 15;
+            this.txt_rangeScara1FittingPins0LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScara1FittingPins0LSL.Name = "txt_rangeScara1FittingPins0LSL";
+            this.txt_rangeScara1FittingPins0LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScara1FittingPins0LSL.TabIndex = 15;
             // 
             // label28
             // 
@@ -919,11 +943,188 @@
             this.label28.TabIndex = 16;
             this.label28.Text = "LSL";
             // 
+            // groupBox17
+            // 
+            this.groupBox17.Controls.Add(this.groupBox18);
+            this.groupBox17.Controls.Add(this.groupBox19);
+            this.groupBox17.Controls.Add(this.groupBox20);
+            this.groupBox17.Location = new System.Drawing.Point(378, 17);
+            this.groupBox17.Name = "groupBox17";
+            this.groupBox17.Size = new System.Drawing.Size(366, 169);
+            this.groupBox17.TabIndex = 22;
+            this.groupBox17.TabStop = false;
+            this.groupBox17.Text = "ST21 Scara 1 FittingPins 1";
+            // 
+            // groupBox18
+            // 
+            this.groupBox18.Controls.Add(this.lbl_statusScara1FittingPins1AV);
+            this.groupBox18.Controls.Add(this.lbl_statusScara1FittingPins1LSL);
+            this.groupBox18.Controls.Add(this.lbl_statusScara1FittingPins1USL);
+            this.groupBox18.Location = new System.Drawing.Point(286, 36);
+            this.groupBox18.Name = "groupBox18";
+            this.groupBox18.Size = new System.Drawing.Size(68, 118);
+            this.groupBox18.TabIndex = 21;
+            this.groupBox18.TabStop = false;
+            this.groupBox18.Text = "Status";
+            // 
+            // lbl_statusScara1FittingPins1AV
+            // 
+            this.lbl_statusScara1FittingPins1AV.AutoSize = true;
+            this.lbl_statusScara1FittingPins1AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusScara1FittingPins1AV.Name = "lbl_statusScara1FittingPins1AV";
+            this.lbl_statusScara1FittingPins1AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScara1FittingPins1AV.TabIndex = 13;
+            this.lbl_statusScara1FittingPins1AV.Text = "--";
+            // 
+            // lbl_statusScara1FittingPins1LSL
+            // 
+            this.lbl_statusScara1FittingPins1LSL.AutoSize = true;
+            this.lbl_statusScara1FittingPins1LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusScara1FittingPins1LSL.Name = "lbl_statusScara1FittingPins1LSL";
+            this.lbl_statusScara1FittingPins1LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScara1FittingPins1LSL.TabIndex = 10;
+            this.lbl_statusScara1FittingPins1LSL.Text = "--";
+            // 
+            // lbl_statusScara1FittingPins1USL
+            // 
+            this.lbl_statusScara1FittingPins1USL.AutoSize = true;
+            this.lbl_statusScara1FittingPins1USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusScara1FittingPins1USL.Name = "lbl_statusScara1FittingPins1USL";
+            this.lbl_statusScara1FittingPins1USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScara1FittingPins1USL.TabIndex = 11;
+            this.lbl_statusScara1FittingPins1USL.Text = "--";
+            // 
+            // groupBox19
+            // 
+            this.groupBox19.Controls.Add(this.txt_rangeScara1FittingPins1ValAV);
+            this.groupBox19.Controls.Add(this.label29);
+            this.groupBox19.Controls.Add(this.txt_rangeScara1FittingPins1ValLSL);
+            this.groupBox19.Controls.Add(this.label30);
+            this.groupBox19.Controls.Add(this.txt_rangeScara1FittingPins1ValUSL);
+            this.groupBox19.Controls.Add(this.label31);
+            this.groupBox19.Location = new System.Drawing.Point(176, 36);
+            this.groupBox19.Name = "groupBox19";
+            this.groupBox19.Size = new System.Drawing.Size(104, 118);
+            this.groupBox19.TabIndex = 1;
+            this.groupBox19.TabStop = false;
+            this.groupBox19.Text = "Values";
+            // 
+            // txt_rangeScara1FittingPins1ValAV
+            // 
+            this.txt_rangeScara1FittingPins1ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScara1FittingPins1ValAV.Name = "txt_rangeScara1FittingPins1ValAV";
+            this.txt_rangeScara1FittingPins1ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScara1FittingPins1ValAV.TabIndex = 12;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(4, 28);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(25, 16);
+            this.label29.TabIndex = 6;
+            this.label29.Text = "AV";
+            // 
+            // txt_rangeScara1FittingPins1ValLSL
+            // 
+            this.txt_rangeScara1FittingPins1ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScara1FittingPins1ValLSL.Name = "txt_rangeScara1FittingPins1ValLSL";
+            this.txt_rangeScara1FittingPins1ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScara1FittingPins1ValLSL.TabIndex = 7;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(4, 58);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(30, 16);
+            this.label30.TabIndex = 6;
+            this.label30.Text = "LSL";
+            // 
+            // txt_rangeScara1FittingPins1ValUSL
+            // 
+            this.txt_rangeScara1FittingPins1ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScara1FittingPins1ValUSL.Name = "txt_rangeScara1FittingPins1ValUSL";
+            this.txt_rangeScara1FittingPins1ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScara1FittingPins1ValUSL.TabIndex = 9;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(4, 87);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(33, 16);
+            this.label31.TabIndex = 8;
+            this.label31.Text = "USL";
+            // 
+            // groupBox20
+            // 
+            this.groupBox20.Controls.Add(this.txt_rangeScara1FittingPins1);
+            this.groupBox20.Controls.Add(this.label32);
+            this.groupBox20.Controls.Add(this.txt_rangeScara1FittingPins1USL);
+            this.groupBox20.Controls.Add(this.label33);
+            this.groupBox20.Controls.Add(this.txt_rangeScara1FittingPins1LSL);
+            this.groupBox20.Controls.Add(this.label34);
+            this.groupBox20.Location = new System.Drawing.Point(16, 36);
+            this.groupBox20.Name = "groupBox20";
+            this.groupBox20.Size = new System.Drawing.Size(154, 118);
+            this.groupBox20.TabIndex = 0;
+            this.groupBox20.TabStop = false;
+            this.groupBox20.Text = "Range";
+            // 
+            // txt_rangeScara1FittingPins1
+            // 
+            this.txt_rangeScara1FittingPins1.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScara1FittingPins1.Name = "txt_rangeScara1FittingPins1";
+            this.txt_rangeScara1FittingPins1.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScara1FittingPins1.TabIndex = 2;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(5, 90);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(33, 16);
+            this.label32.TabIndex = 17;
+            this.label32.Text = "USL";
+            // 
+            // txt_rangeScara1FittingPins1USL
+            // 
+            this.txt_rangeScara1FittingPins1USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScara1FittingPins1USL.Name = "txt_rangeScara1FittingPins1USL";
+            this.txt_rangeScara1FittingPins1USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScara1FittingPins1USL.TabIndex = 18;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(5, 26);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(25, 16);
+            this.label33.TabIndex = 5;
+            this.label33.Text = "AV";
+            // 
+            // txt_rangeScara1FittingPins1LSL
+            // 
+            this.txt_rangeScara1FittingPins1LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScara1FittingPins1LSL.Name = "txt_rangeScara1FittingPins1LSL";
+            this.txt_rangeScara1FittingPins1LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScara1FittingPins1LSL.TabIndex = 15;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(5, 58);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(30, 16);
+            this.label34.TabIndex = 16;
+            this.label34.Text = "LSL";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1261, 735);
+            this.ClientSize = new System.Drawing.Size(1567, 735);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
@@ -963,6 +1164,13 @@
             this.groupBox15.PerformLayout();
             this.groupBox16.ResumeLayout(false);
             this.groupBox16.PerformLayout();
+            this.groupBox17.ResumeLayout(false);
+            this.groupBox18.ResumeLayout(false);
+            this.groupBox18.PerformLayout();
+            this.groupBox19.ResumeLayout(false);
+            this.groupBox19.PerformLayout();
+            this.groupBox20.ResumeLayout(false);
+            this.groupBox20.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1037,23 +1245,42 @@
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.GroupBox groupBox13;
         private System.Windows.Forms.GroupBox groupBox14;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lbl_statusScara1FittingPins0AV;
+        private System.Windows.Forms.Label lbl_statusScara1FittingPins0LSL;
+        private System.Windows.Forms.Label lbl_statusScara1FittingPins0USL;
         private System.Windows.Forms.GroupBox groupBox15;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_rangeScara1FittingPins0ValAV;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_rangeScara1FittingPins0ValLSL;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txt_rangeScara1FittingPins0ValUSL;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.GroupBox groupBox16;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txt_rangeScara1FittingPins0;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txt_rangeScara1FittingPins0USL;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txt_rangeScara1FittingPins0LSL;
         private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.GroupBox groupBox17;
+        private System.Windows.Forms.GroupBox groupBox18;
+        private System.Windows.Forms.Label lbl_statusScara1FittingPins1AV;
+        private System.Windows.Forms.Label lbl_statusScara1FittingPins1LSL;
+        private System.Windows.Forms.Label lbl_statusScara1FittingPins1USL;
+        private System.Windows.Forms.GroupBox groupBox19;
+        private System.Windows.Forms.TextBox txt_rangeScara1FittingPins1ValAV;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.TextBox txt_rangeScara1FittingPins1ValLSL;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.TextBox txt_rangeScara1FittingPins1ValUSL;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.GroupBox groupBox20;
+        private System.Windows.Forms.TextBox txt_rangeScara1FittingPins1;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.TextBox txt_rangeScara1FittingPins1USL;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.TextBox txt_rangeScara1FittingPins1LSL;
+        private System.Windows.Forms.Label label34;
     }
 }
 

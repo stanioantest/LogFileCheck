@@ -50,5 +50,35 @@
     <Setting Name="txt_rangeAirFlowFlowVolumeUSL" Type="System.String" Scope="User">
       <Value Profile="(Default)">AWA2:AWA</Value>
     </Setting>
+    <Setting Name="txt_rangeScara1FittingPins0" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BRB2:BRB</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins0ValUSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins0USL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BRE2:BRE</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins0ValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins0LSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BRA2:BRA</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BRJ2:BRJ</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins1ValLSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins1ValUSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins1LSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BRI2:BRI</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins1USL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BRM2:BRM</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
