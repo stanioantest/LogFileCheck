@@ -80,5 +80,200 @@
     <Setting Name="txt_rangeScara1FittingPins1USL" Type="System.String" Scope="User">
       <Value Profile="(Default)">BRM2:BRM</Value>
     </Setting>
+    <Setting Name="txt_rangeScara1FittingPins2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BRR2:BRR</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins2ValUSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins2ValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins2LSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BRQ2:BRQ</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins2USL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BRU2:BRU</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BRZ2:BRZ</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins3ValUSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins3ValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins3LSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BRY2:BRY</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins3USL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BSC2:BSC</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BSH2:BSH</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins4ValUSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins4ValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins4LSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BSG2:BSG</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara1FittingPins4USL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BSK2:BSK</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins0" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BTH2:BTH</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins0ValUSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins0ValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins0LSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BTG2:BTG</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins0USL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BTK2:BTK</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BTP2:BTP</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins1ValUSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins1ValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins1LSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BTO2:BTO</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins1USL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BTS2:BTS</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BTX2:BTX</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins2ValUSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins2ValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins2LSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BTW2:BTW</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins2USL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BUA2:BUA</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BUF2:BUF</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins3ValUSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins3ValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins3LSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BUE2:BUE</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins3USL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BUI2:BUI</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BUN2:BUN</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins4ValUSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins4ValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins4LSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BUM2:BUM</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara2FittingPins4USL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BUQ2:BUQ</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins0" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BVN2:BVN</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins0ValUSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins0ValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins0LSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BVM2:BVM</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins0USL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BVQ2:BVQ</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BVV2:BVV</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins1ValUSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins1ValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins1LSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BVU2:BVU</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins1USL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BVY2:BVY</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BWD2:BWD</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins2ValUSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins2ValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins2LSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BWC2:BWC</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins2USL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BWG2:BWG</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BWL2:BWL</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins3ValUSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins3ValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins3LSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BWK2:BWK</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins3USL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BWO2:BWO</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BWT2:BWT</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins4ValUSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins4ValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins4LSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BWS2:BWS</Value>
+    </Setting>
+    <Setting Name="txt_rangeScara3FittingPins4USL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BWW2:BWW</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
