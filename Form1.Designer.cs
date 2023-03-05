@@ -378,6 +378,637 @@
             this.label27 = new System.Windows.Forms.Label();
             this.txt_rangeScara1FittingPins0LSL = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.groupBox77 = new System.Windows.Forms.GroupBox();
+            this.groupBox78 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusJoiningForceAV = new System.Windows.Forms.Label();
+            this.lbl_statusJoiningForceLSL = new System.Windows.Forms.Label();
+            this.lbl_statusJoiningForceUSL = new System.Windows.Forms.Label();
+            this.groupBox79 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeJoiningForceValAV = new System.Windows.Forms.TextBox();
+            this.label104 = new System.Windows.Forms.Label();
+            this.txt_rangeJoiningForceValLSL = new System.Windows.Forms.TextBox();
+            this.label105 = new System.Windows.Forms.Label();
+            this.txt_rangeJoiningForceValUSL = new System.Windows.Forms.TextBox();
+            this.label106 = new System.Windows.Forms.Label();
+            this.groupBox80 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeJoiningForce = new System.Windows.Forms.TextBox();
+            this.label113 = new System.Windows.Forms.Label();
+            this.txt_rangeJoiningForceUSL = new System.Windows.Forms.TextBox();
+            this.label114 = new System.Windows.Forms.Label();
+            this.txt_rangeJoiningForceLSL = new System.Windows.Forms.TextBox();
+            this.label115 = new System.Windows.Forms.Label();
+            this.groupBox81 = new System.Windows.Forms.GroupBox();
+            this.groupBox82 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusProfileScanPoint5AV = new System.Windows.Forms.Label();
+            this.lbl_statusProfileScanPoint5LSL = new System.Windows.Forms.Label();
+            this.lbl_statusProfileScanPoint5USL = new System.Windows.Forms.Label();
+            this.groupBox83 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeProfileScanPoint5ValAV = new System.Windows.Forms.TextBox();
+            this.label131 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint5ValLSL = new System.Windows.Forms.TextBox();
+            this.label132 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint5ValUSL = new System.Windows.Forms.TextBox();
+            this.label133 = new System.Windows.Forms.Label();
+            this.groupBox84 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeProfileScanPoint5 = new System.Windows.Forms.TextBox();
+            this.label134 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint5USL = new System.Windows.Forms.TextBox();
+            this.label135 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint5LSL = new System.Windows.Forms.TextBox();
+            this.label136 = new System.Windows.Forms.Label();
+            this.groupBox85 = new System.Windows.Forms.GroupBox();
+            this.groupBox86 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusProfileScanPoint4AV = new System.Windows.Forms.Label();
+            this.lbl_statusProfileScanPoint4LSL = new System.Windows.Forms.Label();
+            this.lbl_statusProfileScanPoint4USL = new System.Windows.Forms.Label();
+            this.groupBox87 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeProfileScanPoint4ValAV = new System.Windows.Forms.TextBox();
+            this.label140 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint4ValLSL = new System.Windows.Forms.TextBox();
+            this.label141 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint4ValUSL = new System.Windows.Forms.TextBox();
+            this.label142 = new System.Windows.Forms.Label();
+            this.groupBox88 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeProfileScanPoint4 = new System.Windows.Forms.TextBox();
+            this.label143 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint4USL = new System.Windows.Forms.TextBox();
+            this.label144 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint4LSL = new System.Windows.Forms.TextBox();
+            this.label145 = new System.Windows.Forms.Label();
+            this.groupBox89 = new System.Windows.Forms.GroupBox();
+            this.groupBox90 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusProfileScanPoint3AV = new System.Windows.Forms.Label();
+            this.lbl_statusProfileScanPoint3LSL = new System.Windows.Forms.Label();
+            this.lbl_statusProfileScanPoint3USL = new System.Windows.Forms.Label();
+            this.groupBox91 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeProfileScanPoint3ValAV = new System.Windows.Forms.TextBox();
+            this.label149 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint3ValLSL = new System.Windows.Forms.TextBox();
+            this.label150 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint3ValUSL = new System.Windows.Forms.TextBox();
+            this.label151 = new System.Windows.Forms.Label();
+            this.groupBox92 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeProfileScanPoint3 = new System.Windows.Forms.TextBox();
+            this.label152 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint3USL = new System.Windows.Forms.TextBox();
+            this.label153 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint3LSL = new System.Windows.Forms.TextBox();
+            this.label154 = new System.Windows.Forms.Label();
+            this.groupBox93 = new System.Windows.Forms.GroupBox();
+            this.groupBox94 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusProfileScanPoint2AV = new System.Windows.Forms.Label();
+            this.lbl_statusProfileScanPoint2LSL = new System.Windows.Forms.Label();
+            this.lbl_statusProfileScanPoint2USL = new System.Windows.Forms.Label();
+            this.groupBox95 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeProfileScanPoint2ValAV = new System.Windows.Forms.TextBox();
+            this.label158 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint2ValLSL = new System.Windows.Forms.TextBox();
+            this.label159 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint2ValUSL = new System.Windows.Forms.TextBox();
+            this.label160 = new System.Windows.Forms.Label();
+            this.groupBox96 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeProfileScanPoint2 = new System.Windows.Forms.TextBox();
+            this.label161 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint2USL = new System.Windows.Forms.TextBox();
+            this.label162 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint2LSL = new System.Windows.Forms.TextBox();
+            this.label163 = new System.Windows.Forms.Label();
+            this.groupBox97 = new System.Windows.Forms.GroupBox();
+            this.groupBox98 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusProfileScanPoint1AV = new System.Windows.Forms.Label();
+            this.lbl_statusProfileScanPoint1LSL = new System.Windows.Forms.Label();
+            this.lbl_statusProfileScanPoint1USL = new System.Windows.Forms.Label();
+            this.groupBox99 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeProfileScanPoint1ValAV = new System.Windows.Forms.TextBox();
+            this.label167 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint1ValLSL = new System.Windows.Forms.TextBox();
+            this.label168 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint1ValUSL = new System.Windows.Forms.TextBox();
+            this.label169 = new System.Windows.Forms.Label();
+            this.groupBox100 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeProfileScanPoint1 = new System.Windows.Forms.TextBox();
+            this.label170 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint1USL = new System.Windows.Forms.TextBox();
+            this.label171 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint1LSL = new System.Windows.Forms.TextBox();
+            this.label172 = new System.Windows.Forms.Label();
+            this.groupBox101 = new System.Windows.Forms.GroupBox();
+            this.groupBox102 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusProfileScanPoint0AV = new System.Windows.Forms.Label();
+            this.lbl_statusProfileScanPoint0LSL = new System.Windows.Forms.Label();
+            this.lbl_statusProfileScanPoint0USL = new System.Windows.Forms.Label();
+            this.groupBox103 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeProfileScanPoint0ValAV = new System.Windows.Forms.TextBox();
+            this.label176 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint0ValLSL = new System.Windows.Forms.TextBox();
+            this.label177 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint0ValUSL = new System.Windows.Forms.TextBox();
+            this.label178 = new System.Windows.Forms.Label();
+            this.groupBox104 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeProfileScanPoint0 = new System.Windows.Forms.TextBox();
+            this.label179 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint0USL = new System.Windows.Forms.TextBox();
+            this.label180 = new System.Windows.Forms.Label();
+            this.txt_rangeProfileScanPoint0LSL = new System.Windows.Forms.TextBox();
+            this.label181 = new System.Windows.Forms.Label();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.groupBox105 = new System.Windows.Forms.GroupBox();
+            this.groupBox106 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusForceAV = new System.Windows.Forms.Label();
+            this.lbl_statusForceLSL = new System.Windows.Forms.Label();
+            this.lbl_statusForceUSL = new System.Windows.Forms.Label();
+            this.groupBox107 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeForceValAV = new System.Windows.Forms.TextBox();
+            this.label95 = new System.Windows.Forms.Label();
+            this.txt_rangeForceValLSL = new System.Windows.Forms.TextBox();
+            this.label96 = new System.Windows.Forms.Label();
+            this.txt_rangeForceValUSL = new System.Windows.Forms.TextBox();
+            this.label97 = new System.Windows.Forms.Label();
+            this.groupBox108 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeForce = new System.Windows.Forms.TextBox();
+            this.label122 = new System.Windows.Forms.Label();
+            this.txt_rangeForceUSL = new System.Windows.Forms.TextBox();
+            this.label123 = new System.Windows.Forms.Label();
+            this.txt_rangeForceLSL = new System.Windows.Forms.TextBox();
+            this.label124 = new System.Windows.Forms.Label();
+            this.groupBox73 = new System.Windows.Forms.GroupBox();
+            this.groupBox74 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusLaserWeldingWeldingtimeAV = new System.Windows.Forms.Label();
+            this.lbl_statusLaserWeldingWeldingtimeLSL = new System.Windows.Forms.Label();
+            this.lbl_statusLaserWeldingWeldingtimeUSL = new System.Windows.Forms.Label();
+            this.groupBox75 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeLaserWeldingWeldingtimeValAV = new System.Windows.Forms.TextBox();
+            this.label59 = new System.Windows.Forms.Label();
+            this.txt_rangeLaserWeldingWeldingtimeValLSL = new System.Windows.Forms.TextBox();
+            this.label60 = new System.Windows.Forms.Label();
+            this.txt_rangeLaserWeldingWeldingtimeValUSL = new System.Windows.Forms.TextBox();
+            this.label61 = new System.Windows.Forms.Label();
+            this.groupBox76 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeLaserWeldingWeldingtime = new System.Windows.Forms.TextBox();
+            this.label86 = new System.Windows.Forms.Label();
+            this.txt_rangeLaserWeldingWeldingtimeUSL = new System.Windows.Forms.TextBox();
+            this.label87 = new System.Windows.Forms.Label();
+            this.txt_rangeLaserWeldingWeldingtimeLSL = new System.Windows.Forms.TextBox();
+            this.label88 = new System.Windows.Forms.Label();
+            this.groupBox109 = new System.Windows.Forms.GroupBox();
+            this.groupBox110 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusLaserWeldingShutdownDistanceAV = new System.Windows.Forms.Label();
+            this.lbl_statusLaserWeldingShutdownDistanceLSL = new System.Windows.Forms.Label();
+            this.lbl_statusLaserWeldingShutdownDistanceUSL = new System.Windows.Forms.Label();
+            this.groupBox111 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeLaserWeldingShutdownDistanceValAV = new System.Windows.Forms.TextBox();
+            this.label155 = new System.Windows.Forms.Label();
+            this.txt_rangeLaserWeldingShutdownDistanceValLSL = new System.Windows.Forms.TextBox();
+            this.label156 = new System.Windows.Forms.Label();
+            this.txt_rangeLaserWeldingShutdownDistanceValUSL = new System.Windows.Forms.TextBox();
+            this.label157 = new System.Windows.Forms.Label();
+            this.groupBox112 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeLaserWeldingShutdownDistance = new System.Windows.Forms.TextBox();
+            this.label164 = new System.Windows.Forms.Label();
+            this.txt_rangeLaserWeldingShutdownDistanceUSL = new System.Windows.Forms.TextBox();
+            this.label165 = new System.Windows.Forms.Label();
+            this.txt_rangeLaserWeldingShutdownDistanceLSL = new System.Windows.Forms.TextBox();
+            this.label166 = new System.Windows.Forms.Label();
+            this.groupBox113 = new System.Windows.Forms.GroupBox();
+            this.groupBox114 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusLaserWeldingStartPositionAV = new System.Windows.Forms.Label();
+            this.lbl_statusLaserWeldingStartPositionLSL = new System.Windows.Forms.Label();
+            this.lbl_statusLaserWeldingStartPositionUSL = new System.Windows.Forms.Label();
+            this.groupBox115 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeLaserWeldingStartPositionValAV = new System.Windows.Forms.TextBox();
+            this.label182 = new System.Windows.Forms.Label();
+            this.txt_rangeLaserWeldingStartPositionValLSL = new System.Windows.Forms.TextBox();
+            this.label183 = new System.Windows.Forms.Label();
+            this.txt_rangeLaserWeldingStartPositionValUSL = new System.Windows.Forms.TextBox();
+            this.label184 = new System.Windows.Forms.Label();
+            this.groupBox116 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeLaserWeldingStartPosition = new System.Windows.Forms.TextBox();
+            this.label185 = new System.Windows.Forms.Label();
+            this.txt_rangeLaserWeldingStartPositionUSL = new System.Windows.Forms.TextBox();
+            this.label186 = new System.Windows.Forms.Label();
+            this.txt_rangeLaserWeldingStartPositionLSL = new System.Windows.Forms.TextBox();
+            this.label187 = new System.Windows.Forms.Label();
+            this.groupBox121 = new System.Windows.Forms.GroupBox();
+            this.groupBox122 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusLaserWeldingSettingDistanceAV = new System.Windows.Forms.Label();
+            this.lbl_statusLaserWeldingSettingDistanceLSL = new System.Windows.Forms.Label();
+            this.lbl_statusLaserWeldingSettingDistanceUSL = new System.Windows.Forms.Label();
+            this.groupBox123 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeLaserWeldingSettingDistanceValAV = new System.Windows.Forms.TextBox();
+            this.label200 = new System.Windows.Forms.Label();
+            this.txt_rangeLaserWeldingSettingDistanceValLSL = new System.Windows.Forms.TextBox();
+            this.label201 = new System.Windows.Forms.Label();
+            this.txt_rangeLaserWeldingSettingDistanceValUSL = new System.Windows.Forms.TextBox();
+            this.label202 = new System.Windows.Forms.Label();
+            this.groupBox124 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeLaserWeldingSettingDistance = new System.Windows.Forms.TextBox();
+            this.label203 = new System.Windows.Forms.Label();
+            this.txt_rangeLaserWeldingSettingDistanceUSL = new System.Windows.Forms.TextBox();
+            this.label204 = new System.Windows.Forms.Label();
+            this.txt_rangeLaserWeldingSettingDistanceLSL = new System.Windows.Forms.TextBox();
+            this.label205 = new System.Windows.Forms.Label();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.groupBox117 = new System.Windows.Forms.GroupBox();
+            this.groupBox118 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusEOLM11AV = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM11LSL = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM11USL = new System.Windows.Forms.Label();
+            this.groupBox119 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM11ValAV = new System.Windows.Forms.TextBox();
+            this.label137 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM11ValLSL = new System.Windows.Forms.TextBox();
+            this.label138 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM11ValUSL = new System.Windows.Forms.TextBox();
+            this.label139 = new System.Windows.Forms.Label();
+            this.groupBox120 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM11 = new System.Windows.Forms.TextBox();
+            this.label146 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM11USL = new System.Windows.Forms.TextBox();
+            this.label147 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM11LSL = new System.Windows.Forms.TextBox();
+            this.label148 = new System.Windows.Forms.Label();
+            this.groupBox125 = new System.Windows.Forms.GroupBox();
+            this.groupBox126 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusEOLM10AV = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM10LSL = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM10USL = new System.Windows.Forms.Label();
+            this.groupBox127 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM10ValAV = new System.Windows.Forms.TextBox();
+            this.label188 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM10ValLSL = new System.Windows.Forms.TextBox();
+            this.label189 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM10ValUSL = new System.Windows.Forms.TextBox();
+            this.label190 = new System.Windows.Forms.Label();
+            this.groupBox128 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM10 = new System.Windows.Forms.TextBox();
+            this.label191 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM10USL = new System.Windows.Forms.TextBox();
+            this.label192 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM10LSL = new System.Windows.Forms.TextBox();
+            this.label193 = new System.Windows.Forms.Label();
+            this.groupBox129 = new System.Windows.Forms.GroupBox();
+            this.groupBox130 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusEOLM09AV = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM09LSL = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM09USL = new System.Windows.Forms.Label();
+            this.groupBox131 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM09ValAV = new System.Windows.Forms.TextBox();
+            this.label197 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM09ValLSL = new System.Windows.Forms.TextBox();
+            this.label198 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM09ValUSL = new System.Windows.Forms.TextBox();
+            this.label199 = new System.Windows.Forms.Label();
+            this.groupBox132 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM09 = new System.Windows.Forms.TextBox();
+            this.label206 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM09USL = new System.Windows.Forms.TextBox();
+            this.label207 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM09LSL = new System.Windows.Forms.TextBox();
+            this.label208 = new System.Windows.Forms.Label();
+            this.groupBox133 = new System.Windows.Forms.GroupBox();
+            this.groupBox134 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusEOLM08AV = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM08LSL = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM08USL = new System.Windows.Forms.Label();
+            this.groupBox135 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM08ValAV = new System.Windows.Forms.TextBox();
+            this.label212 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM08ValLSL = new System.Windows.Forms.TextBox();
+            this.label213 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM08ValUSL = new System.Windows.Forms.TextBox();
+            this.label214 = new System.Windows.Forms.Label();
+            this.groupBox136 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM08 = new System.Windows.Forms.TextBox();
+            this.label215 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM08USL = new System.Windows.Forms.TextBox();
+            this.label216 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM08LSL = new System.Windows.Forms.TextBox();
+            this.label217 = new System.Windows.Forms.Label();
+            this.groupBox137 = new System.Windows.Forms.GroupBox();
+            this.groupBox138 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusEOLM07AV = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM07LSL = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM07USL = new System.Windows.Forms.Label();
+            this.groupBox139 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM07ValAV = new System.Windows.Forms.TextBox();
+            this.label221 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM07ValLSL = new System.Windows.Forms.TextBox();
+            this.label222 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM07ValUSL = new System.Windows.Forms.TextBox();
+            this.label223 = new System.Windows.Forms.Label();
+            this.groupBox140 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM07 = new System.Windows.Forms.TextBox();
+            this.label224 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM07USL = new System.Windows.Forms.TextBox();
+            this.label225 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM07LSL = new System.Windows.Forms.TextBox();
+            this.label226 = new System.Windows.Forms.Label();
+            this.groupBox141 = new System.Windows.Forms.GroupBox();
+            this.groupBox142 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusEOLM06AV = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM06LSL = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM06USL = new System.Windows.Forms.Label();
+            this.groupBox143 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM06ValAV = new System.Windows.Forms.TextBox();
+            this.label230 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM06ValLSL = new System.Windows.Forms.TextBox();
+            this.label231 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM06ValUSL = new System.Windows.Forms.TextBox();
+            this.label232 = new System.Windows.Forms.Label();
+            this.groupBox144 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM06 = new System.Windows.Forms.TextBox();
+            this.label233 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM06USL = new System.Windows.Forms.TextBox();
+            this.label234 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM06LSL = new System.Windows.Forms.TextBox();
+            this.label235 = new System.Windows.Forms.Label();
+            this.groupBox145 = new System.Windows.Forms.GroupBox();
+            this.groupBox146 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusEOLM05AV = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM05LSL = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM05USL = new System.Windows.Forms.Label();
+            this.groupBox147 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM05ValAV = new System.Windows.Forms.TextBox();
+            this.label239 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM05ValLSL = new System.Windows.Forms.TextBox();
+            this.label240 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM05ValUSL = new System.Windows.Forms.TextBox();
+            this.label241 = new System.Windows.Forms.Label();
+            this.groupBox148 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM05 = new System.Windows.Forms.TextBox();
+            this.label242 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM05USL = new System.Windows.Forms.TextBox();
+            this.label243 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM05LSL = new System.Windows.Forms.TextBox();
+            this.label244 = new System.Windows.Forms.Label();
+            this.groupBox149 = new System.Windows.Forms.GroupBox();
+            this.groupBox150 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusEOLM04AV = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM04LSL = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM04USL = new System.Windows.Forms.Label();
+            this.groupBox151 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM04ValAV = new System.Windows.Forms.TextBox();
+            this.label248 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM04ValLSL = new System.Windows.Forms.TextBox();
+            this.label249 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM04ValUSL = new System.Windows.Forms.TextBox();
+            this.label250 = new System.Windows.Forms.Label();
+            this.groupBox152 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM04 = new System.Windows.Forms.TextBox();
+            this.label251 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM04USL = new System.Windows.Forms.TextBox();
+            this.label252 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM04LSL = new System.Windows.Forms.TextBox();
+            this.label253 = new System.Windows.Forms.Label();
+            this.groupBox153 = new System.Windows.Forms.GroupBox();
+            this.groupBox154 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusEOLM03AV = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM03LSL = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM03USL = new System.Windows.Forms.Label();
+            this.groupBox155 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM03ValAV = new System.Windows.Forms.TextBox();
+            this.label257 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM03ValLSL = new System.Windows.Forms.TextBox();
+            this.label258 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM03ValUSL = new System.Windows.Forms.TextBox();
+            this.label259 = new System.Windows.Forms.Label();
+            this.groupBox156 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM03 = new System.Windows.Forms.TextBox();
+            this.label260 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM03USL = new System.Windows.Forms.TextBox();
+            this.label261 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM03LSL = new System.Windows.Forms.TextBox();
+            this.label262 = new System.Windows.Forms.Label();
+            this.groupBox157 = new System.Windows.Forms.GroupBox();
+            this.groupBox158 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusEOLM02AV = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM02LSL = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM02USL = new System.Windows.Forms.Label();
+            this.groupBox159 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM02ValAV = new System.Windows.Forms.TextBox();
+            this.label266 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM02ValLSL = new System.Windows.Forms.TextBox();
+            this.label267 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM02ValUSL = new System.Windows.Forms.TextBox();
+            this.label268 = new System.Windows.Forms.Label();
+            this.groupBox160 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM02 = new System.Windows.Forms.TextBox();
+            this.label269 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM02USL = new System.Windows.Forms.TextBox();
+            this.label270 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM02LSL = new System.Windows.Forms.TextBox();
+            this.label271 = new System.Windows.Forms.Label();
+            this.groupBox161 = new System.Windows.Forms.GroupBox();
+            this.groupBox162 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusEOLM01AV = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM01LSL = new System.Windows.Forms.Label();
+            this.lbl_statusEOLM01USL = new System.Windows.Forms.Label();
+            this.groupBox163 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM01ValAV = new System.Windows.Forms.TextBox();
+            this.label275 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM01ValLSL = new System.Windows.Forms.TextBox();
+            this.label276 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM01ValUSL = new System.Windows.Forms.TextBox();
+            this.label277 = new System.Windows.Forms.Label();
+            this.groupBox164 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeEOLM01 = new System.Windows.Forms.TextBox();
+            this.label278 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM01USL = new System.Windows.Forms.TextBox();
+            this.label279 = new System.Windows.Forms.Label();
+            this.txt_rangeEOLM01LSL = new System.Windows.Forms.TextBox();
+            this.label280 = new System.Windows.Forms.Label();
+            this.groupBox165 = new System.Windows.Forms.GroupBox();
+            this.groupBox166 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusLeaktestLeakageAV = new System.Windows.Forms.Label();
+            this.lbl_statusLeaktestLeakageLSL = new System.Windows.Forms.Label();
+            this.lbl_statusLeaktestLeakageUSL = new System.Windows.Forms.Label();
+            this.groupBox167 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeLeaktestLeakageValAV = new System.Windows.Forms.TextBox();
+            this.label284 = new System.Windows.Forms.Label();
+            this.txt_rangeLeaktestLeakageValLSL = new System.Windows.Forms.TextBox();
+            this.label285 = new System.Windows.Forms.Label();
+            this.txt_rangeLeaktestLeakageValUSL = new System.Windows.Forms.TextBox();
+            this.label286 = new System.Windows.Forms.Label();
+            this.groupBox168 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeLeaktestLeakage = new System.Windows.Forms.TextBox();
+            this.label287 = new System.Windows.Forms.Label();
+            this.txt_rangeLeaktestLeakageUSL = new System.Windows.Forms.TextBox();
+            this.label288 = new System.Windows.Forms.Label();
+            this.txt_rangeLeaktestLeakageLSL = new System.Windows.Forms.TextBox();
+            this.label289 = new System.Windows.Forms.Label();
+            this.groupBox169 = new System.Windows.Forms.GroupBox();
+            this.groupBox170 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusLeaktestStartPressureAV = new System.Windows.Forms.Label();
+            this.lbl_statusLeaktestStartPressureLSL = new System.Windows.Forms.Label();
+            this.lbl_statusLeaktestStartPressureUSL = new System.Windows.Forms.Label();
+            this.groupBox171 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeLeaktestStartPressureValAV = new System.Windows.Forms.TextBox();
+            this.label293 = new System.Windows.Forms.Label();
+            this.txt_rangeLeaktestStartPressureValLSL = new System.Windows.Forms.TextBox();
+            this.label294 = new System.Windows.Forms.Label();
+            this.txt_rangeLeaktestStartPressureValUSL = new System.Windows.Forms.TextBox();
+            this.label295 = new System.Windows.Forms.Label();
+            this.groupBox172 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeLeaktestStartPressure = new System.Windows.Forms.TextBox();
+            this.label296 = new System.Windows.Forms.Label();
+            this.txt_rangeLeaktestStartPressureUSL = new System.Windows.Forms.TextBox();
+            this.label297 = new System.Windows.Forms.Label();
+            this.txt_rangeLeaktestStartPressureLSL = new System.Windows.Forms.TextBox();
+            this.label298 = new System.Windows.Forms.Label();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.groupBox173 = new System.Windows.Forms.GroupBox();
+            this.groupBox174 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusScan3DMeasuring7AV = new System.Windows.Forms.Label();
+            this.lbl_statusScan3DMeasuring7LSL = new System.Windows.Forms.Label();
+            this.lbl_statusScan3DMeasuring7USL = new System.Windows.Forms.Label();
+            this.groupBox175 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeScan3DMeasuring7ValAV = new System.Windows.Forms.TextBox();
+            this.label173 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring7ValLSL = new System.Windows.Forms.TextBox();
+            this.label174 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring7ValUSL = new System.Windows.Forms.TextBox();
+            this.label175 = new System.Windows.Forms.Label();
+            this.groupBox176 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeScan3DMeasuring7 = new System.Windows.Forms.TextBox();
+            this.label194 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring7USL = new System.Windows.Forms.TextBox();
+            this.label195 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring7LSL = new System.Windows.Forms.TextBox();
+            this.label196 = new System.Windows.Forms.Label();
+            this.groupBox177 = new System.Windows.Forms.GroupBox();
+            this.groupBox178 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusScan3DMeasuring6AV = new System.Windows.Forms.Label();
+            this.lbl_statusScan3DMeasuring6LSL = new System.Windows.Forms.Label();
+            this.lbl_statusScan3DMeasuring6USL = new System.Windows.Forms.Label();
+            this.groupBox179 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeScan3DMeasuring6ValAV = new System.Windows.Forms.TextBox();
+            this.label218 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring6ValLSL = new System.Windows.Forms.TextBox();
+            this.label219 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring6ValUSL = new System.Windows.Forms.TextBox();
+            this.label220 = new System.Windows.Forms.Label();
+            this.groupBox180 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeScan3DMeasuring6 = new System.Windows.Forms.TextBox();
+            this.label227 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring6USL = new System.Windows.Forms.TextBox();
+            this.label228 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring6LSL = new System.Windows.Forms.TextBox();
+            this.label229 = new System.Windows.Forms.Label();
+            this.groupBox181 = new System.Windows.Forms.GroupBox();
+            this.groupBox182 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusScan3DMeasuring5AV = new System.Windows.Forms.Label();
+            this.lbl_statusScan3DMeasuring5LSL = new System.Windows.Forms.Label();
+            this.lbl_statusScan3DMeasuring5USL = new System.Windows.Forms.Label();
+            this.groupBox183 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeScan3DMeasuring5ValAV = new System.Windows.Forms.TextBox();
+            this.label245 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring5ValLSL = new System.Windows.Forms.TextBox();
+            this.label246 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring5ValUSL = new System.Windows.Forms.TextBox();
+            this.label247 = new System.Windows.Forms.Label();
+            this.groupBox184 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeScan3DMeasuring5 = new System.Windows.Forms.TextBox();
+            this.label254 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring5USL = new System.Windows.Forms.TextBox();
+            this.label255 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring5LSL = new System.Windows.Forms.TextBox();
+            this.label256 = new System.Windows.Forms.Label();
+            this.groupBox185 = new System.Windows.Forms.GroupBox();
+            this.groupBox186 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusScan3DMeasuring4AV = new System.Windows.Forms.Label();
+            this.lbl_statusScan3DMeasuring4LSL = new System.Windows.Forms.Label();
+            this.lbl_statusScan3DMeasuring4USL = new System.Windows.Forms.Label();
+            this.groupBox187 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeScan3DMeasuring4ValAV = new System.Windows.Forms.TextBox();
+            this.label272 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring4ValLSL = new System.Windows.Forms.TextBox();
+            this.label273 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring4ValUSL = new System.Windows.Forms.TextBox();
+            this.label274 = new System.Windows.Forms.Label();
+            this.groupBox188 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeScan3DMeasuring4 = new System.Windows.Forms.TextBox();
+            this.label281 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring4USL = new System.Windows.Forms.TextBox();
+            this.label282 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring4LSL = new System.Windows.Forms.TextBox();
+            this.label283 = new System.Windows.Forms.Label();
+            this.groupBox189 = new System.Windows.Forms.GroupBox();
+            this.groupBox190 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusScan3DMeasuring3AV = new System.Windows.Forms.Label();
+            this.lbl_statusScan3DMeasuring3LSL = new System.Windows.Forms.Label();
+            this.lbl_statusScan3DMeasuring3USL = new System.Windows.Forms.Label();
+            this.groupBox191 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeScan3DMeasuring3ValAV = new System.Windows.Forms.TextBox();
+            this.label299 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring3ValLSL = new System.Windows.Forms.TextBox();
+            this.label300 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring3ValUSL = new System.Windows.Forms.TextBox();
+            this.label301 = new System.Windows.Forms.Label();
+            this.groupBox192 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeScan3DMeasuring3 = new System.Windows.Forms.TextBox();
+            this.label302 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring3USL = new System.Windows.Forms.TextBox();
+            this.label303 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring3LSL = new System.Windows.Forms.TextBox();
+            this.label304 = new System.Windows.Forms.Label();
+            this.groupBox193 = new System.Windows.Forms.GroupBox();
+            this.groupBox194 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusScan3DMeasuring2AV = new System.Windows.Forms.Label();
+            this.lbl_statusScan3DMeasuring2LSL = new System.Windows.Forms.Label();
+            this.lbl_statusScan3DMeasuring2USL = new System.Windows.Forms.Label();
+            this.groupBox195 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeScan3DMeasuring2ValAV = new System.Windows.Forms.TextBox();
+            this.label308 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring2ValLSL = new System.Windows.Forms.TextBox();
+            this.label309 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring2ValUSL = new System.Windows.Forms.TextBox();
+            this.label310 = new System.Windows.Forms.Label();
+            this.groupBox196 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeScan3DMeasuring2 = new System.Windows.Forms.TextBox();
+            this.label311 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring2USL = new System.Windows.Forms.TextBox();
+            this.label312 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring2LSL = new System.Windows.Forms.TextBox();
+            this.label313 = new System.Windows.Forms.Label();
+            this.groupBox197 = new System.Windows.Forms.GroupBox();
+            this.groupBox198 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusScan3DMeasuring1AV = new System.Windows.Forms.Label();
+            this.lbl_statusScan3DMeasuring1LSL = new System.Windows.Forms.Label();
+            this.lbl_statusScan3DMeasuring1USL = new System.Windows.Forms.Label();
+            this.groupBox199 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeScan3DMeasuring1ValAV = new System.Windows.Forms.TextBox();
+            this.label317 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring1ValLSL = new System.Windows.Forms.TextBox();
+            this.label318 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring1ValUSL = new System.Windows.Forms.TextBox();
+            this.label319 = new System.Windows.Forms.Label();
+            this.groupBox200 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeScan3DMeasuring1 = new System.Windows.Forms.TextBox();
+            this.label320 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring1USL = new System.Windows.Forms.TextBox();
+            this.label321 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring1LSL = new System.Windows.Forms.TextBox();
+            this.label322 = new System.Windows.Forms.Label();
+            this.groupBox201 = new System.Windows.Forms.GroupBox();
+            this.groupBox202 = new System.Windows.Forms.GroupBox();
+            this.lbl_statusScan3DMeasuring0AV = new System.Windows.Forms.Label();
+            this.lbl_statusScan3DMeasuring0LSL = new System.Windows.Forms.Label();
+            this.lbl_statusScan3DMeasuring0USL = new System.Windows.Forms.Label();
+            this.groupBox203 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeScan3DMeasuring0ValAV = new System.Windows.Forms.TextBox();
+            this.label326 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring0ValLSL = new System.Windows.Forms.TextBox();
+            this.label327 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring0ValUSL = new System.Windows.Forms.TextBox();
+            this.label328 = new System.Windows.Forms.Label();
+            this.groupBox204 = new System.Windows.Forms.GroupBox();
+            this.txt_rangeScan3DMeasuring0 = new System.Windows.Forms.TextBox();
+            this.label329 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring0USL = new System.Windows.Forms.TextBox();
+            this.label330 = new System.Windows.Forms.Label();
+            this.txt_rangeScan3DMeasuring0LSL = new System.Windows.Forms.TextBox();
+            this.label331 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -453,22 +1084,158 @@
             this.groupBox14.SuspendLayout();
             this.groupBox15.SuspendLayout();
             this.groupBox16.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.groupBox77.SuspendLayout();
+            this.groupBox78.SuspendLayout();
+            this.groupBox79.SuspendLayout();
+            this.groupBox80.SuspendLayout();
+            this.groupBox81.SuspendLayout();
+            this.groupBox82.SuspendLayout();
+            this.groupBox83.SuspendLayout();
+            this.groupBox84.SuspendLayout();
+            this.groupBox85.SuspendLayout();
+            this.groupBox86.SuspendLayout();
+            this.groupBox87.SuspendLayout();
+            this.groupBox88.SuspendLayout();
+            this.groupBox89.SuspendLayout();
+            this.groupBox90.SuspendLayout();
+            this.groupBox91.SuspendLayout();
+            this.groupBox92.SuspendLayout();
+            this.groupBox93.SuspendLayout();
+            this.groupBox94.SuspendLayout();
+            this.groupBox95.SuspendLayout();
+            this.groupBox96.SuspendLayout();
+            this.groupBox97.SuspendLayout();
+            this.groupBox98.SuspendLayout();
+            this.groupBox99.SuspendLayout();
+            this.groupBox100.SuspendLayout();
+            this.groupBox101.SuspendLayout();
+            this.groupBox102.SuspendLayout();
+            this.groupBox103.SuspendLayout();
+            this.groupBox104.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.groupBox105.SuspendLayout();
+            this.groupBox106.SuspendLayout();
+            this.groupBox107.SuspendLayout();
+            this.groupBox108.SuspendLayout();
+            this.groupBox73.SuspendLayout();
+            this.groupBox74.SuspendLayout();
+            this.groupBox75.SuspendLayout();
+            this.groupBox76.SuspendLayout();
+            this.groupBox109.SuspendLayout();
+            this.groupBox110.SuspendLayout();
+            this.groupBox111.SuspendLayout();
+            this.groupBox112.SuspendLayout();
+            this.groupBox113.SuspendLayout();
+            this.groupBox114.SuspendLayout();
+            this.groupBox115.SuspendLayout();
+            this.groupBox116.SuspendLayout();
+            this.groupBox121.SuspendLayout();
+            this.groupBox122.SuspendLayout();
+            this.groupBox123.SuspendLayout();
+            this.groupBox124.SuspendLayout();
+            this.tabPage5.SuspendLayout();
+            this.groupBox117.SuspendLayout();
+            this.groupBox118.SuspendLayout();
+            this.groupBox119.SuspendLayout();
+            this.groupBox120.SuspendLayout();
+            this.groupBox125.SuspendLayout();
+            this.groupBox126.SuspendLayout();
+            this.groupBox127.SuspendLayout();
+            this.groupBox128.SuspendLayout();
+            this.groupBox129.SuspendLayout();
+            this.groupBox130.SuspendLayout();
+            this.groupBox131.SuspendLayout();
+            this.groupBox132.SuspendLayout();
+            this.groupBox133.SuspendLayout();
+            this.groupBox134.SuspendLayout();
+            this.groupBox135.SuspendLayout();
+            this.groupBox136.SuspendLayout();
+            this.groupBox137.SuspendLayout();
+            this.groupBox138.SuspendLayout();
+            this.groupBox139.SuspendLayout();
+            this.groupBox140.SuspendLayout();
+            this.groupBox141.SuspendLayout();
+            this.groupBox142.SuspendLayout();
+            this.groupBox143.SuspendLayout();
+            this.groupBox144.SuspendLayout();
+            this.groupBox145.SuspendLayout();
+            this.groupBox146.SuspendLayout();
+            this.groupBox147.SuspendLayout();
+            this.groupBox148.SuspendLayout();
+            this.groupBox149.SuspendLayout();
+            this.groupBox150.SuspendLayout();
+            this.groupBox151.SuspendLayout();
+            this.groupBox152.SuspendLayout();
+            this.groupBox153.SuspendLayout();
+            this.groupBox154.SuspendLayout();
+            this.groupBox155.SuspendLayout();
+            this.groupBox156.SuspendLayout();
+            this.groupBox157.SuspendLayout();
+            this.groupBox158.SuspendLayout();
+            this.groupBox159.SuspendLayout();
+            this.groupBox160.SuspendLayout();
+            this.groupBox161.SuspendLayout();
+            this.groupBox162.SuspendLayout();
+            this.groupBox163.SuspendLayout();
+            this.groupBox164.SuspendLayout();
+            this.groupBox165.SuspendLayout();
+            this.groupBox166.SuspendLayout();
+            this.groupBox167.SuspendLayout();
+            this.groupBox168.SuspendLayout();
+            this.groupBox169.SuspendLayout();
+            this.groupBox170.SuspendLayout();
+            this.groupBox171.SuspendLayout();
+            this.groupBox172.SuspendLayout();
+            this.tabPage6.SuspendLayout();
+            this.groupBox173.SuspendLayout();
+            this.groupBox174.SuspendLayout();
+            this.groupBox175.SuspendLayout();
+            this.groupBox176.SuspendLayout();
+            this.groupBox177.SuspendLayout();
+            this.groupBox178.SuspendLayout();
+            this.groupBox179.SuspendLayout();
+            this.groupBox180.SuspendLayout();
+            this.groupBox181.SuspendLayout();
+            this.groupBox182.SuspendLayout();
+            this.groupBox183.SuspendLayout();
+            this.groupBox184.SuspendLayout();
+            this.groupBox185.SuspendLayout();
+            this.groupBox186.SuspendLayout();
+            this.groupBox187.SuspendLayout();
+            this.groupBox188.SuspendLayout();
+            this.groupBox189.SuspendLayout();
+            this.groupBox190.SuspendLayout();
+            this.groupBox191.SuspendLayout();
+            this.groupBox192.SuspendLayout();
+            this.groupBox193.SuspendLayout();
+            this.groupBox194.SuspendLayout();
+            this.groupBox195.SuspendLayout();
+            this.groupBox196.SuspendLayout();
+            this.groupBox197.SuspendLayout();
+            this.groupBox198.SuspendLayout();
+            this.groupBox199.SuspendLayout();
+            this.groupBox200.SuspendLayout();
+            this.groupBox201.SuspendLayout();
+            this.groupBox202.SuspendLayout();
+            this.groupBox203.SuspendLayout();
+            this.groupBox204.SuspendLayout();
             this.SuspendLayout();
             // 
             // txt_logfile
             // 
-            this.txt_logfile.Location = new System.Drawing.Point(120, 31);
+            this.txt_logfile.Location = new System.Drawing.Point(22, 31);
             this.txt_logfile.Name = "txt_logfile";
             this.txt_logfile.Size = new System.Drawing.Size(443, 22);
             this.txt_logfile.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(9, 841);
+            this.button1.Location = new System.Drawing.Point(480, 13);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(175, 40);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
+            this.button1.Text = "START";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -489,7 +1256,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(120, 9);
+            this.label1.Location = new System.Drawing.Point(22, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 16);
             this.label1.TabIndex = 4;
@@ -676,7 +1443,12 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(15, 59);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Controls.Add(this.tabPage5);
+            this.tabControl1.Controls.Add(this.tabPage6);
+            this.tabControl1.ItemSize = new System.Drawing.Size(58, 25);
+            this.tabControl1.Location = new System.Drawing.Point(12, 64);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1521, 776);
@@ -690,10 +1462,11 @@
             this.tabPage1.Controls.Add(this.groupBox1);
             this.tabPage1.Controls.Add(this.textBox1);
             this.tabPage1.Controls.Add(this.txt_mediacoloana);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1513, 747);
+            this.tabPage1.Size = new System.Drawing.Size(1513, 743);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "ST10";
             // 
@@ -1071,10 +1844,10 @@
             this.tabPage2.Controls.Add(this.groupBox21);
             this.tabPage2.Controls.Add(this.groupBox17);
             this.tabPage2.Controls.Add(this.groupBox13);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1513, 747);
+            this.tabPage2.Size = new System.Drawing.Size(1513, 743);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "ST21";
             // 
@@ -3733,18 +4506,5927 @@
             this.label28.TabIndex = 16;
             this.label28.Text = "LSL";
             // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.groupBox77);
+            this.tabPage3.Controls.Add(this.groupBox81);
+            this.tabPage3.Controls.Add(this.groupBox85);
+            this.tabPage3.Controls.Add(this.groupBox89);
+            this.tabPage3.Controls.Add(this.groupBox93);
+            this.tabPage3.Controls.Add(this.groupBox97);
+            this.tabPage3.Controls.Add(this.groupBox101);
+            this.tabPage3.Location = new System.Drawing.Point(4, 29);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(1513, 743);
+            this.tabPage3.TabIndex = 0;
+            this.tabPage3.Text = "ST40 - 50";
+            // 
+            // groupBox77
+            // 
+            this.groupBox77.Controls.Add(this.groupBox78);
+            this.groupBox77.Controls.Add(this.groupBox79);
+            this.groupBox77.Controls.Add(this.groupBox80);
+            this.groupBox77.Location = new System.Drawing.Point(750, 192);
+            this.groupBox77.Name = "groupBox77";
+            this.groupBox77.Size = new System.Drawing.Size(366, 169);
+            this.groupBox77.TabIndex = 35;
+            this.groupBox77.TabStop = false;
+            this.groupBox77.Text = "ST50 Joining Force";
+            // 
+            // groupBox78
+            // 
+            this.groupBox78.Controls.Add(this.lbl_statusJoiningForceAV);
+            this.groupBox78.Controls.Add(this.lbl_statusJoiningForceLSL);
+            this.groupBox78.Controls.Add(this.lbl_statusJoiningForceUSL);
+            this.groupBox78.Location = new System.Drawing.Point(286, 36);
+            this.groupBox78.Name = "groupBox78";
+            this.groupBox78.Size = new System.Drawing.Size(68, 118);
+            this.groupBox78.TabIndex = 21;
+            this.groupBox78.TabStop = false;
+            this.groupBox78.Text = "Status";
+            // 
+            // lbl_statusJoiningForceAV
+            // 
+            this.lbl_statusJoiningForceAV.AutoSize = true;
+            this.lbl_statusJoiningForceAV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusJoiningForceAV.Name = "lbl_statusJoiningForceAV";
+            this.lbl_statusJoiningForceAV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusJoiningForceAV.TabIndex = 13;
+            this.lbl_statusJoiningForceAV.Text = "--";
+            // 
+            // lbl_statusJoiningForceLSL
+            // 
+            this.lbl_statusJoiningForceLSL.AutoSize = true;
+            this.lbl_statusJoiningForceLSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusJoiningForceLSL.Name = "lbl_statusJoiningForceLSL";
+            this.lbl_statusJoiningForceLSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusJoiningForceLSL.TabIndex = 10;
+            this.lbl_statusJoiningForceLSL.Text = "--";
+            // 
+            // lbl_statusJoiningForceUSL
+            // 
+            this.lbl_statusJoiningForceUSL.AutoSize = true;
+            this.lbl_statusJoiningForceUSL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusJoiningForceUSL.Name = "lbl_statusJoiningForceUSL";
+            this.lbl_statusJoiningForceUSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusJoiningForceUSL.TabIndex = 11;
+            this.lbl_statusJoiningForceUSL.Text = "--";
+            // 
+            // groupBox79
+            // 
+            this.groupBox79.Controls.Add(this.txt_rangeJoiningForceValAV);
+            this.groupBox79.Controls.Add(this.label104);
+            this.groupBox79.Controls.Add(this.txt_rangeJoiningForceValLSL);
+            this.groupBox79.Controls.Add(this.label105);
+            this.groupBox79.Controls.Add(this.txt_rangeJoiningForceValUSL);
+            this.groupBox79.Controls.Add(this.label106);
+            this.groupBox79.Location = new System.Drawing.Point(176, 36);
+            this.groupBox79.Name = "groupBox79";
+            this.groupBox79.Size = new System.Drawing.Size(104, 118);
+            this.groupBox79.TabIndex = 1;
+            this.groupBox79.TabStop = false;
+            this.groupBox79.Text = "Values";
+            // 
+            // txt_rangeJoiningForceValAV
+            // 
+            this.txt_rangeJoiningForceValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeJoiningForceValAV.Name = "txt_rangeJoiningForceValAV";
+            this.txt_rangeJoiningForceValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeJoiningForceValAV.TabIndex = 12;
+            // 
+            // label104
+            // 
+            this.label104.AutoSize = true;
+            this.label104.Location = new System.Drawing.Point(4, 28);
+            this.label104.Name = "label104";
+            this.label104.Size = new System.Drawing.Size(25, 16);
+            this.label104.TabIndex = 6;
+            this.label104.Text = "AV";
+            // 
+            // txt_rangeJoiningForceValLSL
+            // 
+            this.txt_rangeJoiningForceValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeJoiningForceValLSL.Name = "txt_rangeJoiningForceValLSL";
+            this.txt_rangeJoiningForceValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeJoiningForceValLSL.TabIndex = 7;
+            // 
+            // label105
+            // 
+            this.label105.AutoSize = true;
+            this.label105.Location = new System.Drawing.Point(4, 58);
+            this.label105.Name = "label105";
+            this.label105.Size = new System.Drawing.Size(30, 16);
+            this.label105.TabIndex = 6;
+            this.label105.Text = "LSL";
+            // 
+            // txt_rangeJoiningForceValUSL
+            // 
+            this.txt_rangeJoiningForceValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeJoiningForceValUSL.Name = "txt_rangeJoiningForceValUSL";
+            this.txt_rangeJoiningForceValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeJoiningForceValUSL.TabIndex = 9;
+            // 
+            // label106
+            // 
+            this.label106.AutoSize = true;
+            this.label106.Location = new System.Drawing.Point(4, 87);
+            this.label106.Name = "label106";
+            this.label106.Size = new System.Drawing.Size(33, 16);
+            this.label106.TabIndex = 8;
+            this.label106.Text = "USL";
+            // 
+            // groupBox80
+            // 
+            this.groupBox80.Controls.Add(this.txt_rangeJoiningForce);
+            this.groupBox80.Controls.Add(this.label113);
+            this.groupBox80.Controls.Add(this.txt_rangeJoiningForceUSL);
+            this.groupBox80.Controls.Add(this.label114);
+            this.groupBox80.Controls.Add(this.txt_rangeJoiningForceLSL);
+            this.groupBox80.Controls.Add(this.label115);
+            this.groupBox80.Location = new System.Drawing.Point(16, 36);
+            this.groupBox80.Name = "groupBox80";
+            this.groupBox80.Size = new System.Drawing.Size(154, 118);
+            this.groupBox80.TabIndex = 0;
+            this.groupBox80.TabStop = false;
+            this.groupBox80.Text = "Range";
+            // 
+            // txt_rangeJoiningForce
+            // 
+            this.txt_rangeJoiningForce.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeJoiningForce.Name = "txt_rangeJoiningForce";
+            this.txt_rangeJoiningForce.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeJoiningForce.TabIndex = 2;
+            // 
+            // label113
+            // 
+            this.label113.AutoSize = true;
+            this.label113.Location = new System.Drawing.Point(5, 90);
+            this.label113.Name = "label113";
+            this.label113.Size = new System.Drawing.Size(33, 16);
+            this.label113.TabIndex = 17;
+            this.label113.Text = "USL";
+            // 
+            // txt_rangeJoiningForceUSL
+            // 
+            this.txt_rangeJoiningForceUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeJoiningForceUSL.Name = "txt_rangeJoiningForceUSL";
+            this.txt_rangeJoiningForceUSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeJoiningForceUSL.TabIndex = 18;
+            // 
+            // label114
+            // 
+            this.label114.AutoSize = true;
+            this.label114.Location = new System.Drawing.Point(5, 26);
+            this.label114.Name = "label114";
+            this.label114.Size = new System.Drawing.Size(25, 16);
+            this.label114.TabIndex = 5;
+            this.label114.Text = "AV";
+            // 
+            // txt_rangeJoiningForceLSL
+            // 
+            this.txt_rangeJoiningForceLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeJoiningForceLSL.Name = "txt_rangeJoiningForceLSL";
+            this.txt_rangeJoiningForceLSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeJoiningForceLSL.TabIndex = 15;
+            // 
+            // label115
+            // 
+            this.label115.AutoSize = true;
+            this.label115.Location = new System.Drawing.Point(5, 58);
+            this.label115.Name = "label115";
+            this.label115.Size = new System.Drawing.Size(30, 16);
+            this.label115.TabIndex = 16;
+            this.label115.Text = "LSL";
+            // 
+            // groupBox81
+            // 
+            this.groupBox81.Controls.Add(this.groupBox82);
+            this.groupBox81.Controls.Add(this.groupBox83);
+            this.groupBox81.Controls.Add(this.groupBox84);
+            this.groupBox81.Location = new System.Drawing.Point(378, 192);
+            this.groupBox81.Name = "groupBox81";
+            this.groupBox81.Size = new System.Drawing.Size(366, 169);
+            this.groupBox81.TabIndex = 34;
+            this.groupBox81.TabStop = false;
+            this.groupBox81.Text = "ST40 ProfileScanPoint 5";
+            // 
+            // groupBox82
+            // 
+            this.groupBox82.Controls.Add(this.lbl_statusProfileScanPoint5AV);
+            this.groupBox82.Controls.Add(this.lbl_statusProfileScanPoint5LSL);
+            this.groupBox82.Controls.Add(this.lbl_statusProfileScanPoint5USL);
+            this.groupBox82.Location = new System.Drawing.Point(286, 36);
+            this.groupBox82.Name = "groupBox82";
+            this.groupBox82.Size = new System.Drawing.Size(68, 118);
+            this.groupBox82.TabIndex = 21;
+            this.groupBox82.TabStop = false;
+            this.groupBox82.Text = "Status";
+            // 
+            // lbl_statusProfileScanPoint5AV
+            // 
+            this.lbl_statusProfileScanPoint5AV.AutoSize = true;
+            this.lbl_statusProfileScanPoint5AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusProfileScanPoint5AV.Name = "lbl_statusProfileScanPoint5AV";
+            this.lbl_statusProfileScanPoint5AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusProfileScanPoint5AV.TabIndex = 13;
+            this.lbl_statusProfileScanPoint5AV.Text = "--";
+            // 
+            // lbl_statusProfileScanPoint5LSL
+            // 
+            this.lbl_statusProfileScanPoint5LSL.AutoSize = true;
+            this.lbl_statusProfileScanPoint5LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusProfileScanPoint5LSL.Name = "lbl_statusProfileScanPoint5LSL";
+            this.lbl_statusProfileScanPoint5LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusProfileScanPoint5LSL.TabIndex = 10;
+            this.lbl_statusProfileScanPoint5LSL.Text = "--";
+            // 
+            // lbl_statusProfileScanPoint5USL
+            // 
+            this.lbl_statusProfileScanPoint5USL.AutoSize = true;
+            this.lbl_statusProfileScanPoint5USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusProfileScanPoint5USL.Name = "lbl_statusProfileScanPoint5USL";
+            this.lbl_statusProfileScanPoint5USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusProfileScanPoint5USL.TabIndex = 11;
+            this.lbl_statusProfileScanPoint5USL.Text = "--";
+            // 
+            // groupBox83
+            // 
+            this.groupBox83.Controls.Add(this.txt_rangeProfileScanPoint5ValAV);
+            this.groupBox83.Controls.Add(this.label131);
+            this.groupBox83.Controls.Add(this.txt_rangeProfileScanPoint5ValLSL);
+            this.groupBox83.Controls.Add(this.label132);
+            this.groupBox83.Controls.Add(this.txt_rangeProfileScanPoint5ValUSL);
+            this.groupBox83.Controls.Add(this.label133);
+            this.groupBox83.Location = new System.Drawing.Point(176, 36);
+            this.groupBox83.Name = "groupBox83";
+            this.groupBox83.Size = new System.Drawing.Size(104, 118);
+            this.groupBox83.TabIndex = 1;
+            this.groupBox83.TabStop = false;
+            this.groupBox83.Text = "Values";
+            // 
+            // txt_rangeProfileScanPoint5ValAV
+            // 
+            this.txt_rangeProfileScanPoint5ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeProfileScanPoint5ValAV.Name = "txt_rangeProfileScanPoint5ValAV";
+            this.txt_rangeProfileScanPoint5ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeProfileScanPoint5ValAV.TabIndex = 12;
+            // 
+            // label131
+            // 
+            this.label131.AutoSize = true;
+            this.label131.Location = new System.Drawing.Point(4, 28);
+            this.label131.Name = "label131";
+            this.label131.Size = new System.Drawing.Size(25, 16);
+            this.label131.TabIndex = 6;
+            this.label131.Text = "AV";
+            // 
+            // txt_rangeProfileScanPoint5ValLSL
+            // 
+            this.txt_rangeProfileScanPoint5ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeProfileScanPoint5ValLSL.Name = "txt_rangeProfileScanPoint5ValLSL";
+            this.txt_rangeProfileScanPoint5ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeProfileScanPoint5ValLSL.TabIndex = 7;
+            // 
+            // label132
+            // 
+            this.label132.AutoSize = true;
+            this.label132.Location = new System.Drawing.Point(4, 58);
+            this.label132.Name = "label132";
+            this.label132.Size = new System.Drawing.Size(30, 16);
+            this.label132.TabIndex = 6;
+            this.label132.Text = "LSL";
+            // 
+            // txt_rangeProfileScanPoint5ValUSL
+            // 
+            this.txt_rangeProfileScanPoint5ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeProfileScanPoint5ValUSL.Name = "txt_rangeProfileScanPoint5ValUSL";
+            this.txt_rangeProfileScanPoint5ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeProfileScanPoint5ValUSL.TabIndex = 9;
+            // 
+            // label133
+            // 
+            this.label133.AutoSize = true;
+            this.label133.Location = new System.Drawing.Point(4, 87);
+            this.label133.Name = "label133";
+            this.label133.Size = new System.Drawing.Size(33, 16);
+            this.label133.TabIndex = 8;
+            this.label133.Text = "USL";
+            // 
+            // groupBox84
+            // 
+            this.groupBox84.Controls.Add(this.txt_rangeProfileScanPoint5);
+            this.groupBox84.Controls.Add(this.label134);
+            this.groupBox84.Controls.Add(this.txt_rangeProfileScanPoint5USL);
+            this.groupBox84.Controls.Add(this.label135);
+            this.groupBox84.Controls.Add(this.txt_rangeProfileScanPoint5LSL);
+            this.groupBox84.Controls.Add(this.label136);
+            this.groupBox84.Location = new System.Drawing.Point(16, 36);
+            this.groupBox84.Name = "groupBox84";
+            this.groupBox84.Size = new System.Drawing.Size(154, 118);
+            this.groupBox84.TabIndex = 0;
+            this.groupBox84.TabStop = false;
+            this.groupBox84.Text = "Range";
+            // 
+            // txt_rangeProfileScanPoint5
+            // 
+            this.txt_rangeProfileScanPoint5.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeProfileScanPoint5.Name = "txt_rangeProfileScanPoint5";
+            this.txt_rangeProfileScanPoint5.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeProfileScanPoint5.TabIndex = 2;
+            // 
+            // label134
+            // 
+            this.label134.AutoSize = true;
+            this.label134.Location = new System.Drawing.Point(5, 90);
+            this.label134.Name = "label134";
+            this.label134.Size = new System.Drawing.Size(33, 16);
+            this.label134.TabIndex = 17;
+            this.label134.Text = "USL";
+            // 
+            // txt_rangeProfileScanPoint5USL
+            // 
+            this.txt_rangeProfileScanPoint5USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeProfileScanPoint5USL.Name = "txt_rangeProfileScanPoint5USL";
+            this.txt_rangeProfileScanPoint5USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeProfileScanPoint5USL.TabIndex = 18;
+            // 
+            // label135
+            // 
+            this.label135.AutoSize = true;
+            this.label135.Location = new System.Drawing.Point(5, 26);
+            this.label135.Name = "label135";
+            this.label135.Size = new System.Drawing.Size(25, 16);
+            this.label135.TabIndex = 5;
+            this.label135.Text = "AV";
+            // 
+            // txt_rangeProfileScanPoint5LSL
+            // 
+            this.txt_rangeProfileScanPoint5LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeProfileScanPoint5LSL.Name = "txt_rangeProfileScanPoint5LSL";
+            this.txt_rangeProfileScanPoint5LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeProfileScanPoint5LSL.TabIndex = 15;
+            // 
+            // label136
+            // 
+            this.label136.AutoSize = true;
+            this.label136.Location = new System.Drawing.Point(5, 58);
+            this.label136.Name = "label136";
+            this.label136.Size = new System.Drawing.Size(30, 16);
+            this.label136.TabIndex = 16;
+            this.label136.Text = "LSL";
+            // 
+            // groupBox85
+            // 
+            this.groupBox85.Controls.Add(this.groupBox86);
+            this.groupBox85.Controls.Add(this.groupBox87);
+            this.groupBox85.Controls.Add(this.groupBox88);
+            this.groupBox85.Location = new System.Drawing.Point(6, 192);
+            this.groupBox85.Name = "groupBox85";
+            this.groupBox85.Size = new System.Drawing.Size(366, 169);
+            this.groupBox85.TabIndex = 33;
+            this.groupBox85.TabStop = false;
+            this.groupBox85.Text = "ST40 ProfileScanPoint 4";
+            // 
+            // groupBox86
+            // 
+            this.groupBox86.Controls.Add(this.lbl_statusProfileScanPoint4AV);
+            this.groupBox86.Controls.Add(this.lbl_statusProfileScanPoint4LSL);
+            this.groupBox86.Controls.Add(this.lbl_statusProfileScanPoint4USL);
+            this.groupBox86.Location = new System.Drawing.Point(286, 36);
+            this.groupBox86.Name = "groupBox86";
+            this.groupBox86.Size = new System.Drawing.Size(68, 118);
+            this.groupBox86.TabIndex = 21;
+            this.groupBox86.TabStop = false;
+            this.groupBox86.Text = "Status";
+            // 
+            // lbl_statusProfileScanPoint4AV
+            // 
+            this.lbl_statusProfileScanPoint4AV.AutoSize = true;
+            this.lbl_statusProfileScanPoint4AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusProfileScanPoint4AV.Name = "lbl_statusProfileScanPoint4AV";
+            this.lbl_statusProfileScanPoint4AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusProfileScanPoint4AV.TabIndex = 13;
+            this.lbl_statusProfileScanPoint4AV.Text = "--";
+            // 
+            // lbl_statusProfileScanPoint4LSL
+            // 
+            this.lbl_statusProfileScanPoint4LSL.AutoSize = true;
+            this.lbl_statusProfileScanPoint4LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusProfileScanPoint4LSL.Name = "lbl_statusProfileScanPoint4LSL";
+            this.lbl_statusProfileScanPoint4LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusProfileScanPoint4LSL.TabIndex = 10;
+            this.lbl_statusProfileScanPoint4LSL.Text = "--";
+            // 
+            // lbl_statusProfileScanPoint4USL
+            // 
+            this.lbl_statusProfileScanPoint4USL.AutoSize = true;
+            this.lbl_statusProfileScanPoint4USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusProfileScanPoint4USL.Name = "lbl_statusProfileScanPoint4USL";
+            this.lbl_statusProfileScanPoint4USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusProfileScanPoint4USL.TabIndex = 11;
+            this.lbl_statusProfileScanPoint4USL.Text = "--";
+            // 
+            // groupBox87
+            // 
+            this.groupBox87.Controls.Add(this.txt_rangeProfileScanPoint4ValAV);
+            this.groupBox87.Controls.Add(this.label140);
+            this.groupBox87.Controls.Add(this.txt_rangeProfileScanPoint4ValLSL);
+            this.groupBox87.Controls.Add(this.label141);
+            this.groupBox87.Controls.Add(this.txt_rangeProfileScanPoint4ValUSL);
+            this.groupBox87.Controls.Add(this.label142);
+            this.groupBox87.Location = new System.Drawing.Point(176, 36);
+            this.groupBox87.Name = "groupBox87";
+            this.groupBox87.Size = new System.Drawing.Size(104, 118);
+            this.groupBox87.TabIndex = 1;
+            this.groupBox87.TabStop = false;
+            this.groupBox87.Text = "Values";
+            // 
+            // txt_rangeProfileScanPoint4ValAV
+            // 
+            this.txt_rangeProfileScanPoint4ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeProfileScanPoint4ValAV.Name = "txt_rangeProfileScanPoint4ValAV";
+            this.txt_rangeProfileScanPoint4ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeProfileScanPoint4ValAV.TabIndex = 12;
+            // 
+            // label140
+            // 
+            this.label140.AutoSize = true;
+            this.label140.Location = new System.Drawing.Point(4, 28);
+            this.label140.Name = "label140";
+            this.label140.Size = new System.Drawing.Size(25, 16);
+            this.label140.TabIndex = 6;
+            this.label140.Text = "AV";
+            // 
+            // txt_rangeProfileScanPoint4ValLSL
+            // 
+            this.txt_rangeProfileScanPoint4ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeProfileScanPoint4ValLSL.Name = "txt_rangeProfileScanPoint4ValLSL";
+            this.txt_rangeProfileScanPoint4ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeProfileScanPoint4ValLSL.TabIndex = 7;
+            // 
+            // label141
+            // 
+            this.label141.AutoSize = true;
+            this.label141.Location = new System.Drawing.Point(4, 58);
+            this.label141.Name = "label141";
+            this.label141.Size = new System.Drawing.Size(30, 16);
+            this.label141.TabIndex = 6;
+            this.label141.Text = "LSL";
+            // 
+            // txt_rangeProfileScanPoint4ValUSL
+            // 
+            this.txt_rangeProfileScanPoint4ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeProfileScanPoint4ValUSL.Name = "txt_rangeProfileScanPoint4ValUSL";
+            this.txt_rangeProfileScanPoint4ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeProfileScanPoint4ValUSL.TabIndex = 9;
+            // 
+            // label142
+            // 
+            this.label142.AutoSize = true;
+            this.label142.Location = new System.Drawing.Point(4, 87);
+            this.label142.Name = "label142";
+            this.label142.Size = new System.Drawing.Size(33, 16);
+            this.label142.TabIndex = 8;
+            this.label142.Text = "USL";
+            // 
+            // groupBox88
+            // 
+            this.groupBox88.Controls.Add(this.txt_rangeProfileScanPoint4);
+            this.groupBox88.Controls.Add(this.label143);
+            this.groupBox88.Controls.Add(this.txt_rangeProfileScanPoint4USL);
+            this.groupBox88.Controls.Add(this.label144);
+            this.groupBox88.Controls.Add(this.txt_rangeProfileScanPoint4LSL);
+            this.groupBox88.Controls.Add(this.label145);
+            this.groupBox88.Location = new System.Drawing.Point(16, 36);
+            this.groupBox88.Name = "groupBox88";
+            this.groupBox88.Size = new System.Drawing.Size(154, 118);
+            this.groupBox88.TabIndex = 0;
+            this.groupBox88.TabStop = false;
+            this.groupBox88.Text = "Range";
+            // 
+            // txt_rangeProfileScanPoint4
+            // 
+            this.txt_rangeProfileScanPoint4.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeProfileScanPoint4.Name = "txt_rangeProfileScanPoint4";
+            this.txt_rangeProfileScanPoint4.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeProfileScanPoint4.TabIndex = 2;
+            // 
+            // label143
+            // 
+            this.label143.AutoSize = true;
+            this.label143.Location = new System.Drawing.Point(5, 90);
+            this.label143.Name = "label143";
+            this.label143.Size = new System.Drawing.Size(33, 16);
+            this.label143.TabIndex = 17;
+            this.label143.Text = "USL";
+            // 
+            // txt_rangeProfileScanPoint4USL
+            // 
+            this.txt_rangeProfileScanPoint4USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeProfileScanPoint4USL.Name = "txt_rangeProfileScanPoint4USL";
+            this.txt_rangeProfileScanPoint4USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeProfileScanPoint4USL.TabIndex = 18;
+            // 
+            // label144
+            // 
+            this.label144.AutoSize = true;
+            this.label144.Location = new System.Drawing.Point(5, 26);
+            this.label144.Name = "label144";
+            this.label144.Size = new System.Drawing.Size(25, 16);
+            this.label144.TabIndex = 5;
+            this.label144.Text = "AV";
+            // 
+            // txt_rangeProfileScanPoint4LSL
+            // 
+            this.txt_rangeProfileScanPoint4LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeProfileScanPoint4LSL.Name = "txt_rangeProfileScanPoint4LSL";
+            this.txt_rangeProfileScanPoint4LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeProfileScanPoint4LSL.TabIndex = 15;
+            // 
+            // label145
+            // 
+            this.label145.AutoSize = true;
+            this.label145.Location = new System.Drawing.Point(5, 58);
+            this.label145.Name = "label145";
+            this.label145.Size = new System.Drawing.Size(30, 16);
+            this.label145.TabIndex = 16;
+            this.label145.Text = "LSL";
+            // 
+            // groupBox89
+            // 
+            this.groupBox89.Controls.Add(this.groupBox90);
+            this.groupBox89.Controls.Add(this.groupBox91);
+            this.groupBox89.Controls.Add(this.groupBox92);
+            this.groupBox89.Location = new System.Drawing.Point(1122, 17);
+            this.groupBox89.Name = "groupBox89";
+            this.groupBox89.Size = new System.Drawing.Size(366, 169);
+            this.groupBox89.TabIndex = 32;
+            this.groupBox89.TabStop = false;
+            this.groupBox89.Text = "ST40 ProfileScanPoint 3";
+            // 
+            // groupBox90
+            // 
+            this.groupBox90.Controls.Add(this.lbl_statusProfileScanPoint3AV);
+            this.groupBox90.Controls.Add(this.lbl_statusProfileScanPoint3LSL);
+            this.groupBox90.Controls.Add(this.lbl_statusProfileScanPoint3USL);
+            this.groupBox90.Location = new System.Drawing.Point(286, 36);
+            this.groupBox90.Name = "groupBox90";
+            this.groupBox90.Size = new System.Drawing.Size(68, 118);
+            this.groupBox90.TabIndex = 21;
+            this.groupBox90.TabStop = false;
+            this.groupBox90.Text = "Status";
+            // 
+            // lbl_statusProfileScanPoint3AV
+            // 
+            this.lbl_statusProfileScanPoint3AV.AutoSize = true;
+            this.lbl_statusProfileScanPoint3AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusProfileScanPoint3AV.Name = "lbl_statusProfileScanPoint3AV";
+            this.lbl_statusProfileScanPoint3AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusProfileScanPoint3AV.TabIndex = 13;
+            this.lbl_statusProfileScanPoint3AV.Text = "--";
+            // 
+            // lbl_statusProfileScanPoint3LSL
+            // 
+            this.lbl_statusProfileScanPoint3LSL.AutoSize = true;
+            this.lbl_statusProfileScanPoint3LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusProfileScanPoint3LSL.Name = "lbl_statusProfileScanPoint3LSL";
+            this.lbl_statusProfileScanPoint3LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusProfileScanPoint3LSL.TabIndex = 10;
+            this.lbl_statusProfileScanPoint3LSL.Text = "--";
+            // 
+            // lbl_statusProfileScanPoint3USL
+            // 
+            this.lbl_statusProfileScanPoint3USL.AutoSize = true;
+            this.lbl_statusProfileScanPoint3USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusProfileScanPoint3USL.Name = "lbl_statusProfileScanPoint3USL";
+            this.lbl_statusProfileScanPoint3USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusProfileScanPoint3USL.TabIndex = 11;
+            this.lbl_statusProfileScanPoint3USL.Text = "--";
+            // 
+            // groupBox91
+            // 
+            this.groupBox91.Controls.Add(this.txt_rangeProfileScanPoint3ValAV);
+            this.groupBox91.Controls.Add(this.label149);
+            this.groupBox91.Controls.Add(this.txt_rangeProfileScanPoint3ValLSL);
+            this.groupBox91.Controls.Add(this.label150);
+            this.groupBox91.Controls.Add(this.txt_rangeProfileScanPoint3ValUSL);
+            this.groupBox91.Controls.Add(this.label151);
+            this.groupBox91.Location = new System.Drawing.Point(176, 36);
+            this.groupBox91.Name = "groupBox91";
+            this.groupBox91.Size = new System.Drawing.Size(104, 118);
+            this.groupBox91.TabIndex = 1;
+            this.groupBox91.TabStop = false;
+            this.groupBox91.Text = "Values";
+            // 
+            // txt_rangeProfileScanPoint3ValAV
+            // 
+            this.txt_rangeProfileScanPoint3ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeProfileScanPoint3ValAV.Name = "txt_rangeProfileScanPoint3ValAV";
+            this.txt_rangeProfileScanPoint3ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeProfileScanPoint3ValAV.TabIndex = 12;
+            // 
+            // label149
+            // 
+            this.label149.AutoSize = true;
+            this.label149.Location = new System.Drawing.Point(4, 28);
+            this.label149.Name = "label149";
+            this.label149.Size = new System.Drawing.Size(25, 16);
+            this.label149.TabIndex = 6;
+            this.label149.Text = "AV";
+            // 
+            // txt_rangeProfileScanPoint3ValLSL
+            // 
+            this.txt_rangeProfileScanPoint3ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeProfileScanPoint3ValLSL.Name = "txt_rangeProfileScanPoint3ValLSL";
+            this.txt_rangeProfileScanPoint3ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeProfileScanPoint3ValLSL.TabIndex = 7;
+            // 
+            // label150
+            // 
+            this.label150.AutoSize = true;
+            this.label150.Location = new System.Drawing.Point(4, 58);
+            this.label150.Name = "label150";
+            this.label150.Size = new System.Drawing.Size(30, 16);
+            this.label150.TabIndex = 6;
+            this.label150.Text = "LSL";
+            // 
+            // txt_rangeProfileScanPoint3ValUSL
+            // 
+            this.txt_rangeProfileScanPoint3ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeProfileScanPoint3ValUSL.Name = "txt_rangeProfileScanPoint3ValUSL";
+            this.txt_rangeProfileScanPoint3ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeProfileScanPoint3ValUSL.TabIndex = 9;
+            // 
+            // label151
+            // 
+            this.label151.AutoSize = true;
+            this.label151.Location = new System.Drawing.Point(4, 87);
+            this.label151.Name = "label151";
+            this.label151.Size = new System.Drawing.Size(33, 16);
+            this.label151.TabIndex = 8;
+            this.label151.Text = "USL";
+            // 
+            // groupBox92
+            // 
+            this.groupBox92.Controls.Add(this.txt_rangeProfileScanPoint3);
+            this.groupBox92.Controls.Add(this.label152);
+            this.groupBox92.Controls.Add(this.txt_rangeProfileScanPoint3USL);
+            this.groupBox92.Controls.Add(this.label153);
+            this.groupBox92.Controls.Add(this.txt_rangeProfileScanPoint3LSL);
+            this.groupBox92.Controls.Add(this.label154);
+            this.groupBox92.Location = new System.Drawing.Point(16, 36);
+            this.groupBox92.Name = "groupBox92";
+            this.groupBox92.Size = new System.Drawing.Size(154, 118);
+            this.groupBox92.TabIndex = 0;
+            this.groupBox92.TabStop = false;
+            this.groupBox92.Text = "Range";
+            // 
+            // txt_rangeProfileScanPoint3
+            // 
+            this.txt_rangeProfileScanPoint3.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeProfileScanPoint3.Name = "txt_rangeProfileScanPoint3";
+            this.txt_rangeProfileScanPoint3.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeProfileScanPoint3.TabIndex = 2;
+            // 
+            // label152
+            // 
+            this.label152.AutoSize = true;
+            this.label152.Location = new System.Drawing.Point(5, 90);
+            this.label152.Name = "label152";
+            this.label152.Size = new System.Drawing.Size(33, 16);
+            this.label152.TabIndex = 17;
+            this.label152.Text = "USL";
+            // 
+            // txt_rangeProfileScanPoint3USL
+            // 
+            this.txt_rangeProfileScanPoint3USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeProfileScanPoint3USL.Name = "txt_rangeProfileScanPoint3USL";
+            this.txt_rangeProfileScanPoint3USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeProfileScanPoint3USL.TabIndex = 18;
+            // 
+            // label153
+            // 
+            this.label153.AutoSize = true;
+            this.label153.Location = new System.Drawing.Point(5, 26);
+            this.label153.Name = "label153";
+            this.label153.Size = new System.Drawing.Size(25, 16);
+            this.label153.TabIndex = 5;
+            this.label153.Text = "AV";
+            // 
+            // txt_rangeProfileScanPoint3LSL
+            // 
+            this.txt_rangeProfileScanPoint3LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeProfileScanPoint3LSL.Name = "txt_rangeProfileScanPoint3LSL";
+            this.txt_rangeProfileScanPoint3LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeProfileScanPoint3LSL.TabIndex = 15;
+            // 
+            // label154
+            // 
+            this.label154.AutoSize = true;
+            this.label154.Location = new System.Drawing.Point(5, 58);
+            this.label154.Name = "label154";
+            this.label154.Size = new System.Drawing.Size(30, 16);
+            this.label154.TabIndex = 16;
+            this.label154.Text = "LSL";
+            // 
+            // groupBox93
+            // 
+            this.groupBox93.Controls.Add(this.groupBox94);
+            this.groupBox93.Controls.Add(this.groupBox95);
+            this.groupBox93.Controls.Add(this.groupBox96);
+            this.groupBox93.Location = new System.Drawing.Point(750, 17);
+            this.groupBox93.Name = "groupBox93";
+            this.groupBox93.Size = new System.Drawing.Size(366, 169);
+            this.groupBox93.TabIndex = 31;
+            this.groupBox93.TabStop = false;
+            this.groupBox93.Text = "ST40 ProfileScanPoint 2";
+            // 
+            // groupBox94
+            // 
+            this.groupBox94.Controls.Add(this.lbl_statusProfileScanPoint2AV);
+            this.groupBox94.Controls.Add(this.lbl_statusProfileScanPoint2LSL);
+            this.groupBox94.Controls.Add(this.lbl_statusProfileScanPoint2USL);
+            this.groupBox94.Location = new System.Drawing.Point(286, 36);
+            this.groupBox94.Name = "groupBox94";
+            this.groupBox94.Size = new System.Drawing.Size(68, 118);
+            this.groupBox94.TabIndex = 21;
+            this.groupBox94.TabStop = false;
+            this.groupBox94.Text = "Status";
+            // 
+            // lbl_statusProfileScanPoint2AV
+            // 
+            this.lbl_statusProfileScanPoint2AV.AutoSize = true;
+            this.lbl_statusProfileScanPoint2AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusProfileScanPoint2AV.Name = "lbl_statusProfileScanPoint2AV";
+            this.lbl_statusProfileScanPoint2AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusProfileScanPoint2AV.TabIndex = 13;
+            this.lbl_statusProfileScanPoint2AV.Text = "--";
+            // 
+            // lbl_statusProfileScanPoint2LSL
+            // 
+            this.lbl_statusProfileScanPoint2LSL.AutoSize = true;
+            this.lbl_statusProfileScanPoint2LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusProfileScanPoint2LSL.Name = "lbl_statusProfileScanPoint2LSL";
+            this.lbl_statusProfileScanPoint2LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusProfileScanPoint2LSL.TabIndex = 10;
+            this.lbl_statusProfileScanPoint2LSL.Text = "--";
+            // 
+            // lbl_statusProfileScanPoint2USL
+            // 
+            this.lbl_statusProfileScanPoint2USL.AutoSize = true;
+            this.lbl_statusProfileScanPoint2USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusProfileScanPoint2USL.Name = "lbl_statusProfileScanPoint2USL";
+            this.lbl_statusProfileScanPoint2USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusProfileScanPoint2USL.TabIndex = 11;
+            this.lbl_statusProfileScanPoint2USL.Text = "--";
+            // 
+            // groupBox95
+            // 
+            this.groupBox95.Controls.Add(this.txt_rangeProfileScanPoint2ValAV);
+            this.groupBox95.Controls.Add(this.label158);
+            this.groupBox95.Controls.Add(this.txt_rangeProfileScanPoint2ValLSL);
+            this.groupBox95.Controls.Add(this.label159);
+            this.groupBox95.Controls.Add(this.txt_rangeProfileScanPoint2ValUSL);
+            this.groupBox95.Controls.Add(this.label160);
+            this.groupBox95.Location = new System.Drawing.Point(176, 36);
+            this.groupBox95.Name = "groupBox95";
+            this.groupBox95.Size = new System.Drawing.Size(104, 118);
+            this.groupBox95.TabIndex = 1;
+            this.groupBox95.TabStop = false;
+            this.groupBox95.Text = "Values";
+            // 
+            // txt_rangeProfileScanPoint2ValAV
+            // 
+            this.txt_rangeProfileScanPoint2ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeProfileScanPoint2ValAV.Name = "txt_rangeProfileScanPoint2ValAV";
+            this.txt_rangeProfileScanPoint2ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeProfileScanPoint2ValAV.TabIndex = 12;
+            // 
+            // label158
+            // 
+            this.label158.AutoSize = true;
+            this.label158.Location = new System.Drawing.Point(4, 28);
+            this.label158.Name = "label158";
+            this.label158.Size = new System.Drawing.Size(25, 16);
+            this.label158.TabIndex = 6;
+            this.label158.Text = "AV";
+            // 
+            // txt_rangeProfileScanPoint2ValLSL
+            // 
+            this.txt_rangeProfileScanPoint2ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeProfileScanPoint2ValLSL.Name = "txt_rangeProfileScanPoint2ValLSL";
+            this.txt_rangeProfileScanPoint2ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeProfileScanPoint2ValLSL.TabIndex = 7;
+            // 
+            // label159
+            // 
+            this.label159.AutoSize = true;
+            this.label159.Location = new System.Drawing.Point(4, 58);
+            this.label159.Name = "label159";
+            this.label159.Size = new System.Drawing.Size(30, 16);
+            this.label159.TabIndex = 6;
+            this.label159.Text = "LSL";
+            // 
+            // txt_rangeProfileScanPoint2ValUSL
+            // 
+            this.txt_rangeProfileScanPoint2ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeProfileScanPoint2ValUSL.Name = "txt_rangeProfileScanPoint2ValUSL";
+            this.txt_rangeProfileScanPoint2ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeProfileScanPoint2ValUSL.TabIndex = 9;
+            // 
+            // label160
+            // 
+            this.label160.AutoSize = true;
+            this.label160.Location = new System.Drawing.Point(4, 87);
+            this.label160.Name = "label160";
+            this.label160.Size = new System.Drawing.Size(33, 16);
+            this.label160.TabIndex = 8;
+            this.label160.Text = "USL";
+            // 
+            // groupBox96
+            // 
+            this.groupBox96.Controls.Add(this.txt_rangeProfileScanPoint2);
+            this.groupBox96.Controls.Add(this.label161);
+            this.groupBox96.Controls.Add(this.txt_rangeProfileScanPoint2USL);
+            this.groupBox96.Controls.Add(this.label162);
+            this.groupBox96.Controls.Add(this.txt_rangeProfileScanPoint2LSL);
+            this.groupBox96.Controls.Add(this.label163);
+            this.groupBox96.Location = new System.Drawing.Point(16, 36);
+            this.groupBox96.Name = "groupBox96";
+            this.groupBox96.Size = new System.Drawing.Size(154, 118);
+            this.groupBox96.TabIndex = 0;
+            this.groupBox96.TabStop = false;
+            this.groupBox96.Text = "Range";
+            // 
+            // txt_rangeProfileScanPoint2
+            // 
+            this.txt_rangeProfileScanPoint2.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeProfileScanPoint2.Name = "txt_rangeProfileScanPoint2";
+            this.txt_rangeProfileScanPoint2.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeProfileScanPoint2.TabIndex = 2;
+            // 
+            // label161
+            // 
+            this.label161.AutoSize = true;
+            this.label161.Location = new System.Drawing.Point(5, 90);
+            this.label161.Name = "label161";
+            this.label161.Size = new System.Drawing.Size(33, 16);
+            this.label161.TabIndex = 17;
+            this.label161.Text = "USL";
+            // 
+            // txt_rangeProfileScanPoint2USL
+            // 
+            this.txt_rangeProfileScanPoint2USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeProfileScanPoint2USL.Name = "txt_rangeProfileScanPoint2USL";
+            this.txt_rangeProfileScanPoint2USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeProfileScanPoint2USL.TabIndex = 18;
+            // 
+            // label162
+            // 
+            this.label162.AutoSize = true;
+            this.label162.Location = new System.Drawing.Point(5, 26);
+            this.label162.Name = "label162";
+            this.label162.Size = new System.Drawing.Size(25, 16);
+            this.label162.TabIndex = 5;
+            this.label162.Text = "AV";
+            // 
+            // txt_rangeProfileScanPoint2LSL
+            // 
+            this.txt_rangeProfileScanPoint2LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeProfileScanPoint2LSL.Name = "txt_rangeProfileScanPoint2LSL";
+            this.txt_rangeProfileScanPoint2LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeProfileScanPoint2LSL.TabIndex = 15;
+            // 
+            // label163
+            // 
+            this.label163.AutoSize = true;
+            this.label163.Location = new System.Drawing.Point(5, 58);
+            this.label163.Name = "label163";
+            this.label163.Size = new System.Drawing.Size(30, 16);
+            this.label163.TabIndex = 16;
+            this.label163.Text = "LSL";
+            // 
+            // groupBox97
+            // 
+            this.groupBox97.Controls.Add(this.groupBox98);
+            this.groupBox97.Controls.Add(this.groupBox99);
+            this.groupBox97.Controls.Add(this.groupBox100);
+            this.groupBox97.Location = new System.Drawing.Point(378, 17);
+            this.groupBox97.Name = "groupBox97";
+            this.groupBox97.Size = new System.Drawing.Size(366, 169);
+            this.groupBox97.TabIndex = 30;
+            this.groupBox97.TabStop = false;
+            this.groupBox97.Text = "ST40 ProfileScanPoint 1";
+            // 
+            // groupBox98
+            // 
+            this.groupBox98.Controls.Add(this.lbl_statusProfileScanPoint1AV);
+            this.groupBox98.Controls.Add(this.lbl_statusProfileScanPoint1LSL);
+            this.groupBox98.Controls.Add(this.lbl_statusProfileScanPoint1USL);
+            this.groupBox98.Location = new System.Drawing.Point(286, 36);
+            this.groupBox98.Name = "groupBox98";
+            this.groupBox98.Size = new System.Drawing.Size(68, 118);
+            this.groupBox98.TabIndex = 21;
+            this.groupBox98.TabStop = false;
+            this.groupBox98.Text = "Status";
+            // 
+            // lbl_statusProfileScanPoint1AV
+            // 
+            this.lbl_statusProfileScanPoint1AV.AutoSize = true;
+            this.lbl_statusProfileScanPoint1AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusProfileScanPoint1AV.Name = "lbl_statusProfileScanPoint1AV";
+            this.lbl_statusProfileScanPoint1AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusProfileScanPoint1AV.TabIndex = 13;
+            this.lbl_statusProfileScanPoint1AV.Text = "--";
+            // 
+            // lbl_statusProfileScanPoint1LSL
+            // 
+            this.lbl_statusProfileScanPoint1LSL.AutoSize = true;
+            this.lbl_statusProfileScanPoint1LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusProfileScanPoint1LSL.Name = "lbl_statusProfileScanPoint1LSL";
+            this.lbl_statusProfileScanPoint1LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusProfileScanPoint1LSL.TabIndex = 10;
+            this.lbl_statusProfileScanPoint1LSL.Text = "--";
+            // 
+            // lbl_statusProfileScanPoint1USL
+            // 
+            this.lbl_statusProfileScanPoint1USL.AutoSize = true;
+            this.lbl_statusProfileScanPoint1USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusProfileScanPoint1USL.Name = "lbl_statusProfileScanPoint1USL";
+            this.lbl_statusProfileScanPoint1USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusProfileScanPoint1USL.TabIndex = 11;
+            this.lbl_statusProfileScanPoint1USL.Text = "--";
+            // 
+            // groupBox99
+            // 
+            this.groupBox99.Controls.Add(this.txt_rangeProfileScanPoint1ValAV);
+            this.groupBox99.Controls.Add(this.label167);
+            this.groupBox99.Controls.Add(this.txt_rangeProfileScanPoint1ValLSL);
+            this.groupBox99.Controls.Add(this.label168);
+            this.groupBox99.Controls.Add(this.txt_rangeProfileScanPoint1ValUSL);
+            this.groupBox99.Controls.Add(this.label169);
+            this.groupBox99.Location = new System.Drawing.Point(176, 36);
+            this.groupBox99.Name = "groupBox99";
+            this.groupBox99.Size = new System.Drawing.Size(104, 118);
+            this.groupBox99.TabIndex = 1;
+            this.groupBox99.TabStop = false;
+            this.groupBox99.Text = "Values";
+            // 
+            // txt_rangeProfileScanPoint1ValAV
+            // 
+            this.txt_rangeProfileScanPoint1ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeProfileScanPoint1ValAV.Name = "txt_rangeProfileScanPoint1ValAV";
+            this.txt_rangeProfileScanPoint1ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeProfileScanPoint1ValAV.TabIndex = 12;
+            // 
+            // label167
+            // 
+            this.label167.AutoSize = true;
+            this.label167.Location = new System.Drawing.Point(4, 28);
+            this.label167.Name = "label167";
+            this.label167.Size = new System.Drawing.Size(25, 16);
+            this.label167.TabIndex = 6;
+            this.label167.Text = "AV";
+            // 
+            // txt_rangeProfileScanPoint1ValLSL
+            // 
+            this.txt_rangeProfileScanPoint1ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeProfileScanPoint1ValLSL.Name = "txt_rangeProfileScanPoint1ValLSL";
+            this.txt_rangeProfileScanPoint1ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeProfileScanPoint1ValLSL.TabIndex = 7;
+            // 
+            // label168
+            // 
+            this.label168.AutoSize = true;
+            this.label168.Location = new System.Drawing.Point(4, 58);
+            this.label168.Name = "label168";
+            this.label168.Size = new System.Drawing.Size(30, 16);
+            this.label168.TabIndex = 6;
+            this.label168.Text = "LSL";
+            // 
+            // txt_rangeProfileScanPoint1ValUSL
+            // 
+            this.txt_rangeProfileScanPoint1ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeProfileScanPoint1ValUSL.Name = "txt_rangeProfileScanPoint1ValUSL";
+            this.txt_rangeProfileScanPoint1ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeProfileScanPoint1ValUSL.TabIndex = 9;
+            // 
+            // label169
+            // 
+            this.label169.AutoSize = true;
+            this.label169.Location = new System.Drawing.Point(4, 87);
+            this.label169.Name = "label169";
+            this.label169.Size = new System.Drawing.Size(33, 16);
+            this.label169.TabIndex = 8;
+            this.label169.Text = "USL";
+            // 
+            // groupBox100
+            // 
+            this.groupBox100.Controls.Add(this.txt_rangeProfileScanPoint1);
+            this.groupBox100.Controls.Add(this.label170);
+            this.groupBox100.Controls.Add(this.txt_rangeProfileScanPoint1USL);
+            this.groupBox100.Controls.Add(this.label171);
+            this.groupBox100.Controls.Add(this.txt_rangeProfileScanPoint1LSL);
+            this.groupBox100.Controls.Add(this.label172);
+            this.groupBox100.Location = new System.Drawing.Point(16, 36);
+            this.groupBox100.Name = "groupBox100";
+            this.groupBox100.Size = new System.Drawing.Size(154, 118);
+            this.groupBox100.TabIndex = 0;
+            this.groupBox100.TabStop = false;
+            this.groupBox100.Text = "Range";
+            // 
+            // txt_rangeProfileScanPoint1
+            // 
+            this.txt_rangeProfileScanPoint1.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeProfileScanPoint1.Name = "txt_rangeProfileScanPoint1";
+            this.txt_rangeProfileScanPoint1.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeProfileScanPoint1.TabIndex = 2;
+            // 
+            // label170
+            // 
+            this.label170.AutoSize = true;
+            this.label170.Location = new System.Drawing.Point(5, 90);
+            this.label170.Name = "label170";
+            this.label170.Size = new System.Drawing.Size(33, 16);
+            this.label170.TabIndex = 17;
+            this.label170.Text = "USL";
+            // 
+            // txt_rangeProfileScanPoint1USL
+            // 
+            this.txt_rangeProfileScanPoint1USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeProfileScanPoint1USL.Name = "txt_rangeProfileScanPoint1USL";
+            this.txt_rangeProfileScanPoint1USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeProfileScanPoint1USL.TabIndex = 18;
+            // 
+            // label171
+            // 
+            this.label171.AutoSize = true;
+            this.label171.Location = new System.Drawing.Point(5, 26);
+            this.label171.Name = "label171";
+            this.label171.Size = new System.Drawing.Size(25, 16);
+            this.label171.TabIndex = 5;
+            this.label171.Text = "AV";
+            // 
+            // txt_rangeProfileScanPoint1LSL
+            // 
+            this.txt_rangeProfileScanPoint1LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeProfileScanPoint1LSL.Name = "txt_rangeProfileScanPoint1LSL";
+            this.txt_rangeProfileScanPoint1LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeProfileScanPoint1LSL.TabIndex = 15;
+            // 
+            // label172
+            // 
+            this.label172.AutoSize = true;
+            this.label172.Location = new System.Drawing.Point(5, 58);
+            this.label172.Name = "label172";
+            this.label172.Size = new System.Drawing.Size(30, 16);
+            this.label172.TabIndex = 16;
+            this.label172.Text = "LSL";
+            // 
+            // groupBox101
+            // 
+            this.groupBox101.Controls.Add(this.groupBox102);
+            this.groupBox101.Controls.Add(this.groupBox103);
+            this.groupBox101.Controls.Add(this.groupBox104);
+            this.groupBox101.Location = new System.Drawing.Point(6, 17);
+            this.groupBox101.Name = "groupBox101";
+            this.groupBox101.Size = new System.Drawing.Size(366, 169);
+            this.groupBox101.TabIndex = 29;
+            this.groupBox101.TabStop = false;
+            this.groupBox101.Text = "ST40 ProfileScanPoint 0";
+            // 
+            // groupBox102
+            // 
+            this.groupBox102.Controls.Add(this.lbl_statusProfileScanPoint0AV);
+            this.groupBox102.Controls.Add(this.lbl_statusProfileScanPoint0LSL);
+            this.groupBox102.Controls.Add(this.lbl_statusProfileScanPoint0USL);
+            this.groupBox102.Location = new System.Drawing.Point(286, 36);
+            this.groupBox102.Name = "groupBox102";
+            this.groupBox102.Size = new System.Drawing.Size(68, 118);
+            this.groupBox102.TabIndex = 21;
+            this.groupBox102.TabStop = false;
+            this.groupBox102.Text = "Status";
+            // 
+            // lbl_statusProfileScanPoint0AV
+            // 
+            this.lbl_statusProfileScanPoint0AV.AutoSize = true;
+            this.lbl_statusProfileScanPoint0AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusProfileScanPoint0AV.Name = "lbl_statusProfileScanPoint0AV";
+            this.lbl_statusProfileScanPoint0AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusProfileScanPoint0AV.TabIndex = 13;
+            this.lbl_statusProfileScanPoint0AV.Text = "--";
+            // 
+            // lbl_statusProfileScanPoint0LSL
+            // 
+            this.lbl_statusProfileScanPoint0LSL.AutoSize = true;
+            this.lbl_statusProfileScanPoint0LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusProfileScanPoint0LSL.Name = "lbl_statusProfileScanPoint0LSL";
+            this.lbl_statusProfileScanPoint0LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusProfileScanPoint0LSL.TabIndex = 10;
+            this.lbl_statusProfileScanPoint0LSL.Text = "--";
+            // 
+            // lbl_statusProfileScanPoint0USL
+            // 
+            this.lbl_statusProfileScanPoint0USL.AutoSize = true;
+            this.lbl_statusProfileScanPoint0USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusProfileScanPoint0USL.Name = "lbl_statusProfileScanPoint0USL";
+            this.lbl_statusProfileScanPoint0USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusProfileScanPoint0USL.TabIndex = 11;
+            this.lbl_statusProfileScanPoint0USL.Text = "--";
+            // 
+            // groupBox103
+            // 
+            this.groupBox103.Controls.Add(this.txt_rangeProfileScanPoint0ValAV);
+            this.groupBox103.Controls.Add(this.label176);
+            this.groupBox103.Controls.Add(this.txt_rangeProfileScanPoint0ValLSL);
+            this.groupBox103.Controls.Add(this.label177);
+            this.groupBox103.Controls.Add(this.txt_rangeProfileScanPoint0ValUSL);
+            this.groupBox103.Controls.Add(this.label178);
+            this.groupBox103.Location = new System.Drawing.Point(176, 36);
+            this.groupBox103.Name = "groupBox103";
+            this.groupBox103.Size = new System.Drawing.Size(104, 118);
+            this.groupBox103.TabIndex = 1;
+            this.groupBox103.TabStop = false;
+            this.groupBox103.Text = "Values";
+            // 
+            // txt_rangeProfileScanPoint0ValAV
+            // 
+            this.txt_rangeProfileScanPoint0ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeProfileScanPoint0ValAV.Name = "txt_rangeProfileScanPoint0ValAV";
+            this.txt_rangeProfileScanPoint0ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeProfileScanPoint0ValAV.TabIndex = 12;
+            // 
+            // label176
+            // 
+            this.label176.AutoSize = true;
+            this.label176.Location = new System.Drawing.Point(4, 28);
+            this.label176.Name = "label176";
+            this.label176.Size = new System.Drawing.Size(25, 16);
+            this.label176.TabIndex = 6;
+            this.label176.Text = "AV";
+            // 
+            // txt_rangeProfileScanPoint0ValLSL
+            // 
+            this.txt_rangeProfileScanPoint0ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeProfileScanPoint0ValLSL.Name = "txt_rangeProfileScanPoint0ValLSL";
+            this.txt_rangeProfileScanPoint0ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeProfileScanPoint0ValLSL.TabIndex = 7;
+            // 
+            // label177
+            // 
+            this.label177.AutoSize = true;
+            this.label177.Location = new System.Drawing.Point(4, 58);
+            this.label177.Name = "label177";
+            this.label177.Size = new System.Drawing.Size(30, 16);
+            this.label177.TabIndex = 6;
+            this.label177.Text = "LSL";
+            // 
+            // txt_rangeProfileScanPoint0ValUSL
+            // 
+            this.txt_rangeProfileScanPoint0ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeProfileScanPoint0ValUSL.Name = "txt_rangeProfileScanPoint0ValUSL";
+            this.txt_rangeProfileScanPoint0ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeProfileScanPoint0ValUSL.TabIndex = 9;
+            // 
+            // label178
+            // 
+            this.label178.AutoSize = true;
+            this.label178.Location = new System.Drawing.Point(4, 87);
+            this.label178.Name = "label178";
+            this.label178.Size = new System.Drawing.Size(33, 16);
+            this.label178.TabIndex = 8;
+            this.label178.Text = "USL";
+            // 
+            // groupBox104
+            // 
+            this.groupBox104.Controls.Add(this.txt_rangeProfileScanPoint0);
+            this.groupBox104.Controls.Add(this.label179);
+            this.groupBox104.Controls.Add(this.txt_rangeProfileScanPoint0USL);
+            this.groupBox104.Controls.Add(this.label180);
+            this.groupBox104.Controls.Add(this.txt_rangeProfileScanPoint0LSL);
+            this.groupBox104.Controls.Add(this.label181);
+            this.groupBox104.Location = new System.Drawing.Point(16, 36);
+            this.groupBox104.Name = "groupBox104";
+            this.groupBox104.Size = new System.Drawing.Size(154, 118);
+            this.groupBox104.TabIndex = 0;
+            this.groupBox104.TabStop = false;
+            this.groupBox104.Text = "Range";
+            // 
+            // txt_rangeProfileScanPoint0
+            // 
+            this.txt_rangeProfileScanPoint0.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeProfileScanPoint0.Name = "txt_rangeProfileScanPoint0";
+            this.txt_rangeProfileScanPoint0.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeProfileScanPoint0.TabIndex = 2;
+            // 
+            // label179
+            // 
+            this.label179.AutoSize = true;
+            this.label179.Location = new System.Drawing.Point(5, 90);
+            this.label179.Name = "label179";
+            this.label179.Size = new System.Drawing.Size(33, 16);
+            this.label179.TabIndex = 17;
+            this.label179.Text = "USL";
+            // 
+            // txt_rangeProfileScanPoint0USL
+            // 
+            this.txt_rangeProfileScanPoint0USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeProfileScanPoint0USL.Name = "txt_rangeProfileScanPoint0USL";
+            this.txt_rangeProfileScanPoint0USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeProfileScanPoint0USL.TabIndex = 18;
+            // 
+            // label180
+            // 
+            this.label180.AutoSize = true;
+            this.label180.Location = new System.Drawing.Point(5, 26);
+            this.label180.Name = "label180";
+            this.label180.Size = new System.Drawing.Size(25, 16);
+            this.label180.TabIndex = 5;
+            this.label180.Text = "AV";
+            // 
+            // txt_rangeProfileScanPoint0LSL
+            // 
+            this.txt_rangeProfileScanPoint0LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeProfileScanPoint0LSL.Name = "txt_rangeProfileScanPoint0LSL";
+            this.txt_rangeProfileScanPoint0LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeProfileScanPoint0LSL.TabIndex = 15;
+            // 
+            // label181
+            // 
+            this.label181.AutoSize = true;
+            this.label181.Location = new System.Drawing.Point(5, 58);
+            this.label181.Name = "label181";
+            this.label181.Size = new System.Drawing.Size(30, 16);
+            this.label181.TabIndex = 16;
+            this.label181.Text = "LSL";
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage4.Controls.Add(this.groupBox105);
+            this.tabPage4.Controls.Add(this.groupBox73);
+            this.tabPage4.Controls.Add(this.groupBox109);
+            this.tabPage4.Controls.Add(this.groupBox113);
+            this.tabPage4.Controls.Add(this.groupBox121);
+            this.tabPage4.Location = new System.Drawing.Point(4, 29);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(1513, 743);
+            this.tabPage4.TabIndex = 2;
+            this.tabPage4.Text = "ST60 - 70";
+            // 
+            // groupBox105
+            // 
+            this.groupBox105.Controls.Add(this.groupBox106);
+            this.groupBox105.Controls.Add(this.groupBox107);
+            this.groupBox105.Controls.Add(this.groupBox108);
+            this.groupBox105.Location = new System.Drawing.Point(6, 192);
+            this.groupBox105.Name = "groupBox105";
+            this.groupBox105.Size = new System.Drawing.Size(366, 169);
+            this.groupBox105.TabIndex = 33;
+            this.groupBox105.TabStop = false;
+            this.groupBox105.Text = "ST70 Force";
+            // 
+            // groupBox106
+            // 
+            this.groupBox106.Controls.Add(this.lbl_statusForceAV);
+            this.groupBox106.Controls.Add(this.lbl_statusForceLSL);
+            this.groupBox106.Controls.Add(this.lbl_statusForceUSL);
+            this.groupBox106.Location = new System.Drawing.Point(286, 36);
+            this.groupBox106.Name = "groupBox106";
+            this.groupBox106.Size = new System.Drawing.Size(68, 118);
+            this.groupBox106.TabIndex = 21;
+            this.groupBox106.TabStop = false;
+            this.groupBox106.Text = "Status";
+            // 
+            // lbl_statusForceAV
+            // 
+            this.lbl_statusForceAV.AutoSize = true;
+            this.lbl_statusForceAV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusForceAV.Name = "lbl_statusForceAV";
+            this.lbl_statusForceAV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusForceAV.TabIndex = 13;
+            this.lbl_statusForceAV.Text = "--";
+            // 
+            // lbl_statusForceLSL
+            // 
+            this.lbl_statusForceLSL.AutoSize = true;
+            this.lbl_statusForceLSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusForceLSL.Name = "lbl_statusForceLSL";
+            this.lbl_statusForceLSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusForceLSL.TabIndex = 10;
+            this.lbl_statusForceLSL.Text = "--";
+            // 
+            // lbl_statusForceUSL
+            // 
+            this.lbl_statusForceUSL.AutoSize = true;
+            this.lbl_statusForceUSL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusForceUSL.Name = "lbl_statusForceUSL";
+            this.lbl_statusForceUSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusForceUSL.TabIndex = 11;
+            this.lbl_statusForceUSL.Text = "--";
+            // 
+            // groupBox107
+            // 
+            this.groupBox107.Controls.Add(this.txt_rangeForceValAV);
+            this.groupBox107.Controls.Add(this.label95);
+            this.groupBox107.Controls.Add(this.txt_rangeForceValLSL);
+            this.groupBox107.Controls.Add(this.label96);
+            this.groupBox107.Controls.Add(this.txt_rangeForceValUSL);
+            this.groupBox107.Controls.Add(this.label97);
+            this.groupBox107.Location = new System.Drawing.Point(176, 36);
+            this.groupBox107.Name = "groupBox107";
+            this.groupBox107.Size = new System.Drawing.Size(104, 118);
+            this.groupBox107.TabIndex = 1;
+            this.groupBox107.TabStop = false;
+            this.groupBox107.Text = "Values";
+            // 
+            // txt_rangeForceValAV
+            // 
+            this.txt_rangeForceValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeForceValAV.Name = "txt_rangeForceValAV";
+            this.txt_rangeForceValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeForceValAV.TabIndex = 12;
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Location = new System.Drawing.Point(4, 28);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(25, 16);
+            this.label95.TabIndex = 6;
+            this.label95.Text = "AV";
+            // 
+            // txt_rangeForceValLSL
+            // 
+            this.txt_rangeForceValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeForceValLSL.Name = "txt_rangeForceValLSL";
+            this.txt_rangeForceValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeForceValLSL.TabIndex = 7;
+            // 
+            // label96
+            // 
+            this.label96.AutoSize = true;
+            this.label96.Location = new System.Drawing.Point(4, 58);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(30, 16);
+            this.label96.TabIndex = 6;
+            this.label96.Text = "LSL";
+            // 
+            // txt_rangeForceValUSL
+            // 
+            this.txt_rangeForceValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeForceValUSL.Name = "txt_rangeForceValUSL";
+            this.txt_rangeForceValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeForceValUSL.TabIndex = 9;
+            // 
+            // label97
+            // 
+            this.label97.AutoSize = true;
+            this.label97.Location = new System.Drawing.Point(4, 87);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(33, 16);
+            this.label97.TabIndex = 8;
+            this.label97.Text = "USL";
+            // 
+            // groupBox108
+            // 
+            this.groupBox108.Controls.Add(this.txt_rangeForce);
+            this.groupBox108.Controls.Add(this.label122);
+            this.groupBox108.Controls.Add(this.txt_rangeForceUSL);
+            this.groupBox108.Controls.Add(this.label123);
+            this.groupBox108.Controls.Add(this.txt_rangeForceLSL);
+            this.groupBox108.Controls.Add(this.label124);
+            this.groupBox108.Location = new System.Drawing.Point(16, 36);
+            this.groupBox108.Name = "groupBox108";
+            this.groupBox108.Size = new System.Drawing.Size(154, 118);
+            this.groupBox108.TabIndex = 0;
+            this.groupBox108.TabStop = false;
+            this.groupBox108.Text = "Range";
+            // 
+            // txt_rangeForce
+            // 
+            this.txt_rangeForce.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeForce.Name = "txt_rangeForce";
+            this.txt_rangeForce.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeForce.TabIndex = 2;
+            // 
+            // label122
+            // 
+            this.label122.AutoSize = true;
+            this.label122.Location = new System.Drawing.Point(5, 90);
+            this.label122.Name = "label122";
+            this.label122.Size = new System.Drawing.Size(33, 16);
+            this.label122.TabIndex = 17;
+            this.label122.Text = "USL";
+            // 
+            // txt_rangeForceUSL
+            // 
+            this.txt_rangeForceUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeForceUSL.Name = "txt_rangeForceUSL";
+            this.txt_rangeForceUSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeForceUSL.TabIndex = 18;
+            // 
+            // label123
+            // 
+            this.label123.AutoSize = true;
+            this.label123.Location = new System.Drawing.Point(5, 26);
+            this.label123.Name = "label123";
+            this.label123.Size = new System.Drawing.Size(25, 16);
+            this.label123.TabIndex = 5;
+            this.label123.Text = "AV";
+            // 
+            // txt_rangeForceLSL
+            // 
+            this.txt_rangeForceLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeForceLSL.Name = "txt_rangeForceLSL";
+            this.txt_rangeForceLSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeForceLSL.TabIndex = 15;
+            // 
+            // label124
+            // 
+            this.label124.AutoSize = true;
+            this.label124.Location = new System.Drawing.Point(5, 58);
+            this.label124.Name = "label124";
+            this.label124.Size = new System.Drawing.Size(30, 16);
+            this.label124.TabIndex = 16;
+            this.label124.Text = "LSL";
+            // 
+            // groupBox73
+            // 
+            this.groupBox73.Controls.Add(this.groupBox74);
+            this.groupBox73.Controls.Add(this.groupBox75);
+            this.groupBox73.Controls.Add(this.groupBox76);
+            this.groupBox73.Location = new System.Drawing.Point(1122, 17);
+            this.groupBox73.Name = "groupBox73";
+            this.groupBox73.Size = new System.Drawing.Size(366, 169);
+            this.groupBox73.TabIndex = 32;
+            this.groupBox73.TabStop = false;
+            this.groupBox73.Text = "ST60 LaserWelding Weldingtime";
+            // 
+            // groupBox74
+            // 
+            this.groupBox74.Controls.Add(this.lbl_statusLaserWeldingWeldingtimeAV);
+            this.groupBox74.Controls.Add(this.lbl_statusLaserWeldingWeldingtimeLSL);
+            this.groupBox74.Controls.Add(this.lbl_statusLaserWeldingWeldingtimeUSL);
+            this.groupBox74.Location = new System.Drawing.Point(286, 36);
+            this.groupBox74.Name = "groupBox74";
+            this.groupBox74.Size = new System.Drawing.Size(68, 118);
+            this.groupBox74.TabIndex = 21;
+            this.groupBox74.TabStop = false;
+            this.groupBox74.Text = "Status";
+            // 
+            // lbl_statusLaserWeldingWeldingtimeAV
+            // 
+            this.lbl_statusLaserWeldingWeldingtimeAV.AutoSize = true;
+            this.lbl_statusLaserWeldingWeldingtimeAV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusLaserWeldingWeldingtimeAV.Name = "lbl_statusLaserWeldingWeldingtimeAV";
+            this.lbl_statusLaserWeldingWeldingtimeAV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusLaserWeldingWeldingtimeAV.TabIndex = 13;
+            this.lbl_statusLaserWeldingWeldingtimeAV.Text = "--";
+            // 
+            // lbl_statusLaserWeldingWeldingtimeLSL
+            // 
+            this.lbl_statusLaserWeldingWeldingtimeLSL.AutoSize = true;
+            this.lbl_statusLaserWeldingWeldingtimeLSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusLaserWeldingWeldingtimeLSL.Name = "lbl_statusLaserWeldingWeldingtimeLSL";
+            this.lbl_statusLaserWeldingWeldingtimeLSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusLaserWeldingWeldingtimeLSL.TabIndex = 10;
+            this.lbl_statusLaserWeldingWeldingtimeLSL.Text = "--";
+            // 
+            // lbl_statusLaserWeldingWeldingtimeUSL
+            // 
+            this.lbl_statusLaserWeldingWeldingtimeUSL.AutoSize = true;
+            this.lbl_statusLaserWeldingWeldingtimeUSL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusLaserWeldingWeldingtimeUSL.Name = "lbl_statusLaserWeldingWeldingtimeUSL";
+            this.lbl_statusLaserWeldingWeldingtimeUSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusLaserWeldingWeldingtimeUSL.TabIndex = 11;
+            this.lbl_statusLaserWeldingWeldingtimeUSL.Text = "--";
+            // 
+            // groupBox75
+            // 
+            this.groupBox75.Controls.Add(this.txt_rangeLaserWeldingWeldingtimeValAV);
+            this.groupBox75.Controls.Add(this.label59);
+            this.groupBox75.Controls.Add(this.txt_rangeLaserWeldingWeldingtimeValLSL);
+            this.groupBox75.Controls.Add(this.label60);
+            this.groupBox75.Controls.Add(this.txt_rangeLaserWeldingWeldingtimeValUSL);
+            this.groupBox75.Controls.Add(this.label61);
+            this.groupBox75.Location = new System.Drawing.Point(176, 36);
+            this.groupBox75.Name = "groupBox75";
+            this.groupBox75.Size = new System.Drawing.Size(104, 118);
+            this.groupBox75.TabIndex = 1;
+            this.groupBox75.TabStop = false;
+            this.groupBox75.Text = "Values";
+            // 
+            // txt_rangeLaserWeldingWeldingtimeValAV
+            // 
+            this.txt_rangeLaserWeldingWeldingtimeValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeLaserWeldingWeldingtimeValAV.Name = "txt_rangeLaserWeldingWeldingtimeValAV";
+            this.txt_rangeLaserWeldingWeldingtimeValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeLaserWeldingWeldingtimeValAV.TabIndex = 12;
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Location = new System.Drawing.Point(4, 28);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(25, 16);
+            this.label59.TabIndex = 6;
+            this.label59.Text = "AV";
+            // 
+            // txt_rangeLaserWeldingWeldingtimeValLSL
+            // 
+            this.txt_rangeLaserWeldingWeldingtimeValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeLaserWeldingWeldingtimeValLSL.Name = "txt_rangeLaserWeldingWeldingtimeValLSL";
+            this.txt_rangeLaserWeldingWeldingtimeValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeLaserWeldingWeldingtimeValLSL.TabIndex = 7;
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Location = new System.Drawing.Point(4, 58);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(30, 16);
+            this.label60.TabIndex = 6;
+            this.label60.Text = "LSL";
+            // 
+            // txt_rangeLaserWeldingWeldingtimeValUSL
+            // 
+            this.txt_rangeLaserWeldingWeldingtimeValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeLaserWeldingWeldingtimeValUSL.Name = "txt_rangeLaserWeldingWeldingtimeValUSL";
+            this.txt_rangeLaserWeldingWeldingtimeValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeLaserWeldingWeldingtimeValUSL.TabIndex = 9;
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Location = new System.Drawing.Point(4, 87);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(33, 16);
+            this.label61.TabIndex = 8;
+            this.label61.Text = "USL";
+            // 
+            // groupBox76
+            // 
+            this.groupBox76.Controls.Add(this.txt_rangeLaserWeldingWeldingtime);
+            this.groupBox76.Controls.Add(this.label86);
+            this.groupBox76.Controls.Add(this.txt_rangeLaserWeldingWeldingtimeUSL);
+            this.groupBox76.Controls.Add(this.label87);
+            this.groupBox76.Controls.Add(this.txt_rangeLaserWeldingWeldingtimeLSL);
+            this.groupBox76.Controls.Add(this.label88);
+            this.groupBox76.Location = new System.Drawing.Point(16, 36);
+            this.groupBox76.Name = "groupBox76";
+            this.groupBox76.Size = new System.Drawing.Size(154, 118);
+            this.groupBox76.TabIndex = 0;
+            this.groupBox76.TabStop = false;
+            this.groupBox76.Text = "Range";
+            // 
+            // txt_rangeLaserWeldingWeldingtime
+            // 
+            this.txt_rangeLaserWeldingWeldingtime.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeLaserWeldingWeldingtime.Name = "txt_rangeLaserWeldingWeldingtime";
+            this.txt_rangeLaserWeldingWeldingtime.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeLaserWeldingWeldingtime.TabIndex = 2;
+            // 
+            // label86
+            // 
+            this.label86.AutoSize = true;
+            this.label86.Location = new System.Drawing.Point(5, 90);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(33, 16);
+            this.label86.TabIndex = 17;
+            this.label86.Text = "USL";
+            // 
+            // txt_rangeLaserWeldingWeldingtimeUSL
+            // 
+            this.txt_rangeLaserWeldingWeldingtimeUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeLaserWeldingWeldingtimeUSL.Name = "txt_rangeLaserWeldingWeldingtimeUSL";
+            this.txt_rangeLaserWeldingWeldingtimeUSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeLaserWeldingWeldingtimeUSL.TabIndex = 18;
+            // 
+            // label87
+            // 
+            this.label87.AutoSize = true;
+            this.label87.Location = new System.Drawing.Point(5, 26);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(25, 16);
+            this.label87.TabIndex = 5;
+            this.label87.Text = "AV";
+            // 
+            // txt_rangeLaserWeldingWeldingtimeLSL
+            // 
+            this.txt_rangeLaserWeldingWeldingtimeLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeLaserWeldingWeldingtimeLSL.Name = "txt_rangeLaserWeldingWeldingtimeLSL";
+            this.txt_rangeLaserWeldingWeldingtimeLSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeLaserWeldingWeldingtimeLSL.TabIndex = 15;
+            // 
+            // label88
+            // 
+            this.label88.AutoSize = true;
+            this.label88.Location = new System.Drawing.Point(5, 58);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(30, 16);
+            this.label88.TabIndex = 16;
+            this.label88.Text = "LSL";
+            // 
+            // groupBox109
+            // 
+            this.groupBox109.Controls.Add(this.groupBox110);
+            this.groupBox109.Controls.Add(this.groupBox111);
+            this.groupBox109.Controls.Add(this.groupBox112);
+            this.groupBox109.Location = new System.Drawing.Point(750, 17);
+            this.groupBox109.Name = "groupBox109";
+            this.groupBox109.Size = new System.Drawing.Size(366, 169);
+            this.groupBox109.TabIndex = 30;
+            this.groupBox109.TabStop = false;
+            this.groupBox109.Text = "ST60 LaserWelding ShutdownDistance";
+            // 
+            // groupBox110
+            // 
+            this.groupBox110.Controls.Add(this.lbl_statusLaserWeldingShutdownDistanceAV);
+            this.groupBox110.Controls.Add(this.lbl_statusLaserWeldingShutdownDistanceLSL);
+            this.groupBox110.Controls.Add(this.lbl_statusLaserWeldingShutdownDistanceUSL);
+            this.groupBox110.Location = new System.Drawing.Point(286, 36);
+            this.groupBox110.Name = "groupBox110";
+            this.groupBox110.Size = new System.Drawing.Size(68, 118);
+            this.groupBox110.TabIndex = 21;
+            this.groupBox110.TabStop = false;
+            this.groupBox110.Text = "Status";
+            // 
+            // lbl_statusLaserWeldingShutdownDistanceAV
+            // 
+            this.lbl_statusLaserWeldingShutdownDistanceAV.AutoSize = true;
+            this.lbl_statusLaserWeldingShutdownDistanceAV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusLaserWeldingShutdownDistanceAV.Name = "lbl_statusLaserWeldingShutdownDistanceAV";
+            this.lbl_statusLaserWeldingShutdownDistanceAV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusLaserWeldingShutdownDistanceAV.TabIndex = 13;
+            this.lbl_statusLaserWeldingShutdownDistanceAV.Text = "--";
+            // 
+            // lbl_statusLaserWeldingShutdownDistanceLSL
+            // 
+            this.lbl_statusLaserWeldingShutdownDistanceLSL.AutoSize = true;
+            this.lbl_statusLaserWeldingShutdownDistanceLSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusLaserWeldingShutdownDistanceLSL.Name = "lbl_statusLaserWeldingShutdownDistanceLSL";
+            this.lbl_statusLaserWeldingShutdownDistanceLSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusLaserWeldingShutdownDistanceLSL.TabIndex = 10;
+            this.lbl_statusLaserWeldingShutdownDistanceLSL.Text = "--";
+            // 
+            // lbl_statusLaserWeldingShutdownDistanceUSL
+            // 
+            this.lbl_statusLaserWeldingShutdownDistanceUSL.AutoSize = true;
+            this.lbl_statusLaserWeldingShutdownDistanceUSL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusLaserWeldingShutdownDistanceUSL.Name = "lbl_statusLaserWeldingShutdownDistanceUSL";
+            this.lbl_statusLaserWeldingShutdownDistanceUSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusLaserWeldingShutdownDistanceUSL.TabIndex = 11;
+            this.lbl_statusLaserWeldingShutdownDistanceUSL.Text = "--";
+            // 
+            // groupBox111
+            // 
+            this.groupBox111.Controls.Add(this.txt_rangeLaserWeldingShutdownDistanceValAV);
+            this.groupBox111.Controls.Add(this.label155);
+            this.groupBox111.Controls.Add(this.txt_rangeLaserWeldingShutdownDistanceValLSL);
+            this.groupBox111.Controls.Add(this.label156);
+            this.groupBox111.Controls.Add(this.txt_rangeLaserWeldingShutdownDistanceValUSL);
+            this.groupBox111.Controls.Add(this.label157);
+            this.groupBox111.Location = new System.Drawing.Point(176, 36);
+            this.groupBox111.Name = "groupBox111";
+            this.groupBox111.Size = new System.Drawing.Size(104, 118);
+            this.groupBox111.TabIndex = 1;
+            this.groupBox111.TabStop = false;
+            this.groupBox111.Text = "Values";
+            // 
+            // txt_rangeLaserWeldingShutdownDistanceValAV
+            // 
+            this.txt_rangeLaserWeldingShutdownDistanceValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeLaserWeldingShutdownDistanceValAV.Name = "txt_rangeLaserWeldingShutdownDistanceValAV";
+            this.txt_rangeLaserWeldingShutdownDistanceValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeLaserWeldingShutdownDistanceValAV.TabIndex = 12;
+            // 
+            // label155
+            // 
+            this.label155.AutoSize = true;
+            this.label155.Location = new System.Drawing.Point(4, 28);
+            this.label155.Name = "label155";
+            this.label155.Size = new System.Drawing.Size(25, 16);
+            this.label155.TabIndex = 6;
+            this.label155.Text = "AV";
+            // 
+            // txt_rangeLaserWeldingShutdownDistanceValLSL
+            // 
+            this.txt_rangeLaserWeldingShutdownDistanceValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeLaserWeldingShutdownDistanceValLSL.Name = "txt_rangeLaserWeldingShutdownDistanceValLSL";
+            this.txt_rangeLaserWeldingShutdownDistanceValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeLaserWeldingShutdownDistanceValLSL.TabIndex = 7;
+            // 
+            // label156
+            // 
+            this.label156.AutoSize = true;
+            this.label156.Location = new System.Drawing.Point(4, 58);
+            this.label156.Name = "label156";
+            this.label156.Size = new System.Drawing.Size(30, 16);
+            this.label156.TabIndex = 6;
+            this.label156.Text = "LSL";
+            // 
+            // txt_rangeLaserWeldingShutdownDistanceValUSL
+            // 
+            this.txt_rangeLaserWeldingShutdownDistanceValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeLaserWeldingShutdownDistanceValUSL.Name = "txt_rangeLaserWeldingShutdownDistanceValUSL";
+            this.txt_rangeLaserWeldingShutdownDistanceValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeLaserWeldingShutdownDistanceValUSL.TabIndex = 9;
+            // 
+            // label157
+            // 
+            this.label157.AutoSize = true;
+            this.label157.Location = new System.Drawing.Point(4, 87);
+            this.label157.Name = "label157";
+            this.label157.Size = new System.Drawing.Size(33, 16);
+            this.label157.TabIndex = 8;
+            this.label157.Text = "USL";
+            // 
+            // groupBox112
+            // 
+            this.groupBox112.Controls.Add(this.txt_rangeLaserWeldingShutdownDistance);
+            this.groupBox112.Controls.Add(this.label164);
+            this.groupBox112.Controls.Add(this.txt_rangeLaserWeldingShutdownDistanceUSL);
+            this.groupBox112.Controls.Add(this.label165);
+            this.groupBox112.Controls.Add(this.txt_rangeLaserWeldingShutdownDistanceLSL);
+            this.groupBox112.Controls.Add(this.label166);
+            this.groupBox112.Location = new System.Drawing.Point(16, 36);
+            this.groupBox112.Name = "groupBox112";
+            this.groupBox112.Size = new System.Drawing.Size(154, 118);
+            this.groupBox112.TabIndex = 0;
+            this.groupBox112.TabStop = false;
+            this.groupBox112.Text = "Range";
+            // 
+            // txt_rangeLaserWeldingShutdownDistance
+            // 
+            this.txt_rangeLaserWeldingShutdownDistance.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeLaserWeldingShutdownDistance.Name = "txt_rangeLaserWeldingShutdownDistance";
+            this.txt_rangeLaserWeldingShutdownDistance.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeLaserWeldingShutdownDistance.TabIndex = 2;
+            // 
+            // label164
+            // 
+            this.label164.AutoSize = true;
+            this.label164.Location = new System.Drawing.Point(5, 90);
+            this.label164.Name = "label164";
+            this.label164.Size = new System.Drawing.Size(33, 16);
+            this.label164.TabIndex = 17;
+            this.label164.Text = "USL";
+            // 
+            // txt_rangeLaserWeldingShutdownDistanceUSL
+            // 
+            this.txt_rangeLaserWeldingShutdownDistanceUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeLaserWeldingShutdownDistanceUSL.Name = "txt_rangeLaserWeldingShutdownDistanceUSL";
+            this.txt_rangeLaserWeldingShutdownDistanceUSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeLaserWeldingShutdownDistanceUSL.TabIndex = 18;
+            // 
+            // label165
+            // 
+            this.label165.AutoSize = true;
+            this.label165.Location = new System.Drawing.Point(5, 26);
+            this.label165.Name = "label165";
+            this.label165.Size = new System.Drawing.Size(25, 16);
+            this.label165.TabIndex = 5;
+            this.label165.Text = "AV";
+            // 
+            // txt_rangeLaserWeldingShutdownDistanceLSL
+            // 
+            this.txt_rangeLaserWeldingShutdownDistanceLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeLaserWeldingShutdownDistanceLSL.Name = "txt_rangeLaserWeldingShutdownDistanceLSL";
+            this.txt_rangeLaserWeldingShutdownDistanceLSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeLaserWeldingShutdownDistanceLSL.TabIndex = 15;
+            // 
+            // label166
+            // 
+            this.label166.AutoSize = true;
+            this.label166.Location = new System.Drawing.Point(5, 58);
+            this.label166.Name = "label166";
+            this.label166.Size = new System.Drawing.Size(30, 16);
+            this.label166.TabIndex = 16;
+            this.label166.Text = "LSL";
+            // 
+            // groupBox113
+            // 
+            this.groupBox113.Controls.Add(this.groupBox114);
+            this.groupBox113.Controls.Add(this.groupBox115);
+            this.groupBox113.Controls.Add(this.groupBox116);
+            this.groupBox113.Location = new System.Drawing.Point(378, 17);
+            this.groupBox113.Name = "groupBox113";
+            this.groupBox113.Size = new System.Drawing.Size(366, 169);
+            this.groupBox113.TabIndex = 29;
+            this.groupBox113.TabStop = false;
+            this.groupBox113.Text = "ST60 LaserWelding StartPosition";
+            // 
+            // groupBox114
+            // 
+            this.groupBox114.Controls.Add(this.lbl_statusLaserWeldingStartPositionAV);
+            this.groupBox114.Controls.Add(this.lbl_statusLaserWeldingStartPositionLSL);
+            this.groupBox114.Controls.Add(this.lbl_statusLaserWeldingStartPositionUSL);
+            this.groupBox114.Location = new System.Drawing.Point(286, 36);
+            this.groupBox114.Name = "groupBox114";
+            this.groupBox114.Size = new System.Drawing.Size(68, 118);
+            this.groupBox114.TabIndex = 21;
+            this.groupBox114.TabStop = false;
+            this.groupBox114.Text = "Status";
+            // 
+            // lbl_statusLaserWeldingStartPositionAV
+            // 
+            this.lbl_statusLaserWeldingStartPositionAV.AutoSize = true;
+            this.lbl_statusLaserWeldingStartPositionAV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusLaserWeldingStartPositionAV.Name = "lbl_statusLaserWeldingStartPositionAV";
+            this.lbl_statusLaserWeldingStartPositionAV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusLaserWeldingStartPositionAV.TabIndex = 13;
+            this.lbl_statusLaserWeldingStartPositionAV.Text = "--";
+            // 
+            // lbl_statusLaserWeldingStartPositionLSL
+            // 
+            this.lbl_statusLaserWeldingStartPositionLSL.AutoSize = true;
+            this.lbl_statusLaserWeldingStartPositionLSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusLaserWeldingStartPositionLSL.Name = "lbl_statusLaserWeldingStartPositionLSL";
+            this.lbl_statusLaserWeldingStartPositionLSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusLaserWeldingStartPositionLSL.TabIndex = 10;
+            this.lbl_statusLaserWeldingStartPositionLSL.Text = "--";
+            // 
+            // lbl_statusLaserWeldingStartPositionUSL
+            // 
+            this.lbl_statusLaserWeldingStartPositionUSL.AutoSize = true;
+            this.lbl_statusLaserWeldingStartPositionUSL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusLaserWeldingStartPositionUSL.Name = "lbl_statusLaserWeldingStartPositionUSL";
+            this.lbl_statusLaserWeldingStartPositionUSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusLaserWeldingStartPositionUSL.TabIndex = 11;
+            this.lbl_statusLaserWeldingStartPositionUSL.Text = "--";
+            // 
+            // groupBox115
+            // 
+            this.groupBox115.Controls.Add(this.txt_rangeLaserWeldingStartPositionValAV);
+            this.groupBox115.Controls.Add(this.label182);
+            this.groupBox115.Controls.Add(this.txt_rangeLaserWeldingStartPositionValLSL);
+            this.groupBox115.Controls.Add(this.label183);
+            this.groupBox115.Controls.Add(this.txt_rangeLaserWeldingStartPositionValUSL);
+            this.groupBox115.Controls.Add(this.label184);
+            this.groupBox115.Location = new System.Drawing.Point(176, 36);
+            this.groupBox115.Name = "groupBox115";
+            this.groupBox115.Size = new System.Drawing.Size(104, 118);
+            this.groupBox115.TabIndex = 1;
+            this.groupBox115.TabStop = false;
+            this.groupBox115.Text = "Values";
+            // 
+            // txt_rangeLaserWeldingStartPositionValAV
+            // 
+            this.txt_rangeLaserWeldingStartPositionValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeLaserWeldingStartPositionValAV.Name = "txt_rangeLaserWeldingStartPositionValAV";
+            this.txt_rangeLaserWeldingStartPositionValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeLaserWeldingStartPositionValAV.TabIndex = 12;
+            // 
+            // label182
+            // 
+            this.label182.AutoSize = true;
+            this.label182.Location = new System.Drawing.Point(4, 28);
+            this.label182.Name = "label182";
+            this.label182.Size = new System.Drawing.Size(25, 16);
+            this.label182.TabIndex = 6;
+            this.label182.Text = "AV";
+            // 
+            // txt_rangeLaserWeldingStartPositionValLSL
+            // 
+            this.txt_rangeLaserWeldingStartPositionValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeLaserWeldingStartPositionValLSL.Name = "txt_rangeLaserWeldingStartPositionValLSL";
+            this.txt_rangeLaserWeldingStartPositionValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeLaserWeldingStartPositionValLSL.TabIndex = 7;
+            // 
+            // label183
+            // 
+            this.label183.AutoSize = true;
+            this.label183.Location = new System.Drawing.Point(4, 58);
+            this.label183.Name = "label183";
+            this.label183.Size = new System.Drawing.Size(30, 16);
+            this.label183.TabIndex = 6;
+            this.label183.Text = "LSL";
+            // 
+            // txt_rangeLaserWeldingStartPositionValUSL
+            // 
+            this.txt_rangeLaserWeldingStartPositionValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeLaserWeldingStartPositionValUSL.Name = "txt_rangeLaserWeldingStartPositionValUSL";
+            this.txt_rangeLaserWeldingStartPositionValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeLaserWeldingStartPositionValUSL.TabIndex = 9;
+            // 
+            // label184
+            // 
+            this.label184.AutoSize = true;
+            this.label184.Location = new System.Drawing.Point(4, 87);
+            this.label184.Name = "label184";
+            this.label184.Size = new System.Drawing.Size(33, 16);
+            this.label184.TabIndex = 8;
+            this.label184.Text = "USL";
+            // 
+            // groupBox116
+            // 
+            this.groupBox116.Controls.Add(this.txt_rangeLaserWeldingStartPosition);
+            this.groupBox116.Controls.Add(this.label185);
+            this.groupBox116.Controls.Add(this.txt_rangeLaserWeldingStartPositionUSL);
+            this.groupBox116.Controls.Add(this.label186);
+            this.groupBox116.Controls.Add(this.txt_rangeLaserWeldingStartPositionLSL);
+            this.groupBox116.Controls.Add(this.label187);
+            this.groupBox116.Location = new System.Drawing.Point(16, 36);
+            this.groupBox116.Name = "groupBox116";
+            this.groupBox116.Size = new System.Drawing.Size(154, 118);
+            this.groupBox116.TabIndex = 0;
+            this.groupBox116.TabStop = false;
+            this.groupBox116.Text = "Range";
+            // 
+            // txt_rangeLaserWeldingStartPosition
+            // 
+            this.txt_rangeLaserWeldingStartPosition.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeLaserWeldingStartPosition.Name = "txt_rangeLaserWeldingStartPosition";
+            this.txt_rangeLaserWeldingStartPosition.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeLaserWeldingStartPosition.TabIndex = 2;
+            // 
+            // label185
+            // 
+            this.label185.AutoSize = true;
+            this.label185.Location = new System.Drawing.Point(5, 90);
+            this.label185.Name = "label185";
+            this.label185.Size = new System.Drawing.Size(33, 16);
+            this.label185.TabIndex = 17;
+            this.label185.Text = "USL";
+            // 
+            // txt_rangeLaserWeldingStartPositionUSL
+            // 
+            this.txt_rangeLaserWeldingStartPositionUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeLaserWeldingStartPositionUSL.Name = "txt_rangeLaserWeldingStartPositionUSL";
+            this.txt_rangeLaserWeldingStartPositionUSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeLaserWeldingStartPositionUSL.TabIndex = 18;
+            // 
+            // label186
+            // 
+            this.label186.AutoSize = true;
+            this.label186.Location = new System.Drawing.Point(5, 26);
+            this.label186.Name = "label186";
+            this.label186.Size = new System.Drawing.Size(25, 16);
+            this.label186.TabIndex = 5;
+            this.label186.Text = "AV";
+            // 
+            // txt_rangeLaserWeldingStartPositionLSL
+            // 
+            this.txt_rangeLaserWeldingStartPositionLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeLaserWeldingStartPositionLSL.Name = "txt_rangeLaserWeldingStartPositionLSL";
+            this.txt_rangeLaserWeldingStartPositionLSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeLaserWeldingStartPositionLSL.TabIndex = 15;
+            // 
+            // label187
+            // 
+            this.label187.AutoSize = true;
+            this.label187.Location = new System.Drawing.Point(5, 58);
+            this.label187.Name = "label187";
+            this.label187.Size = new System.Drawing.Size(30, 16);
+            this.label187.TabIndex = 16;
+            this.label187.Text = "LSL";
+            // 
+            // groupBox121
+            // 
+            this.groupBox121.Controls.Add(this.groupBox122);
+            this.groupBox121.Controls.Add(this.groupBox123);
+            this.groupBox121.Controls.Add(this.groupBox124);
+            this.groupBox121.Location = new System.Drawing.Point(6, 17);
+            this.groupBox121.Name = "groupBox121";
+            this.groupBox121.Size = new System.Drawing.Size(366, 169);
+            this.groupBox121.TabIndex = 27;
+            this.groupBox121.TabStop = false;
+            this.groupBox121.Text = "ST60 LaserWelding SettingDistance";
+            // 
+            // groupBox122
+            // 
+            this.groupBox122.Controls.Add(this.lbl_statusLaserWeldingSettingDistanceAV);
+            this.groupBox122.Controls.Add(this.lbl_statusLaserWeldingSettingDistanceLSL);
+            this.groupBox122.Controls.Add(this.lbl_statusLaserWeldingSettingDistanceUSL);
+            this.groupBox122.Location = new System.Drawing.Point(286, 36);
+            this.groupBox122.Name = "groupBox122";
+            this.groupBox122.Size = new System.Drawing.Size(68, 118);
+            this.groupBox122.TabIndex = 21;
+            this.groupBox122.TabStop = false;
+            this.groupBox122.Text = "Status";
+            // 
+            // lbl_statusLaserWeldingSettingDistanceAV
+            // 
+            this.lbl_statusLaserWeldingSettingDistanceAV.AutoSize = true;
+            this.lbl_statusLaserWeldingSettingDistanceAV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusLaserWeldingSettingDistanceAV.Name = "lbl_statusLaserWeldingSettingDistanceAV";
+            this.lbl_statusLaserWeldingSettingDistanceAV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusLaserWeldingSettingDistanceAV.TabIndex = 13;
+            this.lbl_statusLaserWeldingSettingDistanceAV.Text = "--";
+            // 
+            // lbl_statusLaserWeldingSettingDistanceLSL
+            // 
+            this.lbl_statusLaserWeldingSettingDistanceLSL.AutoSize = true;
+            this.lbl_statusLaserWeldingSettingDistanceLSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusLaserWeldingSettingDistanceLSL.Name = "lbl_statusLaserWeldingSettingDistanceLSL";
+            this.lbl_statusLaserWeldingSettingDistanceLSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusLaserWeldingSettingDistanceLSL.TabIndex = 10;
+            this.lbl_statusLaserWeldingSettingDistanceLSL.Text = "--";
+            // 
+            // lbl_statusLaserWeldingSettingDistanceUSL
+            // 
+            this.lbl_statusLaserWeldingSettingDistanceUSL.AutoSize = true;
+            this.lbl_statusLaserWeldingSettingDistanceUSL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusLaserWeldingSettingDistanceUSL.Name = "lbl_statusLaserWeldingSettingDistanceUSL";
+            this.lbl_statusLaserWeldingSettingDistanceUSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusLaserWeldingSettingDistanceUSL.TabIndex = 11;
+            this.lbl_statusLaserWeldingSettingDistanceUSL.Text = "--";
+            // 
+            // groupBox123
+            // 
+            this.groupBox123.Controls.Add(this.txt_rangeLaserWeldingSettingDistanceValAV);
+            this.groupBox123.Controls.Add(this.label200);
+            this.groupBox123.Controls.Add(this.txt_rangeLaserWeldingSettingDistanceValLSL);
+            this.groupBox123.Controls.Add(this.label201);
+            this.groupBox123.Controls.Add(this.txt_rangeLaserWeldingSettingDistanceValUSL);
+            this.groupBox123.Controls.Add(this.label202);
+            this.groupBox123.Location = new System.Drawing.Point(176, 36);
+            this.groupBox123.Name = "groupBox123";
+            this.groupBox123.Size = new System.Drawing.Size(104, 118);
+            this.groupBox123.TabIndex = 1;
+            this.groupBox123.TabStop = false;
+            this.groupBox123.Text = "Values";
+            // 
+            // txt_rangeLaserWeldingSettingDistanceValAV
+            // 
+            this.txt_rangeLaserWeldingSettingDistanceValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeLaserWeldingSettingDistanceValAV.Name = "txt_rangeLaserWeldingSettingDistanceValAV";
+            this.txt_rangeLaserWeldingSettingDistanceValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeLaserWeldingSettingDistanceValAV.TabIndex = 12;
+            // 
+            // label200
+            // 
+            this.label200.AutoSize = true;
+            this.label200.Location = new System.Drawing.Point(4, 28);
+            this.label200.Name = "label200";
+            this.label200.Size = new System.Drawing.Size(25, 16);
+            this.label200.TabIndex = 6;
+            this.label200.Text = "AV";
+            // 
+            // txt_rangeLaserWeldingSettingDistanceValLSL
+            // 
+            this.txt_rangeLaserWeldingSettingDistanceValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeLaserWeldingSettingDistanceValLSL.Name = "txt_rangeLaserWeldingSettingDistanceValLSL";
+            this.txt_rangeLaserWeldingSettingDistanceValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeLaserWeldingSettingDistanceValLSL.TabIndex = 7;
+            // 
+            // label201
+            // 
+            this.label201.AutoSize = true;
+            this.label201.Location = new System.Drawing.Point(4, 58);
+            this.label201.Name = "label201";
+            this.label201.Size = new System.Drawing.Size(30, 16);
+            this.label201.TabIndex = 6;
+            this.label201.Text = "LSL";
+            // 
+            // txt_rangeLaserWeldingSettingDistanceValUSL
+            // 
+            this.txt_rangeLaserWeldingSettingDistanceValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeLaserWeldingSettingDistanceValUSL.Name = "txt_rangeLaserWeldingSettingDistanceValUSL";
+            this.txt_rangeLaserWeldingSettingDistanceValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeLaserWeldingSettingDistanceValUSL.TabIndex = 9;
+            // 
+            // label202
+            // 
+            this.label202.AutoSize = true;
+            this.label202.Location = new System.Drawing.Point(4, 87);
+            this.label202.Name = "label202";
+            this.label202.Size = new System.Drawing.Size(33, 16);
+            this.label202.TabIndex = 8;
+            this.label202.Text = "USL";
+            // 
+            // groupBox124
+            // 
+            this.groupBox124.Controls.Add(this.txt_rangeLaserWeldingSettingDistance);
+            this.groupBox124.Controls.Add(this.label203);
+            this.groupBox124.Controls.Add(this.txt_rangeLaserWeldingSettingDistanceUSL);
+            this.groupBox124.Controls.Add(this.label204);
+            this.groupBox124.Controls.Add(this.txt_rangeLaserWeldingSettingDistanceLSL);
+            this.groupBox124.Controls.Add(this.label205);
+            this.groupBox124.Location = new System.Drawing.Point(16, 36);
+            this.groupBox124.Name = "groupBox124";
+            this.groupBox124.Size = new System.Drawing.Size(154, 118);
+            this.groupBox124.TabIndex = 0;
+            this.groupBox124.TabStop = false;
+            this.groupBox124.Text = "Range";
+            // 
+            // txt_rangeLaserWeldingSettingDistance
+            // 
+            this.txt_rangeLaserWeldingSettingDistance.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeLaserWeldingSettingDistance.Name = "txt_rangeLaserWeldingSettingDistance";
+            this.txt_rangeLaserWeldingSettingDistance.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeLaserWeldingSettingDistance.TabIndex = 2;
+            // 
+            // label203
+            // 
+            this.label203.AutoSize = true;
+            this.label203.Location = new System.Drawing.Point(5, 90);
+            this.label203.Name = "label203";
+            this.label203.Size = new System.Drawing.Size(33, 16);
+            this.label203.TabIndex = 17;
+            this.label203.Text = "USL";
+            // 
+            // txt_rangeLaserWeldingSettingDistanceUSL
+            // 
+            this.txt_rangeLaserWeldingSettingDistanceUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeLaserWeldingSettingDistanceUSL.Name = "txt_rangeLaserWeldingSettingDistanceUSL";
+            this.txt_rangeLaserWeldingSettingDistanceUSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeLaserWeldingSettingDistanceUSL.TabIndex = 18;
+            // 
+            // label204
+            // 
+            this.label204.AutoSize = true;
+            this.label204.Location = new System.Drawing.Point(5, 26);
+            this.label204.Name = "label204";
+            this.label204.Size = new System.Drawing.Size(25, 16);
+            this.label204.TabIndex = 5;
+            this.label204.Text = "AV";
+            // 
+            // txt_rangeLaserWeldingSettingDistanceLSL
+            // 
+            this.txt_rangeLaserWeldingSettingDistanceLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeLaserWeldingSettingDistanceLSL.Name = "txt_rangeLaserWeldingSettingDistanceLSL";
+            this.txt_rangeLaserWeldingSettingDistanceLSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeLaserWeldingSettingDistanceLSL.TabIndex = 15;
+            // 
+            // label205
+            // 
+            this.label205.AutoSize = true;
+            this.label205.Location = new System.Drawing.Point(5, 58);
+            this.label205.Name = "label205";
+            this.label205.Size = new System.Drawing.Size(30, 16);
+            this.label205.TabIndex = 16;
+            this.label205.Text = "LSL";
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage5.Controls.Add(this.groupBox117);
+            this.tabPage5.Controls.Add(this.groupBox125);
+            this.tabPage5.Controls.Add(this.groupBox129);
+            this.tabPage5.Controls.Add(this.groupBox133);
+            this.tabPage5.Controls.Add(this.groupBox137);
+            this.tabPage5.Controls.Add(this.groupBox141);
+            this.tabPage5.Controls.Add(this.groupBox145);
+            this.tabPage5.Controls.Add(this.groupBox149);
+            this.tabPage5.Controls.Add(this.groupBox153);
+            this.tabPage5.Controls.Add(this.groupBox157);
+            this.tabPage5.Controls.Add(this.groupBox161);
+            this.tabPage5.Controls.Add(this.groupBox165);
+            this.tabPage5.Controls.Add(this.groupBox169);
+            this.tabPage5.Location = new System.Drawing.Point(4, 29);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Size = new System.Drawing.Size(1513, 743);
+            this.tabPage5.TabIndex = 3;
+            this.tabPage5.Text = "ST80";
+            // 
+            // groupBox117
+            // 
+            this.groupBox117.Controls.Add(this.groupBox118);
+            this.groupBox117.Controls.Add(this.groupBox119);
+            this.groupBox117.Controls.Add(this.groupBox120);
+            this.groupBox117.Location = new System.Drawing.Point(6, 542);
+            this.groupBox117.Name = "groupBox117";
+            this.groupBox117.Size = new System.Drawing.Size(366, 169);
+            this.groupBox117.TabIndex = 46;
+            this.groupBox117.TabStop = false;
+            this.groupBox117.Text = "ST80 EOL M11";
+            // 
+            // groupBox118
+            // 
+            this.groupBox118.Controls.Add(this.lbl_statusEOLM11AV);
+            this.groupBox118.Controls.Add(this.lbl_statusEOLM11LSL);
+            this.groupBox118.Controls.Add(this.lbl_statusEOLM11USL);
+            this.groupBox118.Location = new System.Drawing.Point(286, 36);
+            this.groupBox118.Name = "groupBox118";
+            this.groupBox118.Size = new System.Drawing.Size(68, 118);
+            this.groupBox118.TabIndex = 21;
+            this.groupBox118.TabStop = false;
+            this.groupBox118.Text = "Status";
+            // 
+            // lbl_statusEOLM11AV
+            // 
+            this.lbl_statusEOLM11AV.AutoSize = true;
+            this.lbl_statusEOLM11AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusEOLM11AV.Name = "lbl_statusEOLM11AV";
+            this.lbl_statusEOLM11AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM11AV.TabIndex = 13;
+            this.lbl_statusEOLM11AV.Text = "--";
+            // 
+            // lbl_statusEOLM11LSL
+            // 
+            this.lbl_statusEOLM11LSL.AutoSize = true;
+            this.lbl_statusEOLM11LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusEOLM11LSL.Name = "lbl_statusEOLM11LSL";
+            this.lbl_statusEOLM11LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM11LSL.TabIndex = 10;
+            this.lbl_statusEOLM11LSL.Text = "--";
+            // 
+            // lbl_statusEOLM11USL
+            // 
+            this.lbl_statusEOLM11USL.AutoSize = true;
+            this.lbl_statusEOLM11USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusEOLM11USL.Name = "lbl_statusEOLM11USL";
+            this.lbl_statusEOLM11USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM11USL.TabIndex = 11;
+            this.lbl_statusEOLM11USL.Text = "--";
+            // 
+            // groupBox119
+            // 
+            this.groupBox119.Controls.Add(this.txt_rangeEOLM11ValAV);
+            this.groupBox119.Controls.Add(this.label137);
+            this.groupBox119.Controls.Add(this.txt_rangeEOLM11ValLSL);
+            this.groupBox119.Controls.Add(this.label138);
+            this.groupBox119.Controls.Add(this.txt_rangeEOLM11ValUSL);
+            this.groupBox119.Controls.Add(this.label139);
+            this.groupBox119.Location = new System.Drawing.Point(176, 36);
+            this.groupBox119.Name = "groupBox119";
+            this.groupBox119.Size = new System.Drawing.Size(104, 118);
+            this.groupBox119.TabIndex = 1;
+            this.groupBox119.TabStop = false;
+            this.groupBox119.Text = "Values";
+            // 
+            // txt_rangeEOLM11ValAV
+            // 
+            this.txt_rangeEOLM11ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM11ValAV.Name = "txt_rangeEOLM11ValAV";
+            this.txt_rangeEOLM11ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM11ValAV.TabIndex = 12;
+            // 
+            // label137
+            // 
+            this.label137.AutoSize = true;
+            this.label137.Location = new System.Drawing.Point(4, 28);
+            this.label137.Name = "label137";
+            this.label137.Size = new System.Drawing.Size(25, 16);
+            this.label137.TabIndex = 6;
+            this.label137.Text = "AV";
+            // 
+            // txt_rangeEOLM11ValLSL
+            // 
+            this.txt_rangeEOLM11ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM11ValLSL.Name = "txt_rangeEOLM11ValLSL";
+            this.txt_rangeEOLM11ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM11ValLSL.TabIndex = 7;
+            // 
+            // label138
+            // 
+            this.label138.AutoSize = true;
+            this.label138.Location = new System.Drawing.Point(4, 58);
+            this.label138.Name = "label138";
+            this.label138.Size = new System.Drawing.Size(30, 16);
+            this.label138.TabIndex = 6;
+            this.label138.Text = "LSL";
+            // 
+            // txt_rangeEOLM11ValUSL
+            // 
+            this.txt_rangeEOLM11ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM11ValUSL.Name = "txt_rangeEOLM11ValUSL";
+            this.txt_rangeEOLM11ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM11ValUSL.TabIndex = 9;
+            // 
+            // label139
+            // 
+            this.label139.AutoSize = true;
+            this.label139.Location = new System.Drawing.Point(4, 87);
+            this.label139.Name = "label139";
+            this.label139.Size = new System.Drawing.Size(33, 16);
+            this.label139.TabIndex = 8;
+            this.label139.Text = "USL";
+            // 
+            // groupBox120
+            // 
+            this.groupBox120.Controls.Add(this.txt_rangeEOLM11);
+            this.groupBox120.Controls.Add(this.label146);
+            this.groupBox120.Controls.Add(this.txt_rangeEOLM11USL);
+            this.groupBox120.Controls.Add(this.label147);
+            this.groupBox120.Controls.Add(this.txt_rangeEOLM11LSL);
+            this.groupBox120.Controls.Add(this.label148);
+            this.groupBox120.Location = new System.Drawing.Point(16, 36);
+            this.groupBox120.Name = "groupBox120";
+            this.groupBox120.Size = new System.Drawing.Size(154, 118);
+            this.groupBox120.TabIndex = 0;
+            this.groupBox120.TabStop = false;
+            this.groupBox120.Text = "Range";
+            // 
+            // txt_rangeEOLM11
+            // 
+            this.txt_rangeEOLM11.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM11.Name = "txt_rangeEOLM11";
+            this.txt_rangeEOLM11.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM11.TabIndex = 2;
+            // 
+            // label146
+            // 
+            this.label146.AutoSize = true;
+            this.label146.Location = new System.Drawing.Point(5, 90);
+            this.label146.Name = "label146";
+            this.label146.Size = new System.Drawing.Size(33, 16);
+            this.label146.TabIndex = 17;
+            this.label146.Text = "USL";
+            // 
+            // txt_rangeEOLM11USL
+            // 
+            this.txt_rangeEOLM11USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM11USL.Name = "txt_rangeEOLM11USL";
+            this.txt_rangeEOLM11USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM11USL.TabIndex = 18;
+            // 
+            // label147
+            // 
+            this.label147.AutoSize = true;
+            this.label147.Location = new System.Drawing.Point(5, 26);
+            this.label147.Name = "label147";
+            this.label147.Size = new System.Drawing.Size(25, 16);
+            this.label147.TabIndex = 5;
+            this.label147.Text = "AV";
+            // 
+            // txt_rangeEOLM11LSL
+            // 
+            this.txt_rangeEOLM11LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM11LSL.Name = "txt_rangeEOLM11LSL";
+            this.txt_rangeEOLM11LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM11LSL.TabIndex = 15;
+            // 
+            // label148
+            // 
+            this.label148.AutoSize = true;
+            this.label148.Location = new System.Drawing.Point(5, 58);
+            this.label148.Name = "label148";
+            this.label148.Size = new System.Drawing.Size(30, 16);
+            this.label148.TabIndex = 16;
+            this.label148.Text = "LSL";
+            // 
+            // groupBox125
+            // 
+            this.groupBox125.Controls.Add(this.groupBox126);
+            this.groupBox125.Controls.Add(this.groupBox127);
+            this.groupBox125.Controls.Add(this.groupBox128);
+            this.groupBox125.Location = new System.Drawing.Point(1122, 367);
+            this.groupBox125.Name = "groupBox125";
+            this.groupBox125.Size = new System.Drawing.Size(366, 169);
+            this.groupBox125.TabIndex = 45;
+            this.groupBox125.TabStop = false;
+            this.groupBox125.Text = "ST80 EOL M10";
+            // 
+            // groupBox126
+            // 
+            this.groupBox126.Controls.Add(this.lbl_statusEOLM10AV);
+            this.groupBox126.Controls.Add(this.lbl_statusEOLM10LSL);
+            this.groupBox126.Controls.Add(this.lbl_statusEOLM10USL);
+            this.groupBox126.Location = new System.Drawing.Point(286, 36);
+            this.groupBox126.Name = "groupBox126";
+            this.groupBox126.Size = new System.Drawing.Size(68, 118);
+            this.groupBox126.TabIndex = 21;
+            this.groupBox126.TabStop = false;
+            this.groupBox126.Text = "Status";
+            // 
+            // lbl_statusEOLM10AV
+            // 
+            this.lbl_statusEOLM10AV.AutoSize = true;
+            this.lbl_statusEOLM10AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusEOLM10AV.Name = "lbl_statusEOLM10AV";
+            this.lbl_statusEOLM10AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM10AV.TabIndex = 13;
+            this.lbl_statusEOLM10AV.Text = "--";
+            // 
+            // lbl_statusEOLM10LSL
+            // 
+            this.lbl_statusEOLM10LSL.AutoSize = true;
+            this.lbl_statusEOLM10LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusEOLM10LSL.Name = "lbl_statusEOLM10LSL";
+            this.lbl_statusEOLM10LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM10LSL.TabIndex = 10;
+            this.lbl_statusEOLM10LSL.Text = "--";
+            // 
+            // lbl_statusEOLM10USL
+            // 
+            this.lbl_statusEOLM10USL.AutoSize = true;
+            this.lbl_statusEOLM10USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusEOLM10USL.Name = "lbl_statusEOLM10USL";
+            this.lbl_statusEOLM10USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM10USL.TabIndex = 11;
+            this.lbl_statusEOLM10USL.Text = "--";
+            // 
+            // groupBox127
+            // 
+            this.groupBox127.Controls.Add(this.txt_rangeEOLM10ValAV);
+            this.groupBox127.Controls.Add(this.label188);
+            this.groupBox127.Controls.Add(this.txt_rangeEOLM10ValLSL);
+            this.groupBox127.Controls.Add(this.label189);
+            this.groupBox127.Controls.Add(this.txt_rangeEOLM10ValUSL);
+            this.groupBox127.Controls.Add(this.label190);
+            this.groupBox127.Location = new System.Drawing.Point(176, 36);
+            this.groupBox127.Name = "groupBox127";
+            this.groupBox127.Size = new System.Drawing.Size(104, 118);
+            this.groupBox127.TabIndex = 1;
+            this.groupBox127.TabStop = false;
+            this.groupBox127.Text = "Values";
+            // 
+            // txt_rangeEOLM10ValAV
+            // 
+            this.txt_rangeEOLM10ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM10ValAV.Name = "txt_rangeEOLM10ValAV";
+            this.txt_rangeEOLM10ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM10ValAV.TabIndex = 12;
+            // 
+            // label188
+            // 
+            this.label188.AutoSize = true;
+            this.label188.Location = new System.Drawing.Point(4, 28);
+            this.label188.Name = "label188";
+            this.label188.Size = new System.Drawing.Size(25, 16);
+            this.label188.TabIndex = 6;
+            this.label188.Text = "AV";
+            // 
+            // txt_rangeEOLM10ValLSL
+            // 
+            this.txt_rangeEOLM10ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM10ValLSL.Name = "txt_rangeEOLM10ValLSL";
+            this.txt_rangeEOLM10ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM10ValLSL.TabIndex = 7;
+            // 
+            // label189
+            // 
+            this.label189.AutoSize = true;
+            this.label189.Location = new System.Drawing.Point(4, 58);
+            this.label189.Name = "label189";
+            this.label189.Size = new System.Drawing.Size(30, 16);
+            this.label189.TabIndex = 6;
+            this.label189.Text = "LSL";
+            // 
+            // txt_rangeEOLM10ValUSL
+            // 
+            this.txt_rangeEOLM10ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM10ValUSL.Name = "txt_rangeEOLM10ValUSL";
+            this.txt_rangeEOLM10ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM10ValUSL.TabIndex = 9;
+            // 
+            // label190
+            // 
+            this.label190.AutoSize = true;
+            this.label190.Location = new System.Drawing.Point(4, 87);
+            this.label190.Name = "label190";
+            this.label190.Size = new System.Drawing.Size(33, 16);
+            this.label190.TabIndex = 8;
+            this.label190.Text = "USL";
+            // 
+            // groupBox128
+            // 
+            this.groupBox128.Controls.Add(this.txt_rangeEOLM10);
+            this.groupBox128.Controls.Add(this.label191);
+            this.groupBox128.Controls.Add(this.txt_rangeEOLM10USL);
+            this.groupBox128.Controls.Add(this.label192);
+            this.groupBox128.Controls.Add(this.txt_rangeEOLM10LSL);
+            this.groupBox128.Controls.Add(this.label193);
+            this.groupBox128.Location = new System.Drawing.Point(16, 36);
+            this.groupBox128.Name = "groupBox128";
+            this.groupBox128.Size = new System.Drawing.Size(154, 118);
+            this.groupBox128.TabIndex = 0;
+            this.groupBox128.TabStop = false;
+            this.groupBox128.Text = "Range";
+            // 
+            // txt_rangeEOLM10
+            // 
+            this.txt_rangeEOLM10.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM10.Name = "txt_rangeEOLM10";
+            this.txt_rangeEOLM10.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM10.TabIndex = 2;
+            // 
+            // label191
+            // 
+            this.label191.AutoSize = true;
+            this.label191.Location = new System.Drawing.Point(5, 90);
+            this.label191.Name = "label191";
+            this.label191.Size = new System.Drawing.Size(33, 16);
+            this.label191.TabIndex = 17;
+            this.label191.Text = "USL";
+            // 
+            // txt_rangeEOLM10USL
+            // 
+            this.txt_rangeEOLM10USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM10USL.Name = "txt_rangeEOLM10USL";
+            this.txt_rangeEOLM10USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM10USL.TabIndex = 18;
+            // 
+            // label192
+            // 
+            this.label192.AutoSize = true;
+            this.label192.Location = new System.Drawing.Point(5, 26);
+            this.label192.Name = "label192";
+            this.label192.Size = new System.Drawing.Size(25, 16);
+            this.label192.TabIndex = 5;
+            this.label192.Text = "AV";
+            // 
+            // txt_rangeEOLM10LSL
+            // 
+            this.txt_rangeEOLM10LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM10LSL.Name = "txt_rangeEOLM10LSL";
+            this.txt_rangeEOLM10LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM10LSL.TabIndex = 15;
+            // 
+            // label193
+            // 
+            this.label193.AutoSize = true;
+            this.label193.Location = new System.Drawing.Point(5, 58);
+            this.label193.Name = "label193";
+            this.label193.Size = new System.Drawing.Size(30, 16);
+            this.label193.TabIndex = 16;
+            this.label193.Text = "LSL";
+            // 
+            // groupBox129
+            // 
+            this.groupBox129.Controls.Add(this.groupBox130);
+            this.groupBox129.Controls.Add(this.groupBox131);
+            this.groupBox129.Controls.Add(this.groupBox132);
+            this.groupBox129.Location = new System.Drawing.Point(750, 367);
+            this.groupBox129.Name = "groupBox129";
+            this.groupBox129.Size = new System.Drawing.Size(366, 169);
+            this.groupBox129.TabIndex = 44;
+            this.groupBox129.TabStop = false;
+            this.groupBox129.Text = "ST80 EOL M09";
+            // 
+            // groupBox130
+            // 
+            this.groupBox130.Controls.Add(this.lbl_statusEOLM09AV);
+            this.groupBox130.Controls.Add(this.lbl_statusEOLM09LSL);
+            this.groupBox130.Controls.Add(this.lbl_statusEOLM09USL);
+            this.groupBox130.Location = new System.Drawing.Point(286, 36);
+            this.groupBox130.Name = "groupBox130";
+            this.groupBox130.Size = new System.Drawing.Size(68, 118);
+            this.groupBox130.TabIndex = 21;
+            this.groupBox130.TabStop = false;
+            this.groupBox130.Text = "Status";
+            // 
+            // lbl_statusEOLM09AV
+            // 
+            this.lbl_statusEOLM09AV.AutoSize = true;
+            this.lbl_statusEOLM09AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusEOLM09AV.Name = "lbl_statusEOLM09AV";
+            this.lbl_statusEOLM09AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM09AV.TabIndex = 13;
+            this.lbl_statusEOLM09AV.Text = "--";
+            // 
+            // lbl_statusEOLM09LSL
+            // 
+            this.lbl_statusEOLM09LSL.AutoSize = true;
+            this.lbl_statusEOLM09LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusEOLM09LSL.Name = "lbl_statusEOLM09LSL";
+            this.lbl_statusEOLM09LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM09LSL.TabIndex = 10;
+            this.lbl_statusEOLM09LSL.Text = "--";
+            // 
+            // lbl_statusEOLM09USL
+            // 
+            this.lbl_statusEOLM09USL.AutoSize = true;
+            this.lbl_statusEOLM09USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusEOLM09USL.Name = "lbl_statusEOLM09USL";
+            this.lbl_statusEOLM09USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM09USL.TabIndex = 11;
+            this.lbl_statusEOLM09USL.Text = "--";
+            // 
+            // groupBox131
+            // 
+            this.groupBox131.Controls.Add(this.txt_rangeEOLM09ValAV);
+            this.groupBox131.Controls.Add(this.label197);
+            this.groupBox131.Controls.Add(this.txt_rangeEOLM09ValLSL);
+            this.groupBox131.Controls.Add(this.label198);
+            this.groupBox131.Controls.Add(this.txt_rangeEOLM09ValUSL);
+            this.groupBox131.Controls.Add(this.label199);
+            this.groupBox131.Location = new System.Drawing.Point(176, 36);
+            this.groupBox131.Name = "groupBox131";
+            this.groupBox131.Size = new System.Drawing.Size(104, 118);
+            this.groupBox131.TabIndex = 1;
+            this.groupBox131.TabStop = false;
+            this.groupBox131.Text = "Values";
+            // 
+            // txt_rangeEOLM09ValAV
+            // 
+            this.txt_rangeEOLM09ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM09ValAV.Name = "txt_rangeEOLM09ValAV";
+            this.txt_rangeEOLM09ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM09ValAV.TabIndex = 12;
+            // 
+            // label197
+            // 
+            this.label197.AutoSize = true;
+            this.label197.Location = new System.Drawing.Point(4, 28);
+            this.label197.Name = "label197";
+            this.label197.Size = new System.Drawing.Size(25, 16);
+            this.label197.TabIndex = 6;
+            this.label197.Text = "AV";
+            // 
+            // txt_rangeEOLM09ValLSL
+            // 
+            this.txt_rangeEOLM09ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM09ValLSL.Name = "txt_rangeEOLM09ValLSL";
+            this.txt_rangeEOLM09ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM09ValLSL.TabIndex = 7;
+            // 
+            // label198
+            // 
+            this.label198.AutoSize = true;
+            this.label198.Location = new System.Drawing.Point(4, 58);
+            this.label198.Name = "label198";
+            this.label198.Size = new System.Drawing.Size(30, 16);
+            this.label198.TabIndex = 6;
+            this.label198.Text = "LSL";
+            // 
+            // txt_rangeEOLM09ValUSL
+            // 
+            this.txt_rangeEOLM09ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM09ValUSL.Name = "txt_rangeEOLM09ValUSL";
+            this.txt_rangeEOLM09ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM09ValUSL.TabIndex = 9;
+            // 
+            // label199
+            // 
+            this.label199.AutoSize = true;
+            this.label199.Location = new System.Drawing.Point(4, 87);
+            this.label199.Name = "label199";
+            this.label199.Size = new System.Drawing.Size(33, 16);
+            this.label199.TabIndex = 8;
+            this.label199.Text = "USL";
+            // 
+            // groupBox132
+            // 
+            this.groupBox132.Controls.Add(this.txt_rangeEOLM09);
+            this.groupBox132.Controls.Add(this.label206);
+            this.groupBox132.Controls.Add(this.txt_rangeEOLM09USL);
+            this.groupBox132.Controls.Add(this.label207);
+            this.groupBox132.Controls.Add(this.txt_rangeEOLM09LSL);
+            this.groupBox132.Controls.Add(this.label208);
+            this.groupBox132.Location = new System.Drawing.Point(16, 36);
+            this.groupBox132.Name = "groupBox132";
+            this.groupBox132.Size = new System.Drawing.Size(154, 118);
+            this.groupBox132.TabIndex = 0;
+            this.groupBox132.TabStop = false;
+            this.groupBox132.Text = "Range";
+            // 
+            // txt_rangeEOLM09
+            // 
+            this.txt_rangeEOLM09.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM09.Name = "txt_rangeEOLM09";
+            this.txt_rangeEOLM09.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM09.TabIndex = 2;
+            // 
+            // label206
+            // 
+            this.label206.AutoSize = true;
+            this.label206.Location = new System.Drawing.Point(5, 90);
+            this.label206.Name = "label206";
+            this.label206.Size = new System.Drawing.Size(33, 16);
+            this.label206.TabIndex = 17;
+            this.label206.Text = "USL";
+            // 
+            // txt_rangeEOLM09USL
+            // 
+            this.txt_rangeEOLM09USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM09USL.Name = "txt_rangeEOLM09USL";
+            this.txt_rangeEOLM09USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM09USL.TabIndex = 18;
+            // 
+            // label207
+            // 
+            this.label207.AutoSize = true;
+            this.label207.Location = new System.Drawing.Point(5, 26);
+            this.label207.Name = "label207";
+            this.label207.Size = new System.Drawing.Size(25, 16);
+            this.label207.TabIndex = 5;
+            this.label207.Text = "AV";
+            // 
+            // txt_rangeEOLM09LSL
+            // 
+            this.txt_rangeEOLM09LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM09LSL.Name = "txt_rangeEOLM09LSL";
+            this.txt_rangeEOLM09LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM09LSL.TabIndex = 15;
+            // 
+            // label208
+            // 
+            this.label208.AutoSize = true;
+            this.label208.Location = new System.Drawing.Point(5, 58);
+            this.label208.Name = "label208";
+            this.label208.Size = new System.Drawing.Size(30, 16);
+            this.label208.TabIndex = 16;
+            this.label208.Text = "LSL";
+            // 
+            // groupBox133
+            // 
+            this.groupBox133.Controls.Add(this.groupBox134);
+            this.groupBox133.Controls.Add(this.groupBox135);
+            this.groupBox133.Controls.Add(this.groupBox136);
+            this.groupBox133.Location = new System.Drawing.Point(378, 367);
+            this.groupBox133.Name = "groupBox133";
+            this.groupBox133.Size = new System.Drawing.Size(366, 169);
+            this.groupBox133.TabIndex = 43;
+            this.groupBox133.TabStop = false;
+            this.groupBox133.Text = "ST80 EOL M08";
+            // 
+            // groupBox134
+            // 
+            this.groupBox134.Controls.Add(this.lbl_statusEOLM08AV);
+            this.groupBox134.Controls.Add(this.lbl_statusEOLM08LSL);
+            this.groupBox134.Controls.Add(this.lbl_statusEOLM08USL);
+            this.groupBox134.Location = new System.Drawing.Point(286, 36);
+            this.groupBox134.Name = "groupBox134";
+            this.groupBox134.Size = new System.Drawing.Size(68, 118);
+            this.groupBox134.TabIndex = 21;
+            this.groupBox134.TabStop = false;
+            this.groupBox134.Text = "Status";
+            // 
+            // lbl_statusEOLM08AV
+            // 
+            this.lbl_statusEOLM08AV.AutoSize = true;
+            this.lbl_statusEOLM08AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusEOLM08AV.Name = "lbl_statusEOLM08AV";
+            this.lbl_statusEOLM08AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM08AV.TabIndex = 13;
+            this.lbl_statusEOLM08AV.Text = "--";
+            // 
+            // lbl_statusEOLM08LSL
+            // 
+            this.lbl_statusEOLM08LSL.AutoSize = true;
+            this.lbl_statusEOLM08LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusEOLM08LSL.Name = "lbl_statusEOLM08LSL";
+            this.lbl_statusEOLM08LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM08LSL.TabIndex = 10;
+            this.lbl_statusEOLM08LSL.Text = "--";
+            // 
+            // lbl_statusEOLM08USL
+            // 
+            this.lbl_statusEOLM08USL.AutoSize = true;
+            this.lbl_statusEOLM08USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusEOLM08USL.Name = "lbl_statusEOLM08USL";
+            this.lbl_statusEOLM08USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM08USL.TabIndex = 11;
+            this.lbl_statusEOLM08USL.Text = "--";
+            // 
+            // groupBox135
+            // 
+            this.groupBox135.Controls.Add(this.txt_rangeEOLM08ValAV);
+            this.groupBox135.Controls.Add(this.label212);
+            this.groupBox135.Controls.Add(this.txt_rangeEOLM08ValLSL);
+            this.groupBox135.Controls.Add(this.label213);
+            this.groupBox135.Controls.Add(this.txt_rangeEOLM08ValUSL);
+            this.groupBox135.Controls.Add(this.label214);
+            this.groupBox135.Location = new System.Drawing.Point(176, 36);
+            this.groupBox135.Name = "groupBox135";
+            this.groupBox135.Size = new System.Drawing.Size(104, 118);
+            this.groupBox135.TabIndex = 1;
+            this.groupBox135.TabStop = false;
+            this.groupBox135.Text = "Values";
+            // 
+            // txt_rangeEOLM08ValAV
+            // 
+            this.txt_rangeEOLM08ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM08ValAV.Name = "txt_rangeEOLM08ValAV";
+            this.txt_rangeEOLM08ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM08ValAV.TabIndex = 12;
+            // 
+            // label212
+            // 
+            this.label212.AutoSize = true;
+            this.label212.Location = new System.Drawing.Point(4, 28);
+            this.label212.Name = "label212";
+            this.label212.Size = new System.Drawing.Size(25, 16);
+            this.label212.TabIndex = 6;
+            this.label212.Text = "AV";
+            // 
+            // txt_rangeEOLM08ValLSL
+            // 
+            this.txt_rangeEOLM08ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM08ValLSL.Name = "txt_rangeEOLM08ValLSL";
+            this.txt_rangeEOLM08ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM08ValLSL.TabIndex = 7;
+            // 
+            // label213
+            // 
+            this.label213.AutoSize = true;
+            this.label213.Location = new System.Drawing.Point(4, 58);
+            this.label213.Name = "label213";
+            this.label213.Size = new System.Drawing.Size(30, 16);
+            this.label213.TabIndex = 6;
+            this.label213.Text = "LSL";
+            // 
+            // txt_rangeEOLM08ValUSL
+            // 
+            this.txt_rangeEOLM08ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM08ValUSL.Name = "txt_rangeEOLM08ValUSL";
+            this.txt_rangeEOLM08ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM08ValUSL.TabIndex = 9;
+            // 
+            // label214
+            // 
+            this.label214.AutoSize = true;
+            this.label214.Location = new System.Drawing.Point(4, 87);
+            this.label214.Name = "label214";
+            this.label214.Size = new System.Drawing.Size(33, 16);
+            this.label214.TabIndex = 8;
+            this.label214.Text = "USL";
+            // 
+            // groupBox136
+            // 
+            this.groupBox136.Controls.Add(this.txt_rangeEOLM08);
+            this.groupBox136.Controls.Add(this.label215);
+            this.groupBox136.Controls.Add(this.txt_rangeEOLM08USL);
+            this.groupBox136.Controls.Add(this.label216);
+            this.groupBox136.Controls.Add(this.txt_rangeEOLM08LSL);
+            this.groupBox136.Controls.Add(this.label217);
+            this.groupBox136.Location = new System.Drawing.Point(16, 36);
+            this.groupBox136.Name = "groupBox136";
+            this.groupBox136.Size = new System.Drawing.Size(154, 118);
+            this.groupBox136.TabIndex = 0;
+            this.groupBox136.TabStop = false;
+            this.groupBox136.Text = "Range";
+            // 
+            // txt_rangeEOLM08
+            // 
+            this.txt_rangeEOLM08.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM08.Name = "txt_rangeEOLM08";
+            this.txt_rangeEOLM08.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM08.TabIndex = 2;
+            // 
+            // label215
+            // 
+            this.label215.AutoSize = true;
+            this.label215.Location = new System.Drawing.Point(5, 90);
+            this.label215.Name = "label215";
+            this.label215.Size = new System.Drawing.Size(33, 16);
+            this.label215.TabIndex = 17;
+            this.label215.Text = "USL";
+            // 
+            // txt_rangeEOLM08USL
+            // 
+            this.txt_rangeEOLM08USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM08USL.Name = "txt_rangeEOLM08USL";
+            this.txt_rangeEOLM08USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM08USL.TabIndex = 18;
+            // 
+            // label216
+            // 
+            this.label216.AutoSize = true;
+            this.label216.Location = new System.Drawing.Point(5, 26);
+            this.label216.Name = "label216";
+            this.label216.Size = new System.Drawing.Size(25, 16);
+            this.label216.TabIndex = 5;
+            this.label216.Text = "AV";
+            // 
+            // txt_rangeEOLM08LSL
+            // 
+            this.txt_rangeEOLM08LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM08LSL.Name = "txt_rangeEOLM08LSL";
+            this.txt_rangeEOLM08LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM08LSL.TabIndex = 15;
+            // 
+            // label217
+            // 
+            this.label217.AutoSize = true;
+            this.label217.Location = new System.Drawing.Point(5, 58);
+            this.label217.Name = "label217";
+            this.label217.Size = new System.Drawing.Size(30, 16);
+            this.label217.TabIndex = 16;
+            this.label217.Text = "LSL";
+            // 
+            // groupBox137
+            // 
+            this.groupBox137.Controls.Add(this.groupBox138);
+            this.groupBox137.Controls.Add(this.groupBox139);
+            this.groupBox137.Controls.Add(this.groupBox140);
+            this.groupBox137.Location = new System.Drawing.Point(6, 367);
+            this.groupBox137.Name = "groupBox137";
+            this.groupBox137.Size = new System.Drawing.Size(366, 169);
+            this.groupBox137.TabIndex = 42;
+            this.groupBox137.TabStop = false;
+            this.groupBox137.Text = "ST80 EOL M07";
+            // 
+            // groupBox138
+            // 
+            this.groupBox138.Controls.Add(this.lbl_statusEOLM07AV);
+            this.groupBox138.Controls.Add(this.lbl_statusEOLM07LSL);
+            this.groupBox138.Controls.Add(this.lbl_statusEOLM07USL);
+            this.groupBox138.Location = new System.Drawing.Point(286, 36);
+            this.groupBox138.Name = "groupBox138";
+            this.groupBox138.Size = new System.Drawing.Size(68, 118);
+            this.groupBox138.TabIndex = 21;
+            this.groupBox138.TabStop = false;
+            this.groupBox138.Text = "Status";
+            // 
+            // lbl_statusEOLM07AV
+            // 
+            this.lbl_statusEOLM07AV.AutoSize = true;
+            this.lbl_statusEOLM07AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusEOLM07AV.Name = "lbl_statusEOLM07AV";
+            this.lbl_statusEOLM07AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM07AV.TabIndex = 13;
+            this.lbl_statusEOLM07AV.Text = "--";
+            // 
+            // lbl_statusEOLM07LSL
+            // 
+            this.lbl_statusEOLM07LSL.AutoSize = true;
+            this.lbl_statusEOLM07LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusEOLM07LSL.Name = "lbl_statusEOLM07LSL";
+            this.lbl_statusEOLM07LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM07LSL.TabIndex = 10;
+            this.lbl_statusEOLM07LSL.Text = "--";
+            // 
+            // lbl_statusEOLM07USL
+            // 
+            this.lbl_statusEOLM07USL.AutoSize = true;
+            this.lbl_statusEOLM07USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusEOLM07USL.Name = "lbl_statusEOLM07USL";
+            this.lbl_statusEOLM07USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM07USL.TabIndex = 11;
+            this.lbl_statusEOLM07USL.Text = "--";
+            // 
+            // groupBox139
+            // 
+            this.groupBox139.Controls.Add(this.txt_rangeEOLM07ValAV);
+            this.groupBox139.Controls.Add(this.label221);
+            this.groupBox139.Controls.Add(this.txt_rangeEOLM07ValLSL);
+            this.groupBox139.Controls.Add(this.label222);
+            this.groupBox139.Controls.Add(this.txt_rangeEOLM07ValUSL);
+            this.groupBox139.Controls.Add(this.label223);
+            this.groupBox139.Location = new System.Drawing.Point(176, 36);
+            this.groupBox139.Name = "groupBox139";
+            this.groupBox139.Size = new System.Drawing.Size(104, 118);
+            this.groupBox139.TabIndex = 1;
+            this.groupBox139.TabStop = false;
+            this.groupBox139.Text = "Values";
+            // 
+            // txt_rangeEOLM07ValAV
+            // 
+            this.txt_rangeEOLM07ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM07ValAV.Name = "txt_rangeEOLM07ValAV";
+            this.txt_rangeEOLM07ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM07ValAV.TabIndex = 12;
+            // 
+            // label221
+            // 
+            this.label221.AutoSize = true;
+            this.label221.Location = new System.Drawing.Point(4, 28);
+            this.label221.Name = "label221";
+            this.label221.Size = new System.Drawing.Size(25, 16);
+            this.label221.TabIndex = 6;
+            this.label221.Text = "AV";
+            // 
+            // txt_rangeEOLM07ValLSL
+            // 
+            this.txt_rangeEOLM07ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM07ValLSL.Name = "txt_rangeEOLM07ValLSL";
+            this.txt_rangeEOLM07ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM07ValLSL.TabIndex = 7;
+            // 
+            // label222
+            // 
+            this.label222.AutoSize = true;
+            this.label222.Location = new System.Drawing.Point(4, 58);
+            this.label222.Name = "label222";
+            this.label222.Size = new System.Drawing.Size(30, 16);
+            this.label222.TabIndex = 6;
+            this.label222.Text = "LSL";
+            // 
+            // txt_rangeEOLM07ValUSL
+            // 
+            this.txt_rangeEOLM07ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM07ValUSL.Name = "txt_rangeEOLM07ValUSL";
+            this.txt_rangeEOLM07ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM07ValUSL.TabIndex = 9;
+            // 
+            // label223
+            // 
+            this.label223.AutoSize = true;
+            this.label223.Location = new System.Drawing.Point(4, 87);
+            this.label223.Name = "label223";
+            this.label223.Size = new System.Drawing.Size(33, 16);
+            this.label223.TabIndex = 8;
+            this.label223.Text = "USL";
+            // 
+            // groupBox140
+            // 
+            this.groupBox140.Controls.Add(this.txt_rangeEOLM07);
+            this.groupBox140.Controls.Add(this.label224);
+            this.groupBox140.Controls.Add(this.txt_rangeEOLM07USL);
+            this.groupBox140.Controls.Add(this.label225);
+            this.groupBox140.Controls.Add(this.txt_rangeEOLM07LSL);
+            this.groupBox140.Controls.Add(this.label226);
+            this.groupBox140.Location = new System.Drawing.Point(16, 36);
+            this.groupBox140.Name = "groupBox140";
+            this.groupBox140.Size = new System.Drawing.Size(154, 118);
+            this.groupBox140.TabIndex = 0;
+            this.groupBox140.TabStop = false;
+            this.groupBox140.Text = "Range";
+            // 
+            // txt_rangeEOLM07
+            // 
+            this.txt_rangeEOLM07.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM07.Name = "txt_rangeEOLM07";
+            this.txt_rangeEOLM07.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM07.TabIndex = 2;
+            // 
+            // label224
+            // 
+            this.label224.AutoSize = true;
+            this.label224.Location = new System.Drawing.Point(5, 90);
+            this.label224.Name = "label224";
+            this.label224.Size = new System.Drawing.Size(33, 16);
+            this.label224.TabIndex = 17;
+            this.label224.Text = "USL";
+            // 
+            // txt_rangeEOLM07USL
+            // 
+            this.txt_rangeEOLM07USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM07USL.Name = "txt_rangeEOLM07USL";
+            this.txt_rangeEOLM07USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM07USL.TabIndex = 18;
+            // 
+            // label225
+            // 
+            this.label225.AutoSize = true;
+            this.label225.Location = new System.Drawing.Point(5, 26);
+            this.label225.Name = "label225";
+            this.label225.Size = new System.Drawing.Size(25, 16);
+            this.label225.TabIndex = 5;
+            this.label225.Text = "AV";
+            // 
+            // txt_rangeEOLM07LSL
+            // 
+            this.txt_rangeEOLM07LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM07LSL.Name = "txt_rangeEOLM07LSL";
+            this.txt_rangeEOLM07LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM07LSL.TabIndex = 15;
+            // 
+            // label226
+            // 
+            this.label226.AutoSize = true;
+            this.label226.Location = new System.Drawing.Point(5, 58);
+            this.label226.Name = "label226";
+            this.label226.Size = new System.Drawing.Size(30, 16);
+            this.label226.TabIndex = 16;
+            this.label226.Text = "LSL";
+            // 
+            // groupBox141
+            // 
+            this.groupBox141.Controls.Add(this.groupBox142);
+            this.groupBox141.Controls.Add(this.groupBox143);
+            this.groupBox141.Controls.Add(this.groupBox144);
+            this.groupBox141.Location = new System.Drawing.Point(1122, 192);
+            this.groupBox141.Name = "groupBox141";
+            this.groupBox141.Size = new System.Drawing.Size(366, 169);
+            this.groupBox141.TabIndex = 41;
+            this.groupBox141.TabStop = false;
+            this.groupBox141.Text = "ST80 EOL M06";
+            // 
+            // groupBox142
+            // 
+            this.groupBox142.Controls.Add(this.lbl_statusEOLM06AV);
+            this.groupBox142.Controls.Add(this.lbl_statusEOLM06LSL);
+            this.groupBox142.Controls.Add(this.lbl_statusEOLM06USL);
+            this.groupBox142.Location = new System.Drawing.Point(286, 36);
+            this.groupBox142.Name = "groupBox142";
+            this.groupBox142.Size = new System.Drawing.Size(68, 118);
+            this.groupBox142.TabIndex = 21;
+            this.groupBox142.TabStop = false;
+            this.groupBox142.Text = "Status";
+            // 
+            // lbl_statusEOLM06AV
+            // 
+            this.lbl_statusEOLM06AV.AutoSize = true;
+            this.lbl_statusEOLM06AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusEOLM06AV.Name = "lbl_statusEOLM06AV";
+            this.lbl_statusEOLM06AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM06AV.TabIndex = 13;
+            this.lbl_statusEOLM06AV.Text = "--";
+            // 
+            // lbl_statusEOLM06LSL
+            // 
+            this.lbl_statusEOLM06LSL.AutoSize = true;
+            this.lbl_statusEOLM06LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusEOLM06LSL.Name = "lbl_statusEOLM06LSL";
+            this.lbl_statusEOLM06LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM06LSL.TabIndex = 10;
+            this.lbl_statusEOLM06LSL.Text = "--";
+            // 
+            // lbl_statusEOLM06USL
+            // 
+            this.lbl_statusEOLM06USL.AutoSize = true;
+            this.lbl_statusEOLM06USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusEOLM06USL.Name = "lbl_statusEOLM06USL";
+            this.lbl_statusEOLM06USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM06USL.TabIndex = 11;
+            this.lbl_statusEOLM06USL.Text = "--";
+            // 
+            // groupBox143
+            // 
+            this.groupBox143.Controls.Add(this.txt_rangeEOLM06ValAV);
+            this.groupBox143.Controls.Add(this.label230);
+            this.groupBox143.Controls.Add(this.txt_rangeEOLM06ValLSL);
+            this.groupBox143.Controls.Add(this.label231);
+            this.groupBox143.Controls.Add(this.txt_rangeEOLM06ValUSL);
+            this.groupBox143.Controls.Add(this.label232);
+            this.groupBox143.Location = new System.Drawing.Point(176, 36);
+            this.groupBox143.Name = "groupBox143";
+            this.groupBox143.Size = new System.Drawing.Size(104, 118);
+            this.groupBox143.TabIndex = 1;
+            this.groupBox143.TabStop = false;
+            this.groupBox143.Text = "Values";
+            // 
+            // txt_rangeEOLM06ValAV
+            // 
+            this.txt_rangeEOLM06ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM06ValAV.Name = "txt_rangeEOLM06ValAV";
+            this.txt_rangeEOLM06ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM06ValAV.TabIndex = 12;
+            // 
+            // label230
+            // 
+            this.label230.AutoSize = true;
+            this.label230.Location = new System.Drawing.Point(4, 28);
+            this.label230.Name = "label230";
+            this.label230.Size = new System.Drawing.Size(25, 16);
+            this.label230.TabIndex = 6;
+            this.label230.Text = "AV";
+            // 
+            // txt_rangeEOLM06ValLSL
+            // 
+            this.txt_rangeEOLM06ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM06ValLSL.Name = "txt_rangeEOLM06ValLSL";
+            this.txt_rangeEOLM06ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM06ValLSL.TabIndex = 7;
+            // 
+            // label231
+            // 
+            this.label231.AutoSize = true;
+            this.label231.Location = new System.Drawing.Point(4, 58);
+            this.label231.Name = "label231";
+            this.label231.Size = new System.Drawing.Size(30, 16);
+            this.label231.TabIndex = 6;
+            this.label231.Text = "LSL";
+            // 
+            // txt_rangeEOLM06ValUSL
+            // 
+            this.txt_rangeEOLM06ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM06ValUSL.Name = "txt_rangeEOLM06ValUSL";
+            this.txt_rangeEOLM06ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM06ValUSL.TabIndex = 9;
+            // 
+            // label232
+            // 
+            this.label232.AutoSize = true;
+            this.label232.Location = new System.Drawing.Point(4, 87);
+            this.label232.Name = "label232";
+            this.label232.Size = new System.Drawing.Size(33, 16);
+            this.label232.TabIndex = 8;
+            this.label232.Text = "USL";
+            // 
+            // groupBox144
+            // 
+            this.groupBox144.Controls.Add(this.txt_rangeEOLM06);
+            this.groupBox144.Controls.Add(this.label233);
+            this.groupBox144.Controls.Add(this.txt_rangeEOLM06USL);
+            this.groupBox144.Controls.Add(this.label234);
+            this.groupBox144.Controls.Add(this.txt_rangeEOLM06LSL);
+            this.groupBox144.Controls.Add(this.label235);
+            this.groupBox144.Location = new System.Drawing.Point(16, 36);
+            this.groupBox144.Name = "groupBox144";
+            this.groupBox144.Size = new System.Drawing.Size(154, 118);
+            this.groupBox144.TabIndex = 0;
+            this.groupBox144.TabStop = false;
+            this.groupBox144.Text = "Range";
+            // 
+            // txt_rangeEOLM06
+            // 
+            this.txt_rangeEOLM06.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM06.Name = "txt_rangeEOLM06";
+            this.txt_rangeEOLM06.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM06.TabIndex = 2;
+            // 
+            // label233
+            // 
+            this.label233.AutoSize = true;
+            this.label233.Location = new System.Drawing.Point(5, 90);
+            this.label233.Name = "label233";
+            this.label233.Size = new System.Drawing.Size(33, 16);
+            this.label233.TabIndex = 17;
+            this.label233.Text = "USL";
+            // 
+            // txt_rangeEOLM06USL
+            // 
+            this.txt_rangeEOLM06USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM06USL.Name = "txt_rangeEOLM06USL";
+            this.txt_rangeEOLM06USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM06USL.TabIndex = 18;
+            // 
+            // label234
+            // 
+            this.label234.AutoSize = true;
+            this.label234.Location = new System.Drawing.Point(5, 26);
+            this.label234.Name = "label234";
+            this.label234.Size = new System.Drawing.Size(25, 16);
+            this.label234.TabIndex = 5;
+            this.label234.Text = "AV";
+            // 
+            // txt_rangeEOLM06LSL
+            // 
+            this.txt_rangeEOLM06LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM06LSL.Name = "txt_rangeEOLM06LSL";
+            this.txt_rangeEOLM06LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM06LSL.TabIndex = 15;
+            // 
+            // label235
+            // 
+            this.label235.AutoSize = true;
+            this.label235.Location = new System.Drawing.Point(5, 58);
+            this.label235.Name = "label235";
+            this.label235.Size = new System.Drawing.Size(30, 16);
+            this.label235.TabIndex = 16;
+            this.label235.Text = "LSL";
+            // 
+            // groupBox145
+            // 
+            this.groupBox145.Controls.Add(this.groupBox146);
+            this.groupBox145.Controls.Add(this.groupBox147);
+            this.groupBox145.Controls.Add(this.groupBox148);
+            this.groupBox145.Location = new System.Drawing.Point(750, 192);
+            this.groupBox145.Name = "groupBox145";
+            this.groupBox145.Size = new System.Drawing.Size(366, 169);
+            this.groupBox145.TabIndex = 40;
+            this.groupBox145.TabStop = false;
+            this.groupBox145.Text = "ST80 EOL M05";
+            // 
+            // groupBox146
+            // 
+            this.groupBox146.Controls.Add(this.lbl_statusEOLM05AV);
+            this.groupBox146.Controls.Add(this.lbl_statusEOLM05LSL);
+            this.groupBox146.Controls.Add(this.lbl_statusEOLM05USL);
+            this.groupBox146.Location = new System.Drawing.Point(286, 36);
+            this.groupBox146.Name = "groupBox146";
+            this.groupBox146.Size = new System.Drawing.Size(68, 118);
+            this.groupBox146.TabIndex = 21;
+            this.groupBox146.TabStop = false;
+            this.groupBox146.Text = "Status";
+            // 
+            // lbl_statusEOLM05AV
+            // 
+            this.lbl_statusEOLM05AV.AutoSize = true;
+            this.lbl_statusEOLM05AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusEOLM05AV.Name = "lbl_statusEOLM05AV";
+            this.lbl_statusEOLM05AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM05AV.TabIndex = 13;
+            this.lbl_statusEOLM05AV.Text = "--";
+            // 
+            // lbl_statusEOLM05LSL
+            // 
+            this.lbl_statusEOLM05LSL.AutoSize = true;
+            this.lbl_statusEOLM05LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusEOLM05LSL.Name = "lbl_statusEOLM05LSL";
+            this.lbl_statusEOLM05LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM05LSL.TabIndex = 10;
+            this.lbl_statusEOLM05LSL.Text = "--";
+            // 
+            // lbl_statusEOLM05USL
+            // 
+            this.lbl_statusEOLM05USL.AutoSize = true;
+            this.lbl_statusEOLM05USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusEOLM05USL.Name = "lbl_statusEOLM05USL";
+            this.lbl_statusEOLM05USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM05USL.TabIndex = 11;
+            this.lbl_statusEOLM05USL.Text = "--";
+            // 
+            // groupBox147
+            // 
+            this.groupBox147.Controls.Add(this.txt_rangeEOLM05ValAV);
+            this.groupBox147.Controls.Add(this.label239);
+            this.groupBox147.Controls.Add(this.txt_rangeEOLM05ValLSL);
+            this.groupBox147.Controls.Add(this.label240);
+            this.groupBox147.Controls.Add(this.txt_rangeEOLM05ValUSL);
+            this.groupBox147.Controls.Add(this.label241);
+            this.groupBox147.Location = new System.Drawing.Point(176, 36);
+            this.groupBox147.Name = "groupBox147";
+            this.groupBox147.Size = new System.Drawing.Size(104, 118);
+            this.groupBox147.TabIndex = 1;
+            this.groupBox147.TabStop = false;
+            this.groupBox147.Text = "Values";
+            // 
+            // txt_rangeEOLM05ValAV
+            // 
+            this.txt_rangeEOLM05ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM05ValAV.Name = "txt_rangeEOLM05ValAV";
+            this.txt_rangeEOLM05ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM05ValAV.TabIndex = 12;
+            // 
+            // label239
+            // 
+            this.label239.AutoSize = true;
+            this.label239.Location = new System.Drawing.Point(4, 28);
+            this.label239.Name = "label239";
+            this.label239.Size = new System.Drawing.Size(25, 16);
+            this.label239.TabIndex = 6;
+            this.label239.Text = "AV";
+            // 
+            // txt_rangeEOLM05ValLSL
+            // 
+            this.txt_rangeEOLM05ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM05ValLSL.Name = "txt_rangeEOLM05ValLSL";
+            this.txt_rangeEOLM05ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM05ValLSL.TabIndex = 7;
+            // 
+            // label240
+            // 
+            this.label240.AutoSize = true;
+            this.label240.Location = new System.Drawing.Point(4, 58);
+            this.label240.Name = "label240";
+            this.label240.Size = new System.Drawing.Size(30, 16);
+            this.label240.TabIndex = 6;
+            this.label240.Text = "LSL";
+            // 
+            // txt_rangeEOLM05ValUSL
+            // 
+            this.txt_rangeEOLM05ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM05ValUSL.Name = "txt_rangeEOLM05ValUSL";
+            this.txt_rangeEOLM05ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM05ValUSL.TabIndex = 9;
+            // 
+            // label241
+            // 
+            this.label241.AutoSize = true;
+            this.label241.Location = new System.Drawing.Point(4, 87);
+            this.label241.Name = "label241";
+            this.label241.Size = new System.Drawing.Size(33, 16);
+            this.label241.TabIndex = 8;
+            this.label241.Text = "USL";
+            // 
+            // groupBox148
+            // 
+            this.groupBox148.Controls.Add(this.txt_rangeEOLM05);
+            this.groupBox148.Controls.Add(this.label242);
+            this.groupBox148.Controls.Add(this.txt_rangeEOLM05USL);
+            this.groupBox148.Controls.Add(this.label243);
+            this.groupBox148.Controls.Add(this.txt_rangeEOLM05LSL);
+            this.groupBox148.Controls.Add(this.label244);
+            this.groupBox148.Location = new System.Drawing.Point(16, 36);
+            this.groupBox148.Name = "groupBox148";
+            this.groupBox148.Size = new System.Drawing.Size(154, 118);
+            this.groupBox148.TabIndex = 0;
+            this.groupBox148.TabStop = false;
+            this.groupBox148.Text = "Range";
+            // 
+            // txt_rangeEOLM05
+            // 
+            this.txt_rangeEOLM05.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM05.Name = "txt_rangeEOLM05";
+            this.txt_rangeEOLM05.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM05.TabIndex = 2;
+            // 
+            // label242
+            // 
+            this.label242.AutoSize = true;
+            this.label242.Location = new System.Drawing.Point(5, 90);
+            this.label242.Name = "label242";
+            this.label242.Size = new System.Drawing.Size(33, 16);
+            this.label242.TabIndex = 17;
+            this.label242.Text = "USL";
+            // 
+            // txt_rangeEOLM05USL
+            // 
+            this.txt_rangeEOLM05USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM05USL.Name = "txt_rangeEOLM05USL";
+            this.txt_rangeEOLM05USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM05USL.TabIndex = 18;
+            // 
+            // label243
+            // 
+            this.label243.AutoSize = true;
+            this.label243.Location = new System.Drawing.Point(5, 26);
+            this.label243.Name = "label243";
+            this.label243.Size = new System.Drawing.Size(25, 16);
+            this.label243.TabIndex = 5;
+            this.label243.Text = "AV";
+            // 
+            // txt_rangeEOLM05LSL
+            // 
+            this.txt_rangeEOLM05LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM05LSL.Name = "txt_rangeEOLM05LSL";
+            this.txt_rangeEOLM05LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM05LSL.TabIndex = 15;
+            // 
+            // label244
+            // 
+            this.label244.AutoSize = true;
+            this.label244.Location = new System.Drawing.Point(5, 58);
+            this.label244.Name = "label244";
+            this.label244.Size = new System.Drawing.Size(30, 16);
+            this.label244.TabIndex = 16;
+            this.label244.Text = "LSL";
+            // 
+            // groupBox149
+            // 
+            this.groupBox149.Controls.Add(this.groupBox150);
+            this.groupBox149.Controls.Add(this.groupBox151);
+            this.groupBox149.Controls.Add(this.groupBox152);
+            this.groupBox149.Location = new System.Drawing.Point(378, 192);
+            this.groupBox149.Name = "groupBox149";
+            this.groupBox149.Size = new System.Drawing.Size(366, 169);
+            this.groupBox149.TabIndex = 39;
+            this.groupBox149.TabStop = false;
+            this.groupBox149.Text = "ST80 EOL M04";
+            // 
+            // groupBox150
+            // 
+            this.groupBox150.Controls.Add(this.lbl_statusEOLM04AV);
+            this.groupBox150.Controls.Add(this.lbl_statusEOLM04LSL);
+            this.groupBox150.Controls.Add(this.lbl_statusEOLM04USL);
+            this.groupBox150.Location = new System.Drawing.Point(286, 36);
+            this.groupBox150.Name = "groupBox150";
+            this.groupBox150.Size = new System.Drawing.Size(68, 118);
+            this.groupBox150.TabIndex = 21;
+            this.groupBox150.TabStop = false;
+            this.groupBox150.Text = "Status";
+            // 
+            // lbl_statusEOLM04AV
+            // 
+            this.lbl_statusEOLM04AV.AutoSize = true;
+            this.lbl_statusEOLM04AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusEOLM04AV.Name = "lbl_statusEOLM04AV";
+            this.lbl_statusEOLM04AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM04AV.TabIndex = 13;
+            this.lbl_statusEOLM04AV.Text = "--";
+            // 
+            // lbl_statusEOLM04LSL
+            // 
+            this.lbl_statusEOLM04LSL.AutoSize = true;
+            this.lbl_statusEOLM04LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusEOLM04LSL.Name = "lbl_statusEOLM04LSL";
+            this.lbl_statusEOLM04LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM04LSL.TabIndex = 10;
+            this.lbl_statusEOLM04LSL.Text = "--";
+            // 
+            // lbl_statusEOLM04USL
+            // 
+            this.lbl_statusEOLM04USL.AutoSize = true;
+            this.lbl_statusEOLM04USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusEOLM04USL.Name = "lbl_statusEOLM04USL";
+            this.lbl_statusEOLM04USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM04USL.TabIndex = 11;
+            this.lbl_statusEOLM04USL.Text = "--";
+            // 
+            // groupBox151
+            // 
+            this.groupBox151.Controls.Add(this.txt_rangeEOLM04ValAV);
+            this.groupBox151.Controls.Add(this.label248);
+            this.groupBox151.Controls.Add(this.txt_rangeEOLM04ValLSL);
+            this.groupBox151.Controls.Add(this.label249);
+            this.groupBox151.Controls.Add(this.txt_rangeEOLM04ValUSL);
+            this.groupBox151.Controls.Add(this.label250);
+            this.groupBox151.Location = new System.Drawing.Point(176, 36);
+            this.groupBox151.Name = "groupBox151";
+            this.groupBox151.Size = new System.Drawing.Size(104, 118);
+            this.groupBox151.TabIndex = 1;
+            this.groupBox151.TabStop = false;
+            this.groupBox151.Text = "Values";
+            // 
+            // txt_rangeEOLM04ValAV
+            // 
+            this.txt_rangeEOLM04ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM04ValAV.Name = "txt_rangeEOLM04ValAV";
+            this.txt_rangeEOLM04ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM04ValAV.TabIndex = 12;
+            // 
+            // label248
+            // 
+            this.label248.AutoSize = true;
+            this.label248.Location = new System.Drawing.Point(4, 28);
+            this.label248.Name = "label248";
+            this.label248.Size = new System.Drawing.Size(25, 16);
+            this.label248.TabIndex = 6;
+            this.label248.Text = "AV";
+            // 
+            // txt_rangeEOLM04ValLSL
+            // 
+            this.txt_rangeEOLM04ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM04ValLSL.Name = "txt_rangeEOLM04ValLSL";
+            this.txt_rangeEOLM04ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM04ValLSL.TabIndex = 7;
+            // 
+            // label249
+            // 
+            this.label249.AutoSize = true;
+            this.label249.Location = new System.Drawing.Point(4, 58);
+            this.label249.Name = "label249";
+            this.label249.Size = new System.Drawing.Size(30, 16);
+            this.label249.TabIndex = 6;
+            this.label249.Text = "LSL";
+            // 
+            // txt_rangeEOLM04ValUSL
+            // 
+            this.txt_rangeEOLM04ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM04ValUSL.Name = "txt_rangeEOLM04ValUSL";
+            this.txt_rangeEOLM04ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM04ValUSL.TabIndex = 9;
+            // 
+            // label250
+            // 
+            this.label250.AutoSize = true;
+            this.label250.Location = new System.Drawing.Point(4, 87);
+            this.label250.Name = "label250";
+            this.label250.Size = new System.Drawing.Size(33, 16);
+            this.label250.TabIndex = 8;
+            this.label250.Text = "USL";
+            // 
+            // groupBox152
+            // 
+            this.groupBox152.Controls.Add(this.txt_rangeEOLM04);
+            this.groupBox152.Controls.Add(this.label251);
+            this.groupBox152.Controls.Add(this.txt_rangeEOLM04USL);
+            this.groupBox152.Controls.Add(this.label252);
+            this.groupBox152.Controls.Add(this.txt_rangeEOLM04LSL);
+            this.groupBox152.Controls.Add(this.label253);
+            this.groupBox152.Location = new System.Drawing.Point(16, 36);
+            this.groupBox152.Name = "groupBox152";
+            this.groupBox152.Size = new System.Drawing.Size(154, 118);
+            this.groupBox152.TabIndex = 0;
+            this.groupBox152.TabStop = false;
+            this.groupBox152.Text = "Range";
+            // 
+            // txt_rangeEOLM04
+            // 
+            this.txt_rangeEOLM04.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM04.Name = "txt_rangeEOLM04";
+            this.txt_rangeEOLM04.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM04.TabIndex = 2;
+            // 
+            // label251
+            // 
+            this.label251.AutoSize = true;
+            this.label251.Location = new System.Drawing.Point(5, 90);
+            this.label251.Name = "label251";
+            this.label251.Size = new System.Drawing.Size(33, 16);
+            this.label251.TabIndex = 17;
+            this.label251.Text = "USL";
+            // 
+            // txt_rangeEOLM04USL
+            // 
+            this.txt_rangeEOLM04USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM04USL.Name = "txt_rangeEOLM04USL";
+            this.txt_rangeEOLM04USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM04USL.TabIndex = 18;
+            // 
+            // label252
+            // 
+            this.label252.AutoSize = true;
+            this.label252.Location = new System.Drawing.Point(5, 26);
+            this.label252.Name = "label252";
+            this.label252.Size = new System.Drawing.Size(25, 16);
+            this.label252.TabIndex = 5;
+            this.label252.Text = "AV";
+            // 
+            // txt_rangeEOLM04LSL
+            // 
+            this.txt_rangeEOLM04LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM04LSL.Name = "txt_rangeEOLM04LSL";
+            this.txt_rangeEOLM04LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM04LSL.TabIndex = 15;
+            // 
+            // label253
+            // 
+            this.label253.AutoSize = true;
+            this.label253.Location = new System.Drawing.Point(5, 58);
+            this.label253.Name = "label253";
+            this.label253.Size = new System.Drawing.Size(30, 16);
+            this.label253.TabIndex = 16;
+            this.label253.Text = "LSL";
+            // 
+            // groupBox153
+            // 
+            this.groupBox153.Controls.Add(this.groupBox154);
+            this.groupBox153.Controls.Add(this.groupBox155);
+            this.groupBox153.Controls.Add(this.groupBox156);
+            this.groupBox153.Location = new System.Drawing.Point(6, 192);
+            this.groupBox153.Name = "groupBox153";
+            this.groupBox153.Size = new System.Drawing.Size(366, 169);
+            this.groupBox153.TabIndex = 38;
+            this.groupBox153.TabStop = false;
+            this.groupBox153.Text = "ST80 EOL M03";
+            // 
+            // groupBox154
+            // 
+            this.groupBox154.Controls.Add(this.lbl_statusEOLM03AV);
+            this.groupBox154.Controls.Add(this.lbl_statusEOLM03LSL);
+            this.groupBox154.Controls.Add(this.lbl_statusEOLM03USL);
+            this.groupBox154.Location = new System.Drawing.Point(286, 36);
+            this.groupBox154.Name = "groupBox154";
+            this.groupBox154.Size = new System.Drawing.Size(68, 118);
+            this.groupBox154.TabIndex = 21;
+            this.groupBox154.TabStop = false;
+            this.groupBox154.Text = "Status";
+            // 
+            // lbl_statusEOLM03AV
+            // 
+            this.lbl_statusEOLM03AV.AutoSize = true;
+            this.lbl_statusEOLM03AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusEOLM03AV.Name = "lbl_statusEOLM03AV";
+            this.lbl_statusEOLM03AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM03AV.TabIndex = 13;
+            this.lbl_statusEOLM03AV.Text = "--";
+            // 
+            // lbl_statusEOLM03LSL
+            // 
+            this.lbl_statusEOLM03LSL.AutoSize = true;
+            this.lbl_statusEOLM03LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusEOLM03LSL.Name = "lbl_statusEOLM03LSL";
+            this.lbl_statusEOLM03LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM03LSL.TabIndex = 10;
+            this.lbl_statusEOLM03LSL.Text = "--";
+            // 
+            // lbl_statusEOLM03USL
+            // 
+            this.lbl_statusEOLM03USL.AutoSize = true;
+            this.lbl_statusEOLM03USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusEOLM03USL.Name = "lbl_statusEOLM03USL";
+            this.lbl_statusEOLM03USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM03USL.TabIndex = 11;
+            this.lbl_statusEOLM03USL.Text = "--";
+            // 
+            // groupBox155
+            // 
+            this.groupBox155.Controls.Add(this.txt_rangeEOLM03ValAV);
+            this.groupBox155.Controls.Add(this.label257);
+            this.groupBox155.Controls.Add(this.txt_rangeEOLM03ValLSL);
+            this.groupBox155.Controls.Add(this.label258);
+            this.groupBox155.Controls.Add(this.txt_rangeEOLM03ValUSL);
+            this.groupBox155.Controls.Add(this.label259);
+            this.groupBox155.Location = new System.Drawing.Point(176, 36);
+            this.groupBox155.Name = "groupBox155";
+            this.groupBox155.Size = new System.Drawing.Size(104, 118);
+            this.groupBox155.TabIndex = 1;
+            this.groupBox155.TabStop = false;
+            this.groupBox155.Text = "Values";
+            // 
+            // txt_rangeEOLM03ValAV
+            // 
+            this.txt_rangeEOLM03ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM03ValAV.Name = "txt_rangeEOLM03ValAV";
+            this.txt_rangeEOLM03ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM03ValAV.TabIndex = 12;
+            // 
+            // label257
+            // 
+            this.label257.AutoSize = true;
+            this.label257.Location = new System.Drawing.Point(4, 28);
+            this.label257.Name = "label257";
+            this.label257.Size = new System.Drawing.Size(25, 16);
+            this.label257.TabIndex = 6;
+            this.label257.Text = "AV";
+            // 
+            // txt_rangeEOLM03ValLSL
+            // 
+            this.txt_rangeEOLM03ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM03ValLSL.Name = "txt_rangeEOLM03ValLSL";
+            this.txt_rangeEOLM03ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM03ValLSL.TabIndex = 7;
+            // 
+            // label258
+            // 
+            this.label258.AutoSize = true;
+            this.label258.Location = new System.Drawing.Point(4, 58);
+            this.label258.Name = "label258";
+            this.label258.Size = new System.Drawing.Size(30, 16);
+            this.label258.TabIndex = 6;
+            this.label258.Text = "LSL";
+            // 
+            // txt_rangeEOLM03ValUSL
+            // 
+            this.txt_rangeEOLM03ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM03ValUSL.Name = "txt_rangeEOLM03ValUSL";
+            this.txt_rangeEOLM03ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM03ValUSL.TabIndex = 9;
+            // 
+            // label259
+            // 
+            this.label259.AutoSize = true;
+            this.label259.Location = new System.Drawing.Point(4, 87);
+            this.label259.Name = "label259";
+            this.label259.Size = new System.Drawing.Size(33, 16);
+            this.label259.TabIndex = 8;
+            this.label259.Text = "USL";
+            // 
+            // groupBox156
+            // 
+            this.groupBox156.Controls.Add(this.txt_rangeEOLM03);
+            this.groupBox156.Controls.Add(this.label260);
+            this.groupBox156.Controls.Add(this.txt_rangeEOLM03USL);
+            this.groupBox156.Controls.Add(this.label261);
+            this.groupBox156.Controls.Add(this.txt_rangeEOLM03LSL);
+            this.groupBox156.Controls.Add(this.label262);
+            this.groupBox156.Location = new System.Drawing.Point(16, 36);
+            this.groupBox156.Name = "groupBox156";
+            this.groupBox156.Size = new System.Drawing.Size(154, 118);
+            this.groupBox156.TabIndex = 0;
+            this.groupBox156.TabStop = false;
+            this.groupBox156.Text = "Range";
+            // 
+            // txt_rangeEOLM03
+            // 
+            this.txt_rangeEOLM03.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM03.Name = "txt_rangeEOLM03";
+            this.txt_rangeEOLM03.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM03.TabIndex = 2;
+            // 
+            // label260
+            // 
+            this.label260.AutoSize = true;
+            this.label260.Location = new System.Drawing.Point(5, 90);
+            this.label260.Name = "label260";
+            this.label260.Size = new System.Drawing.Size(33, 16);
+            this.label260.TabIndex = 17;
+            this.label260.Text = "USL";
+            // 
+            // txt_rangeEOLM03USL
+            // 
+            this.txt_rangeEOLM03USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM03USL.Name = "txt_rangeEOLM03USL";
+            this.txt_rangeEOLM03USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM03USL.TabIndex = 18;
+            // 
+            // label261
+            // 
+            this.label261.AutoSize = true;
+            this.label261.Location = new System.Drawing.Point(5, 26);
+            this.label261.Name = "label261";
+            this.label261.Size = new System.Drawing.Size(25, 16);
+            this.label261.TabIndex = 5;
+            this.label261.Text = "AV";
+            // 
+            // txt_rangeEOLM03LSL
+            // 
+            this.txt_rangeEOLM03LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM03LSL.Name = "txt_rangeEOLM03LSL";
+            this.txt_rangeEOLM03LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM03LSL.TabIndex = 15;
+            // 
+            // label262
+            // 
+            this.label262.AutoSize = true;
+            this.label262.Location = new System.Drawing.Point(5, 58);
+            this.label262.Name = "label262";
+            this.label262.Size = new System.Drawing.Size(30, 16);
+            this.label262.TabIndex = 16;
+            this.label262.Text = "LSL";
+            // 
+            // groupBox157
+            // 
+            this.groupBox157.Controls.Add(this.groupBox158);
+            this.groupBox157.Controls.Add(this.groupBox159);
+            this.groupBox157.Controls.Add(this.groupBox160);
+            this.groupBox157.Location = new System.Drawing.Point(1122, 17);
+            this.groupBox157.Name = "groupBox157";
+            this.groupBox157.Size = new System.Drawing.Size(366, 169);
+            this.groupBox157.TabIndex = 37;
+            this.groupBox157.TabStop = false;
+            this.groupBox157.Text = "ST80 EOL M02";
+            // 
+            // groupBox158
+            // 
+            this.groupBox158.Controls.Add(this.lbl_statusEOLM02AV);
+            this.groupBox158.Controls.Add(this.lbl_statusEOLM02LSL);
+            this.groupBox158.Controls.Add(this.lbl_statusEOLM02USL);
+            this.groupBox158.Location = new System.Drawing.Point(286, 36);
+            this.groupBox158.Name = "groupBox158";
+            this.groupBox158.Size = new System.Drawing.Size(68, 118);
+            this.groupBox158.TabIndex = 21;
+            this.groupBox158.TabStop = false;
+            this.groupBox158.Text = "Status";
+            // 
+            // lbl_statusEOLM02AV
+            // 
+            this.lbl_statusEOLM02AV.AutoSize = true;
+            this.lbl_statusEOLM02AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusEOLM02AV.Name = "lbl_statusEOLM02AV";
+            this.lbl_statusEOLM02AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM02AV.TabIndex = 13;
+            this.lbl_statusEOLM02AV.Text = "--";
+            // 
+            // lbl_statusEOLM02LSL
+            // 
+            this.lbl_statusEOLM02LSL.AutoSize = true;
+            this.lbl_statusEOLM02LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusEOLM02LSL.Name = "lbl_statusEOLM02LSL";
+            this.lbl_statusEOLM02LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM02LSL.TabIndex = 10;
+            this.lbl_statusEOLM02LSL.Text = "--";
+            // 
+            // lbl_statusEOLM02USL
+            // 
+            this.lbl_statusEOLM02USL.AutoSize = true;
+            this.lbl_statusEOLM02USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusEOLM02USL.Name = "lbl_statusEOLM02USL";
+            this.lbl_statusEOLM02USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM02USL.TabIndex = 11;
+            this.lbl_statusEOLM02USL.Text = "--";
+            // 
+            // groupBox159
+            // 
+            this.groupBox159.Controls.Add(this.txt_rangeEOLM02ValAV);
+            this.groupBox159.Controls.Add(this.label266);
+            this.groupBox159.Controls.Add(this.txt_rangeEOLM02ValLSL);
+            this.groupBox159.Controls.Add(this.label267);
+            this.groupBox159.Controls.Add(this.txt_rangeEOLM02ValUSL);
+            this.groupBox159.Controls.Add(this.label268);
+            this.groupBox159.Location = new System.Drawing.Point(176, 36);
+            this.groupBox159.Name = "groupBox159";
+            this.groupBox159.Size = new System.Drawing.Size(104, 118);
+            this.groupBox159.TabIndex = 1;
+            this.groupBox159.TabStop = false;
+            this.groupBox159.Text = "Values";
+            // 
+            // txt_rangeEOLM02ValAV
+            // 
+            this.txt_rangeEOLM02ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM02ValAV.Name = "txt_rangeEOLM02ValAV";
+            this.txt_rangeEOLM02ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM02ValAV.TabIndex = 12;
+            // 
+            // label266
+            // 
+            this.label266.AutoSize = true;
+            this.label266.Location = new System.Drawing.Point(4, 28);
+            this.label266.Name = "label266";
+            this.label266.Size = new System.Drawing.Size(25, 16);
+            this.label266.TabIndex = 6;
+            this.label266.Text = "AV";
+            // 
+            // txt_rangeEOLM02ValLSL
+            // 
+            this.txt_rangeEOLM02ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM02ValLSL.Name = "txt_rangeEOLM02ValLSL";
+            this.txt_rangeEOLM02ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM02ValLSL.TabIndex = 7;
+            // 
+            // label267
+            // 
+            this.label267.AutoSize = true;
+            this.label267.Location = new System.Drawing.Point(4, 58);
+            this.label267.Name = "label267";
+            this.label267.Size = new System.Drawing.Size(30, 16);
+            this.label267.TabIndex = 6;
+            this.label267.Text = "LSL";
+            // 
+            // txt_rangeEOLM02ValUSL
+            // 
+            this.txt_rangeEOLM02ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM02ValUSL.Name = "txt_rangeEOLM02ValUSL";
+            this.txt_rangeEOLM02ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM02ValUSL.TabIndex = 9;
+            // 
+            // label268
+            // 
+            this.label268.AutoSize = true;
+            this.label268.Location = new System.Drawing.Point(4, 87);
+            this.label268.Name = "label268";
+            this.label268.Size = new System.Drawing.Size(33, 16);
+            this.label268.TabIndex = 8;
+            this.label268.Text = "USL";
+            // 
+            // groupBox160
+            // 
+            this.groupBox160.Controls.Add(this.txt_rangeEOLM02);
+            this.groupBox160.Controls.Add(this.label269);
+            this.groupBox160.Controls.Add(this.txt_rangeEOLM02USL);
+            this.groupBox160.Controls.Add(this.label270);
+            this.groupBox160.Controls.Add(this.txt_rangeEOLM02LSL);
+            this.groupBox160.Controls.Add(this.label271);
+            this.groupBox160.Location = new System.Drawing.Point(16, 36);
+            this.groupBox160.Name = "groupBox160";
+            this.groupBox160.Size = new System.Drawing.Size(154, 118);
+            this.groupBox160.TabIndex = 0;
+            this.groupBox160.TabStop = false;
+            this.groupBox160.Text = "Range";
+            // 
+            // txt_rangeEOLM02
+            // 
+            this.txt_rangeEOLM02.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM02.Name = "txt_rangeEOLM02";
+            this.txt_rangeEOLM02.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM02.TabIndex = 2;
+            // 
+            // label269
+            // 
+            this.label269.AutoSize = true;
+            this.label269.Location = new System.Drawing.Point(5, 90);
+            this.label269.Name = "label269";
+            this.label269.Size = new System.Drawing.Size(33, 16);
+            this.label269.TabIndex = 17;
+            this.label269.Text = "USL";
+            // 
+            // txt_rangeEOLM02USL
+            // 
+            this.txt_rangeEOLM02USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM02USL.Name = "txt_rangeEOLM02USL";
+            this.txt_rangeEOLM02USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM02USL.TabIndex = 18;
+            // 
+            // label270
+            // 
+            this.label270.AutoSize = true;
+            this.label270.Location = new System.Drawing.Point(5, 26);
+            this.label270.Name = "label270";
+            this.label270.Size = new System.Drawing.Size(25, 16);
+            this.label270.TabIndex = 5;
+            this.label270.Text = "AV";
+            // 
+            // txt_rangeEOLM02LSL
+            // 
+            this.txt_rangeEOLM02LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM02LSL.Name = "txt_rangeEOLM02LSL";
+            this.txt_rangeEOLM02LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM02LSL.TabIndex = 15;
+            // 
+            // label271
+            // 
+            this.label271.AutoSize = true;
+            this.label271.Location = new System.Drawing.Point(5, 58);
+            this.label271.Name = "label271";
+            this.label271.Size = new System.Drawing.Size(30, 16);
+            this.label271.TabIndex = 16;
+            this.label271.Text = "LSL";
+            // 
+            // groupBox161
+            // 
+            this.groupBox161.Controls.Add(this.groupBox162);
+            this.groupBox161.Controls.Add(this.groupBox163);
+            this.groupBox161.Controls.Add(this.groupBox164);
+            this.groupBox161.Location = new System.Drawing.Point(750, 17);
+            this.groupBox161.Name = "groupBox161";
+            this.groupBox161.Size = new System.Drawing.Size(366, 169);
+            this.groupBox161.TabIndex = 36;
+            this.groupBox161.TabStop = false;
+            this.groupBox161.Text = "ST80 EOL M01";
+            // 
+            // groupBox162
+            // 
+            this.groupBox162.Controls.Add(this.lbl_statusEOLM01AV);
+            this.groupBox162.Controls.Add(this.lbl_statusEOLM01LSL);
+            this.groupBox162.Controls.Add(this.lbl_statusEOLM01USL);
+            this.groupBox162.Location = new System.Drawing.Point(286, 36);
+            this.groupBox162.Name = "groupBox162";
+            this.groupBox162.Size = new System.Drawing.Size(68, 118);
+            this.groupBox162.TabIndex = 21;
+            this.groupBox162.TabStop = false;
+            this.groupBox162.Text = "Status";
+            // 
+            // lbl_statusEOLM01AV
+            // 
+            this.lbl_statusEOLM01AV.AutoSize = true;
+            this.lbl_statusEOLM01AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusEOLM01AV.Name = "lbl_statusEOLM01AV";
+            this.lbl_statusEOLM01AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM01AV.TabIndex = 13;
+            this.lbl_statusEOLM01AV.Text = "--";
+            // 
+            // lbl_statusEOLM01LSL
+            // 
+            this.lbl_statusEOLM01LSL.AutoSize = true;
+            this.lbl_statusEOLM01LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusEOLM01LSL.Name = "lbl_statusEOLM01LSL";
+            this.lbl_statusEOLM01LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM01LSL.TabIndex = 10;
+            this.lbl_statusEOLM01LSL.Text = "--";
+            // 
+            // lbl_statusEOLM01USL
+            // 
+            this.lbl_statusEOLM01USL.AutoSize = true;
+            this.lbl_statusEOLM01USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusEOLM01USL.Name = "lbl_statusEOLM01USL";
+            this.lbl_statusEOLM01USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusEOLM01USL.TabIndex = 11;
+            this.lbl_statusEOLM01USL.Text = "--";
+            // 
+            // groupBox163
+            // 
+            this.groupBox163.Controls.Add(this.txt_rangeEOLM01ValAV);
+            this.groupBox163.Controls.Add(this.label275);
+            this.groupBox163.Controls.Add(this.txt_rangeEOLM01ValLSL);
+            this.groupBox163.Controls.Add(this.label276);
+            this.groupBox163.Controls.Add(this.txt_rangeEOLM01ValUSL);
+            this.groupBox163.Controls.Add(this.label277);
+            this.groupBox163.Location = new System.Drawing.Point(176, 36);
+            this.groupBox163.Name = "groupBox163";
+            this.groupBox163.Size = new System.Drawing.Size(104, 118);
+            this.groupBox163.TabIndex = 1;
+            this.groupBox163.TabStop = false;
+            this.groupBox163.Text = "Values";
+            // 
+            // txt_rangeEOLM01ValAV
+            // 
+            this.txt_rangeEOLM01ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM01ValAV.Name = "txt_rangeEOLM01ValAV";
+            this.txt_rangeEOLM01ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM01ValAV.TabIndex = 12;
+            // 
+            // label275
+            // 
+            this.label275.AutoSize = true;
+            this.label275.Location = new System.Drawing.Point(4, 28);
+            this.label275.Name = "label275";
+            this.label275.Size = new System.Drawing.Size(25, 16);
+            this.label275.TabIndex = 6;
+            this.label275.Text = "AV";
+            // 
+            // txt_rangeEOLM01ValLSL
+            // 
+            this.txt_rangeEOLM01ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM01ValLSL.Name = "txt_rangeEOLM01ValLSL";
+            this.txt_rangeEOLM01ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM01ValLSL.TabIndex = 7;
+            // 
+            // label276
+            // 
+            this.label276.AutoSize = true;
+            this.label276.Location = new System.Drawing.Point(4, 58);
+            this.label276.Name = "label276";
+            this.label276.Size = new System.Drawing.Size(30, 16);
+            this.label276.TabIndex = 6;
+            this.label276.Text = "LSL";
+            // 
+            // txt_rangeEOLM01ValUSL
+            // 
+            this.txt_rangeEOLM01ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM01ValUSL.Name = "txt_rangeEOLM01ValUSL";
+            this.txt_rangeEOLM01ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeEOLM01ValUSL.TabIndex = 9;
+            // 
+            // label277
+            // 
+            this.label277.AutoSize = true;
+            this.label277.Location = new System.Drawing.Point(4, 87);
+            this.label277.Name = "label277";
+            this.label277.Size = new System.Drawing.Size(33, 16);
+            this.label277.TabIndex = 8;
+            this.label277.Text = "USL";
+            // 
+            // groupBox164
+            // 
+            this.groupBox164.Controls.Add(this.txt_rangeEOLM01);
+            this.groupBox164.Controls.Add(this.label278);
+            this.groupBox164.Controls.Add(this.txt_rangeEOLM01USL);
+            this.groupBox164.Controls.Add(this.label279);
+            this.groupBox164.Controls.Add(this.txt_rangeEOLM01LSL);
+            this.groupBox164.Controls.Add(this.label280);
+            this.groupBox164.Location = new System.Drawing.Point(16, 36);
+            this.groupBox164.Name = "groupBox164";
+            this.groupBox164.Size = new System.Drawing.Size(154, 118);
+            this.groupBox164.TabIndex = 0;
+            this.groupBox164.TabStop = false;
+            this.groupBox164.Text = "Range";
+            // 
+            // txt_rangeEOLM01
+            // 
+            this.txt_rangeEOLM01.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeEOLM01.Name = "txt_rangeEOLM01";
+            this.txt_rangeEOLM01.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM01.TabIndex = 2;
+            // 
+            // label278
+            // 
+            this.label278.AutoSize = true;
+            this.label278.Location = new System.Drawing.Point(5, 90);
+            this.label278.Name = "label278";
+            this.label278.Size = new System.Drawing.Size(33, 16);
+            this.label278.TabIndex = 17;
+            this.label278.Text = "USL";
+            // 
+            // txt_rangeEOLM01USL
+            // 
+            this.txt_rangeEOLM01USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeEOLM01USL.Name = "txt_rangeEOLM01USL";
+            this.txt_rangeEOLM01USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM01USL.TabIndex = 18;
+            // 
+            // label279
+            // 
+            this.label279.AutoSize = true;
+            this.label279.Location = new System.Drawing.Point(5, 26);
+            this.label279.Name = "label279";
+            this.label279.Size = new System.Drawing.Size(25, 16);
+            this.label279.TabIndex = 5;
+            this.label279.Text = "AV";
+            // 
+            // txt_rangeEOLM01LSL
+            // 
+            this.txt_rangeEOLM01LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeEOLM01LSL.Name = "txt_rangeEOLM01LSL";
+            this.txt_rangeEOLM01LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeEOLM01LSL.TabIndex = 15;
+            // 
+            // label280
+            // 
+            this.label280.AutoSize = true;
+            this.label280.Location = new System.Drawing.Point(5, 58);
+            this.label280.Name = "label280";
+            this.label280.Size = new System.Drawing.Size(30, 16);
+            this.label280.TabIndex = 16;
+            this.label280.Text = "LSL";
+            // 
+            // groupBox165
+            // 
+            this.groupBox165.Controls.Add(this.groupBox166);
+            this.groupBox165.Controls.Add(this.groupBox167);
+            this.groupBox165.Controls.Add(this.groupBox168);
+            this.groupBox165.Location = new System.Drawing.Point(378, 17);
+            this.groupBox165.Name = "groupBox165";
+            this.groupBox165.Size = new System.Drawing.Size(366, 169);
+            this.groupBox165.TabIndex = 35;
+            this.groupBox165.TabStop = false;
+            this.groupBox165.Text = "ST80 Leaktest Leakage";
+            // 
+            // groupBox166
+            // 
+            this.groupBox166.Controls.Add(this.lbl_statusLeaktestLeakageAV);
+            this.groupBox166.Controls.Add(this.lbl_statusLeaktestLeakageLSL);
+            this.groupBox166.Controls.Add(this.lbl_statusLeaktestLeakageUSL);
+            this.groupBox166.Location = new System.Drawing.Point(286, 36);
+            this.groupBox166.Name = "groupBox166";
+            this.groupBox166.Size = new System.Drawing.Size(68, 118);
+            this.groupBox166.TabIndex = 21;
+            this.groupBox166.TabStop = false;
+            this.groupBox166.Text = "Status";
+            // 
+            // lbl_statusLeaktestLeakageAV
+            // 
+            this.lbl_statusLeaktestLeakageAV.AutoSize = true;
+            this.lbl_statusLeaktestLeakageAV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusLeaktestLeakageAV.Name = "lbl_statusLeaktestLeakageAV";
+            this.lbl_statusLeaktestLeakageAV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusLeaktestLeakageAV.TabIndex = 13;
+            this.lbl_statusLeaktestLeakageAV.Text = "--";
+            // 
+            // lbl_statusLeaktestLeakageLSL
+            // 
+            this.lbl_statusLeaktestLeakageLSL.AutoSize = true;
+            this.lbl_statusLeaktestLeakageLSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusLeaktestLeakageLSL.Name = "lbl_statusLeaktestLeakageLSL";
+            this.lbl_statusLeaktestLeakageLSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusLeaktestLeakageLSL.TabIndex = 10;
+            this.lbl_statusLeaktestLeakageLSL.Text = "--";
+            // 
+            // lbl_statusLeaktestLeakageUSL
+            // 
+            this.lbl_statusLeaktestLeakageUSL.AutoSize = true;
+            this.lbl_statusLeaktestLeakageUSL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusLeaktestLeakageUSL.Name = "lbl_statusLeaktestLeakageUSL";
+            this.lbl_statusLeaktestLeakageUSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusLeaktestLeakageUSL.TabIndex = 11;
+            this.lbl_statusLeaktestLeakageUSL.Text = "--";
+            // 
+            // groupBox167
+            // 
+            this.groupBox167.Controls.Add(this.txt_rangeLeaktestLeakageValAV);
+            this.groupBox167.Controls.Add(this.label284);
+            this.groupBox167.Controls.Add(this.txt_rangeLeaktestLeakageValLSL);
+            this.groupBox167.Controls.Add(this.label285);
+            this.groupBox167.Controls.Add(this.txt_rangeLeaktestLeakageValUSL);
+            this.groupBox167.Controls.Add(this.label286);
+            this.groupBox167.Location = new System.Drawing.Point(176, 36);
+            this.groupBox167.Name = "groupBox167";
+            this.groupBox167.Size = new System.Drawing.Size(104, 118);
+            this.groupBox167.TabIndex = 1;
+            this.groupBox167.TabStop = false;
+            this.groupBox167.Text = "Values";
+            // 
+            // txt_rangeLeaktestLeakageValAV
+            // 
+            this.txt_rangeLeaktestLeakageValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeLeaktestLeakageValAV.Name = "txt_rangeLeaktestLeakageValAV";
+            this.txt_rangeLeaktestLeakageValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeLeaktestLeakageValAV.TabIndex = 12;
+            // 
+            // label284
+            // 
+            this.label284.AutoSize = true;
+            this.label284.Location = new System.Drawing.Point(4, 28);
+            this.label284.Name = "label284";
+            this.label284.Size = new System.Drawing.Size(25, 16);
+            this.label284.TabIndex = 6;
+            this.label284.Text = "AV";
+            // 
+            // txt_rangeLeaktestLeakageValLSL
+            // 
+            this.txt_rangeLeaktestLeakageValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeLeaktestLeakageValLSL.Name = "txt_rangeLeaktestLeakageValLSL";
+            this.txt_rangeLeaktestLeakageValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeLeaktestLeakageValLSL.TabIndex = 7;
+            // 
+            // label285
+            // 
+            this.label285.AutoSize = true;
+            this.label285.Location = new System.Drawing.Point(4, 58);
+            this.label285.Name = "label285";
+            this.label285.Size = new System.Drawing.Size(30, 16);
+            this.label285.TabIndex = 6;
+            this.label285.Text = "LSL";
+            // 
+            // txt_rangeLeaktestLeakageValUSL
+            // 
+            this.txt_rangeLeaktestLeakageValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeLeaktestLeakageValUSL.Name = "txt_rangeLeaktestLeakageValUSL";
+            this.txt_rangeLeaktestLeakageValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeLeaktestLeakageValUSL.TabIndex = 9;
+            // 
+            // label286
+            // 
+            this.label286.AutoSize = true;
+            this.label286.Location = new System.Drawing.Point(4, 87);
+            this.label286.Name = "label286";
+            this.label286.Size = new System.Drawing.Size(33, 16);
+            this.label286.TabIndex = 8;
+            this.label286.Text = "USL";
+            // 
+            // groupBox168
+            // 
+            this.groupBox168.Controls.Add(this.txt_rangeLeaktestLeakage);
+            this.groupBox168.Controls.Add(this.label287);
+            this.groupBox168.Controls.Add(this.txt_rangeLeaktestLeakageUSL);
+            this.groupBox168.Controls.Add(this.label288);
+            this.groupBox168.Controls.Add(this.txt_rangeLeaktestLeakageLSL);
+            this.groupBox168.Controls.Add(this.label289);
+            this.groupBox168.Location = new System.Drawing.Point(16, 36);
+            this.groupBox168.Name = "groupBox168";
+            this.groupBox168.Size = new System.Drawing.Size(154, 118);
+            this.groupBox168.TabIndex = 0;
+            this.groupBox168.TabStop = false;
+            this.groupBox168.Text = "Range";
+            // 
+            // txt_rangeLeaktestLeakage
+            // 
+            this.txt_rangeLeaktestLeakage.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeLeaktestLeakage.Name = "txt_rangeLeaktestLeakage";
+            this.txt_rangeLeaktestLeakage.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeLeaktestLeakage.TabIndex = 2;
+            // 
+            // label287
+            // 
+            this.label287.AutoSize = true;
+            this.label287.Location = new System.Drawing.Point(5, 90);
+            this.label287.Name = "label287";
+            this.label287.Size = new System.Drawing.Size(33, 16);
+            this.label287.TabIndex = 17;
+            this.label287.Text = "USL";
+            // 
+            // txt_rangeLeaktestLeakageUSL
+            // 
+            this.txt_rangeLeaktestLeakageUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeLeaktestLeakageUSL.Name = "txt_rangeLeaktestLeakageUSL";
+            this.txt_rangeLeaktestLeakageUSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeLeaktestLeakageUSL.TabIndex = 18;
+            // 
+            // label288
+            // 
+            this.label288.AutoSize = true;
+            this.label288.Location = new System.Drawing.Point(5, 26);
+            this.label288.Name = "label288";
+            this.label288.Size = new System.Drawing.Size(25, 16);
+            this.label288.TabIndex = 5;
+            this.label288.Text = "AV";
+            // 
+            // txt_rangeLeaktestLeakageLSL
+            // 
+            this.txt_rangeLeaktestLeakageLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeLeaktestLeakageLSL.Name = "txt_rangeLeaktestLeakageLSL";
+            this.txt_rangeLeaktestLeakageLSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeLeaktestLeakageLSL.TabIndex = 15;
+            // 
+            // label289
+            // 
+            this.label289.AutoSize = true;
+            this.label289.Location = new System.Drawing.Point(5, 58);
+            this.label289.Name = "label289";
+            this.label289.Size = new System.Drawing.Size(30, 16);
+            this.label289.TabIndex = 16;
+            this.label289.Text = "LSL";
+            // 
+            // groupBox169
+            // 
+            this.groupBox169.Controls.Add(this.groupBox170);
+            this.groupBox169.Controls.Add(this.groupBox171);
+            this.groupBox169.Controls.Add(this.groupBox172);
+            this.groupBox169.Location = new System.Drawing.Point(6, 17);
+            this.groupBox169.Name = "groupBox169";
+            this.groupBox169.Size = new System.Drawing.Size(366, 169);
+            this.groupBox169.TabIndex = 34;
+            this.groupBox169.TabStop = false;
+            this.groupBox169.Text = "ST80 Leaktest StartPressure";
+            // 
+            // groupBox170
+            // 
+            this.groupBox170.Controls.Add(this.lbl_statusLeaktestStartPressureAV);
+            this.groupBox170.Controls.Add(this.lbl_statusLeaktestStartPressureLSL);
+            this.groupBox170.Controls.Add(this.lbl_statusLeaktestStartPressureUSL);
+            this.groupBox170.Location = new System.Drawing.Point(286, 36);
+            this.groupBox170.Name = "groupBox170";
+            this.groupBox170.Size = new System.Drawing.Size(68, 118);
+            this.groupBox170.TabIndex = 21;
+            this.groupBox170.TabStop = false;
+            this.groupBox170.Text = "Status";
+            // 
+            // lbl_statusLeaktestStartPressureAV
+            // 
+            this.lbl_statusLeaktestStartPressureAV.AutoSize = true;
+            this.lbl_statusLeaktestStartPressureAV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusLeaktestStartPressureAV.Name = "lbl_statusLeaktestStartPressureAV";
+            this.lbl_statusLeaktestStartPressureAV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusLeaktestStartPressureAV.TabIndex = 13;
+            this.lbl_statusLeaktestStartPressureAV.Text = "--";
+            // 
+            // lbl_statusLeaktestStartPressureLSL
+            // 
+            this.lbl_statusLeaktestStartPressureLSL.AutoSize = true;
+            this.lbl_statusLeaktestStartPressureLSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusLeaktestStartPressureLSL.Name = "lbl_statusLeaktestStartPressureLSL";
+            this.lbl_statusLeaktestStartPressureLSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusLeaktestStartPressureLSL.TabIndex = 10;
+            this.lbl_statusLeaktestStartPressureLSL.Text = "--";
+            // 
+            // lbl_statusLeaktestStartPressureUSL
+            // 
+            this.lbl_statusLeaktestStartPressureUSL.AutoSize = true;
+            this.lbl_statusLeaktestStartPressureUSL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusLeaktestStartPressureUSL.Name = "lbl_statusLeaktestStartPressureUSL";
+            this.lbl_statusLeaktestStartPressureUSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusLeaktestStartPressureUSL.TabIndex = 11;
+            this.lbl_statusLeaktestStartPressureUSL.Text = "--";
+            // 
+            // groupBox171
+            // 
+            this.groupBox171.Controls.Add(this.txt_rangeLeaktestStartPressureValAV);
+            this.groupBox171.Controls.Add(this.label293);
+            this.groupBox171.Controls.Add(this.txt_rangeLeaktestStartPressureValLSL);
+            this.groupBox171.Controls.Add(this.label294);
+            this.groupBox171.Controls.Add(this.txt_rangeLeaktestStartPressureValUSL);
+            this.groupBox171.Controls.Add(this.label295);
+            this.groupBox171.Location = new System.Drawing.Point(176, 36);
+            this.groupBox171.Name = "groupBox171";
+            this.groupBox171.Size = new System.Drawing.Size(104, 118);
+            this.groupBox171.TabIndex = 1;
+            this.groupBox171.TabStop = false;
+            this.groupBox171.Text = "Values";
+            // 
+            // txt_rangeLeaktestStartPressureValAV
+            // 
+            this.txt_rangeLeaktestStartPressureValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeLeaktestStartPressureValAV.Name = "txt_rangeLeaktestStartPressureValAV";
+            this.txt_rangeLeaktestStartPressureValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeLeaktestStartPressureValAV.TabIndex = 12;
+            // 
+            // label293
+            // 
+            this.label293.AutoSize = true;
+            this.label293.Location = new System.Drawing.Point(4, 28);
+            this.label293.Name = "label293";
+            this.label293.Size = new System.Drawing.Size(25, 16);
+            this.label293.TabIndex = 6;
+            this.label293.Text = "AV";
+            // 
+            // txt_rangeLeaktestStartPressureValLSL
+            // 
+            this.txt_rangeLeaktestStartPressureValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeLeaktestStartPressureValLSL.Name = "txt_rangeLeaktestStartPressureValLSL";
+            this.txt_rangeLeaktestStartPressureValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeLeaktestStartPressureValLSL.TabIndex = 7;
+            // 
+            // label294
+            // 
+            this.label294.AutoSize = true;
+            this.label294.Location = new System.Drawing.Point(4, 58);
+            this.label294.Name = "label294";
+            this.label294.Size = new System.Drawing.Size(30, 16);
+            this.label294.TabIndex = 6;
+            this.label294.Text = "LSL";
+            // 
+            // txt_rangeLeaktestStartPressureValUSL
+            // 
+            this.txt_rangeLeaktestStartPressureValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeLeaktestStartPressureValUSL.Name = "txt_rangeLeaktestStartPressureValUSL";
+            this.txt_rangeLeaktestStartPressureValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeLeaktestStartPressureValUSL.TabIndex = 9;
+            // 
+            // label295
+            // 
+            this.label295.AutoSize = true;
+            this.label295.Location = new System.Drawing.Point(4, 87);
+            this.label295.Name = "label295";
+            this.label295.Size = new System.Drawing.Size(33, 16);
+            this.label295.TabIndex = 8;
+            this.label295.Text = "USL";
+            // 
+            // groupBox172
+            // 
+            this.groupBox172.Controls.Add(this.txt_rangeLeaktestStartPressure);
+            this.groupBox172.Controls.Add(this.label296);
+            this.groupBox172.Controls.Add(this.txt_rangeLeaktestStartPressureUSL);
+            this.groupBox172.Controls.Add(this.label297);
+            this.groupBox172.Controls.Add(this.txt_rangeLeaktestStartPressureLSL);
+            this.groupBox172.Controls.Add(this.label298);
+            this.groupBox172.Location = new System.Drawing.Point(16, 36);
+            this.groupBox172.Name = "groupBox172";
+            this.groupBox172.Size = new System.Drawing.Size(154, 118);
+            this.groupBox172.TabIndex = 0;
+            this.groupBox172.TabStop = false;
+            this.groupBox172.Text = "Range";
+            // 
+            // txt_rangeLeaktestStartPressure
+            // 
+            this.txt_rangeLeaktestStartPressure.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeLeaktestStartPressure.Name = "txt_rangeLeaktestStartPressure";
+            this.txt_rangeLeaktestStartPressure.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeLeaktestStartPressure.TabIndex = 2;
+            // 
+            // label296
+            // 
+            this.label296.AutoSize = true;
+            this.label296.Location = new System.Drawing.Point(5, 90);
+            this.label296.Name = "label296";
+            this.label296.Size = new System.Drawing.Size(33, 16);
+            this.label296.TabIndex = 17;
+            this.label296.Text = "USL";
+            // 
+            // txt_rangeLeaktestStartPressureUSL
+            // 
+            this.txt_rangeLeaktestStartPressureUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeLeaktestStartPressureUSL.Name = "txt_rangeLeaktestStartPressureUSL";
+            this.txt_rangeLeaktestStartPressureUSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeLeaktestStartPressureUSL.TabIndex = 18;
+            // 
+            // label297
+            // 
+            this.label297.AutoSize = true;
+            this.label297.Location = new System.Drawing.Point(5, 26);
+            this.label297.Name = "label297";
+            this.label297.Size = new System.Drawing.Size(25, 16);
+            this.label297.TabIndex = 5;
+            this.label297.Text = "AV";
+            // 
+            // txt_rangeLeaktestStartPressureLSL
+            // 
+            this.txt_rangeLeaktestStartPressureLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeLeaktestStartPressureLSL.Name = "txt_rangeLeaktestStartPressureLSL";
+            this.txt_rangeLeaktestStartPressureLSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeLeaktestStartPressureLSL.TabIndex = 15;
+            // 
+            // label298
+            // 
+            this.label298.AutoSize = true;
+            this.label298.Location = new System.Drawing.Point(5, 58);
+            this.label298.Name = "label298";
+            this.label298.Size = new System.Drawing.Size(30, 16);
+            this.label298.TabIndex = 16;
+            this.label298.Text = "LSL";
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage6.Controls.Add(this.groupBox173);
+            this.tabPage6.Controls.Add(this.groupBox177);
+            this.tabPage6.Controls.Add(this.groupBox181);
+            this.tabPage6.Controls.Add(this.groupBox185);
+            this.tabPage6.Controls.Add(this.groupBox189);
+            this.tabPage6.Controls.Add(this.groupBox193);
+            this.tabPage6.Controls.Add(this.groupBox197);
+            this.tabPage6.Controls.Add(this.groupBox201);
+            this.tabPage6.Location = new System.Drawing.Point(4, 29);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Size = new System.Drawing.Size(1513, 743);
+            this.tabPage6.TabIndex = 4;
+            this.tabPage6.Text = "ST 90";
+            // 
+            // groupBox173
+            // 
+            this.groupBox173.Controls.Add(this.groupBox174);
+            this.groupBox173.Controls.Add(this.groupBox175);
+            this.groupBox173.Controls.Add(this.groupBox176);
+            this.groupBox173.Location = new System.Drawing.Point(1122, 192);
+            this.groupBox173.Name = "groupBox173";
+            this.groupBox173.Size = new System.Drawing.Size(366, 169);
+            this.groupBox173.TabIndex = 49;
+            this.groupBox173.TabStop = false;
+            this.groupBox173.Text = "ST90 Scan3DMeasuring7";
+            // 
+            // groupBox174
+            // 
+            this.groupBox174.Controls.Add(this.lbl_statusScan3DMeasuring7AV);
+            this.groupBox174.Controls.Add(this.lbl_statusScan3DMeasuring7LSL);
+            this.groupBox174.Controls.Add(this.lbl_statusScan3DMeasuring7USL);
+            this.groupBox174.Location = new System.Drawing.Point(286, 36);
+            this.groupBox174.Name = "groupBox174";
+            this.groupBox174.Size = new System.Drawing.Size(68, 118);
+            this.groupBox174.TabIndex = 21;
+            this.groupBox174.TabStop = false;
+            this.groupBox174.Text = "Status";
+            // 
+            // lbl_statusScan3DMeasuring7AV
+            // 
+            this.lbl_statusScan3DMeasuring7AV.AutoSize = true;
+            this.lbl_statusScan3DMeasuring7AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusScan3DMeasuring7AV.Name = "lbl_statusScan3DMeasuring7AV";
+            this.lbl_statusScan3DMeasuring7AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring7AV.TabIndex = 13;
+            this.lbl_statusScan3DMeasuring7AV.Text = "--";
+            // 
+            // lbl_statusScan3DMeasuring7LSL
+            // 
+            this.lbl_statusScan3DMeasuring7LSL.AutoSize = true;
+            this.lbl_statusScan3DMeasuring7LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusScan3DMeasuring7LSL.Name = "lbl_statusScan3DMeasuring7LSL";
+            this.lbl_statusScan3DMeasuring7LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring7LSL.TabIndex = 10;
+            this.lbl_statusScan3DMeasuring7LSL.Text = "--";
+            // 
+            // lbl_statusScan3DMeasuring7USL
+            // 
+            this.lbl_statusScan3DMeasuring7USL.AutoSize = true;
+            this.lbl_statusScan3DMeasuring7USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusScan3DMeasuring7USL.Name = "lbl_statusScan3DMeasuring7USL";
+            this.lbl_statusScan3DMeasuring7USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring7USL.TabIndex = 11;
+            this.lbl_statusScan3DMeasuring7USL.Text = "--";
+            // 
+            // groupBox175
+            // 
+            this.groupBox175.Controls.Add(this.txt_rangeScan3DMeasuring7ValAV);
+            this.groupBox175.Controls.Add(this.label173);
+            this.groupBox175.Controls.Add(this.txt_rangeScan3DMeasuring7ValLSL);
+            this.groupBox175.Controls.Add(this.label174);
+            this.groupBox175.Controls.Add(this.txt_rangeScan3DMeasuring7ValUSL);
+            this.groupBox175.Controls.Add(this.label175);
+            this.groupBox175.Location = new System.Drawing.Point(176, 36);
+            this.groupBox175.Name = "groupBox175";
+            this.groupBox175.Size = new System.Drawing.Size(104, 118);
+            this.groupBox175.TabIndex = 1;
+            this.groupBox175.TabStop = false;
+            this.groupBox175.Text = "Values";
+            // 
+            // txt_rangeScan3DMeasuring7ValAV
+            // 
+            this.txt_rangeScan3DMeasuring7ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScan3DMeasuring7ValAV.Name = "txt_rangeScan3DMeasuring7ValAV";
+            this.txt_rangeScan3DMeasuring7ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring7ValAV.TabIndex = 12;
+            // 
+            // label173
+            // 
+            this.label173.AutoSize = true;
+            this.label173.Location = new System.Drawing.Point(4, 28);
+            this.label173.Name = "label173";
+            this.label173.Size = new System.Drawing.Size(25, 16);
+            this.label173.TabIndex = 6;
+            this.label173.Text = "AV";
+            // 
+            // txt_rangeScan3DMeasuring7ValLSL
+            // 
+            this.txt_rangeScan3DMeasuring7ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScan3DMeasuring7ValLSL.Name = "txt_rangeScan3DMeasuring7ValLSL";
+            this.txt_rangeScan3DMeasuring7ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring7ValLSL.TabIndex = 7;
+            // 
+            // label174
+            // 
+            this.label174.AutoSize = true;
+            this.label174.Location = new System.Drawing.Point(4, 58);
+            this.label174.Name = "label174";
+            this.label174.Size = new System.Drawing.Size(30, 16);
+            this.label174.TabIndex = 6;
+            this.label174.Text = "LSL";
+            // 
+            // txt_rangeScan3DMeasuring7ValUSL
+            // 
+            this.txt_rangeScan3DMeasuring7ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScan3DMeasuring7ValUSL.Name = "txt_rangeScan3DMeasuring7ValUSL";
+            this.txt_rangeScan3DMeasuring7ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring7ValUSL.TabIndex = 9;
+            // 
+            // label175
+            // 
+            this.label175.AutoSize = true;
+            this.label175.Location = new System.Drawing.Point(4, 87);
+            this.label175.Name = "label175";
+            this.label175.Size = new System.Drawing.Size(33, 16);
+            this.label175.TabIndex = 8;
+            this.label175.Text = "USL";
+            // 
+            // groupBox176
+            // 
+            this.groupBox176.Controls.Add(this.txt_rangeScan3DMeasuring7);
+            this.groupBox176.Controls.Add(this.label194);
+            this.groupBox176.Controls.Add(this.txt_rangeScan3DMeasuring7USL);
+            this.groupBox176.Controls.Add(this.label195);
+            this.groupBox176.Controls.Add(this.txt_rangeScan3DMeasuring7LSL);
+            this.groupBox176.Controls.Add(this.label196);
+            this.groupBox176.Location = new System.Drawing.Point(16, 36);
+            this.groupBox176.Name = "groupBox176";
+            this.groupBox176.Size = new System.Drawing.Size(154, 118);
+            this.groupBox176.TabIndex = 0;
+            this.groupBox176.TabStop = false;
+            this.groupBox176.Text = "Range";
+            // 
+            // txt_rangeScan3DMeasuring7
+            // 
+            this.txt_rangeScan3DMeasuring7.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScan3DMeasuring7.Name = "txt_rangeScan3DMeasuring7";
+            this.txt_rangeScan3DMeasuring7.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring7.TabIndex = 2;
+            // 
+            // label194
+            // 
+            this.label194.AutoSize = true;
+            this.label194.Location = new System.Drawing.Point(5, 90);
+            this.label194.Name = "label194";
+            this.label194.Size = new System.Drawing.Size(33, 16);
+            this.label194.TabIndex = 17;
+            this.label194.Text = "USL";
+            // 
+            // txt_rangeScan3DMeasuring7USL
+            // 
+            this.txt_rangeScan3DMeasuring7USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScan3DMeasuring7USL.Name = "txt_rangeScan3DMeasuring7USL";
+            this.txt_rangeScan3DMeasuring7USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring7USL.TabIndex = 18;
+            // 
+            // label195
+            // 
+            this.label195.AutoSize = true;
+            this.label195.Location = new System.Drawing.Point(5, 26);
+            this.label195.Name = "label195";
+            this.label195.Size = new System.Drawing.Size(25, 16);
+            this.label195.TabIndex = 5;
+            this.label195.Text = "AV";
+            // 
+            // txt_rangeScan3DMeasuring7LSL
+            // 
+            this.txt_rangeScan3DMeasuring7LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScan3DMeasuring7LSL.Name = "txt_rangeScan3DMeasuring7LSL";
+            this.txt_rangeScan3DMeasuring7LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring7LSL.TabIndex = 15;
+            // 
+            // label196
+            // 
+            this.label196.AutoSize = true;
+            this.label196.Location = new System.Drawing.Point(5, 58);
+            this.label196.Name = "label196";
+            this.label196.Size = new System.Drawing.Size(30, 16);
+            this.label196.TabIndex = 16;
+            this.label196.Text = "LSL";
+            // 
+            // groupBox177
+            // 
+            this.groupBox177.Controls.Add(this.groupBox178);
+            this.groupBox177.Controls.Add(this.groupBox179);
+            this.groupBox177.Controls.Add(this.groupBox180);
+            this.groupBox177.Location = new System.Drawing.Point(750, 192);
+            this.groupBox177.Name = "groupBox177";
+            this.groupBox177.Size = new System.Drawing.Size(366, 169);
+            this.groupBox177.TabIndex = 48;
+            this.groupBox177.TabStop = false;
+            this.groupBox177.Text = "ST90 Scan3DMeasuring6";
+            // 
+            // groupBox178
+            // 
+            this.groupBox178.Controls.Add(this.lbl_statusScan3DMeasuring6AV);
+            this.groupBox178.Controls.Add(this.lbl_statusScan3DMeasuring6LSL);
+            this.groupBox178.Controls.Add(this.lbl_statusScan3DMeasuring6USL);
+            this.groupBox178.Location = new System.Drawing.Point(286, 36);
+            this.groupBox178.Name = "groupBox178";
+            this.groupBox178.Size = new System.Drawing.Size(68, 118);
+            this.groupBox178.TabIndex = 21;
+            this.groupBox178.TabStop = false;
+            this.groupBox178.Text = "Status";
+            // 
+            // lbl_statusScan3DMeasuring6AV
+            // 
+            this.lbl_statusScan3DMeasuring6AV.AutoSize = true;
+            this.lbl_statusScan3DMeasuring6AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusScan3DMeasuring6AV.Name = "lbl_statusScan3DMeasuring6AV";
+            this.lbl_statusScan3DMeasuring6AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring6AV.TabIndex = 13;
+            this.lbl_statusScan3DMeasuring6AV.Text = "--";
+            // 
+            // lbl_statusScan3DMeasuring6LSL
+            // 
+            this.lbl_statusScan3DMeasuring6LSL.AutoSize = true;
+            this.lbl_statusScan3DMeasuring6LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusScan3DMeasuring6LSL.Name = "lbl_statusScan3DMeasuring6LSL";
+            this.lbl_statusScan3DMeasuring6LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring6LSL.TabIndex = 10;
+            this.lbl_statusScan3DMeasuring6LSL.Text = "--";
+            // 
+            // lbl_statusScan3DMeasuring6USL
+            // 
+            this.lbl_statusScan3DMeasuring6USL.AutoSize = true;
+            this.lbl_statusScan3DMeasuring6USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusScan3DMeasuring6USL.Name = "lbl_statusScan3DMeasuring6USL";
+            this.lbl_statusScan3DMeasuring6USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring6USL.TabIndex = 11;
+            this.lbl_statusScan3DMeasuring6USL.Text = "--";
+            // 
+            // groupBox179
+            // 
+            this.groupBox179.Controls.Add(this.txt_rangeScan3DMeasuring6ValAV);
+            this.groupBox179.Controls.Add(this.label218);
+            this.groupBox179.Controls.Add(this.txt_rangeScan3DMeasuring6ValLSL);
+            this.groupBox179.Controls.Add(this.label219);
+            this.groupBox179.Controls.Add(this.txt_rangeScan3DMeasuring6ValUSL);
+            this.groupBox179.Controls.Add(this.label220);
+            this.groupBox179.Location = new System.Drawing.Point(176, 36);
+            this.groupBox179.Name = "groupBox179";
+            this.groupBox179.Size = new System.Drawing.Size(104, 118);
+            this.groupBox179.TabIndex = 1;
+            this.groupBox179.TabStop = false;
+            this.groupBox179.Text = "Values";
+            // 
+            // txt_rangeScan3DMeasuring6ValAV
+            // 
+            this.txt_rangeScan3DMeasuring6ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScan3DMeasuring6ValAV.Name = "txt_rangeScan3DMeasuring6ValAV";
+            this.txt_rangeScan3DMeasuring6ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring6ValAV.TabIndex = 12;
+            // 
+            // label218
+            // 
+            this.label218.AutoSize = true;
+            this.label218.Location = new System.Drawing.Point(4, 28);
+            this.label218.Name = "label218";
+            this.label218.Size = new System.Drawing.Size(25, 16);
+            this.label218.TabIndex = 6;
+            this.label218.Text = "AV";
+            // 
+            // txt_rangeScan3DMeasuring6ValLSL
+            // 
+            this.txt_rangeScan3DMeasuring6ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScan3DMeasuring6ValLSL.Name = "txt_rangeScan3DMeasuring6ValLSL";
+            this.txt_rangeScan3DMeasuring6ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring6ValLSL.TabIndex = 7;
+            // 
+            // label219
+            // 
+            this.label219.AutoSize = true;
+            this.label219.Location = new System.Drawing.Point(4, 58);
+            this.label219.Name = "label219";
+            this.label219.Size = new System.Drawing.Size(30, 16);
+            this.label219.TabIndex = 6;
+            this.label219.Text = "LSL";
+            // 
+            // txt_rangeScan3DMeasuring6ValUSL
+            // 
+            this.txt_rangeScan3DMeasuring6ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScan3DMeasuring6ValUSL.Name = "txt_rangeScan3DMeasuring6ValUSL";
+            this.txt_rangeScan3DMeasuring6ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring6ValUSL.TabIndex = 9;
+            // 
+            // label220
+            // 
+            this.label220.AutoSize = true;
+            this.label220.Location = new System.Drawing.Point(4, 87);
+            this.label220.Name = "label220";
+            this.label220.Size = new System.Drawing.Size(33, 16);
+            this.label220.TabIndex = 8;
+            this.label220.Text = "USL";
+            // 
+            // groupBox180
+            // 
+            this.groupBox180.Controls.Add(this.txt_rangeScan3DMeasuring6);
+            this.groupBox180.Controls.Add(this.label227);
+            this.groupBox180.Controls.Add(this.txt_rangeScan3DMeasuring6USL);
+            this.groupBox180.Controls.Add(this.label228);
+            this.groupBox180.Controls.Add(this.txt_rangeScan3DMeasuring6LSL);
+            this.groupBox180.Controls.Add(this.label229);
+            this.groupBox180.Location = new System.Drawing.Point(16, 36);
+            this.groupBox180.Name = "groupBox180";
+            this.groupBox180.Size = new System.Drawing.Size(154, 118);
+            this.groupBox180.TabIndex = 0;
+            this.groupBox180.TabStop = false;
+            this.groupBox180.Text = "Range";
+            // 
+            // txt_rangeScan3DMeasuring6
+            // 
+            this.txt_rangeScan3DMeasuring6.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScan3DMeasuring6.Name = "txt_rangeScan3DMeasuring6";
+            this.txt_rangeScan3DMeasuring6.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring6.TabIndex = 2;
+            // 
+            // label227
+            // 
+            this.label227.AutoSize = true;
+            this.label227.Location = new System.Drawing.Point(5, 90);
+            this.label227.Name = "label227";
+            this.label227.Size = new System.Drawing.Size(33, 16);
+            this.label227.TabIndex = 17;
+            this.label227.Text = "USL";
+            // 
+            // txt_rangeScan3DMeasuring6USL
+            // 
+            this.txt_rangeScan3DMeasuring6USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScan3DMeasuring6USL.Name = "txt_rangeScan3DMeasuring6USL";
+            this.txt_rangeScan3DMeasuring6USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring6USL.TabIndex = 18;
+            // 
+            // label228
+            // 
+            this.label228.AutoSize = true;
+            this.label228.Location = new System.Drawing.Point(5, 26);
+            this.label228.Name = "label228";
+            this.label228.Size = new System.Drawing.Size(25, 16);
+            this.label228.TabIndex = 5;
+            this.label228.Text = "AV";
+            // 
+            // txt_rangeScan3DMeasuring6LSL
+            // 
+            this.txt_rangeScan3DMeasuring6LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScan3DMeasuring6LSL.Name = "txt_rangeScan3DMeasuring6LSL";
+            this.txt_rangeScan3DMeasuring6LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring6LSL.TabIndex = 15;
+            // 
+            // label229
+            // 
+            this.label229.AutoSize = true;
+            this.label229.Location = new System.Drawing.Point(5, 58);
+            this.label229.Name = "label229";
+            this.label229.Size = new System.Drawing.Size(30, 16);
+            this.label229.TabIndex = 16;
+            this.label229.Text = "LSL";
+            // 
+            // groupBox181
+            // 
+            this.groupBox181.Controls.Add(this.groupBox182);
+            this.groupBox181.Controls.Add(this.groupBox183);
+            this.groupBox181.Controls.Add(this.groupBox184);
+            this.groupBox181.Location = new System.Drawing.Point(378, 192);
+            this.groupBox181.Name = "groupBox181";
+            this.groupBox181.Size = new System.Drawing.Size(366, 169);
+            this.groupBox181.TabIndex = 47;
+            this.groupBox181.TabStop = false;
+            this.groupBox181.Text = "ST90 Scan3DMeasuring5";
+            // 
+            // groupBox182
+            // 
+            this.groupBox182.Controls.Add(this.lbl_statusScan3DMeasuring5AV);
+            this.groupBox182.Controls.Add(this.lbl_statusScan3DMeasuring5LSL);
+            this.groupBox182.Controls.Add(this.lbl_statusScan3DMeasuring5USL);
+            this.groupBox182.Location = new System.Drawing.Point(286, 36);
+            this.groupBox182.Name = "groupBox182";
+            this.groupBox182.Size = new System.Drawing.Size(68, 118);
+            this.groupBox182.TabIndex = 21;
+            this.groupBox182.TabStop = false;
+            this.groupBox182.Text = "Status";
+            // 
+            // lbl_statusScan3DMeasuring5AV
+            // 
+            this.lbl_statusScan3DMeasuring5AV.AutoSize = true;
+            this.lbl_statusScan3DMeasuring5AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusScan3DMeasuring5AV.Name = "lbl_statusScan3DMeasuring5AV";
+            this.lbl_statusScan3DMeasuring5AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring5AV.TabIndex = 13;
+            this.lbl_statusScan3DMeasuring5AV.Text = "--";
+            // 
+            // lbl_statusScan3DMeasuring5LSL
+            // 
+            this.lbl_statusScan3DMeasuring5LSL.AutoSize = true;
+            this.lbl_statusScan3DMeasuring5LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusScan3DMeasuring5LSL.Name = "lbl_statusScan3DMeasuring5LSL";
+            this.lbl_statusScan3DMeasuring5LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring5LSL.TabIndex = 10;
+            this.lbl_statusScan3DMeasuring5LSL.Text = "--";
+            // 
+            // lbl_statusScan3DMeasuring5USL
+            // 
+            this.lbl_statusScan3DMeasuring5USL.AutoSize = true;
+            this.lbl_statusScan3DMeasuring5USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusScan3DMeasuring5USL.Name = "lbl_statusScan3DMeasuring5USL";
+            this.lbl_statusScan3DMeasuring5USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring5USL.TabIndex = 11;
+            this.lbl_statusScan3DMeasuring5USL.Text = "--";
+            // 
+            // groupBox183
+            // 
+            this.groupBox183.Controls.Add(this.txt_rangeScan3DMeasuring5ValAV);
+            this.groupBox183.Controls.Add(this.label245);
+            this.groupBox183.Controls.Add(this.txt_rangeScan3DMeasuring5ValLSL);
+            this.groupBox183.Controls.Add(this.label246);
+            this.groupBox183.Controls.Add(this.txt_rangeScan3DMeasuring5ValUSL);
+            this.groupBox183.Controls.Add(this.label247);
+            this.groupBox183.Location = new System.Drawing.Point(176, 36);
+            this.groupBox183.Name = "groupBox183";
+            this.groupBox183.Size = new System.Drawing.Size(104, 118);
+            this.groupBox183.TabIndex = 1;
+            this.groupBox183.TabStop = false;
+            this.groupBox183.Text = "Values";
+            // 
+            // txt_rangeScan3DMeasuring5ValAV
+            // 
+            this.txt_rangeScan3DMeasuring5ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScan3DMeasuring5ValAV.Name = "txt_rangeScan3DMeasuring5ValAV";
+            this.txt_rangeScan3DMeasuring5ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring5ValAV.TabIndex = 12;
+            // 
+            // label245
+            // 
+            this.label245.AutoSize = true;
+            this.label245.Location = new System.Drawing.Point(4, 28);
+            this.label245.Name = "label245";
+            this.label245.Size = new System.Drawing.Size(25, 16);
+            this.label245.TabIndex = 6;
+            this.label245.Text = "AV";
+            // 
+            // txt_rangeScan3DMeasuring5ValLSL
+            // 
+            this.txt_rangeScan3DMeasuring5ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScan3DMeasuring5ValLSL.Name = "txt_rangeScan3DMeasuring5ValLSL";
+            this.txt_rangeScan3DMeasuring5ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring5ValLSL.TabIndex = 7;
+            // 
+            // label246
+            // 
+            this.label246.AutoSize = true;
+            this.label246.Location = new System.Drawing.Point(4, 58);
+            this.label246.Name = "label246";
+            this.label246.Size = new System.Drawing.Size(30, 16);
+            this.label246.TabIndex = 6;
+            this.label246.Text = "LSL";
+            // 
+            // txt_rangeScan3DMeasuring5ValUSL
+            // 
+            this.txt_rangeScan3DMeasuring5ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScan3DMeasuring5ValUSL.Name = "txt_rangeScan3DMeasuring5ValUSL";
+            this.txt_rangeScan3DMeasuring5ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring5ValUSL.TabIndex = 9;
+            // 
+            // label247
+            // 
+            this.label247.AutoSize = true;
+            this.label247.Location = new System.Drawing.Point(4, 87);
+            this.label247.Name = "label247";
+            this.label247.Size = new System.Drawing.Size(33, 16);
+            this.label247.TabIndex = 8;
+            this.label247.Text = "USL";
+            // 
+            // groupBox184
+            // 
+            this.groupBox184.Controls.Add(this.txt_rangeScan3DMeasuring5);
+            this.groupBox184.Controls.Add(this.label254);
+            this.groupBox184.Controls.Add(this.txt_rangeScan3DMeasuring5USL);
+            this.groupBox184.Controls.Add(this.label255);
+            this.groupBox184.Controls.Add(this.txt_rangeScan3DMeasuring5LSL);
+            this.groupBox184.Controls.Add(this.label256);
+            this.groupBox184.Location = new System.Drawing.Point(16, 36);
+            this.groupBox184.Name = "groupBox184";
+            this.groupBox184.Size = new System.Drawing.Size(154, 118);
+            this.groupBox184.TabIndex = 0;
+            this.groupBox184.TabStop = false;
+            this.groupBox184.Text = "Range";
+            // 
+            // txt_rangeScan3DMeasuring5
+            // 
+            this.txt_rangeScan3DMeasuring5.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScan3DMeasuring5.Name = "txt_rangeScan3DMeasuring5";
+            this.txt_rangeScan3DMeasuring5.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring5.TabIndex = 2;
+            // 
+            // label254
+            // 
+            this.label254.AutoSize = true;
+            this.label254.Location = new System.Drawing.Point(5, 90);
+            this.label254.Name = "label254";
+            this.label254.Size = new System.Drawing.Size(33, 16);
+            this.label254.TabIndex = 17;
+            this.label254.Text = "USL";
+            // 
+            // txt_rangeScan3DMeasuring5USL
+            // 
+            this.txt_rangeScan3DMeasuring5USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScan3DMeasuring5USL.Name = "txt_rangeScan3DMeasuring5USL";
+            this.txt_rangeScan3DMeasuring5USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring5USL.TabIndex = 18;
+            // 
+            // label255
+            // 
+            this.label255.AutoSize = true;
+            this.label255.Location = new System.Drawing.Point(5, 26);
+            this.label255.Name = "label255";
+            this.label255.Size = new System.Drawing.Size(25, 16);
+            this.label255.TabIndex = 5;
+            this.label255.Text = "AV";
+            // 
+            // txt_rangeScan3DMeasuring5LSL
+            // 
+            this.txt_rangeScan3DMeasuring5LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScan3DMeasuring5LSL.Name = "txt_rangeScan3DMeasuring5LSL";
+            this.txt_rangeScan3DMeasuring5LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring5LSL.TabIndex = 15;
+            // 
+            // label256
+            // 
+            this.label256.AutoSize = true;
+            this.label256.Location = new System.Drawing.Point(5, 58);
+            this.label256.Name = "label256";
+            this.label256.Size = new System.Drawing.Size(30, 16);
+            this.label256.TabIndex = 16;
+            this.label256.Text = "LSL";
+            // 
+            // groupBox185
+            // 
+            this.groupBox185.Controls.Add(this.groupBox186);
+            this.groupBox185.Controls.Add(this.groupBox187);
+            this.groupBox185.Controls.Add(this.groupBox188);
+            this.groupBox185.Location = new System.Drawing.Point(6, 192);
+            this.groupBox185.Name = "groupBox185";
+            this.groupBox185.Size = new System.Drawing.Size(366, 169);
+            this.groupBox185.TabIndex = 46;
+            this.groupBox185.TabStop = false;
+            this.groupBox185.Text = "ST90 Scan3DMeasuring4";
+            // 
+            // groupBox186
+            // 
+            this.groupBox186.Controls.Add(this.lbl_statusScan3DMeasuring4AV);
+            this.groupBox186.Controls.Add(this.lbl_statusScan3DMeasuring4LSL);
+            this.groupBox186.Controls.Add(this.lbl_statusScan3DMeasuring4USL);
+            this.groupBox186.Location = new System.Drawing.Point(286, 36);
+            this.groupBox186.Name = "groupBox186";
+            this.groupBox186.Size = new System.Drawing.Size(68, 118);
+            this.groupBox186.TabIndex = 21;
+            this.groupBox186.TabStop = false;
+            this.groupBox186.Text = "Status";
+            // 
+            // lbl_statusScan3DMeasuring4AV
+            // 
+            this.lbl_statusScan3DMeasuring4AV.AutoSize = true;
+            this.lbl_statusScan3DMeasuring4AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusScan3DMeasuring4AV.Name = "lbl_statusScan3DMeasuring4AV";
+            this.lbl_statusScan3DMeasuring4AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring4AV.TabIndex = 13;
+            this.lbl_statusScan3DMeasuring4AV.Text = "--";
+            // 
+            // lbl_statusScan3DMeasuring4LSL
+            // 
+            this.lbl_statusScan3DMeasuring4LSL.AutoSize = true;
+            this.lbl_statusScan3DMeasuring4LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusScan3DMeasuring4LSL.Name = "lbl_statusScan3DMeasuring4LSL";
+            this.lbl_statusScan3DMeasuring4LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring4LSL.TabIndex = 10;
+            this.lbl_statusScan3DMeasuring4LSL.Text = "--";
+            // 
+            // lbl_statusScan3DMeasuring4USL
+            // 
+            this.lbl_statusScan3DMeasuring4USL.AutoSize = true;
+            this.lbl_statusScan3DMeasuring4USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusScan3DMeasuring4USL.Name = "lbl_statusScan3DMeasuring4USL";
+            this.lbl_statusScan3DMeasuring4USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring4USL.TabIndex = 11;
+            this.lbl_statusScan3DMeasuring4USL.Text = "--";
+            // 
+            // groupBox187
+            // 
+            this.groupBox187.Controls.Add(this.txt_rangeScan3DMeasuring4ValAV);
+            this.groupBox187.Controls.Add(this.label272);
+            this.groupBox187.Controls.Add(this.txt_rangeScan3DMeasuring4ValLSL);
+            this.groupBox187.Controls.Add(this.label273);
+            this.groupBox187.Controls.Add(this.txt_rangeScan3DMeasuring4ValUSL);
+            this.groupBox187.Controls.Add(this.label274);
+            this.groupBox187.Location = new System.Drawing.Point(176, 36);
+            this.groupBox187.Name = "groupBox187";
+            this.groupBox187.Size = new System.Drawing.Size(104, 118);
+            this.groupBox187.TabIndex = 1;
+            this.groupBox187.TabStop = false;
+            this.groupBox187.Text = "Values";
+            // 
+            // txt_rangeScan3DMeasuring4ValAV
+            // 
+            this.txt_rangeScan3DMeasuring4ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScan3DMeasuring4ValAV.Name = "txt_rangeScan3DMeasuring4ValAV";
+            this.txt_rangeScan3DMeasuring4ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring4ValAV.TabIndex = 12;
+            // 
+            // label272
+            // 
+            this.label272.AutoSize = true;
+            this.label272.Location = new System.Drawing.Point(4, 28);
+            this.label272.Name = "label272";
+            this.label272.Size = new System.Drawing.Size(25, 16);
+            this.label272.TabIndex = 6;
+            this.label272.Text = "AV";
+            // 
+            // txt_rangeScan3DMeasuring4ValLSL
+            // 
+            this.txt_rangeScan3DMeasuring4ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScan3DMeasuring4ValLSL.Name = "txt_rangeScan3DMeasuring4ValLSL";
+            this.txt_rangeScan3DMeasuring4ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring4ValLSL.TabIndex = 7;
+            // 
+            // label273
+            // 
+            this.label273.AutoSize = true;
+            this.label273.Location = new System.Drawing.Point(4, 58);
+            this.label273.Name = "label273";
+            this.label273.Size = new System.Drawing.Size(30, 16);
+            this.label273.TabIndex = 6;
+            this.label273.Text = "LSL";
+            // 
+            // txt_rangeScan3DMeasuring4ValUSL
+            // 
+            this.txt_rangeScan3DMeasuring4ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScan3DMeasuring4ValUSL.Name = "txt_rangeScan3DMeasuring4ValUSL";
+            this.txt_rangeScan3DMeasuring4ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring4ValUSL.TabIndex = 9;
+            // 
+            // label274
+            // 
+            this.label274.AutoSize = true;
+            this.label274.Location = new System.Drawing.Point(4, 87);
+            this.label274.Name = "label274";
+            this.label274.Size = new System.Drawing.Size(33, 16);
+            this.label274.TabIndex = 8;
+            this.label274.Text = "USL";
+            // 
+            // groupBox188
+            // 
+            this.groupBox188.Controls.Add(this.txt_rangeScan3DMeasuring4);
+            this.groupBox188.Controls.Add(this.label281);
+            this.groupBox188.Controls.Add(this.txt_rangeScan3DMeasuring4USL);
+            this.groupBox188.Controls.Add(this.label282);
+            this.groupBox188.Controls.Add(this.txt_rangeScan3DMeasuring4LSL);
+            this.groupBox188.Controls.Add(this.label283);
+            this.groupBox188.Location = new System.Drawing.Point(16, 36);
+            this.groupBox188.Name = "groupBox188";
+            this.groupBox188.Size = new System.Drawing.Size(154, 118);
+            this.groupBox188.TabIndex = 0;
+            this.groupBox188.TabStop = false;
+            this.groupBox188.Text = "Range";
+            // 
+            // txt_rangeScan3DMeasuring4
+            // 
+            this.txt_rangeScan3DMeasuring4.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScan3DMeasuring4.Name = "txt_rangeScan3DMeasuring4";
+            this.txt_rangeScan3DMeasuring4.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring4.TabIndex = 2;
+            // 
+            // label281
+            // 
+            this.label281.AutoSize = true;
+            this.label281.Location = new System.Drawing.Point(5, 90);
+            this.label281.Name = "label281";
+            this.label281.Size = new System.Drawing.Size(33, 16);
+            this.label281.TabIndex = 17;
+            this.label281.Text = "USL";
+            // 
+            // txt_rangeScan3DMeasuring4USL
+            // 
+            this.txt_rangeScan3DMeasuring4USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScan3DMeasuring4USL.Name = "txt_rangeScan3DMeasuring4USL";
+            this.txt_rangeScan3DMeasuring4USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring4USL.TabIndex = 18;
+            // 
+            // label282
+            // 
+            this.label282.AutoSize = true;
+            this.label282.Location = new System.Drawing.Point(5, 26);
+            this.label282.Name = "label282";
+            this.label282.Size = new System.Drawing.Size(25, 16);
+            this.label282.TabIndex = 5;
+            this.label282.Text = "AV";
+            // 
+            // txt_rangeScan3DMeasuring4LSL
+            // 
+            this.txt_rangeScan3DMeasuring4LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScan3DMeasuring4LSL.Name = "txt_rangeScan3DMeasuring4LSL";
+            this.txt_rangeScan3DMeasuring4LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring4LSL.TabIndex = 15;
+            // 
+            // label283
+            // 
+            this.label283.AutoSize = true;
+            this.label283.Location = new System.Drawing.Point(5, 58);
+            this.label283.Name = "label283";
+            this.label283.Size = new System.Drawing.Size(30, 16);
+            this.label283.TabIndex = 16;
+            this.label283.Text = "LSL";
+            // 
+            // groupBox189
+            // 
+            this.groupBox189.Controls.Add(this.groupBox190);
+            this.groupBox189.Controls.Add(this.groupBox191);
+            this.groupBox189.Controls.Add(this.groupBox192);
+            this.groupBox189.Location = new System.Drawing.Point(1122, 17);
+            this.groupBox189.Name = "groupBox189";
+            this.groupBox189.Size = new System.Drawing.Size(366, 169);
+            this.groupBox189.TabIndex = 45;
+            this.groupBox189.TabStop = false;
+            this.groupBox189.Text = "ST90 Scan3DMeasuring3";
+            // 
+            // groupBox190
+            // 
+            this.groupBox190.Controls.Add(this.lbl_statusScan3DMeasuring3AV);
+            this.groupBox190.Controls.Add(this.lbl_statusScan3DMeasuring3LSL);
+            this.groupBox190.Controls.Add(this.lbl_statusScan3DMeasuring3USL);
+            this.groupBox190.Location = new System.Drawing.Point(286, 36);
+            this.groupBox190.Name = "groupBox190";
+            this.groupBox190.Size = new System.Drawing.Size(68, 118);
+            this.groupBox190.TabIndex = 21;
+            this.groupBox190.TabStop = false;
+            this.groupBox190.Text = "Status";
+            // 
+            // lbl_statusScan3DMeasuring3AV
+            // 
+            this.lbl_statusScan3DMeasuring3AV.AutoSize = true;
+            this.lbl_statusScan3DMeasuring3AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusScan3DMeasuring3AV.Name = "lbl_statusScan3DMeasuring3AV";
+            this.lbl_statusScan3DMeasuring3AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring3AV.TabIndex = 13;
+            this.lbl_statusScan3DMeasuring3AV.Text = "--";
+            // 
+            // lbl_statusScan3DMeasuring3LSL
+            // 
+            this.lbl_statusScan3DMeasuring3LSL.AutoSize = true;
+            this.lbl_statusScan3DMeasuring3LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusScan3DMeasuring3LSL.Name = "lbl_statusScan3DMeasuring3LSL";
+            this.lbl_statusScan3DMeasuring3LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring3LSL.TabIndex = 10;
+            this.lbl_statusScan3DMeasuring3LSL.Text = "--";
+            // 
+            // lbl_statusScan3DMeasuring3USL
+            // 
+            this.lbl_statusScan3DMeasuring3USL.AutoSize = true;
+            this.lbl_statusScan3DMeasuring3USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusScan3DMeasuring3USL.Name = "lbl_statusScan3DMeasuring3USL";
+            this.lbl_statusScan3DMeasuring3USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring3USL.TabIndex = 11;
+            this.lbl_statusScan3DMeasuring3USL.Text = "--";
+            // 
+            // groupBox191
+            // 
+            this.groupBox191.Controls.Add(this.txt_rangeScan3DMeasuring3ValAV);
+            this.groupBox191.Controls.Add(this.label299);
+            this.groupBox191.Controls.Add(this.txt_rangeScan3DMeasuring3ValLSL);
+            this.groupBox191.Controls.Add(this.label300);
+            this.groupBox191.Controls.Add(this.txt_rangeScan3DMeasuring3ValUSL);
+            this.groupBox191.Controls.Add(this.label301);
+            this.groupBox191.Location = new System.Drawing.Point(176, 36);
+            this.groupBox191.Name = "groupBox191";
+            this.groupBox191.Size = new System.Drawing.Size(104, 118);
+            this.groupBox191.TabIndex = 1;
+            this.groupBox191.TabStop = false;
+            this.groupBox191.Text = "Values";
+            // 
+            // txt_rangeScan3DMeasuring3ValAV
+            // 
+            this.txt_rangeScan3DMeasuring3ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScan3DMeasuring3ValAV.Name = "txt_rangeScan3DMeasuring3ValAV";
+            this.txt_rangeScan3DMeasuring3ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring3ValAV.TabIndex = 12;
+            // 
+            // label299
+            // 
+            this.label299.AutoSize = true;
+            this.label299.Location = new System.Drawing.Point(4, 28);
+            this.label299.Name = "label299";
+            this.label299.Size = new System.Drawing.Size(25, 16);
+            this.label299.TabIndex = 6;
+            this.label299.Text = "AV";
+            // 
+            // txt_rangeScan3DMeasuring3ValLSL
+            // 
+            this.txt_rangeScan3DMeasuring3ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScan3DMeasuring3ValLSL.Name = "txt_rangeScan3DMeasuring3ValLSL";
+            this.txt_rangeScan3DMeasuring3ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring3ValLSL.TabIndex = 7;
+            // 
+            // label300
+            // 
+            this.label300.AutoSize = true;
+            this.label300.Location = new System.Drawing.Point(4, 58);
+            this.label300.Name = "label300";
+            this.label300.Size = new System.Drawing.Size(30, 16);
+            this.label300.TabIndex = 6;
+            this.label300.Text = "LSL";
+            // 
+            // txt_rangeScan3DMeasuring3ValUSL
+            // 
+            this.txt_rangeScan3DMeasuring3ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScan3DMeasuring3ValUSL.Name = "txt_rangeScan3DMeasuring3ValUSL";
+            this.txt_rangeScan3DMeasuring3ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring3ValUSL.TabIndex = 9;
+            // 
+            // label301
+            // 
+            this.label301.AutoSize = true;
+            this.label301.Location = new System.Drawing.Point(4, 87);
+            this.label301.Name = "label301";
+            this.label301.Size = new System.Drawing.Size(33, 16);
+            this.label301.TabIndex = 8;
+            this.label301.Text = "USL";
+            // 
+            // groupBox192
+            // 
+            this.groupBox192.Controls.Add(this.txt_rangeScan3DMeasuring3);
+            this.groupBox192.Controls.Add(this.label302);
+            this.groupBox192.Controls.Add(this.txt_rangeScan3DMeasuring3USL);
+            this.groupBox192.Controls.Add(this.label303);
+            this.groupBox192.Controls.Add(this.txt_rangeScan3DMeasuring3LSL);
+            this.groupBox192.Controls.Add(this.label304);
+            this.groupBox192.Location = new System.Drawing.Point(16, 36);
+            this.groupBox192.Name = "groupBox192";
+            this.groupBox192.Size = new System.Drawing.Size(154, 118);
+            this.groupBox192.TabIndex = 0;
+            this.groupBox192.TabStop = false;
+            this.groupBox192.Text = "Range";
+            // 
+            // txt_rangeScan3DMeasuring3
+            // 
+            this.txt_rangeScan3DMeasuring3.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScan3DMeasuring3.Name = "txt_rangeScan3DMeasuring3";
+            this.txt_rangeScan3DMeasuring3.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring3.TabIndex = 2;
+            // 
+            // label302
+            // 
+            this.label302.AutoSize = true;
+            this.label302.Location = new System.Drawing.Point(5, 90);
+            this.label302.Name = "label302";
+            this.label302.Size = new System.Drawing.Size(33, 16);
+            this.label302.TabIndex = 17;
+            this.label302.Text = "USL";
+            // 
+            // txt_rangeScan3DMeasuring3USL
+            // 
+            this.txt_rangeScan3DMeasuring3USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScan3DMeasuring3USL.Name = "txt_rangeScan3DMeasuring3USL";
+            this.txt_rangeScan3DMeasuring3USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring3USL.TabIndex = 18;
+            // 
+            // label303
+            // 
+            this.label303.AutoSize = true;
+            this.label303.Location = new System.Drawing.Point(5, 26);
+            this.label303.Name = "label303";
+            this.label303.Size = new System.Drawing.Size(25, 16);
+            this.label303.TabIndex = 5;
+            this.label303.Text = "AV";
+            // 
+            // txt_rangeScan3DMeasuring3LSL
+            // 
+            this.txt_rangeScan3DMeasuring3LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScan3DMeasuring3LSL.Name = "txt_rangeScan3DMeasuring3LSL";
+            this.txt_rangeScan3DMeasuring3LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring3LSL.TabIndex = 15;
+            // 
+            // label304
+            // 
+            this.label304.AutoSize = true;
+            this.label304.Location = new System.Drawing.Point(5, 58);
+            this.label304.Name = "label304";
+            this.label304.Size = new System.Drawing.Size(30, 16);
+            this.label304.TabIndex = 16;
+            this.label304.Text = "LSL";
+            // 
+            // groupBox193
+            // 
+            this.groupBox193.Controls.Add(this.groupBox194);
+            this.groupBox193.Controls.Add(this.groupBox195);
+            this.groupBox193.Controls.Add(this.groupBox196);
+            this.groupBox193.Location = new System.Drawing.Point(750, 17);
+            this.groupBox193.Name = "groupBox193";
+            this.groupBox193.Size = new System.Drawing.Size(366, 169);
+            this.groupBox193.TabIndex = 44;
+            this.groupBox193.TabStop = false;
+            this.groupBox193.Text = "ST90 Scan3DMeasuring2";
+            // 
+            // groupBox194
+            // 
+            this.groupBox194.Controls.Add(this.lbl_statusScan3DMeasuring2AV);
+            this.groupBox194.Controls.Add(this.lbl_statusScan3DMeasuring2LSL);
+            this.groupBox194.Controls.Add(this.lbl_statusScan3DMeasuring2USL);
+            this.groupBox194.Location = new System.Drawing.Point(286, 36);
+            this.groupBox194.Name = "groupBox194";
+            this.groupBox194.Size = new System.Drawing.Size(68, 118);
+            this.groupBox194.TabIndex = 21;
+            this.groupBox194.TabStop = false;
+            this.groupBox194.Text = "Status";
+            // 
+            // lbl_statusScan3DMeasuring2AV
+            // 
+            this.lbl_statusScan3DMeasuring2AV.AutoSize = true;
+            this.lbl_statusScan3DMeasuring2AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusScan3DMeasuring2AV.Name = "lbl_statusScan3DMeasuring2AV";
+            this.lbl_statusScan3DMeasuring2AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring2AV.TabIndex = 13;
+            this.lbl_statusScan3DMeasuring2AV.Text = "--";
+            // 
+            // lbl_statusScan3DMeasuring2LSL
+            // 
+            this.lbl_statusScan3DMeasuring2LSL.AutoSize = true;
+            this.lbl_statusScan3DMeasuring2LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusScan3DMeasuring2LSL.Name = "lbl_statusScan3DMeasuring2LSL";
+            this.lbl_statusScan3DMeasuring2LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring2LSL.TabIndex = 10;
+            this.lbl_statusScan3DMeasuring2LSL.Text = "--";
+            // 
+            // lbl_statusScan3DMeasuring2USL
+            // 
+            this.lbl_statusScan3DMeasuring2USL.AutoSize = true;
+            this.lbl_statusScan3DMeasuring2USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusScan3DMeasuring2USL.Name = "lbl_statusScan3DMeasuring2USL";
+            this.lbl_statusScan3DMeasuring2USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring2USL.TabIndex = 11;
+            this.lbl_statusScan3DMeasuring2USL.Text = "--";
+            // 
+            // groupBox195
+            // 
+            this.groupBox195.Controls.Add(this.txt_rangeScan3DMeasuring2ValAV);
+            this.groupBox195.Controls.Add(this.label308);
+            this.groupBox195.Controls.Add(this.txt_rangeScan3DMeasuring2ValLSL);
+            this.groupBox195.Controls.Add(this.label309);
+            this.groupBox195.Controls.Add(this.txt_rangeScan3DMeasuring2ValUSL);
+            this.groupBox195.Controls.Add(this.label310);
+            this.groupBox195.Location = new System.Drawing.Point(176, 36);
+            this.groupBox195.Name = "groupBox195";
+            this.groupBox195.Size = new System.Drawing.Size(104, 118);
+            this.groupBox195.TabIndex = 1;
+            this.groupBox195.TabStop = false;
+            this.groupBox195.Text = "Values";
+            // 
+            // txt_rangeScan3DMeasuring2ValAV
+            // 
+            this.txt_rangeScan3DMeasuring2ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScan3DMeasuring2ValAV.Name = "txt_rangeScan3DMeasuring2ValAV";
+            this.txt_rangeScan3DMeasuring2ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring2ValAV.TabIndex = 12;
+            // 
+            // label308
+            // 
+            this.label308.AutoSize = true;
+            this.label308.Location = new System.Drawing.Point(4, 28);
+            this.label308.Name = "label308";
+            this.label308.Size = new System.Drawing.Size(25, 16);
+            this.label308.TabIndex = 6;
+            this.label308.Text = "AV";
+            // 
+            // txt_rangeScan3DMeasuring2ValLSL
+            // 
+            this.txt_rangeScan3DMeasuring2ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScan3DMeasuring2ValLSL.Name = "txt_rangeScan3DMeasuring2ValLSL";
+            this.txt_rangeScan3DMeasuring2ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring2ValLSL.TabIndex = 7;
+            // 
+            // label309
+            // 
+            this.label309.AutoSize = true;
+            this.label309.Location = new System.Drawing.Point(4, 58);
+            this.label309.Name = "label309";
+            this.label309.Size = new System.Drawing.Size(30, 16);
+            this.label309.TabIndex = 6;
+            this.label309.Text = "LSL";
+            // 
+            // txt_rangeScan3DMeasuring2ValUSL
+            // 
+            this.txt_rangeScan3DMeasuring2ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScan3DMeasuring2ValUSL.Name = "txt_rangeScan3DMeasuring2ValUSL";
+            this.txt_rangeScan3DMeasuring2ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring2ValUSL.TabIndex = 9;
+            // 
+            // label310
+            // 
+            this.label310.AutoSize = true;
+            this.label310.Location = new System.Drawing.Point(4, 87);
+            this.label310.Name = "label310";
+            this.label310.Size = new System.Drawing.Size(33, 16);
+            this.label310.TabIndex = 8;
+            this.label310.Text = "USL";
+            // 
+            // groupBox196
+            // 
+            this.groupBox196.Controls.Add(this.txt_rangeScan3DMeasuring2);
+            this.groupBox196.Controls.Add(this.label311);
+            this.groupBox196.Controls.Add(this.txt_rangeScan3DMeasuring2USL);
+            this.groupBox196.Controls.Add(this.label312);
+            this.groupBox196.Controls.Add(this.txt_rangeScan3DMeasuring2LSL);
+            this.groupBox196.Controls.Add(this.label313);
+            this.groupBox196.Location = new System.Drawing.Point(16, 36);
+            this.groupBox196.Name = "groupBox196";
+            this.groupBox196.Size = new System.Drawing.Size(154, 118);
+            this.groupBox196.TabIndex = 0;
+            this.groupBox196.TabStop = false;
+            this.groupBox196.Text = "Range";
+            // 
+            // txt_rangeScan3DMeasuring2
+            // 
+            this.txt_rangeScan3DMeasuring2.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScan3DMeasuring2.Name = "txt_rangeScan3DMeasuring2";
+            this.txt_rangeScan3DMeasuring2.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring2.TabIndex = 2;
+            // 
+            // label311
+            // 
+            this.label311.AutoSize = true;
+            this.label311.Location = new System.Drawing.Point(5, 90);
+            this.label311.Name = "label311";
+            this.label311.Size = new System.Drawing.Size(33, 16);
+            this.label311.TabIndex = 17;
+            this.label311.Text = "USL";
+            // 
+            // txt_rangeScan3DMeasuring2USL
+            // 
+            this.txt_rangeScan3DMeasuring2USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScan3DMeasuring2USL.Name = "txt_rangeScan3DMeasuring2USL";
+            this.txt_rangeScan3DMeasuring2USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring2USL.TabIndex = 18;
+            // 
+            // label312
+            // 
+            this.label312.AutoSize = true;
+            this.label312.Location = new System.Drawing.Point(5, 26);
+            this.label312.Name = "label312";
+            this.label312.Size = new System.Drawing.Size(25, 16);
+            this.label312.TabIndex = 5;
+            this.label312.Text = "AV";
+            // 
+            // txt_rangeScan3DMeasuring2LSL
+            // 
+            this.txt_rangeScan3DMeasuring2LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScan3DMeasuring2LSL.Name = "txt_rangeScan3DMeasuring2LSL";
+            this.txt_rangeScan3DMeasuring2LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring2LSL.TabIndex = 15;
+            // 
+            // label313
+            // 
+            this.label313.AutoSize = true;
+            this.label313.Location = new System.Drawing.Point(5, 58);
+            this.label313.Name = "label313";
+            this.label313.Size = new System.Drawing.Size(30, 16);
+            this.label313.TabIndex = 16;
+            this.label313.Text = "LSL";
+            // 
+            // groupBox197
+            // 
+            this.groupBox197.Controls.Add(this.groupBox198);
+            this.groupBox197.Controls.Add(this.groupBox199);
+            this.groupBox197.Controls.Add(this.groupBox200);
+            this.groupBox197.Location = new System.Drawing.Point(378, 17);
+            this.groupBox197.Name = "groupBox197";
+            this.groupBox197.Size = new System.Drawing.Size(366, 169);
+            this.groupBox197.TabIndex = 43;
+            this.groupBox197.TabStop = false;
+            this.groupBox197.Text = "ST90 Scan3DMeasuring1";
+            // 
+            // groupBox198
+            // 
+            this.groupBox198.Controls.Add(this.lbl_statusScan3DMeasuring1AV);
+            this.groupBox198.Controls.Add(this.lbl_statusScan3DMeasuring1LSL);
+            this.groupBox198.Controls.Add(this.lbl_statusScan3DMeasuring1USL);
+            this.groupBox198.Location = new System.Drawing.Point(286, 36);
+            this.groupBox198.Name = "groupBox198";
+            this.groupBox198.Size = new System.Drawing.Size(68, 118);
+            this.groupBox198.TabIndex = 21;
+            this.groupBox198.TabStop = false;
+            this.groupBox198.Text = "Status";
+            // 
+            // lbl_statusScan3DMeasuring1AV
+            // 
+            this.lbl_statusScan3DMeasuring1AV.AutoSize = true;
+            this.lbl_statusScan3DMeasuring1AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusScan3DMeasuring1AV.Name = "lbl_statusScan3DMeasuring1AV";
+            this.lbl_statusScan3DMeasuring1AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring1AV.TabIndex = 13;
+            this.lbl_statusScan3DMeasuring1AV.Text = "--";
+            // 
+            // lbl_statusScan3DMeasuring1LSL
+            // 
+            this.lbl_statusScan3DMeasuring1LSL.AutoSize = true;
+            this.lbl_statusScan3DMeasuring1LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusScan3DMeasuring1LSL.Name = "lbl_statusScan3DMeasuring1LSL";
+            this.lbl_statusScan3DMeasuring1LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring1LSL.TabIndex = 10;
+            this.lbl_statusScan3DMeasuring1LSL.Text = "--";
+            // 
+            // lbl_statusScan3DMeasuring1USL
+            // 
+            this.lbl_statusScan3DMeasuring1USL.AutoSize = true;
+            this.lbl_statusScan3DMeasuring1USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusScan3DMeasuring1USL.Name = "lbl_statusScan3DMeasuring1USL";
+            this.lbl_statusScan3DMeasuring1USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring1USL.TabIndex = 11;
+            this.lbl_statusScan3DMeasuring1USL.Text = "--";
+            // 
+            // groupBox199
+            // 
+            this.groupBox199.Controls.Add(this.txt_rangeScan3DMeasuring1ValAV);
+            this.groupBox199.Controls.Add(this.label317);
+            this.groupBox199.Controls.Add(this.txt_rangeScan3DMeasuring1ValLSL);
+            this.groupBox199.Controls.Add(this.label318);
+            this.groupBox199.Controls.Add(this.txt_rangeScan3DMeasuring1ValUSL);
+            this.groupBox199.Controls.Add(this.label319);
+            this.groupBox199.Location = new System.Drawing.Point(176, 36);
+            this.groupBox199.Name = "groupBox199";
+            this.groupBox199.Size = new System.Drawing.Size(104, 118);
+            this.groupBox199.TabIndex = 1;
+            this.groupBox199.TabStop = false;
+            this.groupBox199.Text = "Values";
+            // 
+            // txt_rangeScan3DMeasuring1ValAV
+            // 
+            this.txt_rangeScan3DMeasuring1ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScan3DMeasuring1ValAV.Name = "txt_rangeScan3DMeasuring1ValAV";
+            this.txt_rangeScan3DMeasuring1ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring1ValAV.TabIndex = 12;
+            // 
+            // label317
+            // 
+            this.label317.AutoSize = true;
+            this.label317.Location = new System.Drawing.Point(4, 28);
+            this.label317.Name = "label317";
+            this.label317.Size = new System.Drawing.Size(25, 16);
+            this.label317.TabIndex = 6;
+            this.label317.Text = "AV";
+            // 
+            // txt_rangeScan3DMeasuring1ValLSL
+            // 
+            this.txt_rangeScan3DMeasuring1ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScan3DMeasuring1ValLSL.Name = "txt_rangeScan3DMeasuring1ValLSL";
+            this.txt_rangeScan3DMeasuring1ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring1ValLSL.TabIndex = 7;
+            // 
+            // label318
+            // 
+            this.label318.AutoSize = true;
+            this.label318.Location = new System.Drawing.Point(4, 58);
+            this.label318.Name = "label318";
+            this.label318.Size = new System.Drawing.Size(30, 16);
+            this.label318.TabIndex = 6;
+            this.label318.Text = "LSL";
+            // 
+            // txt_rangeScan3DMeasuring1ValUSL
+            // 
+            this.txt_rangeScan3DMeasuring1ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScan3DMeasuring1ValUSL.Name = "txt_rangeScan3DMeasuring1ValUSL";
+            this.txt_rangeScan3DMeasuring1ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring1ValUSL.TabIndex = 9;
+            // 
+            // label319
+            // 
+            this.label319.AutoSize = true;
+            this.label319.Location = new System.Drawing.Point(4, 87);
+            this.label319.Name = "label319";
+            this.label319.Size = new System.Drawing.Size(33, 16);
+            this.label319.TabIndex = 8;
+            this.label319.Text = "USL";
+            // 
+            // groupBox200
+            // 
+            this.groupBox200.Controls.Add(this.txt_rangeScan3DMeasuring1);
+            this.groupBox200.Controls.Add(this.label320);
+            this.groupBox200.Controls.Add(this.txt_rangeScan3DMeasuring1USL);
+            this.groupBox200.Controls.Add(this.label321);
+            this.groupBox200.Controls.Add(this.txt_rangeScan3DMeasuring1LSL);
+            this.groupBox200.Controls.Add(this.label322);
+            this.groupBox200.Location = new System.Drawing.Point(16, 36);
+            this.groupBox200.Name = "groupBox200";
+            this.groupBox200.Size = new System.Drawing.Size(154, 118);
+            this.groupBox200.TabIndex = 0;
+            this.groupBox200.TabStop = false;
+            this.groupBox200.Text = "Range";
+            // 
+            // txt_rangeScan3DMeasuring1
+            // 
+            this.txt_rangeScan3DMeasuring1.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScan3DMeasuring1.Name = "txt_rangeScan3DMeasuring1";
+            this.txt_rangeScan3DMeasuring1.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring1.TabIndex = 2;
+            // 
+            // label320
+            // 
+            this.label320.AutoSize = true;
+            this.label320.Location = new System.Drawing.Point(5, 90);
+            this.label320.Name = "label320";
+            this.label320.Size = new System.Drawing.Size(33, 16);
+            this.label320.TabIndex = 17;
+            this.label320.Text = "USL";
+            // 
+            // txt_rangeScan3DMeasuring1USL
+            // 
+            this.txt_rangeScan3DMeasuring1USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScan3DMeasuring1USL.Name = "txt_rangeScan3DMeasuring1USL";
+            this.txt_rangeScan3DMeasuring1USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring1USL.TabIndex = 18;
+            // 
+            // label321
+            // 
+            this.label321.AutoSize = true;
+            this.label321.Location = new System.Drawing.Point(5, 26);
+            this.label321.Name = "label321";
+            this.label321.Size = new System.Drawing.Size(25, 16);
+            this.label321.TabIndex = 5;
+            this.label321.Text = "AV";
+            // 
+            // txt_rangeScan3DMeasuring1LSL
+            // 
+            this.txt_rangeScan3DMeasuring1LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScan3DMeasuring1LSL.Name = "txt_rangeScan3DMeasuring1LSL";
+            this.txt_rangeScan3DMeasuring1LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring1LSL.TabIndex = 15;
+            // 
+            // label322
+            // 
+            this.label322.AutoSize = true;
+            this.label322.Location = new System.Drawing.Point(5, 58);
+            this.label322.Name = "label322";
+            this.label322.Size = new System.Drawing.Size(30, 16);
+            this.label322.TabIndex = 16;
+            this.label322.Text = "LSL";
+            // 
+            // groupBox201
+            // 
+            this.groupBox201.Controls.Add(this.groupBox202);
+            this.groupBox201.Controls.Add(this.groupBox203);
+            this.groupBox201.Controls.Add(this.groupBox204);
+            this.groupBox201.Location = new System.Drawing.Point(6, 17);
+            this.groupBox201.Name = "groupBox201";
+            this.groupBox201.Size = new System.Drawing.Size(366, 169);
+            this.groupBox201.TabIndex = 42;
+            this.groupBox201.TabStop = false;
+            this.groupBox201.Text = "ST90 Scan3DMeasuring0";
+            // 
+            // groupBox202
+            // 
+            this.groupBox202.Controls.Add(this.lbl_statusScan3DMeasuring0AV);
+            this.groupBox202.Controls.Add(this.lbl_statusScan3DMeasuring0LSL);
+            this.groupBox202.Controls.Add(this.lbl_statusScan3DMeasuring0USL);
+            this.groupBox202.Location = new System.Drawing.Point(286, 36);
+            this.groupBox202.Name = "groupBox202";
+            this.groupBox202.Size = new System.Drawing.Size(68, 118);
+            this.groupBox202.TabIndex = 21;
+            this.groupBox202.TabStop = false;
+            this.groupBox202.Text = "Status";
+            // 
+            // lbl_statusScan3DMeasuring0AV
+            // 
+            this.lbl_statusScan3DMeasuring0AV.AutoSize = true;
+            this.lbl_statusScan3DMeasuring0AV.Location = new System.Drawing.Point(15, 29);
+            this.lbl_statusScan3DMeasuring0AV.Name = "lbl_statusScan3DMeasuring0AV";
+            this.lbl_statusScan3DMeasuring0AV.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring0AV.TabIndex = 13;
+            this.lbl_statusScan3DMeasuring0AV.Text = "--";
+            // 
+            // lbl_statusScan3DMeasuring0LSL
+            // 
+            this.lbl_statusScan3DMeasuring0LSL.AutoSize = true;
+            this.lbl_statusScan3DMeasuring0LSL.Location = new System.Drawing.Point(15, 61);
+            this.lbl_statusScan3DMeasuring0LSL.Name = "lbl_statusScan3DMeasuring0LSL";
+            this.lbl_statusScan3DMeasuring0LSL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring0LSL.TabIndex = 10;
+            this.lbl_statusScan3DMeasuring0LSL.Text = "--";
+            // 
+            // lbl_statusScan3DMeasuring0USL
+            // 
+            this.lbl_statusScan3DMeasuring0USL.AutoSize = true;
+            this.lbl_statusScan3DMeasuring0USL.Location = new System.Drawing.Point(15, 87);
+            this.lbl_statusScan3DMeasuring0USL.Name = "lbl_statusScan3DMeasuring0USL";
+            this.lbl_statusScan3DMeasuring0USL.Size = new System.Drawing.Size(15, 16);
+            this.lbl_statusScan3DMeasuring0USL.TabIndex = 11;
+            this.lbl_statusScan3DMeasuring0USL.Text = "--";
+            // 
+            // groupBox203
+            // 
+            this.groupBox203.Controls.Add(this.txt_rangeScan3DMeasuring0ValAV);
+            this.groupBox203.Controls.Add(this.label326);
+            this.groupBox203.Controls.Add(this.txt_rangeScan3DMeasuring0ValLSL);
+            this.groupBox203.Controls.Add(this.label327);
+            this.groupBox203.Controls.Add(this.txt_rangeScan3DMeasuring0ValUSL);
+            this.groupBox203.Controls.Add(this.label328);
+            this.groupBox203.Location = new System.Drawing.Point(176, 36);
+            this.groupBox203.Name = "groupBox203";
+            this.groupBox203.Size = new System.Drawing.Size(104, 118);
+            this.groupBox203.TabIndex = 1;
+            this.groupBox203.TabStop = false;
+            this.groupBox203.Text = "Values";
+            // 
+            // txt_rangeScan3DMeasuring0ValAV
+            // 
+            this.txt_rangeScan3DMeasuring0ValAV.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScan3DMeasuring0ValAV.Name = "txt_rangeScan3DMeasuring0ValAV";
+            this.txt_rangeScan3DMeasuring0ValAV.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring0ValAV.TabIndex = 12;
+            // 
+            // label326
+            // 
+            this.label326.AutoSize = true;
+            this.label326.Location = new System.Drawing.Point(4, 28);
+            this.label326.Name = "label326";
+            this.label326.Size = new System.Drawing.Size(25, 16);
+            this.label326.TabIndex = 6;
+            this.label326.Text = "AV";
+            // 
+            // txt_rangeScan3DMeasuring0ValLSL
+            // 
+            this.txt_rangeScan3DMeasuring0ValLSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScan3DMeasuring0ValLSL.Name = "txt_rangeScan3DMeasuring0ValLSL";
+            this.txt_rangeScan3DMeasuring0ValLSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring0ValLSL.TabIndex = 7;
+            // 
+            // label327
+            // 
+            this.label327.AutoSize = true;
+            this.label327.Location = new System.Drawing.Point(4, 58);
+            this.label327.Name = "label327";
+            this.label327.Size = new System.Drawing.Size(30, 16);
+            this.label327.TabIndex = 6;
+            this.label327.Text = "LSL";
+            // 
+            // txt_rangeScan3DMeasuring0ValUSL
+            // 
+            this.txt_rangeScan3DMeasuring0ValUSL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScan3DMeasuring0ValUSL.Name = "txt_rangeScan3DMeasuring0ValUSL";
+            this.txt_rangeScan3DMeasuring0ValUSL.Size = new System.Drawing.Size(48, 22);
+            this.txt_rangeScan3DMeasuring0ValUSL.TabIndex = 9;
+            // 
+            // label328
+            // 
+            this.label328.AutoSize = true;
+            this.label328.Location = new System.Drawing.Point(4, 87);
+            this.label328.Name = "label328";
+            this.label328.Size = new System.Drawing.Size(33, 16);
+            this.label328.TabIndex = 8;
+            this.label328.Text = "USL";
+            // 
+            // groupBox204
+            // 
+            this.groupBox204.Controls.Add(this.txt_rangeScan3DMeasuring0);
+            this.groupBox204.Controls.Add(this.label329);
+            this.groupBox204.Controls.Add(this.txt_rangeScan3DMeasuring0USL);
+            this.groupBox204.Controls.Add(this.label330);
+            this.groupBox204.Controls.Add(this.txt_rangeScan3DMeasuring0LSL);
+            this.groupBox204.Controls.Add(this.label331);
+            this.groupBox204.Location = new System.Drawing.Point(16, 36);
+            this.groupBox204.Name = "groupBox204";
+            this.groupBox204.Size = new System.Drawing.Size(154, 118);
+            this.groupBox204.TabIndex = 0;
+            this.groupBox204.TabStop = false;
+            this.groupBox204.Text = "Range";
+            // 
+            // txt_rangeScan3DMeasuring0
+            // 
+            this.txt_rangeScan3DMeasuring0.Location = new System.Drawing.Point(43, 26);
+            this.txt_rangeScan3DMeasuring0.Name = "txt_rangeScan3DMeasuring0";
+            this.txt_rangeScan3DMeasuring0.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring0.TabIndex = 2;
+            // 
+            // label329
+            // 
+            this.label329.AutoSize = true;
+            this.label329.Location = new System.Drawing.Point(5, 90);
+            this.label329.Name = "label329";
+            this.label329.Size = new System.Drawing.Size(33, 16);
+            this.label329.TabIndex = 17;
+            this.label329.Text = "USL";
+            // 
+            // txt_rangeScan3DMeasuring0USL
+            // 
+            this.txt_rangeScan3DMeasuring0USL.Location = new System.Drawing.Point(43, 84);
+            this.txt_rangeScan3DMeasuring0USL.Name = "txt_rangeScan3DMeasuring0USL";
+            this.txt_rangeScan3DMeasuring0USL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring0USL.TabIndex = 18;
+            // 
+            // label330
+            // 
+            this.label330.AutoSize = true;
+            this.label330.Location = new System.Drawing.Point(5, 26);
+            this.label330.Name = "label330";
+            this.label330.Size = new System.Drawing.Size(25, 16);
+            this.label330.TabIndex = 5;
+            this.label330.Text = "AV";
+            // 
+            // txt_rangeScan3DMeasuring0LSL
+            // 
+            this.txt_rangeScan3DMeasuring0LSL.Location = new System.Drawing.Point(43, 55);
+            this.txt_rangeScan3DMeasuring0LSL.Name = "txt_rangeScan3DMeasuring0LSL";
+            this.txt_rangeScan3DMeasuring0LSL.Size = new System.Drawing.Size(100, 22);
+            this.txt_rangeScan3DMeasuring0LSL.TabIndex = 15;
+            // 
+            // label331
+            // 
+            this.label331.AutoSize = true;
+            this.label331.Location = new System.Drawing.Point(5, 58);
+            this.label331.Name = "label331";
+            this.label331.Size = new System.Drawing.Size(30, 16);
+            this.label331.TabIndex = 16;
+            this.label331.Text = "LSL";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1599, 893);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(1499, 893);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_logfile);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox1.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
@@ -3875,6 +10557,241 @@
             this.groupBox15.PerformLayout();
             this.groupBox16.ResumeLayout(false);
             this.groupBox16.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.groupBox77.ResumeLayout(false);
+            this.groupBox78.ResumeLayout(false);
+            this.groupBox78.PerformLayout();
+            this.groupBox79.ResumeLayout(false);
+            this.groupBox79.PerformLayout();
+            this.groupBox80.ResumeLayout(false);
+            this.groupBox80.PerformLayout();
+            this.groupBox81.ResumeLayout(false);
+            this.groupBox82.ResumeLayout(false);
+            this.groupBox82.PerformLayout();
+            this.groupBox83.ResumeLayout(false);
+            this.groupBox83.PerformLayout();
+            this.groupBox84.ResumeLayout(false);
+            this.groupBox84.PerformLayout();
+            this.groupBox85.ResumeLayout(false);
+            this.groupBox86.ResumeLayout(false);
+            this.groupBox86.PerformLayout();
+            this.groupBox87.ResumeLayout(false);
+            this.groupBox87.PerformLayout();
+            this.groupBox88.ResumeLayout(false);
+            this.groupBox88.PerformLayout();
+            this.groupBox89.ResumeLayout(false);
+            this.groupBox90.ResumeLayout(false);
+            this.groupBox90.PerformLayout();
+            this.groupBox91.ResumeLayout(false);
+            this.groupBox91.PerformLayout();
+            this.groupBox92.ResumeLayout(false);
+            this.groupBox92.PerformLayout();
+            this.groupBox93.ResumeLayout(false);
+            this.groupBox94.ResumeLayout(false);
+            this.groupBox94.PerformLayout();
+            this.groupBox95.ResumeLayout(false);
+            this.groupBox95.PerformLayout();
+            this.groupBox96.ResumeLayout(false);
+            this.groupBox96.PerformLayout();
+            this.groupBox97.ResumeLayout(false);
+            this.groupBox98.ResumeLayout(false);
+            this.groupBox98.PerformLayout();
+            this.groupBox99.ResumeLayout(false);
+            this.groupBox99.PerformLayout();
+            this.groupBox100.ResumeLayout(false);
+            this.groupBox100.PerformLayout();
+            this.groupBox101.ResumeLayout(false);
+            this.groupBox102.ResumeLayout(false);
+            this.groupBox102.PerformLayout();
+            this.groupBox103.ResumeLayout(false);
+            this.groupBox103.PerformLayout();
+            this.groupBox104.ResumeLayout(false);
+            this.groupBox104.PerformLayout();
+            this.tabPage4.ResumeLayout(false);
+            this.groupBox105.ResumeLayout(false);
+            this.groupBox106.ResumeLayout(false);
+            this.groupBox106.PerformLayout();
+            this.groupBox107.ResumeLayout(false);
+            this.groupBox107.PerformLayout();
+            this.groupBox108.ResumeLayout(false);
+            this.groupBox108.PerformLayout();
+            this.groupBox73.ResumeLayout(false);
+            this.groupBox74.ResumeLayout(false);
+            this.groupBox74.PerformLayout();
+            this.groupBox75.ResumeLayout(false);
+            this.groupBox75.PerformLayout();
+            this.groupBox76.ResumeLayout(false);
+            this.groupBox76.PerformLayout();
+            this.groupBox109.ResumeLayout(false);
+            this.groupBox110.ResumeLayout(false);
+            this.groupBox110.PerformLayout();
+            this.groupBox111.ResumeLayout(false);
+            this.groupBox111.PerformLayout();
+            this.groupBox112.ResumeLayout(false);
+            this.groupBox112.PerformLayout();
+            this.groupBox113.ResumeLayout(false);
+            this.groupBox114.ResumeLayout(false);
+            this.groupBox114.PerformLayout();
+            this.groupBox115.ResumeLayout(false);
+            this.groupBox115.PerformLayout();
+            this.groupBox116.ResumeLayout(false);
+            this.groupBox116.PerformLayout();
+            this.groupBox121.ResumeLayout(false);
+            this.groupBox122.ResumeLayout(false);
+            this.groupBox122.PerformLayout();
+            this.groupBox123.ResumeLayout(false);
+            this.groupBox123.PerformLayout();
+            this.groupBox124.ResumeLayout(false);
+            this.groupBox124.PerformLayout();
+            this.tabPage5.ResumeLayout(false);
+            this.groupBox117.ResumeLayout(false);
+            this.groupBox118.ResumeLayout(false);
+            this.groupBox118.PerformLayout();
+            this.groupBox119.ResumeLayout(false);
+            this.groupBox119.PerformLayout();
+            this.groupBox120.ResumeLayout(false);
+            this.groupBox120.PerformLayout();
+            this.groupBox125.ResumeLayout(false);
+            this.groupBox126.ResumeLayout(false);
+            this.groupBox126.PerformLayout();
+            this.groupBox127.ResumeLayout(false);
+            this.groupBox127.PerformLayout();
+            this.groupBox128.ResumeLayout(false);
+            this.groupBox128.PerformLayout();
+            this.groupBox129.ResumeLayout(false);
+            this.groupBox130.ResumeLayout(false);
+            this.groupBox130.PerformLayout();
+            this.groupBox131.ResumeLayout(false);
+            this.groupBox131.PerformLayout();
+            this.groupBox132.ResumeLayout(false);
+            this.groupBox132.PerformLayout();
+            this.groupBox133.ResumeLayout(false);
+            this.groupBox134.ResumeLayout(false);
+            this.groupBox134.PerformLayout();
+            this.groupBox135.ResumeLayout(false);
+            this.groupBox135.PerformLayout();
+            this.groupBox136.ResumeLayout(false);
+            this.groupBox136.PerformLayout();
+            this.groupBox137.ResumeLayout(false);
+            this.groupBox138.ResumeLayout(false);
+            this.groupBox138.PerformLayout();
+            this.groupBox139.ResumeLayout(false);
+            this.groupBox139.PerformLayout();
+            this.groupBox140.ResumeLayout(false);
+            this.groupBox140.PerformLayout();
+            this.groupBox141.ResumeLayout(false);
+            this.groupBox142.ResumeLayout(false);
+            this.groupBox142.PerformLayout();
+            this.groupBox143.ResumeLayout(false);
+            this.groupBox143.PerformLayout();
+            this.groupBox144.ResumeLayout(false);
+            this.groupBox144.PerformLayout();
+            this.groupBox145.ResumeLayout(false);
+            this.groupBox146.ResumeLayout(false);
+            this.groupBox146.PerformLayout();
+            this.groupBox147.ResumeLayout(false);
+            this.groupBox147.PerformLayout();
+            this.groupBox148.ResumeLayout(false);
+            this.groupBox148.PerformLayout();
+            this.groupBox149.ResumeLayout(false);
+            this.groupBox150.ResumeLayout(false);
+            this.groupBox150.PerformLayout();
+            this.groupBox151.ResumeLayout(false);
+            this.groupBox151.PerformLayout();
+            this.groupBox152.ResumeLayout(false);
+            this.groupBox152.PerformLayout();
+            this.groupBox153.ResumeLayout(false);
+            this.groupBox154.ResumeLayout(false);
+            this.groupBox154.PerformLayout();
+            this.groupBox155.ResumeLayout(false);
+            this.groupBox155.PerformLayout();
+            this.groupBox156.ResumeLayout(false);
+            this.groupBox156.PerformLayout();
+            this.groupBox157.ResumeLayout(false);
+            this.groupBox158.ResumeLayout(false);
+            this.groupBox158.PerformLayout();
+            this.groupBox159.ResumeLayout(false);
+            this.groupBox159.PerformLayout();
+            this.groupBox160.ResumeLayout(false);
+            this.groupBox160.PerformLayout();
+            this.groupBox161.ResumeLayout(false);
+            this.groupBox162.ResumeLayout(false);
+            this.groupBox162.PerformLayout();
+            this.groupBox163.ResumeLayout(false);
+            this.groupBox163.PerformLayout();
+            this.groupBox164.ResumeLayout(false);
+            this.groupBox164.PerformLayout();
+            this.groupBox165.ResumeLayout(false);
+            this.groupBox166.ResumeLayout(false);
+            this.groupBox166.PerformLayout();
+            this.groupBox167.ResumeLayout(false);
+            this.groupBox167.PerformLayout();
+            this.groupBox168.ResumeLayout(false);
+            this.groupBox168.PerformLayout();
+            this.groupBox169.ResumeLayout(false);
+            this.groupBox170.ResumeLayout(false);
+            this.groupBox170.PerformLayout();
+            this.groupBox171.ResumeLayout(false);
+            this.groupBox171.PerformLayout();
+            this.groupBox172.ResumeLayout(false);
+            this.groupBox172.PerformLayout();
+            this.tabPage6.ResumeLayout(false);
+            this.groupBox173.ResumeLayout(false);
+            this.groupBox174.ResumeLayout(false);
+            this.groupBox174.PerformLayout();
+            this.groupBox175.ResumeLayout(false);
+            this.groupBox175.PerformLayout();
+            this.groupBox176.ResumeLayout(false);
+            this.groupBox176.PerformLayout();
+            this.groupBox177.ResumeLayout(false);
+            this.groupBox178.ResumeLayout(false);
+            this.groupBox178.PerformLayout();
+            this.groupBox179.ResumeLayout(false);
+            this.groupBox179.PerformLayout();
+            this.groupBox180.ResumeLayout(false);
+            this.groupBox180.PerformLayout();
+            this.groupBox181.ResumeLayout(false);
+            this.groupBox182.ResumeLayout(false);
+            this.groupBox182.PerformLayout();
+            this.groupBox183.ResumeLayout(false);
+            this.groupBox183.PerformLayout();
+            this.groupBox184.ResumeLayout(false);
+            this.groupBox184.PerformLayout();
+            this.groupBox185.ResumeLayout(false);
+            this.groupBox186.ResumeLayout(false);
+            this.groupBox186.PerformLayout();
+            this.groupBox187.ResumeLayout(false);
+            this.groupBox187.PerformLayout();
+            this.groupBox188.ResumeLayout(false);
+            this.groupBox188.PerformLayout();
+            this.groupBox189.ResumeLayout(false);
+            this.groupBox190.ResumeLayout(false);
+            this.groupBox190.PerformLayout();
+            this.groupBox191.ResumeLayout(false);
+            this.groupBox191.PerformLayout();
+            this.groupBox192.ResumeLayout(false);
+            this.groupBox192.PerformLayout();
+            this.groupBox193.ResumeLayout(false);
+            this.groupBox194.ResumeLayout(false);
+            this.groupBox194.PerformLayout();
+            this.groupBox195.ResumeLayout(false);
+            this.groupBox195.PerformLayout();
+            this.groupBox196.ResumeLayout(false);
+            this.groupBox196.PerformLayout();
+            this.groupBox197.ResumeLayout(false);
+            this.groupBox198.ResumeLayout(false);
+            this.groupBox198.PerformLayout();
+            this.groupBox199.ResumeLayout(false);
+            this.groupBox199.PerformLayout();
+            this.groupBox200.ResumeLayout(false);
+            this.groupBox200.PerformLayout();
+            this.groupBox201.ResumeLayout(false);
+            this.groupBox202.ResumeLayout(false);
+            this.groupBox202.PerformLayout();
+            this.groupBox203.ResumeLayout(false);
+            this.groupBox203.PerformLayout();
+            this.groupBox204.ResumeLayout(false);
+            this.groupBox204.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4232,6 +11149,637 @@
         private System.Windows.Forms.Label label78;
         private System.Windows.Forms.TextBox txt_rangeScara3FittingPins4LSL;
         private System.Windows.Forms.Label label79;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.GroupBox groupBox77;
+        private System.Windows.Forms.GroupBox groupBox78;
+        private System.Windows.Forms.Label lbl_statusJoiningForceAV;
+        private System.Windows.Forms.Label lbl_statusJoiningForceLSL;
+        private System.Windows.Forms.Label lbl_statusJoiningForceUSL;
+        private System.Windows.Forms.GroupBox groupBox79;
+        private System.Windows.Forms.TextBox txt_rangeJoiningForceValAV;
+        private System.Windows.Forms.Label label104;
+        private System.Windows.Forms.TextBox txt_rangeJoiningForceValLSL;
+        private System.Windows.Forms.Label label105;
+        private System.Windows.Forms.TextBox txt_rangeJoiningForceValUSL;
+        private System.Windows.Forms.Label label106;
+        private System.Windows.Forms.GroupBox groupBox80;
+        private System.Windows.Forms.TextBox txt_rangeJoiningForce;
+        private System.Windows.Forms.Label label113;
+        private System.Windows.Forms.TextBox txt_rangeJoiningForceUSL;
+        private System.Windows.Forms.Label label114;
+        private System.Windows.Forms.TextBox txt_rangeJoiningForceLSL;
+        private System.Windows.Forms.Label label115;
+        private System.Windows.Forms.GroupBox groupBox81;
+        private System.Windows.Forms.GroupBox groupBox82;
+        private System.Windows.Forms.Label lbl_statusProfileScanPoint5AV;
+        private System.Windows.Forms.Label lbl_statusProfileScanPoint5LSL;
+        private System.Windows.Forms.Label lbl_statusProfileScanPoint5USL;
+        private System.Windows.Forms.GroupBox groupBox83;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint5ValAV;
+        private System.Windows.Forms.Label label131;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint5ValLSL;
+        private System.Windows.Forms.Label label132;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint5ValUSL;
+        private System.Windows.Forms.Label label133;
+        private System.Windows.Forms.GroupBox groupBox84;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint5;
+        private System.Windows.Forms.Label label134;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint5USL;
+        private System.Windows.Forms.Label label135;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint5LSL;
+        private System.Windows.Forms.Label label136;
+        private System.Windows.Forms.GroupBox groupBox85;
+        private System.Windows.Forms.GroupBox groupBox86;
+        private System.Windows.Forms.Label lbl_statusProfileScanPoint4AV;
+        private System.Windows.Forms.Label lbl_statusProfileScanPoint4LSL;
+        private System.Windows.Forms.Label lbl_statusProfileScanPoint4USL;
+        private System.Windows.Forms.GroupBox groupBox87;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint4ValAV;
+        private System.Windows.Forms.Label label140;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint4ValLSL;
+        private System.Windows.Forms.Label label141;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint4ValUSL;
+        private System.Windows.Forms.Label label142;
+        private System.Windows.Forms.GroupBox groupBox88;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint4;
+        private System.Windows.Forms.Label label143;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint4USL;
+        private System.Windows.Forms.Label label144;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint4LSL;
+        private System.Windows.Forms.Label label145;
+        private System.Windows.Forms.GroupBox groupBox89;
+        private System.Windows.Forms.GroupBox groupBox90;
+        private System.Windows.Forms.Label lbl_statusProfileScanPoint3AV;
+        private System.Windows.Forms.Label lbl_statusProfileScanPoint3LSL;
+        private System.Windows.Forms.Label lbl_statusProfileScanPoint3USL;
+        private System.Windows.Forms.GroupBox groupBox91;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint3ValAV;
+        private System.Windows.Forms.Label label149;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint3ValLSL;
+        private System.Windows.Forms.Label label150;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint3ValUSL;
+        private System.Windows.Forms.Label label151;
+        private System.Windows.Forms.GroupBox groupBox92;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint3;
+        private System.Windows.Forms.Label label152;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint3USL;
+        private System.Windows.Forms.Label label153;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint3LSL;
+        private System.Windows.Forms.Label label154;
+        private System.Windows.Forms.GroupBox groupBox93;
+        private System.Windows.Forms.GroupBox groupBox94;
+        private System.Windows.Forms.Label lbl_statusProfileScanPoint2AV;
+        private System.Windows.Forms.Label lbl_statusProfileScanPoint2LSL;
+        private System.Windows.Forms.Label lbl_statusProfileScanPoint2USL;
+        private System.Windows.Forms.GroupBox groupBox95;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint2ValAV;
+        private System.Windows.Forms.Label label158;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint2ValLSL;
+        private System.Windows.Forms.Label label159;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint2ValUSL;
+        private System.Windows.Forms.Label label160;
+        private System.Windows.Forms.GroupBox groupBox96;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint2;
+        private System.Windows.Forms.Label label161;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint2USL;
+        private System.Windows.Forms.Label label162;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint2LSL;
+        private System.Windows.Forms.Label label163;
+        private System.Windows.Forms.GroupBox groupBox97;
+        private System.Windows.Forms.GroupBox groupBox98;
+        private System.Windows.Forms.Label lbl_statusProfileScanPoint1AV;
+        private System.Windows.Forms.Label lbl_statusProfileScanPoint1LSL;
+        private System.Windows.Forms.Label lbl_statusProfileScanPoint1USL;
+        private System.Windows.Forms.GroupBox groupBox99;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint1ValAV;
+        private System.Windows.Forms.Label label167;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint1ValLSL;
+        private System.Windows.Forms.Label label168;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint1ValUSL;
+        private System.Windows.Forms.Label label169;
+        private System.Windows.Forms.GroupBox groupBox100;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint1;
+        private System.Windows.Forms.Label label170;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint1USL;
+        private System.Windows.Forms.Label label171;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint1LSL;
+        private System.Windows.Forms.Label label172;
+        private System.Windows.Forms.GroupBox groupBox101;
+        private System.Windows.Forms.GroupBox groupBox102;
+        private System.Windows.Forms.Label lbl_statusProfileScanPoint0AV;
+        private System.Windows.Forms.Label lbl_statusProfileScanPoint0LSL;
+        private System.Windows.Forms.Label lbl_statusProfileScanPoint0USL;
+        private System.Windows.Forms.GroupBox groupBox103;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint0ValAV;
+        private System.Windows.Forms.Label label176;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint0ValLSL;
+        private System.Windows.Forms.Label label177;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint0ValUSL;
+        private System.Windows.Forms.Label label178;
+        private System.Windows.Forms.GroupBox groupBox104;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint0;
+        private System.Windows.Forms.Label label179;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint0USL;
+        private System.Windows.Forms.Label label180;
+        private System.Windows.Forms.TextBox txt_rangeProfileScanPoint0LSL;
+        private System.Windows.Forms.Label label181;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.GroupBox groupBox73;
+        private System.Windows.Forms.GroupBox groupBox74;
+        private System.Windows.Forms.Label lbl_statusLaserWeldingWeldingtimeAV;
+        private System.Windows.Forms.Label lbl_statusLaserWeldingWeldingtimeLSL;
+        private System.Windows.Forms.Label lbl_statusLaserWeldingWeldingtimeUSL;
+        private System.Windows.Forms.GroupBox groupBox75;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingWeldingtimeValAV;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingWeldingtimeValLSL;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingWeldingtimeValUSL;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.GroupBox groupBox76;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingWeldingtime;
+        private System.Windows.Forms.Label label86;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingWeldingtimeUSL;
+        private System.Windows.Forms.Label label87;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingWeldingtimeLSL;
+        private System.Windows.Forms.Label label88;
+        private System.Windows.Forms.GroupBox groupBox109;
+        private System.Windows.Forms.GroupBox groupBox110;
+        private System.Windows.Forms.Label lbl_statusLaserWeldingShutdownDistanceAV;
+        private System.Windows.Forms.Label lbl_statusLaserWeldingShutdownDistanceLSL;
+        private System.Windows.Forms.Label lbl_statusLaserWeldingShutdownDistanceUSL;
+        private System.Windows.Forms.GroupBox groupBox111;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingShutdownDistanceValAV;
+        private System.Windows.Forms.Label label155;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingShutdownDistanceValLSL;
+        private System.Windows.Forms.Label label156;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingShutdownDistanceValUSL;
+        private System.Windows.Forms.Label label157;
+        private System.Windows.Forms.GroupBox groupBox112;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingShutdownDistance;
+        private System.Windows.Forms.Label label164;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingShutdownDistanceUSL;
+        private System.Windows.Forms.Label label165;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingShutdownDistanceLSL;
+        private System.Windows.Forms.Label label166;
+        private System.Windows.Forms.GroupBox groupBox113;
+        private System.Windows.Forms.GroupBox groupBox114;
+        private System.Windows.Forms.Label lbl_statusLaserWeldingStartPositionAV;
+        private System.Windows.Forms.Label lbl_statusLaserWeldingStartPositionLSL;
+        private System.Windows.Forms.Label lbl_statusLaserWeldingStartPositionUSL;
+        private System.Windows.Forms.GroupBox groupBox115;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingStartPositionValAV;
+        private System.Windows.Forms.Label label182;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingStartPositionValLSL;
+        private System.Windows.Forms.Label label183;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingStartPositionValUSL;
+        private System.Windows.Forms.Label label184;
+        private System.Windows.Forms.GroupBox groupBox116;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingStartPosition;
+        private System.Windows.Forms.Label label185;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingStartPositionUSL;
+        private System.Windows.Forms.Label label186;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingStartPositionLSL;
+        private System.Windows.Forms.Label label187;
+        private System.Windows.Forms.GroupBox groupBox121;
+        private System.Windows.Forms.GroupBox groupBox122;
+        private System.Windows.Forms.Label lbl_statusLaserWeldingSettingDistanceAV;
+        private System.Windows.Forms.Label lbl_statusLaserWeldingSettingDistanceLSL;
+        private System.Windows.Forms.Label lbl_statusLaserWeldingSettingDistanceUSL;
+        private System.Windows.Forms.GroupBox groupBox123;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingSettingDistanceValAV;
+        private System.Windows.Forms.Label label200;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingSettingDistanceValLSL;
+        private System.Windows.Forms.Label label201;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingSettingDistanceValUSL;
+        private System.Windows.Forms.Label label202;
+        private System.Windows.Forms.GroupBox groupBox124;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingSettingDistance;
+        private System.Windows.Forms.Label label203;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingSettingDistanceUSL;
+        private System.Windows.Forms.Label label204;
+        private System.Windows.Forms.TextBox txt_rangeLaserWeldingSettingDistanceLSL;
+        private System.Windows.Forms.Label label205;
+        private System.Windows.Forms.GroupBox groupBox105;
+        private System.Windows.Forms.GroupBox groupBox106;
+        private System.Windows.Forms.Label lbl_statusForceAV;
+        private System.Windows.Forms.Label lbl_statusForceLSL;
+        private System.Windows.Forms.Label lbl_statusForceUSL;
+        private System.Windows.Forms.GroupBox groupBox107;
+        private System.Windows.Forms.TextBox txt_rangeForceValAV;
+        private System.Windows.Forms.Label label95;
+        private System.Windows.Forms.TextBox txt_rangeForceValLSL;
+        private System.Windows.Forms.Label label96;
+        private System.Windows.Forms.TextBox txt_rangeForceValUSL;
+        private System.Windows.Forms.Label label97;
+        private System.Windows.Forms.GroupBox groupBox108;
+        private System.Windows.Forms.TextBox txt_rangeForce;
+        private System.Windows.Forms.Label label122;
+        private System.Windows.Forms.TextBox txt_rangeForceUSL;
+        private System.Windows.Forms.Label label123;
+        private System.Windows.Forms.TextBox txt_rangeForceLSL;
+        private System.Windows.Forms.Label label124;
+        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.GroupBox groupBox117;
+        private System.Windows.Forms.GroupBox groupBox118;
+        private System.Windows.Forms.Label lbl_statusEOLM11AV;
+        private System.Windows.Forms.Label lbl_statusEOLM11LSL;
+        private System.Windows.Forms.Label lbl_statusEOLM11USL;
+        private System.Windows.Forms.GroupBox groupBox119;
+        private System.Windows.Forms.TextBox txt_rangeEOLM11ValAV;
+        private System.Windows.Forms.Label label137;
+        private System.Windows.Forms.TextBox txt_rangeEOLM11ValLSL;
+        private System.Windows.Forms.Label label138;
+        private System.Windows.Forms.TextBox txt_rangeEOLM11ValUSL;
+        private System.Windows.Forms.Label label139;
+        private System.Windows.Forms.GroupBox groupBox120;
+        private System.Windows.Forms.TextBox txt_rangeEOLM11;
+        private System.Windows.Forms.Label label146;
+        private System.Windows.Forms.TextBox txt_rangeEOLM11USL;
+        private System.Windows.Forms.Label label147;
+        private System.Windows.Forms.TextBox txt_rangeEOLM11LSL;
+        private System.Windows.Forms.Label label148;
+        private System.Windows.Forms.GroupBox groupBox125;
+        private System.Windows.Forms.GroupBox groupBox126;
+        private System.Windows.Forms.Label lbl_statusEOLM10AV;
+        private System.Windows.Forms.Label lbl_statusEOLM10LSL;
+        private System.Windows.Forms.Label lbl_statusEOLM10USL;
+        private System.Windows.Forms.GroupBox groupBox127;
+        private System.Windows.Forms.TextBox txt_rangeEOLM10ValAV;
+        private System.Windows.Forms.Label label188;
+        private System.Windows.Forms.TextBox txt_rangeEOLM10ValLSL;
+        private System.Windows.Forms.Label label189;
+        private System.Windows.Forms.TextBox txt_rangeEOLM10ValUSL;
+        private System.Windows.Forms.Label label190;
+        private System.Windows.Forms.GroupBox groupBox128;
+        private System.Windows.Forms.TextBox txt_rangeEOLM10;
+        private System.Windows.Forms.Label label191;
+        private System.Windows.Forms.TextBox txt_rangeEOLM10USL;
+        private System.Windows.Forms.Label label192;
+        private System.Windows.Forms.TextBox txt_rangeEOLM10LSL;
+        private System.Windows.Forms.Label label193;
+        private System.Windows.Forms.GroupBox groupBox129;
+        private System.Windows.Forms.GroupBox groupBox130;
+        private System.Windows.Forms.Label lbl_statusEOLM09AV;
+        private System.Windows.Forms.Label lbl_statusEOLM09LSL;
+        private System.Windows.Forms.Label lbl_statusEOLM09USL;
+        private System.Windows.Forms.GroupBox groupBox131;
+        private System.Windows.Forms.TextBox txt_rangeEOLM09ValAV;
+        private System.Windows.Forms.Label label197;
+        private System.Windows.Forms.TextBox txt_rangeEOLM09ValLSL;
+        private System.Windows.Forms.Label label198;
+        private System.Windows.Forms.TextBox txt_rangeEOLM09ValUSL;
+        private System.Windows.Forms.Label label199;
+        private System.Windows.Forms.GroupBox groupBox132;
+        private System.Windows.Forms.TextBox txt_rangeEOLM09;
+        private System.Windows.Forms.Label label206;
+        private System.Windows.Forms.TextBox txt_rangeEOLM09USL;
+        private System.Windows.Forms.Label label207;
+        private System.Windows.Forms.TextBox txt_rangeEOLM09LSL;
+        private System.Windows.Forms.Label label208;
+        private System.Windows.Forms.GroupBox groupBox133;
+        private System.Windows.Forms.GroupBox groupBox134;
+        private System.Windows.Forms.Label lbl_statusEOLM08AV;
+        private System.Windows.Forms.Label lbl_statusEOLM08LSL;
+        private System.Windows.Forms.Label lbl_statusEOLM08USL;
+        private System.Windows.Forms.GroupBox groupBox135;
+        private System.Windows.Forms.TextBox txt_rangeEOLM08ValAV;
+        private System.Windows.Forms.Label label212;
+        private System.Windows.Forms.TextBox txt_rangeEOLM08ValLSL;
+        private System.Windows.Forms.Label label213;
+        private System.Windows.Forms.TextBox txt_rangeEOLM08ValUSL;
+        private System.Windows.Forms.Label label214;
+        private System.Windows.Forms.GroupBox groupBox136;
+        private System.Windows.Forms.TextBox txt_rangeEOLM08;
+        private System.Windows.Forms.Label label215;
+        private System.Windows.Forms.TextBox txt_rangeEOLM08USL;
+        private System.Windows.Forms.Label label216;
+        private System.Windows.Forms.TextBox txt_rangeEOLM08LSL;
+        private System.Windows.Forms.Label label217;
+        private System.Windows.Forms.GroupBox groupBox137;
+        private System.Windows.Forms.GroupBox groupBox138;
+        private System.Windows.Forms.Label lbl_statusEOLM07AV;
+        private System.Windows.Forms.Label lbl_statusEOLM07LSL;
+        private System.Windows.Forms.Label lbl_statusEOLM07USL;
+        private System.Windows.Forms.GroupBox groupBox139;
+        private System.Windows.Forms.TextBox txt_rangeEOLM07ValAV;
+        private System.Windows.Forms.Label label221;
+        private System.Windows.Forms.TextBox txt_rangeEOLM07ValLSL;
+        private System.Windows.Forms.Label label222;
+        private System.Windows.Forms.TextBox txt_rangeEOLM07ValUSL;
+        private System.Windows.Forms.Label label223;
+        private System.Windows.Forms.GroupBox groupBox140;
+        private System.Windows.Forms.TextBox txt_rangeEOLM07;
+        private System.Windows.Forms.Label label224;
+        private System.Windows.Forms.TextBox txt_rangeEOLM07USL;
+        private System.Windows.Forms.Label label225;
+        private System.Windows.Forms.TextBox txt_rangeEOLM07LSL;
+        private System.Windows.Forms.Label label226;
+        private System.Windows.Forms.GroupBox groupBox141;
+        private System.Windows.Forms.GroupBox groupBox142;
+        private System.Windows.Forms.Label lbl_statusEOLM06AV;
+        private System.Windows.Forms.Label lbl_statusEOLM06LSL;
+        private System.Windows.Forms.Label lbl_statusEOLM06USL;
+        private System.Windows.Forms.GroupBox groupBox143;
+        private System.Windows.Forms.TextBox txt_rangeEOLM06ValAV;
+        private System.Windows.Forms.Label label230;
+        private System.Windows.Forms.TextBox txt_rangeEOLM06ValLSL;
+        private System.Windows.Forms.Label label231;
+        private System.Windows.Forms.TextBox txt_rangeEOLM06ValUSL;
+        private System.Windows.Forms.Label label232;
+        private System.Windows.Forms.GroupBox groupBox144;
+        private System.Windows.Forms.TextBox txt_rangeEOLM06;
+        private System.Windows.Forms.Label label233;
+        private System.Windows.Forms.TextBox txt_rangeEOLM06USL;
+        private System.Windows.Forms.Label label234;
+        private System.Windows.Forms.TextBox txt_rangeEOLM06LSL;
+        private System.Windows.Forms.Label label235;
+        private System.Windows.Forms.GroupBox groupBox145;
+        private System.Windows.Forms.GroupBox groupBox146;
+        private System.Windows.Forms.Label lbl_statusEOLM05AV;
+        private System.Windows.Forms.Label lbl_statusEOLM05LSL;
+        private System.Windows.Forms.Label lbl_statusEOLM05USL;
+        private System.Windows.Forms.GroupBox groupBox147;
+        private System.Windows.Forms.TextBox txt_rangeEOLM05ValAV;
+        private System.Windows.Forms.Label label239;
+        private System.Windows.Forms.TextBox txt_rangeEOLM05ValLSL;
+        private System.Windows.Forms.Label label240;
+        private System.Windows.Forms.TextBox txt_rangeEOLM05ValUSL;
+        private System.Windows.Forms.Label label241;
+        private System.Windows.Forms.GroupBox groupBox148;
+        private System.Windows.Forms.TextBox txt_rangeEOLM05;
+        private System.Windows.Forms.Label label242;
+        private System.Windows.Forms.TextBox txt_rangeEOLM05USL;
+        private System.Windows.Forms.Label label243;
+        private System.Windows.Forms.TextBox txt_rangeEOLM05LSL;
+        private System.Windows.Forms.Label label244;
+        private System.Windows.Forms.GroupBox groupBox149;
+        private System.Windows.Forms.GroupBox groupBox150;
+        private System.Windows.Forms.Label lbl_statusEOLM04AV;
+        private System.Windows.Forms.Label lbl_statusEOLM04LSL;
+        private System.Windows.Forms.Label lbl_statusEOLM04USL;
+        private System.Windows.Forms.GroupBox groupBox151;
+        private System.Windows.Forms.TextBox txt_rangeEOLM04ValAV;
+        private System.Windows.Forms.Label label248;
+        private System.Windows.Forms.TextBox txt_rangeEOLM04ValLSL;
+        private System.Windows.Forms.Label label249;
+        private System.Windows.Forms.TextBox txt_rangeEOLM04ValUSL;
+        private System.Windows.Forms.Label label250;
+        private System.Windows.Forms.GroupBox groupBox152;
+        private System.Windows.Forms.TextBox txt_rangeEOLM04;
+        private System.Windows.Forms.Label label251;
+        private System.Windows.Forms.TextBox txt_rangeEOLM04USL;
+        private System.Windows.Forms.Label label252;
+        private System.Windows.Forms.TextBox txt_rangeEOLM04LSL;
+        private System.Windows.Forms.Label label253;
+        private System.Windows.Forms.GroupBox groupBox153;
+        private System.Windows.Forms.GroupBox groupBox154;
+        private System.Windows.Forms.Label lbl_statusEOLM03AV;
+        private System.Windows.Forms.Label lbl_statusEOLM03LSL;
+        private System.Windows.Forms.Label lbl_statusEOLM03USL;
+        private System.Windows.Forms.GroupBox groupBox155;
+        private System.Windows.Forms.TextBox txt_rangeEOLM03ValAV;
+        private System.Windows.Forms.Label label257;
+        private System.Windows.Forms.TextBox txt_rangeEOLM03ValLSL;
+        private System.Windows.Forms.Label label258;
+        private System.Windows.Forms.TextBox txt_rangeEOLM03ValUSL;
+        private System.Windows.Forms.Label label259;
+        private System.Windows.Forms.GroupBox groupBox156;
+        private System.Windows.Forms.TextBox txt_rangeEOLM03;
+        private System.Windows.Forms.Label label260;
+        private System.Windows.Forms.TextBox txt_rangeEOLM03USL;
+        private System.Windows.Forms.Label label261;
+        private System.Windows.Forms.TextBox txt_rangeEOLM03LSL;
+        private System.Windows.Forms.Label label262;
+        private System.Windows.Forms.GroupBox groupBox157;
+        private System.Windows.Forms.GroupBox groupBox158;
+        private System.Windows.Forms.Label lbl_statusEOLM02AV;
+        private System.Windows.Forms.Label lbl_statusEOLM02LSL;
+        private System.Windows.Forms.Label lbl_statusEOLM02USL;
+        private System.Windows.Forms.GroupBox groupBox159;
+        private System.Windows.Forms.TextBox txt_rangeEOLM02ValAV;
+        private System.Windows.Forms.Label label266;
+        private System.Windows.Forms.TextBox txt_rangeEOLM02ValLSL;
+        private System.Windows.Forms.Label label267;
+        private System.Windows.Forms.TextBox txt_rangeEOLM02ValUSL;
+        private System.Windows.Forms.Label label268;
+        private System.Windows.Forms.GroupBox groupBox160;
+        private System.Windows.Forms.TextBox txt_rangeEOLM02;
+        private System.Windows.Forms.Label label269;
+        private System.Windows.Forms.TextBox txt_rangeEOLM02USL;
+        private System.Windows.Forms.Label label270;
+        private System.Windows.Forms.TextBox txt_rangeEOLM02LSL;
+        private System.Windows.Forms.Label label271;
+        private System.Windows.Forms.GroupBox groupBox161;
+        private System.Windows.Forms.GroupBox groupBox162;
+        private System.Windows.Forms.Label lbl_statusEOLM01AV;
+        private System.Windows.Forms.Label lbl_statusEOLM01LSL;
+        private System.Windows.Forms.Label lbl_statusEOLM01USL;
+        private System.Windows.Forms.GroupBox groupBox163;
+        private System.Windows.Forms.TextBox txt_rangeEOLM01ValAV;
+        private System.Windows.Forms.Label label275;
+        private System.Windows.Forms.TextBox txt_rangeEOLM01ValLSL;
+        private System.Windows.Forms.Label label276;
+        private System.Windows.Forms.TextBox txt_rangeEOLM01ValUSL;
+        private System.Windows.Forms.Label label277;
+        private System.Windows.Forms.GroupBox groupBox164;
+        private System.Windows.Forms.TextBox txt_rangeEOLM01;
+        private System.Windows.Forms.Label label278;
+        private System.Windows.Forms.TextBox txt_rangeEOLM01USL;
+        private System.Windows.Forms.Label label279;
+        private System.Windows.Forms.TextBox txt_rangeEOLM01LSL;
+        private System.Windows.Forms.Label label280;
+        private System.Windows.Forms.GroupBox groupBox165;
+        private System.Windows.Forms.GroupBox groupBox166;
+        private System.Windows.Forms.Label lbl_statusLeaktestLeakageAV;
+        private System.Windows.Forms.Label lbl_statusLeaktestLeakageLSL;
+        private System.Windows.Forms.Label lbl_statusLeaktestLeakageUSL;
+        private System.Windows.Forms.GroupBox groupBox167;
+        private System.Windows.Forms.TextBox txt_rangeLeaktestLeakageValAV;
+        private System.Windows.Forms.Label label284;
+        private System.Windows.Forms.TextBox txt_rangeLeaktestLeakageValLSL;
+        private System.Windows.Forms.Label label285;
+        private System.Windows.Forms.TextBox txt_rangeLeaktestLeakageValUSL;
+        private System.Windows.Forms.Label label286;
+        private System.Windows.Forms.GroupBox groupBox168;
+        private System.Windows.Forms.TextBox txt_rangeLeaktestLeakage;
+        private System.Windows.Forms.Label label287;
+        private System.Windows.Forms.TextBox txt_rangeLeaktestLeakageUSL;
+        private System.Windows.Forms.Label label288;
+        private System.Windows.Forms.TextBox txt_rangeLeaktestLeakageLSL;
+        private System.Windows.Forms.Label label289;
+        private System.Windows.Forms.GroupBox groupBox169;
+        private System.Windows.Forms.GroupBox groupBox170;
+        private System.Windows.Forms.Label lbl_statusLeaktestStartPressureAV;
+        private System.Windows.Forms.Label lbl_statusLeaktestStartPressureLSL;
+        private System.Windows.Forms.Label lbl_statusLeaktestStartPressureUSL;
+        private System.Windows.Forms.GroupBox groupBox171;
+        private System.Windows.Forms.TextBox txt_rangeLeaktestStartPressureValAV;
+        private System.Windows.Forms.Label label293;
+        private System.Windows.Forms.TextBox txt_rangeLeaktestStartPressureValLSL;
+        private System.Windows.Forms.Label label294;
+        private System.Windows.Forms.TextBox txt_rangeLeaktestStartPressureValUSL;
+        private System.Windows.Forms.Label label295;
+        private System.Windows.Forms.GroupBox groupBox172;
+        private System.Windows.Forms.TextBox txt_rangeLeaktestStartPressure;
+        private System.Windows.Forms.Label label296;
+        private System.Windows.Forms.TextBox txt_rangeLeaktestStartPressureUSL;
+        private System.Windows.Forms.Label label297;
+        private System.Windows.Forms.TextBox txt_rangeLeaktestStartPressureLSL;
+        private System.Windows.Forms.Label label298;
+        private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.GroupBox groupBox173;
+        private System.Windows.Forms.GroupBox groupBox174;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring7AV;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring7LSL;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring7USL;
+        private System.Windows.Forms.GroupBox groupBox175;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring7ValAV;
+        private System.Windows.Forms.Label label173;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring7ValLSL;
+        private System.Windows.Forms.Label label174;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring7ValUSL;
+        private System.Windows.Forms.Label label175;
+        private System.Windows.Forms.GroupBox groupBox176;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring7;
+        private System.Windows.Forms.Label label194;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring7USL;
+        private System.Windows.Forms.Label label195;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring7LSL;
+        private System.Windows.Forms.Label label196;
+        private System.Windows.Forms.GroupBox groupBox177;
+        private System.Windows.Forms.GroupBox groupBox178;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring6AV;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring6LSL;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring6USL;
+        private System.Windows.Forms.GroupBox groupBox179;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring6ValAV;
+        private System.Windows.Forms.Label label218;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring6ValLSL;
+        private System.Windows.Forms.Label label219;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring6ValUSL;
+        private System.Windows.Forms.Label label220;
+        private System.Windows.Forms.GroupBox groupBox180;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring6;
+        private System.Windows.Forms.Label label227;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring6USL;
+        private System.Windows.Forms.Label label228;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring6LSL;
+        private System.Windows.Forms.Label label229;
+        private System.Windows.Forms.GroupBox groupBox181;
+        private System.Windows.Forms.GroupBox groupBox182;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring5AV;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring5LSL;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring5USL;
+        private System.Windows.Forms.GroupBox groupBox183;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring5ValAV;
+        private System.Windows.Forms.Label label245;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring5ValLSL;
+        private System.Windows.Forms.Label label246;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring5ValUSL;
+        private System.Windows.Forms.Label label247;
+        private System.Windows.Forms.GroupBox groupBox184;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring5;
+        private System.Windows.Forms.Label label254;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring5USL;
+        private System.Windows.Forms.Label label255;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring5LSL;
+        private System.Windows.Forms.Label label256;
+        private System.Windows.Forms.GroupBox groupBox185;
+        private System.Windows.Forms.GroupBox groupBox186;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring4AV;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring4LSL;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring4USL;
+        private System.Windows.Forms.GroupBox groupBox187;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring4ValAV;
+        private System.Windows.Forms.Label label272;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring4ValLSL;
+        private System.Windows.Forms.Label label273;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring4ValUSL;
+        private System.Windows.Forms.Label label274;
+        private System.Windows.Forms.GroupBox groupBox188;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring4;
+        private System.Windows.Forms.Label label281;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring4USL;
+        private System.Windows.Forms.Label label282;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring4LSL;
+        private System.Windows.Forms.Label label283;
+        private System.Windows.Forms.GroupBox groupBox189;
+        private System.Windows.Forms.GroupBox groupBox190;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring3AV;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring3LSL;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring3USL;
+        private System.Windows.Forms.GroupBox groupBox191;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring3ValAV;
+        private System.Windows.Forms.Label label299;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring3ValLSL;
+        private System.Windows.Forms.Label label300;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring3ValUSL;
+        private System.Windows.Forms.Label label301;
+        private System.Windows.Forms.GroupBox groupBox192;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring3;
+        private System.Windows.Forms.Label label302;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring3USL;
+        private System.Windows.Forms.Label label303;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring3LSL;
+        private System.Windows.Forms.Label label304;
+        private System.Windows.Forms.GroupBox groupBox193;
+        private System.Windows.Forms.GroupBox groupBox194;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring2AV;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring2LSL;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring2USL;
+        private System.Windows.Forms.GroupBox groupBox195;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring2ValAV;
+        private System.Windows.Forms.Label label308;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring2ValLSL;
+        private System.Windows.Forms.Label label309;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring2ValUSL;
+        private System.Windows.Forms.Label label310;
+        private System.Windows.Forms.GroupBox groupBox196;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring2;
+        private System.Windows.Forms.Label label311;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring2USL;
+        private System.Windows.Forms.Label label312;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring2LSL;
+        private System.Windows.Forms.Label label313;
+        private System.Windows.Forms.GroupBox groupBox197;
+        private System.Windows.Forms.GroupBox groupBox198;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring1AV;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring1LSL;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring1USL;
+        private System.Windows.Forms.GroupBox groupBox199;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring1ValAV;
+        private System.Windows.Forms.Label label317;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring1ValLSL;
+        private System.Windows.Forms.Label label318;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring1ValUSL;
+        private System.Windows.Forms.Label label319;
+        private System.Windows.Forms.GroupBox groupBox200;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring1;
+        private System.Windows.Forms.Label label320;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring1USL;
+        private System.Windows.Forms.Label label321;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring1LSL;
+        private System.Windows.Forms.Label label322;
+        private System.Windows.Forms.GroupBox groupBox201;
+        private System.Windows.Forms.GroupBox groupBox202;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring0AV;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring0LSL;
+        private System.Windows.Forms.Label lbl_statusScan3DMeasuring0USL;
+        private System.Windows.Forms.GroupBox groupBox203;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring0ValAV;
+        private System.Windows.Forms.Label label326;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring0ValLSL;
+        private System.Windows.Forms.Label label327;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring0ValUSL;
+        private System.Windows.Forms.Label label328;
+        private System.Windows.Forms.GroupBox groupBox204;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring0;
+        private System.Windows.Forms.Label label329;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring0USL;
+        private System.Windows.Forms.Label label330;
+        private System.Windows.Forms.TextBox txt_rangeScan3DMeasuring0LSL;
+        private System.Windows.Forms.Label label331;
     }
 }
 

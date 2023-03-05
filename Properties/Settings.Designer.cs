@@ -1114,5 +1114,1985 @@ namespace LogFileCheck.Properties {
                 this["txt_rangeScara3FittingPins4USL"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BJI2:BJI")]
+        public string txt_rangeProfileScanPoint0 {
+            get {
+                return ((string)(this["txt_rangeProfileScanPoint0"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint0"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("19.01")]
+        public double txt_rangeProfileScanPoint0ValUSL {
+            get {
+                return ((double)(this["txt_rangeProfileScanPoint0ValUSL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint0ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("10.24")]
+        public double txt_rangeProfileScanPoint0ValLSL {
+            get {
+                return ((double)(this["txt_rangeProfileScanPoint0ValLSL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint0ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BJG2:BJG")]
+        public string txt_rangeProfileScanPoint0LSL {
+            get {
+                return ((string)(this["txt_rangeProfileScanPoint0LSL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint0LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BJK2:BJK")]
+        public string txt_rangeProfileScanPoint0USL {
+            get {
+                return ((string)(this["txt_rangeProfileScanPoint0USL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint0USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BJP2:BJP")]
+        public string txt_rangeProfileScanPoint1 {
+            get {
+                return ((string)(this["txt_rangeProfileScanPoint1"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("24.34")]
+        public double txt_rangeProfileScanPoint1ValUSL {
+            get {
+                return ((double)(this["txt_rangeProfileScanPoint1ValUSL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint1ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("13.1")]
+        public double txt_rangeProfileScanPoint1ValLSL {
+            get {
+                return ((double)(this["txt_rangeProfileScanPoint1ValLSL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint1ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BJN2:BJN")]
+        public string txt_rangeProfileScanPoint1LSL {
+            get {
+                return ((string)(this["txt_rangeProfileScanPoint1LSL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint1LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BJR2:BJR")]
+        public string txt_rangeProfileScanPoint1USL {
+            get {
+                return ((string)(this["txt_rangeProfileScanPoint1USL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint1USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BJW2:BJW")]
+        public string txt_rangeProfileScanPoint2 {
+            get {
+                return ((string)(this["txt_rangeProfileScanPoint2"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("22.05")]
+        public double txt_rangeProfileScanPoint2ValUSL {
+            get {
+                return ((double)(this["txt_rangeProfileScanPoint2ValUSL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint2ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("11.88")]
+        public double txt_rangeProfileScanPoint2ValLSL {
+            get {
+                return ((double)(this["txt_rangeProfileScanPoint2ValLSL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint2ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BJU2:BJU")]
+        public string txt_rangeProfileScanPoint2LSL {
+            get {
+                return ((string)(this["txt_rangeProfileScanPoint2LSL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint2LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BJY2:BJY")]
+        public string txt_rangeProfileScanPoint2USL {
+            get {
+                return ((string)(this["txt_rangeProfileScanPoint2USL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint2USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BKD2:BKD")]
+        public string txt_rangeProfileScanPoint3 {
+            get {
+                return ((string)(this["txt_rangeProfileScanPoint3"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("22.05")]
+        public double txt_rangeProfileScanPoint3ValUSL {
+            get {
+                return ((double)(this["txt_rangeProfileScanPoint3ValUSL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint3ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("11.88")]
+        public double txt_rangeProfileScanPoint3ValLSL {
+            get {
+                return ((double)(this["txt_rangeProfileScanPoint3ValLSL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint3ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BKB2:BKB")]
+        public string txt_rangeProfileScanPoint3LSL {
+            get {
+                return ((string)(this["txt_rangeProfileScanPoint3LSL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint3LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BKF2:BKF")]
+        public string txt_rangeProfileScanPoint3USL {
+            get {
+                return ((string)(this["txt_rangeProfileScanPoint3USL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint3USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BKK2:BKK")]
+        public string txt_rangeProfileScanPoint4 {
+            get {
+                return ((string)(this["txt_rangeProfileScanPoint4"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("24.34")]
+        public double txt_rangeProfileScanPoint4ValUSL {
+            get {
+                return ((double)(this["txt_rangeProfileScanPoint4ValUSL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint4ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("13.1")]
+        public double txt_rangeProfileScanPoint4ValLSL {
+            get {
+                return ((double)(this["txt_rangeProfileScanPoint4ValLSL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint4ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BKI2:BKI")]
+        public string txt_rangeProfileScanPoint4LSL {
+            get {
+                return ((string)(this["txt_rangeProfileScanPoint4LSL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint4LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BKM2:BKM")]
+        public string txt_rangeProfileScanPoint4USL {
+            get {
+                return ((string)(this["txt_rangeProfileScanPoint4USL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint4USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BKR2:BKR")]
+        public string txt_rangeProfileScanPoint5 {
+            get {
+                return ((string)(this["txt_rangeProfileScanPoint5"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("19.01")]
+        public double txt_rangeProfileScanPoint5ValUSL {
+            get {
+                return ((double)(this["txt_rangeProfileScanPoint5ValUSL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint5ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("10.24")]
+        public double txt_rangeProfileScanPoint5ValLSL {
+            get {
+                return ((double)(this["txt_rangeProfileScanPoint5ValLSL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint5ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BKP2:BKP")]
+        public string txt_rangeProfileScanPoint5LSL {
+            get {
+                return ((string)(this["txt_rangeProfileScanPoint5LSL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint5LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BKT2:BKT")]
+        public string txt_rangeProfileScanPoint5USL {
+            get {
+                return ((string)(this["txt_rangeProfileScanPoint5USL"]));
+            }
+            set {
+                this["txt_rangeProfileScanPoint5USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BOQ2:BOQ")]
+        public string txt_rangeJoiningForce {
+            get {
+                return ((string)(this["txt_rangeJoiningForce"]));
+            }
+            set {
+                this["txt_rangeJoiningForce"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("300")]
+        public double txt_rangeJoiningForceValUSL {
+            get {
+                return ((double)(this["txt_rangeJoiningForceValUSL"]));
+            }
+            set {
+                this["txt_rangeJoiningForceValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("5")]
+        public double txt_rangeJoiningForceValLSL {
+            get {
+                return ((double)(this["txt_rangeJoiningForceValLSL"]));
+            }
+            set {
+                this["txt_rangeJoiningForceValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BOO2:BOO")]
+        public string txt_rangeJoiningForceLSL {
+            get {
+                return ((string)(this["txt_rangeJoiningForceLSL"]));
+            }
+            set {
+                this["txt_rangeJoiningForceLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BOS2:BOS")]
+        public string txt_rangeJoiningForceUSL {
+            get {
+                return ((string)(this["txt_rangeJoiningForceUSL"]));
+            }
+            set {
+                this["txt_rangeJoiningForceUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BPC2:BPC")]
+        public string txt_rangeLaserWeldingSettingDistance {
+            get {
+                return ((string)(this["txt_rangeLaserWeldingSettingDistance"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingSettingDistance"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public double txt_rangeLaserWeldingSettingDistanceValUSL {
+            get {
+                return ((double)(this["txt_rangeLaserWeldingSettingDistanceValUSL"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingSettingDistanceValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.1")]
+        public double txt_rangeLaserWeldingSettingDistanceValLSL {
+            get {
+                return ((double)(this["txt_rangeLaserWeldingSettingDistanceValLSL"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingSettingDistanceValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BPA2:BPA")]
+        public string txt_rangeLaserWeldingSettingDistanceLSL {
+            get {
+                return ((string)(this["txt_rangeLaserWeldingSettingDistanceLSL"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingSettingDistanceLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BPE2:BPE")]
+        public string txt_rangeLaserWeldingSettingDistanceUSL {
+            get {
+                return ((string)(this["txt_rangeLaserWeldingSettingDistanceUSL"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingSettingDistanceUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BPK2:BPK")]
+        public string txt_rangeLaserWeldingStartPosition {
+            get {
+                return ((string)(this["txt_rangeLaserWeldingStartPosition"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingStartPosition"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("4")]
+        public double txt_rangeLaserWeldingStartPositionValUSL {
+            get {
+                return ((double)(this["txt_rangeLaserWeldingStartPositionValUSL"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingStartPositionValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("2.8")]
+        public double txt_rangeLaserWeldingStartPositionValLSL {
+            get {
+                return ((double)(this["txt_rangeLaserWeldingStartPositionValLSL"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingStartPositionValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BPI2:BPI")]
+        public string txt_rangeLaserWeldingStartPositionLSL {
+            get {
+                return ((string)(this["txt_rangeLaserWeldingStartPositionLSL"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingStartPositionLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BPM2:BPM")]
+        public string txt_rangeLaserWeldingStartPositionUSL {
+            get {
+                return ((string)(this["txt_rangeLaserWeldingStartPositionUSL"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingStartPositionUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BPU2:BPU")]
+        public string txt_rangeLaserWeldingShutdownDistance {
+            get {
+                return ((string)(this["txt_rangeLaserWeldingShutdownDistance"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingShutdownDistance"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.48")]
+        public double txt_rangeLaserWeldingShutdownDistanceValUSL {
+            get {
+                return ((double)(this["txt_rangeLaserWeldingShutdownDistanceValUSL"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingShutdownDistanceValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.4")]
+        public double txt_rangeLaserWeldingShutdownDistanceValLSL {
+            get {
+                return ((double)(this["txt_rangeLaserWeldingShutdownDistanceValLSL"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingShutdownDistanceValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BPS2:BPS")]
+        public string txt_rangeLaserWeldingShutdownDistanceLSL {
+            get {
+                return ((string)(this["txt_rangeLaserWeldingShutdownDistanceLSL"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingShutdownDistanceLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BPW2:BPW")]
+        public string txt_rangeLaserWeldingShutdownDistanceUSL {
+            get {
+                return ((string)(this["txt_rangeLaserWeldingShutdownDistanceUSL"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingShutdownDistanceUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BQC2:BQC")]
+        public string txt_rangeLaserWeldingWeldingtime {
+            get {
+                return ((string)(this["txt_rangeLaserWeldingWeldingtime"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingWeldingtime"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("20")]
+        public double txt_rangeLaserWeldingWeldingtimeValUSL {
+            get {
+                return ((double)(this["txt_rangeLaserWeldingWeldingtimeValUSL"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingWeldingtimeValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public double txt_rangeLaserWeldingWeldingtimeValLSL {
+            get {
+                return ((double)(this["txt_rangeLaserWeldingWeldingtimeValLSL"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingWeldingtimeValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BQA2:BQA")]
+        public string txt_rangeLaserWeldingWeldingtimeLSL {
+            get {
+                return ((string)(this["txt_rangeLaserWeldingWeldingtimeLSL"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingWeldingtimeLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BQE2:BQE")]
+        public string txt_rangeLaserWeldingWeldingtimeUSL {
+            get {
+                return ((string)(this["txt_rangeLaserWeldingWeldingtimeUSL"]));
+            }
+            set {
+                this["txt_rangeLaserWeldingWeldingtimeUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BDV2:BDV")]
+        public string txt_rangeForce {
+            get {
+                return ((string)(this["txt_rangeForce"]));
+            }
+            set {
+                this["txt_rangeForce"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("30")]
+        public double txt_rangeForceValUSL {
+            get {
+                return ((double)(this["txt_rangeForceValUSL"]));
+            }
+            set {
+                this["txt_rangeForceValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public double txt_rangeForceValLSL {
+            get {
+                return ((double)(this["txt_rangeForceValLSL"]));
+            }
+            set {
+                this["txt_rangeForceValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BDK2:BDK")]
+        public string txt_rangeForceLSL {
+            get {
+                return ((string)(this["txt_rangeForceLSL"]));
+            }
+            set {
+                this["txt_rangeForceLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BDY2:BDY")]
+        public string txt_rangeForceUSL {
+            get {
+                return ((string)(this["txt_rangeForceUSL"]));
+            }
+            set {
+                this["txt_rangeForceUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AWW2:AWW")]
+        public string txt_rangeLeaktestStartPressure {
+            get {
+                return ((string)(this["txt_rangeLeaktestStartPressure"]));
+            }
+            set {
+                this["txt_rangeLeaktestStartPressure"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("13")]
+        public double txt_rangeLeaktestStartPressureValUSL {
+            get {
+                return ((double)(this["txt_rangeLeaktestStartPressureValUSL"]));
+            }
+            set {
+                this["txt_rangeLeaktestStartPressureValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("9")]
+        public double txt_rangeLeaktestStartPressureValLSL {
+            get {
+                return ((double)(this["txt_rangeLeaktestStartPressureValLSL"]));
+            }
+            set {
+                this["txt_rangeLeaktestStartPressureValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AWU2:AWU")]
+        public string txt_rangeLeaktestStartPressureLSL {
+            get {
+                return ((string)(this["txt_rangeLeaktestStartPressureLSL"]));
+            }
+            set {
+                this["txt_rangeLeaktestStartPressureLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AWZ2:AWZ")]
+        public string txt_rangeLeaktestStartPressureUSL {
+            get {
+                return ((string)(this["txt_rangeLeaktestStartPressureUSL"]));
+            }
+            set {
+                this["txt_rangeLeaktestStartPressureUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AXA2:AXA")]
+        public string txt_rangeLeaktestLeakage {
+            get {
+                return ((string)(this["txt_rangeLeaktestLeakage"]));
+            }
+            set {
+                this["txt_rangeLeaktestLeakage"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("3")]
+        public double txt_rangeLeaktestLeakageValUSL {
+            get {
+                return ((double)(this["txt_rangeLeaktestLeakageValUSL"]));
+            }
+            set {
+                this["txt_rangeLeaktestLeakageValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double txt_rangeLeaktestLeakageValLSL {
+            get {
+                return ((double)(this["txt_rangeLeaktestLeakageValLSL"]));
+            }
+            set {
+                this["txt_rangeLeaktestLeakageValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AWR2:AWR")]
+        public string txt_rangeLeaktestLeakageLSL {
+            get {
+                return ((string)(this["txt_rangeLeaktestLeakageLSL"]));
+            }
+            set {
+                this["txt_rangeLeaktestLeakageLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AXD2:AXD")]
+        public string txt_rangeLeaktestLeakageUSL {
+            get {
+                return ((string)(this["txt_rangeLeaktestLeakageUSL"]));
+            }
+            set {
+                this["txt_rangeLeaktestLeakageUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AYD2:AYD")]
+        public string txt_rangeEOLM01 {
+            get {
+                return ((string)(this["txt_rangeEOLM01"]));
+            }
+            set {
+                this["txt_rangeEOLM01"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("4817.5")]
+        public double txt_rangeEOLM01ValUSL {
+            get {
+                return ((double)(this["txt_rangeEOLM01ValUSL"]));
+            }
+            set {
+                this["txt_rangeEOLM01ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("4582.5")]
+        public double txt_rangeEOLM01ValLSL {
+            get {
+                return ((double)(this["txt_rangeEOLM01ValLSL"]));
+            }
+            set {
+                this["txt_rangeEOLM01ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AYC2:AYC")]
+        public string txt_rangeEOLM01LSL {
+            get {
+                return ((string)(this["txt_rangeEOLM01LSL"]));
+            }
+            set {
+                this["txt_rangeEOLM01LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AYF2:AYF")]
+        public string txt_rangeEOLM01USL {
+            get {
+                return ((string)(this["txt_rangeEOLM01USL"]));
+            }
+            set {
+                this["txt_rangeEOLM01USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AYK2:AYK")]
+        public string txt_rangeEOLM02 {
+            get {
+                return ((string)(this["txt_rangeEOLM02"]));
+            }
+            set {
+                this["txt_rangeEOLM02"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.9")]
+        public double txt_rangeEOLM02ValUSL {
+            get {
+                return ((double)(this["txt_rangeEOLM02ValUSL"]));
+            }
+            set {
+                this["txt_rangeEOLM02ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.01")]
+        public double txt_rangeEOLM02ValLSL {
+            get {
+                return ((double)(this["txt_rangeEOLM02ValLSL"]));
+            }
+            set {
+                this["txt_rangeEOLM02ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AYI2:AYI")]
+        public string txt_rangeEOLM02LSL {
+            get {
+                return ((string)(this["txt_rangeEOLM02LSL"]));
+            }
+            set {
+                this["txt_rangeEOLM02LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AYN2:AYN")]
+        public string txt_rangeEOLM02USL {
+            get {
+                return ((string)(this["txt_rangeEOLM02USL"]));
+            }
+            set {
+                this["txt_rangeEOLM02USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AYR2:AYR")]
+        public string txt_rangeEOLM03 {
+            get {
+                return ((string)(this["txt_rangeEOLM03"]));
+            }
+            set {
+                this["txt_rangeEOLM03"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.9")]
+        public double txt_rangeEOLM03ValUSL {
+            get {
+                return ((double)(this["txt_rangeEOLM03ValUSL"]));
+            }
+            set {
+                this["txt_rangeEOLM03ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.01")]
+        public double txt_rangeEOLM03ValLSL {
+            get {
+                return ((double)(this["txt_rangeEOLM03ValLSL"]));
+            }
+            set {
+                this["txt_rangeEOLM03ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AYP2:AYP")]
+        public string txt_rangeEOLM03LSL {
+            get {
+                return ((string)(this["txt_rangeEOLM03LSL"]));
+            }
+            set {
+                this["txt_rangeEOLM03LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AYU2:AYU")]
+        public string txt_rangeEOLM03USL {
+            get {
+                return ((string)(this["txt_rangeEOLM03USL"]));
+            }
+            set {
+                this["txt_rangeEOLM03USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AYY2:AYY")]
+        public string txt_rangeEOLM04 {
+            get {
+                return ((string)(this["txt_rangeEOLM04"]));
+            }
+            set {
+                this["txt_rangeEOLM04"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1111")]
+        public double txt_rangeEOLM04ValUSL {
+            get {
+                return ((double)(this["txt_rangeEOLM04ValUSL"]));
+            }
+            set {
+                this["txt_rangeEOLM04ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("333")]
+        public double txt_rangeEOLM04ValLSL {
+            get {
+                return ((double)(this["txt_rangeEOLM04ValLSL"]));
+            }
+            set {
+                this["txt_rangeEOLM04ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AYW2:AYW")]
+        public string txt_rangeEOLM04LSL {
+            get {
+                return ((string)(this["txt_rangeEOLM04LSL"]));
+            }
+            set {
+                this["txt_rangeEOLM04LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AZB2:AZB")]
+        public string txt_rangeEOLM04USL {
+            get {
+                return ((string)(this["txt_rangeEOLM04USL"]));
+            }
+            set {
+                this["txt_rangeEOLM04USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BBJ2:BBJ")]
+        public string txt_rangeEOLM05 {
+            get {
+                return ((string)(this["txt_rangeEOLM05"]));
+            }
+            set {
+                this["txt_rangeEOLM05"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1151")]
+        public double txt_rangeEOLM05ValUSL {
+            get {
+                return ((double)(this["txt_rangeEOLM05ValUSL"]));
+            }
+            set {
+                this["txt_rangeEOLM05ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("778")]
+        public double txt_rangeEOLM05ValLSL {
+            get {
+                return ((double)(this["txt_rangeEOLM05ValLSL"]));
+            }
+            set {
+                this["txt_rangeEOLM05ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BBH2:BBH")]
+        public string txt_rangeEOLM05LSL {
+            get {
+                return ((string)(this["txt_rangeEOLM05LSL"]));
+            }
+            set {
+                this["txt_rangeEOLM05LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BBM2:BBM")]
+        public string txt_rangeEOLM05USL {
+            get {
+                return ((string)(this["txt_rangeEOLM05USL"]));
+            }
+            set {
+                this["txt_rangeEOLM05USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AZF2:AZF")]
+        public string txt_rangeEOLM06 {
+            get {
+                return ((string)(this["txt_rangeEOLM06"]));
+            }
+            set {
+                this["txt_rangeEOLM06"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1147")]
+        public double txt_rangeEOLM06ValUSL {
+            get {
+                return ((double)(this["txt_rangeEOLM06ValUSL"]));
+            }
+            set {
+                this["txt_rangeEOLM06ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1048")]
+        public double txt_rangeEOLM06ValLSL {
+            get {
+                return ((double)(this["txt_rangeEOLM06ValLSL"]));
+            }
+            set {
+                this["txt_rangeEOLM06ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AZD2:AZD")]
+        public string txt_rangeEOLM06LSL {
+            get {
+                return ((string)(this["txt_rangeEOLM06LSL"]));
+            }
+            set {
+                this["txt_rangeEOLM06LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AZI2:AZI")]
+        public string txt_rangeEOLM06USL {
+            get {
+                return ((string)(this["txt_rangeEOLM06USL"]));
+            }
+            set {
+                this["txt_rangeEOLM06USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AZM2:AZM")]
+        public string txt_rangeEOLM07 {
+            get {
+                return ((string)(this["txt_rangeEOLM07"]));
+            }
+            set {
+                this["txt_rangeEOLM07"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1147")]
+        public double txt_rangeEOLM07ValUSL {
+            get {
+                return ((double)(this["txt_rangeEOLM07ValUSL"]));
+            }
+            set {
+                this["txt_rangeEOLM07ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1048")]
+        public double txt_rangeEOLM07ValLSL {
+            get {
+                return ((double)(this["txt_rangeEOLM07ValLSL"]));
+            }
+            set {
+                this["txt_rangeEOLM07ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AZK2:AZK")]
+        public string txt_rangeEOLM07LSL {
+            get {
+                return ((string)(this["txt_rangeEOLM07LSL"]));
+            }
+            set {
+                this["txt_rangeEOLM07LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AZP2:AZP")]
+        public string txt_rangeEOLM07USL {
+            get {
+                return ((string)(this["txt_rangeEOLM07USL"]));
+            }
+            set {
+                this["txt_rangeEOLM07USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AZT2:AZT")]
+        public string txt_rangeEOLM08 {
+            get {
+                return ((string)(this["txt_rangeEOLM08"]));
+            }
+            set {
+                this["txt_rangeEOLM08"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1005")]
+        public double txt_rangeEOLM08ValUSL {
+            get {
+                return ((double)(this["txt_rangeEOLM08ValUSL"]));
+            }
+            set {
+                this["txt_rangeEOLM08ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double txt_rangeEOLM08ValLSL {
+            get {
+                return ((double)(this["txt_rangeEOLM08ValLSL"]));
+            }
+            set {
+                this["txt_rangeEOLM08ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AZR2:AZR")]
+        public string txt_rangeEOLM08LSL {
+            get {
+                return ((string)(this["txt_rangeEOLM08LSL"]));
+            }
+            set {
+                this["txt_rangeEOLM08LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AZW2:AZW")]
+        public string txt_rangeEOLM08USL {
+            get {
+                return ((string)(this["txt_rangeEOLM08USL"]));
+            }
+            set {
+                this["txt_rangeEOLM08USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BAA2:BAA")]
+        public string txt_rangeEOLM09 {
+            get {
+                return ((string)(this["txt_rangeEOLM09"]));
+            }
+            set {
+                this["txt_rangeEOLM09"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("22000")]
+        public double txt_rangeEOLM09ValUSL {
+            get {
+                return ((double)(this["txt_rangeEOLM09ValUSL"]));
+            }
+            set {
+                this["txt_rangeEOLM09ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("200")]
+        public double txt_rangeEOLM09ValLSL {
+            get {
+                return ((double)(this["txt_rangeEOLM09ValLSL"]));
+            }
+            set {
+                this["txt_rangeEOLM09ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AZY2:AZY")]
+        public string txt_rangeEOLM09LSL {
+            get {
+                return ((string)(this["txt_rangeEOLM09LSL"]));
+            }
+            set {
+                this["txt_rangeEOLM09LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BAD2:BAD")]
+        public string txt_rangeEOLM09USL {
+            get {
+                return ((string)(this["txt_rangeEOLM09USL"]));
+            }
+            set {
+                this["txt_rangeEOLM09USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BAH2:BAH")]
+        public string txt_rangeEOLM10 {
+            get {
+                return ((string)(this["txt_rangeEOLM10"]));
+            }
+            set {
+                this["txt_rangeEOLM10"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("2155")]
+        public double txt_rangeEOLM10ValUSL {
+            get {
+                return ((double)(this["txt_rangeEOLM10ValUSL"]));
+            }
+            set {
+                this["txt_rangeEOLM10ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double txt_rangeEOLM10ValLSL {
+            get {
+                return ((double)(this["txt_rangeEOLM10ValLSL"]));
+            }
+            set {
+                this["txt_rangeEOLM10ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BAF2:BAF")]
+        public string txt_rangeEOLM10LSL {
+            get {
+                return ((string)(this["txt_rangeEOLM10LSL"]));
+            }
+            set {
+                this["txt_rangeEOLM10LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BAK2:BAK")]
+        public string txt_rangeEOLM10USL {
+            get {
+                return ((string)(this["txt_rangeEOLM10USL"]));
+            }
+            set {
+                this["txt_rangeEOLM10USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BAO2:BAO")]
+        public string txt_rangeEOLM11 {
+            get {
+                return ((string)(this["txt_rangeEOLM11"]));
+            }
+            set {
+                this["txt_rangeEOLM11"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("22000")]
+        public double txt_rangeEOLM11ValUSL {
+            get {
+                return ((double)(this["txt_rangeEOLM11ValUSL"]));
+            }
+            set {
+                this["txt_rangeEOLM11ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("200")]
+        public double txt_rangeEOLM11ValLSL {
+            get {
+                return ((double)(this["txt_rangeEOLM11ValLSL"]));
+            }
+            set {
+                this["txt_rangeEOLM11ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BAM2:BAM")]
+        public string txt_rangeEOLM11LSL {
+            get {
+                return ((string)(this["txt_rangeEOLM11LSL"]));
+            }
+            set {
+                this["txt_rangeEOLM11LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BAR2:BAR")]
+        public string txt_rangeEOLM11USL {
+            get {
+                return ((string)(this["txt_rangeEOLM11USL"]));
+            }
+            set {
+                this["txt_rangeEOLM11USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BEN2:BEN")]
+        public string txt_rangeScan3DMeasuring0 {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring0"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring0"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("7.2")]
+        public double txt_rangeScan3DMeasuring0ValUSL {
+            get {
+                return ((double)(this["txt_rangeScan3DMeasuring0ValUSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring0ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("6.2")]
+        public double txt_rangeScan3DMeasuring0ValLSL {
+            get {
+                return ((double)(this["txt_rangeScan3DMeasuring0ValLSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring0ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BEO2:BEO")]
+        public string txt_rangeScan3DMeasuring0LSL {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring0LSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring0LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BER2:BER")]
+        public string txt_rangeScan3DMeasuring0USL {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring0USL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring0USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BEU2:BEU")]
+        public string txt_rangeScan3DMeasuring1 {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring1"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("7.2")]
+        public double txt_rangeScan3DMeasuring1ValUSL {
+            get {
+                return ((double)(this["txt_rangeScan3DMeasuring1ValUSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring1ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("6.2")]
+        public double txt_rangeScan3DMeasuring1ValLSL {
+            get {
+                return ((double)(this["txt_rangeScan3DMeasuring1ValLSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring1ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BEV2:BEV")]
+        public string txt_rangeScan3DMeasuring1LSL {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring1LSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring1LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BEY2:BEY")]
+        public string txt_rangeScan3DMeasuring1USL {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring1USL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring1USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BFB2:BFB")]
+        public string txt_rangeScan3DMeasuring2 {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring2"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("7.2")]
+        public double txt_rangeScan3DMeasuring2ValUSL {
+            get {
+                return ((double)(this["txt_rangeScan3DMeasuring2ValUSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring2ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("6.2")]
+        public double txt_rangeScan3DMeasuring2ValLSL {
+            get {
+                return ((double)(this["txt_rangeScan3DMeasuring2ValLSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring2ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BFC2:BFC")]
+        public string txt_rangeScan3DMeasuring2LSL {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring2LSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring2LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BFF2:BFF")]
+        public string txt_rangeScan3DMeasuring2USL {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring2USL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring2USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BFI2:BFI")]
+        public string txt_rangeScan3DMeasuring3 {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring3"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("3")]
+        public double txt_rangeScan3DMeasuring3ValUSL {
+            get {
+                return ((double)(this["txt_rangeScan3DMeasuring3ValUSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring3ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("-1")]
+        public double txt_rangeScan3DMeasuring3ValLSL {
+            get {
+                return ((double)(this["txt_rangeScan3DMeasuring3ValLSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring3ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BFH2:BFH")]
+        public string txt_rangeScan3DMeasuring3LSL {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring3LSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring3LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BFM2:BFM")]
+        public string txt_rangeScan3DMeasuring3USL {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring3USL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring3USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BFP2:BFP")]
+        public string txt_rangeScan3DMeasuring4 {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring4"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("7.2")]
+        public double txt_rangeScan3DMeasuring4ValUSL {
+            get {
+                return ((double)(this["txt_rangeScan3DMeasuring4ValUSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring4ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("6.2")]
+        public double txt_rangeScan3DMeasuring4ValLSL {
+            get {
+                return ((double)(this["txt_rangeScan3DMeasuring4ValLSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring4ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BFQ2:BFQ")]
+        public string txt_rangeScan3DMeasuring4LSL {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring4LSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring4LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BFT2:BFT")]
+        public string txt_rangeScan3DMeasuring4USL {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring4USL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring4USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BFW2:BFW")]
+        public string txt_rangeScan3DMeasuring5 {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring5"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("7.2")]
+        public double txt_rangeScan3DMeasuring5ValUSL {
+            get {
+                return ((double)(this["txt_rangeScan3DMeasuring5ValUSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring5ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("6.2")]
+        public double txt_rangeScan3DMeasuring5ValLSL {
+            get {
+                return ((double)(this["txt_rangeScan3DMeasuring5ValLSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring5ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BFX2:BFX")]
+        public string txt_rangeScan3DMeasuring5LSL {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring5LSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring5LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BGA2:BGA")]
+        public string txt_rangeScan3DMeasuring5USL {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring5USL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring5USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BGD2:BGD")]
+        public string txt_rangeScan3DMeasuring6 {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring6"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("7.2")]
+        public double txt_rangeScan3DMeasuring6ValUSL {
+            get {
+                return ((double)(this["txt_rangeScan3DMeasuring6ValUSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring6ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("6.2")]
+        public double txt_rangeScan3DMeasuring6ValLSL {
+            get {
+                return ((double)(this["txt_rangeScan3DMeasuring6ValLSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring6ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BGE2:BGE")]
+        public string txt_rangeScan3DMeasuring6LSL {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring6LSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring6LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BGH2:BGH")]
+        public string txt_rangeScan3DMeasuring6USL {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring6USL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring6USL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BGK2:BGK")]
+        public string txt_rangeScan3DMeasuring7 {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring7"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring7"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("7.2")]
+        public double txt_rangeScan3DMeasuring7ValUSL {
+            get {
+                return ((double)(this["txt_rangeScan3DMeasuring7ValUSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring7ValUSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("6.2")]
+        public double txt_rangeScan3DMeasuring7ValLSL {
+            get {
+                return ((double)(this["txt_rangeScan3DMeasuring7ValLSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring7ValLSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BGL2:BGL")]
+        public string txt_rangeScan3DMeasuring7LSL {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring7LSL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring7LSL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BGO2:BGO")]
+        public string txt_rangeScan3DMeasuring7USL {
+            get {
+                return ((string)(this["txt_rangeScan3DMeasuring7USL"]));
+            }
+            set {
+                this["txt_rangeScan3DMeasuring7USL"] = value;
+            }
+        }
     }
 }
