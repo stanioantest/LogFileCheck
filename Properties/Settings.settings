@@ -3,10 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="txt_rangeWeldingDistance" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AUM2:AUM</Value>
+      <Value Profile="(Default)">AT2:AT</Value>
     </Setting>
     <Setting Name="txt_logfile" Type="System.String" Scope="User">
-      <Value Profile="(Default)">E:\Roboti\MFU\02.DataLogFile_31.10.2022Copy.xlsx</Value>
+      <Value Profile="(Default)">E:\Roboti\MFU\01_01234.xlsx</Value>
     </Setting>
     <Setting Name="txt_rangeWeldingDistanceValLSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">0.16</Value>
@@ -15,13 +15,13 @@
       <Value Profile="(Default)">0.3</Value>
     </Setting>
     <Setting Name="txt_rangeWeldingDistanceLSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AUK2:AUK</Value>
+      <Value Profile="(Default)">AR2:AR</Value>
     </Setting>
     <Setting Name="txt_rangeWeldingDistanceUSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AUP2:AUP</Value>
+      <Value Profile="(Default)">AW2:AW</Value>
     </Setting>
     <Setting Name="txt_rangeWeldingEnergy" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AUS2:AUS</Value>
+      <Value Profile="(Default)">AZ2:AZ</Value>
     </Setting>
     <Setting Name="txt_rangeWeldingEnergyValLSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">5</Value>
@@ -30,13 +30,13 @@
       <Value Profile="(Default)">50</Value>
     </Setting>
     <Setting Name="txt_rangeWeldingEnergyLSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AUQ2:AUQ</Value>
+      <Value Profile="(Default)">AX2:AX</Value>
     </Setting>
     <Setting Name="txt_rangeWeldingEnergyUSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AUV2:AUV</Value>
+      <Value Profile="(Default)">BC2:BC</Value>
     </Setting>
     <Setting Name="txt_rangeAirFlowFlowVolume" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AVX2:AVX</Value>
+      <Value Profile="(Default)">CC2:CC</Value>
     </Setting>
     <Setting Name="txt_rangeAirFlowFlowVolumeValLSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">8</Value>
@@ -45,28 +45,28 @@
       <Value Profile="(Default)">20</Value>
     </Setting>
     <Setting Name="txt_rangeAirFlowFlowVolumeLSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AVV2:AVV</Value>
+      <Value Profile="(Default)">CA2:CA</Value>
     </Setting>
     <Setting Name="txt_rangeAirFlowFlowVolumeUSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AWA2:AWA</Value>
+      <Value Profile="(Default)">CF2:CF</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins0" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BRB2:BRB</Value>
+      <Value Profile="(Default)">DT2:DT</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins0ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">150</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins0USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BRE2:BRE</Value>
+      <Value Profile="(Default)">DW2:DW</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins0ValLSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins0LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BRA2:BRA</Value>
+      <Value Profile="(Default)">DP2:DP</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins1" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BRJ2:BRJ</Value>
+      <Value Profile="(Default)">EB2:EB</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins1ValLSL" Type="System.String" Scope="User">
       <Value Profile="(Default)">1</Value>
@@ -75,58 +75,58 @@
       <Value Profile="(Default)">150</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins1LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BRI2:BRI</Value>
+      <Value Profile="(Default)">DX2:DX</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins1USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BRM2:BRM</Value>
+      <Value Profile="(Default)">EE2:EE</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins2" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BRR2:BRR</Value>
+      <Value Profile="(Default)">EJ2:EJ</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins2ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">150</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins2ValLSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">1</Value>
+      <Value Profile="(Default)">-1</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins2LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BRQ2:BRQ</Value>
+      <Value Profile="(Default)">EF2:EF</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins2USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BRU2:BRU</Value>
+      <Value Profile="(Default)">EE2:EE</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins3" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BRZ2:BRZ</Value>
+      <Value Profile="(Default)">ER2:ER</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins3ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">150</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins3ValLSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">1</Value>
+      <Value Profile="(Default)">-1</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins3LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BRY2:BRY</Value>
+      <Value Profile="(Default)">EN2:EN</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins3USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BSC2:BSC</Value>
+      <Value Profile="(Default)">EE2:EE</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins4" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BSH2:BSH</Value>
+      <Value Profile="(Default)">EZ2:EZ</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins4ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">150</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins4ValLSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">1</Value>
+      <Value Profile="(Default)">-1</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins4LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BSG2:BSG</Value>
+      <Value Profile="(Default)">EV2:EV</Value>
     </Setting>
     <Setting Name="txt_rangeScara1FittingPins4USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BSK2:BSK</Value>
+      <Value Profile="(Default)">EE2:EE</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins0" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BTH2:BTH</Value>
+      <Value Profile="(Default)">GD2:GD</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins0ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">150</Value>
@@ -135,13 +135,13 @@
       <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins0LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BTG2:BTG</Value>
+      <Value Profile="(Default)">FZ2:FZ</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins0USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BTK2:BTK</Value>
+      <Value Profile="(Default)">GG2:GG</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins1" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BTP2:BTP</Value>
+      <Value Profile="(Default)">GL2:GL</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins1ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">150</Value>
@@ -150,58 +150,58 @@
       <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins1LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BTO2:BTO</Value>
+      <Value Profile="(Default)">GH2:GH</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins1USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BTS2:BTS</Value>
+      <Value Profile="(Default)">GO2:GO</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins2" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BTX2:BTX</Value>
+      <Value Profile="(Default)">GT2:GT</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins2ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">150</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins2ValLSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">1</Value>
+      <Value Profile="(Default)">-1</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins2LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BTW2:BTW</Value>
+      <Value Profile="(Default)">GP2:GP</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins2USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BUA2:BUA</Value>
+      <Value Profile="(Default)">EE2:EE</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins3" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BUF2:BUF</Value>
+      <Value Profile="(Default)">HB2:HB</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins3ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">150</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins3ValLSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">1</Value>
+      <Value Profile="(Default)">-1</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins3LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BUE2:BUE</Value>
+      <Value Profile="(Default)">GX2:GX</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins3USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BUI2:BUI</Value>
+      <Value Profile="(Default)">EE2:EE</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins4" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BUN2:BUN</Value>
+      <Value Profile="(Default)">HJ2:HJ</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins4ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">150</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins4ValLSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">1</Value>
+      <Value Profile="(Default)">-1</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins4LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BUM2:BUM</Value>
+      <Value Profile="(Default)">HF2:HF</Value>
     </Setting>
     <Setting Name="txt_rangeScara2FittingPins4USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BUQ2:BUQ</Value>
+      <Value Profile="(Default)">EE2:EE</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins0" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BVN2:BVN</Value>
+      <Value Profile="(Default)">IN2:IN</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins0ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">150</Value>
@@ -210,13 +210,13 @@
       <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins0LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BVM2:BVM</Value>
+      <Value Profile="(Default)">IJ2:IJ</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins0USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BVQ2:BVQ</Value>
+      <Value Profile="(Default)">IQ2:IQ</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins1" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BVV2:BVV</Value>
+      <Value Profile="(Default)">IV2:IV</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins1ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">150</Value>
@@ -225,13 +225,13 @@
       <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins1LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BVU2:BVU</Value>
+      <Value Profile="(Default)">IR2:IR</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins1USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BVY2:BVY</Value>
+      <Value Profile="(Default)">IY2:IY</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins2" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BWD2:BWD</Value>
+      <Value Profile="(Default)">JD2:JD</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins2ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">150</Value>
@@ -240,43 +240,43 @@
       <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins2LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BWC2:BWC</Value>
+      <Value Profile="(Default)">IZ2:IZ</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins2USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BWG2:BWG</Value>
+      <Value Profile="(Default)">JG2:JG</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins3" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BWL2:BWL</Value>
+      <Value Profile="(Default)">JL2:JL</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins3ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">150</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins3ValLSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">1</Value>
+      <Value Profile="(Default)">-1</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins3LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BWK2:BWK</Value>
+      <Value Profile="(Default)">JH2:JH</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins3USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BWO2:BWO</Value>
+      <Value Profile="(Default)">EE2:EE</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins4" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BWT2:BWT</Value>
+      <Value Profile="(Default)">JT2:JT</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins4ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">150</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins4ValLSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">1</Value>
+      <Value Profile="(Default)">-1</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins4LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BWS2:BWS</Value>
+      <Value Profile="(Default)">JP2:JP</Value>
     </Setting>
     <Setting Name="txt_rangeScara3FittingPins4USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BWW2:BWW</Value>
+      <Value Profile="(Default)">EE2:EE</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint0" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BJI2:BJI</Value>
+      <Value Profile="(Default)">NA2:NA</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint0ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">19.01</Value>
@@ -285,13 +285,13 @@
       <Value Profile="(Default)">10.24</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint0LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BJG2:BJG</Value>
+      <Value Profile="(Default)">MY2:MY</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint0USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BJK2:BJK</Value>
+      <Value Profile="(Default)">NC2:NC</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint1" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BJP2:BJP</Value>
+      <Value Profile="(Default)">NH2:NH</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint1ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">24.34</Value>
@@ -300,13 +300,13 @@
       <Value Profile="(Default)">13.1</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint1LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BJN2:BJN</Value>
+      <Value Profile="(Default)">NF2:NF</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint1USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BJR2:BJR</Value>
+      <Value Profile="(Default)">NJ2:NJ</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint2" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BJW2:BJW</Value>
+      <Value Profile="(Default)">NO2:NO</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint2ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">22.05</Value>
@@ -315,13 +315,13 @@
       <Value Profile="(Default)">11.88</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint2LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BJU2:BJU</Value>
+      <Value Profile="(Default)">NM2:NM</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint2USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BJY2:BJY</Value>
+      <Value Profile="(Default)">NQ2:NQ</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint3" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BKD2:BKD</Value>
+      <Value Profile="(Default)">NV2:NV</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint3ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">22.05</Value>
@@ -330,13 +330,13 @@
       <Value Profile="(Default)">11.88</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint3LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BKB2:BKB</Value>
+      <Value Profile="(Default)">NT2:NT</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint3USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BKF2:BKF</Value>
+      <Value Profile="(Default)">NX2:NX</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint4" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BKK2:BKK</Value>
+      <Value Profile="(Default)">OC2:OC</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint4ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">24.34</Value>
@@ -345,13 +345,13 @@
       <Value Profile="(Default)">13.1</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint4LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BKI2:BKI</Value>
+      <Value Profile="(Default)">OA2:OA</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint4USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BKM2:BKM</Value>
+      <Value Profile="(Default)">OE2:OE</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint5" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BKR2:BKR</Value>
+      <Value Profile="(Default)">OJ2:OJ</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint5ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">19.01</Value>
@@ -360,13 +360,13 @@
       <Value Profile="(Default)">10.24</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint5LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BKP2:BKP</Value>
+      <Value Profile="(Default)">OH2:OH</Value>
     </Setting>
     <Setting Name="txt_rangeProfileScanPoint5USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BKT2:BKT</Value>
+      <Value Profile="(Default)">OL2:OL</Value>
     </Setting>
     <Setting Name="txt_rangeJoiningForce" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BOQ2:BOQ</Value>
+      <Value Profile="(Default)">PV2:PV</Value>
     </Setting>
     <Setting Name="txt_rangeJoiningForceValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">300</Value>
@@ -375,13 +375,13 @@
       <Value Profile="(Default)">5</Value>
     </Setting>
     <Setting Name="txt_rangeJoiningForceLSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BOO2:BOO</Value>
+      <Value Profile="(Default)">PT2:PT</Value>
     </Setting>
     <Setting Name="txt_rangeJoiningForceUSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BOS2:BOS</Value>
+      <Value Profile="(Default)">PX2:PX</Value>
     </Setting>
     <Setting Name="txt_rangeLaserWeldingSettingDistance" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BPC2:BPC</Value>
+      <Value Profile="(Default)">QJ2:QJ</Value>
     </Setting>
     <Setting Name="txt_rangeLaserWeldingSettingDistanceValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">1</Value>
@@ -390,13 +390,13 @@
       <Value Profile="(Default)">0.1</Value>
     </Setting>
     <Setting Name="txt_rangeLaserWeldingSettingDistanceLSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BPA2:BPA</Value>
+      <Value Profile="(Default)">QH2:QH</Value>
     </Setting>
     <Setting Name="txt_rangeLaserWeldingSettingDistanceUSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BPE2:BPE</Value>
+      <Value Profile="(Default)">QM2:QM</Value>
     </Setting>
     <Setting Name="txt_rangeLaserWeldingStartPosition" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BPK2:BPK</Value>
+      <Value Profile="(Default)">QR2:QR</Value>
     </Setting>
     <Setting Name="txt_rangeLaserWeldingStartPositionValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">4</Value>
@@ -405,13 +405,13 @@
       <Value Profile="(Default)">2.8</Value>
     </Setting>
     <Setting Name="txt_rangeLaserWeldingStartPositionLSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BPI2:BPI</Value>
+      <Value Profile="(Default)">QP2:QP</Value>
     </Setting>
     <Setting Name="txt_rangeLaserWeldingStartPositionUSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BPM2:BPM</Value>
+      <Value Profile="(Default)">QU2:QU</Value>
     </Setting>
     <Setting Name="txt_rangeLaserWeldingShutdownDistance" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BPU2:BPU</Value>
+      <Value Profile="(Default)">RB2:RB</Value>
     </Setting>
     <Setting Name="txt_rangeLaserWeldingShutdownDistanceValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">0.48</Value>
@@ -420,13 +420,13 @@
       <Value Profile="(Default)">0.4</Value>
     </Setting>
     <Setting Name="txt_rangeLaserWeldingShutdownDistanceLSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BPS2:BPS</Value>
+      <Value Profile="(Default)">QZ2:QZ</Value>
     </Setting>
     <Setting Name="txt_rangeLaserWeldingShutdownDistanceUSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BPW2:BPW</Value>
+      <Value Profile="(Default)">RE2:RE</Value>
     </Setting>
     <Setting Name="txt_rangeLaserWeldingWeldingtime" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BQC2:BQC</Value>
+      <Value Profile="(Default)">RH2:RH</Value>
     </Setting>
     <Setting Name="txt_rangeLaserWeldingWeldingtimeValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">20</Value>
@@ -435,13 +435,13 @@
       <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="txt_rangeLaserWeldingWeldingtimeLSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BQA2:BQA</Value>
+      <Value Profile="(Default)">RF2:RF</Value>
     </Setting>
     <Setting Name="txt_rangeLaserWeldingWeldingtimeUSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BQE2:BQE</Value>
+      <Value Profile="(Default)">RK2:RK</Value>
     </Setting>
     <Setting Name="txt_rangeForce" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BDV2:BDV</Value>
+      <Value Profile="(Default)">RV2:RV</Value>
     </Setting>
     <Setting Name="txt_rangeForceValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">30</Value>
@@ -450,13 +450,13 @@
       <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="txt_rangeForceLSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BDK2:BDK</Value>
+      <Value Profile="(Default)">RN2:RN</Value>
     </Setting>
     <Setting Name="txt_rangeForceUSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BDY2:BDY</Value>
+      <Value Profile="(Default)">RY2:RY</Value>
     </Setting>
     <Setting Name="txt_rangeLeaktestStartPressure" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AWW2:AWW</Value>
+      <Value Profile="(Default)">SI2:SI</Value>
     </Setting>
     <Setting Name="txt_rangeLeaktestStartPressureValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">13</Value>
@@ -465,13 +465,13 @@
       <Value Profile="(Default)">9</Value>
     </Setting>
     <Setting Name="txt_rangeLeaktestStartPressureLSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AWU2:AWU</Value>
+      <Value Profile="(Default)">SG2:SG</Value>
     </Setting>
     <Setting Name="txt_rangeLeaktestStartPressureUSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AWZ2:AWZ</Value>
+      <Value Profile="(Default)">SL2:SL</Value>
     </Setting>
     <Setting Name="txt_rangeLeaktestLeakage" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AXA2:AXA</Value>
+      <Value Profile="(Default)">SM2:SM</Value>
     </Setting>
     <Setting Name="txt_rangeLeaktestLeakageValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">3</Value>
@@ -480,28 +480,28 @@
       <Value Profile="(Default)">0</Value>
     </Setting>
     <Setting Name="txt_rangeLeaktestLeakageLSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AWR2:AWR</Value>
+      <Value Profile="(Default)">QH2:QH</Value>
     </Setting>
     <Setting Name="txt_rangeLeaktestLeakageUSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AXD2:AXD</Value>
+      <Value Profile="(Default)">SP2:SP</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM01" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AYD2:AYD</Value>
+      <Value Profile="(Default)">TE2:TE</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM01ValUSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">4817.5</Value>
+      <Value Profile="(Default)">2727</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM01ValLSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">4582.5</Value>
+      <Value Profile="(Default)">2673</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM01LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AYC2:AYC</Value>
+      <Value Profile="(Default)">TD2:TD</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM01USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AYF2:AYF</Value>
+      <Value Profile="(Default)">TH2:TH</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM02" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AYK2:AYK</Value>
+      <Value Profile="(Default)">TL2:TL</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM02ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">0.9</Value>
@@ -510,13 +510,13 @@
       <Value Profile="(Default)">0.01</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM02LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AYI2:AYI</Value>
+      <Value Profile="(Default)">TJ2:TJ</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM02USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AYN2:AYN</Value>
+      <Value Profile="(Default)">TO2:TO</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM03" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AYR2:AYR</Value>
+      <Value Profile="(Default)">TS2:TS</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM03ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">0.9</Value>
@@ -525,58 +525,58 @@
       <Value Profile="(Default)">0.01</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM03LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AYP2:AYP</Value>
+      <Value Profile="(Default)">TQ2:TQ</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM03USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AYU2:AYU</Value>
+      <Value Profile="(Default)">TV2:TV</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM04" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AYY2:AYY</Value>
+      <Value Profile="(Default)">TZ2:TZ</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM04ValUSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">1111</Value>
+      <Value Profile="(Default)">0.9</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM04ValLSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">333</Value>
+      <Value Profile="(Default)">0.01</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM04LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AYW2:AYW</Value>
+      <Value Profile="(Default)">TX2:TX</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM04USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AZB2:AZB</Value>
+      <Value Profile="(Default)">UC2:UC</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM05" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BBJ2:BBJ</Value>
+      <Value Profile="(Default)">UG2:UG</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM05ValUSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">1151</Value>
-    </Setting>
-    <Setting Name="txt_rangeEOLM05ValLSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">778</Value>
-    </Setting>
-    <Setting Name="txt_rangeEOLM05LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BBH2:BBH</Value>
-    </Setting>
-    <Setting Name="txt_rangeEOLM05USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BBM2:BBM</Value>
-    </Setting>
-    <Setting Name="txt_rangeEOLM06" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AZF2:AZF</Value>
-    </Setting>
-    <Setting Name="txt_rangeEOLM06ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">1147</Value>
     </Setting>
-    <Setting Name="txt_rangeEOLM06ValLSL" Type="System.Double" Scope="User">
+    <Setting Name="txt_rangeEOLM05ValLSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">1048</Value>
     </Setting>
+    <Setting Name="txt_rangeEOLM05LSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">UE2:UE</Value>
+    </Setting>
+    <Setting Name="txt_rangeEOLM05USL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">UJ2:UJ</Value>
+    </Setting>
+    <Setting Name="txt_rangeEOLM06" Type="System.String" Scope="User">
+      <Value Profile="(Default)">UN2:UN</Value>
+    </Setting>
+    <Setting Name="txt_rangeEOLM06ValUSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1122</Value>
+    </Setting>
+    <Setting Name="txt_rangeEOLM06ValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">792</Value>
+    </Setting>
     <Setting Name="txt_rangeEOLM06LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AZD2:AZD</Value>
+      <Value Profile="(Default)">UL2:UL</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM06USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AZI2:AZI</Value>
+      <Value Profile="(Default)">UQ2:UQ</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM07" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AZM2:AZM</Value>
+      <Value Profile="(Default)">UU2:UU</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM07ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">1147</Value>
@@ -585,73 +585,73 @@
       <Value Profile="(Default)">1048</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM07LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AZK2:AZK</Value>
+      <Value Profile="(Default)">US2:US</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM07USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AZP2:AZP</Value>
+      <Value Profile="(Default)">UX2:UX</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM08" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AZT2:AZT</Value>
+      <Value Profile="(Default)">VB2:VB</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM08ValUSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">1005</Value>
+      <Value Profile="(Default)">1147</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM08ValLSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">0</Value>
+      <Value Profile="(Default)">1048</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM08LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AZR2:AZR</Value>
+      <Value Profile="(Default)">UZ2:UZ</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM08USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AZW2:AZW</Value>
+      <Value Profile="(Default)">VE2:VE</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM09" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BAA2:BAA</Value>
+      <Value Profile="(Default)">VI2:VI</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM09ValUSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">22000</Value>
+      <Value Profile="(Default)">1005</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM09ValLSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">200</Value>
-    </Setting>
-    <Setting Name="txt_rangeEOLM09LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">AZY2:AZY</Value>
-    </Setting>
-    <Setting Name="txt_rangeEOLM09USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BAD2:BAD</Value>
-    </Setting>
-    <Setting Name="txt_rangeEOLM10" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BAH2:BAH</Value>
-    </Setting>
-    <Setting Name="txt_rangeEOLM10ValUSL" Type="System.Double" Scope="User">
-      <Value Profile="(Default)">2155</Value>
-    </Setting>
-    <Setting Name="txt_rangeEOLM10ValLSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
-    <Setting Name="txt_rangeEOLM10LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BAF2:BAF</Value>
+    <Setting Name="txt_rangeEOLM09LSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">VG2:VG</Value>
     </Setting>
-    <Setting Name="txt_rangeEOLM10USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BAK2:BAK</Value>
+    <Setting Name="txt_rangeEOLM09USL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">VL2:VL</Value>
     </Setting>
-    <Setting Name="txt_rangeEOLM11" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BAO2:BAO</Value>
+    <Setting Name="txt_rangeEOLM10" Type="System.String" Scope="User">
+      <Value Profile="(Default)">VP2:VP</Value>
     </Setting>
-    <Setting Name="txt_rangeEOLM11ValUSL" Type="System.Double" Scope="User">
+    <Setting Name="txt_rangeEOLM10ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">22000</Value>
     </Setting>
-    <Setting Name="txt_rangeEOLM11ValLSL" Type="System.Double" Scope="User">
+    <Setting Name="txt_rangeEOLM10ValLSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">200</Value>
     </Setting>
+    <Setting Name="txt_rangeEOLM10LSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">VN2:VN</Value>
+    </Setting>
+    <Setting Name="txt_rangeEOLM10USL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">VS2:VS</Value>
+    </Setting>
+    <Setting Name="txt_rangeEOLM11" Type="System.String" Scope="User">
+      <Value Profile="(Default)">VW2:VW</Value>
+    </Setting>
+    <Setting Name="txt_rangeEOLM11ValUSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">2151</Value>
+    </Setting>
+    <Setting Name="txt_rangeEOLM11ValLSL" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
     <Setting Name="txt_rangeEOLM11LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BAM2:BAM</Value>
+      <Value Profile="(Default)">VU2:VU</Value>
     </Setting>
     <Setting Name="txt_rangeEOLM11USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BAR2:BAR</Value>
+      <Value Profile="(Default)">VZ2:VZ</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring0" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BEN2:BEN</Value>
+      <Value Profile="(Default)">YS2:YS</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring0ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">7.2</Value>
@@ -660,13 +660,13 @@
       <Value Profile="(Default)">6.2</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring0LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BEO2:BEO</Value>
+      <Value Profile="(Default)">YQ2:YQ</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring0USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BER2:BER</Value>
+      <Value Profile="(Default)">YU2:YU</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring1" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BEU2:BEU</Value>
+      <Value Profile="(Default)">YZ2:YZ</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring1ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">7.2</Value>
@@ -675,13 +675,13 @@
       <Value Profile="(Default)">6.2</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring1LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BEV2:BEV</Value>
+      <Value Profile="(Default)">YX2:YX</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring1USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BEY2:BEY</Value>
+      <Value Profile="(Default)">ZB2:ZB</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring2" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BFB2:BFB</Value>
+      <Value Profile="(Default)">ZG2:ZG</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring2ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">7.2</Value>
@@ -690,13 +690,13 @@
       <Value Profile="(Default)">6.2</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring2LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BFC2:BFC</Value>
+      <Value Profile="(Default)">ZE2:ZE</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring2USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BFF2:BFF</Value>
+      <Value Profile="(Default)">ZI2:ZI</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring3" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BFI2:BFI</Value>
+      <Value Profile="(Default)">ZN2:ZN</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring3ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">3</Value>
@@ -705,13 +705,13 @@
       <Value Profile="(Default)">-1</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring3LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BFH2:BFH</Value>
+      <Value Profile="(Default)">ZL2:ZL</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring3USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BFM2:BFM</Value>
+      <Value Profile="(Default)">ZP2:ZP</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring4" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BFP2:BFP</Value>
+      <Value Profile="(Default)">ZU2:ZU</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring4ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">7.2</Value>
@@ -720,13 +720,13 @@
       <Value Profile="(Default)">6.2</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring4LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BFQ2:BFQ</Value>
+      <Value Profile="(Default)">ZS2:ZS</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring4USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BFT2:BFT</Value>
+      <Value Profile="(Default)">ZW2:ZW</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring5" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BFW2:BFW</Value>
+      <Value Profile="(Default)">AAB2:AAB</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring5ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">7.2</Value>
@@ -735,13 +735,13 @@
       <Value Profile="(Default)">6.2</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring5LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BFX2:BFX</Value>
+      <Value Profile="(Default)">ZZ2:ZZ</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring5USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BGA2:BGA</Value>
+      <Value Profile="(Default)">AAD2:AAD</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring6" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BGD2:BGD</Value>
+      <Value Profile="(Default)">AAI2:AAI</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring6ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">7.2</Value>
@@ -750,13 +750,13 @@
       <Value Profile="(Default)">6.2</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring6LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BGE2:BGE</Value>
+      <Value Profile="(Default)">AAG2:AAG</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring6USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BGH2:BGH</Value>
+      <Value Profile="(Default)">AAK2:AAK</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring7" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BGK2:BGK</Value>
+      <Value Profile="(Default)">AAP2:AAP</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring7ValUSL" Type="System.Double" Scope="User">
       <Value Profile="(Default)">7.2</Value>
@@ -765,10 +765,10 @@
       <Value Profile="(Default)">6.2</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring7LSL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BGL2:BGL</Value>
+      <Value Profile="(Default)">AAN2:AAN</Value>
     </Setting>
     <Setting Name="txt_rangeScan3DMeasuring7USL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BGO2:BGO</Value>
+      <Value Profile="(Default)">AAR2:AAR</Value>
     </Setting>
   </Settings>
 </SettingsFile>

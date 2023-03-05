@@ -25,7 +25,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AUM2:AUM")]
+        [global::System.Configuration.DefaultSettingValueAttribute("AT2:AT")]
         public string txt_rangeWeldingDistance {
             get {
                 return ((string)(this["txt_rangeWeldingDistance"]));
@@ -37,7 +37,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("E:\\Roboti\\MFU\\02.DataLogFile_31.10.2022Copy.xlsx")]
+        [global::System.Configuration.DefaultSettingValueAttribute("E:\\Roboti\\MFU\\01_01234.xlsx")]
         public string txt_logfile {
             get {
                 return ((string)(this["txt_logfile"]));
@@ -73,7 +73,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AUK2:AUK")]
+        [global::System.Configuration.DefaultSettingValueAttribute("AR2:AR")]
         public string txt_rangeWeldingDistanceLSL {
             get {
                 return ((string)(this["txt_rangeWeldingDistanceLSL"]));
@@ -85,7 +85,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AUP2:AUP")]
+        [global::System.Configuration.DefaultSettingValueAttribute("AW2:AW")]
         public string txt_rangeWeldingDistanceUSL {
             get {
                 return ((string)(this["txt_rangeWeldingDistanceUSL"]));
@@ -97,7 +97,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AUS2:AUS")]
+        [global::System.Configuration.DefaultSettingValueAttribute("AZ2:AZ")]
         public string txt_rangeWeldingEnergy {
             get {
                 return ((string)(this["txt_rangeWeldingEnergy"]));
@@ -133,7 +133,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AUQ2:AUQ")]
+        [global::System.Configuration.DefaultSettingValueAttribute("AX2:AX")]
         public string txt_rangeWeldingEnergyLSL {
             get {
                 return ((string)(this["txt_rangeWeldingEnergyLSL"]));
@@ -145,7 +145,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AUV2:AUV")]
+        [global::System.Configuration.DefaultSettingValueAttribute("BC2:BC")]
         public string txt_rangeWeldingEnergyUSL {
             get {
                 return ((string)(this["txt_rangeWeldingEnergyUSL"]));
@@ -157,7 +157,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AVX2:AVX")]
+        [global::System.Configuration.DefaultSettingValueAttribute("CC2:CC")]
         public string txt_rangeAirFlowFlowVolume {
             get {
                 return ((string)(this["txt_rangeAirFlowFlowVolume"]));
@@ -193,7 +193,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AVV2:AVV")]
+        [global::System.Configuration.DefaultSettingValueAttribute("CA2:CA")]
         public string txt_rangeAirFlowFlowVolumeLSL {
             get {
                 return ((string)(this["txt_rangeAirFlowFlowVolumeLSL"]));
@@ -205,7 +205,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AWA2:AWA")]
+        [global::System.Configuration.DefaultSettingValueAttribute("CF2:CF")]
         public string txt_rangeAirFlowFlowVolumeUSL {
             get {
                 return ((string)(this["txt_rangeAirFlowFlowVolumeUSL"]));
@@ -217,7 +217,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BRB2:BRB")]
+        [global::System.Configuration.DefaultSettingValueAttribute("DT2:DT")]
         public string txt_rangeScara1FittingPins0 {
             get {
                 return ((string)(this["txt_rangeScara1FittingPins0"]));
@@ -241,7 +241,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BRE2:BRE")]
+        [global::System.Configuration.DefaultSettingValueAttribute("DW2:DW")]
         public string txt_rangeScara1FittingPins0USL {
             get {
                 return ((string)(this["txt_rangeScara1FittingPins0USL"]));
@@ -265,7 +265,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BRA2:BRA")]
+        [global::System.Configuration.DefaultSettingValueAttribute("DP2:DP")]
         public string txt_rangeScara1FittingPins0LSL {
             get {
                 return ((string)(this["txt_rangeScara1FittingPins0LSL"]));
@@ -277,7 +277,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BRJ2:BRJ")]
+        [global::System.Configuration.DefaultSettingValueAttribute("EB2:EB")]
         public string txt_rangeScara1FittingPins1 {
             get {
                 return ((string)(this["txt_rangeScara1FittingPins1"]));
@@ -313,7 +313,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BRI2:BRI")]
+        [global::System.Configuration.DefaultSettingValueAttribute("DX2:DX")]
         public string txt_rangeScara1FittingPins1LSL {
             get {
                 return ((string)(this["txt_rangeScara1FittingPins1LSL"]));
@@ -325,7 +325,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BRM2:BRM")]
+        [global::System.Configuration.DefaultSettingValueAttribute("EE2:EE")]
         public string txt_rangeScara1FittingPins1USL {
             get {
                 return ((string)(this["txt_rangeScara1FittingPins1USL"]));
@@ -337,7 +337,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BRR2:BRR")]
+        [global::System.Configuration.DefaultSettingValueAttribute("EJ2:EJ")]
         public string txt_rangeScara1FittingPins2 {
             get {
                 return ((string)(this["txt_rangeScara1FittingPins2"]));
@@ -361,7 +361,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        [global::System.Configuration.DefaultSettingValueAttribute("-1")]
         public double txt_rangeScara1FittingPins2ValLSL {
             get {
                 return ((double)(this["txt_rangeScara1FittingPins2ValLSL"]));
@@ -373,7 +373,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BRQ2:BRQ")]
+        [global::System.Configuration.DefaultSettingValueAttribute("EF2:EF")]
         public string txt_rangeScara1FittingPins2LSL {
             get {
                 return ((string)(this["txt_rangeScara1FittingPins2LSL"]));
@@ -385,7 +385,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BRU2:BRU")]
+        [global::System.Configuration.DefaultSettingValueAttribute("EE2:EE")]
         public string txt_rangeScara1FittingPins2USL {
             get {
                 return ((string)(this["txt_rangeScara1FittingPins2USL"]));
@@ -397,7 +397,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BRZ2:BRZ")]
+        [global::System.Configuration.DefaultSettingValueAttribute("ER2:ER")]
         public string txt_rangeScara1FittingPins3 {
             get {
                 return ((string)(this["txt_rangeScara1FittingPins3"]));
@@ -421,7 +421,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        [global::System.Configuration.DefaultSettingValueAttribute("-1")]
         public double txt_rangeScara1FittingPins3ValLSL {
             get {
                 return ((double)(this["txt_rangeScara1FittingPins3ValLSL"]));
@@ -433,7 +433,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BRY2:BRY")]
+        [global::System.Configuration.DefaultSettingValueAttribute("EN2:EN")]
         public string txt_rangeScara1FittingPins3LSL {
             get {
                 return ((string)(this["txt_rangeScara1FittingPins3LSL"]));
@@ -445,7 +445,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BSC2:BSC")]
+        [global::System.Configuration.DefaultSettingValueAttribute("EE2:EE")]
         public string txt_rangeScara1FittingPins3USL {
             get {
                 return ((string)(this["txt_rangeScara1FittingPins3USL"]));
@@ -457,7 +457,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BSH2:BSH")]
+        [global::System.Configuration.DefaultSettingValueAttribute("EZ2:EZ")]
         public string txt_rangeScara1FittingPins4 {
             get {
                 return ((string)(this["txt_rangeScara1FittingPins4"]));
@@ -481,7 +481,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        [global::System.Configuration.DefaultSettingValueAttribute("-1")]
         public double txt_rangeScara1FittingPins4ValLSL {
             get {
                 return ((double)(this["txt_rangeScara1FittingPins4ValLSL"]));
@@ -493,7 +493,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BSG2:BSG")]
+        [global::System.Configuration.DefaultSettingValueAttribute("EV2:EV")]
         public string txt_rangeScara1FittingPins4LSL {
             get {
                 return ((string)(this["txt_rangeScara1FittingPins4LSL"]));
@@ -505,7 +505,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BSK2:BSK")]
+        [global::System.Configuration.DefaultSettingValueAttribute("EE2:EE")]
         public string txt_rangeScara1FittingPins4USL {
             get {
                 return ((string)(this["txt_rangeScara1FittingPins4USL"]));
@@ -517,7 +517,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BTH2:BTH")]
+        [global::System.Configuration.DefaultSettingValueAttribute("GD2:GD")]
         public string txt_rangeScara2FittingPins0 {
             get {
                 return ((string)(this["txt_rangeScara2FittingPins0"]));
@@ -553,7 +553,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BTG2:BTG")]
+        [global::System.Configuration.DefaultSettingValueAttribute("FZ2:FZ")]
         public string txt_rangeScara2FittingPins0LSL {
             get {
                 return ((string)(this["txt_rangeScara2FittingPins0LSL"]));
@@ -565,7 +565,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BTK2:BTK")]
+        [global::System.Configuration.DefaultSettingValueAttribute("GG2:GG")]
         public string txt_rangeScara2FittingPins0USL {
             get {
                 return ((string)(this["txt_rangeScara2FittingPins0USL"]));
@@ -577,7 +577,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BTP2:BTP")]
+        [global::System.Configuration.DefaultSettingValueAttribute("GL2:GL")]
         public string txt_rangeScara2FittingPins1 {
             get {
                 return ((string)(this["txt_rangeScara2FittingPins1"]));
@@ -613,7 +613,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BTO2:BTO")]
+        [global::System.Configuration.DefaultSettingValueAttribute("GH2:GH")]
         public string txt_rangeScara2FittingPins1LSL {
             get {
                 return ((string)(this["txt_rangeScara2FittingPins1LSL"]));
@@ -625,7 +625,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BTS2:BTS")]
+        [global::System.Configuration.DefaultSettingValueAttribute("GO2:GO")]
         public string txt_rangeScara2FittingPins1USL {
             get {
                 return ((string)(this["txt_rangeScara2FittingPins1USL"]));
@@ -637,7 +637,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BTX2:BTX")]
+        [global::System.Configuration.DefaultSettingValueAttribute("GT2:GT")]
         public string txt_rangeScara2FittingPins2 {
             get {
                 return ((string)(this["txt_rangeScara2FittingPins2"]));
@@ -661,7 +661,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        [global::System.Configuration.DefaultSettingValueAttribute("-1")]
         public double txt_rangeScara2FittingPins2ValLSL {
             get {
                 return ((double)(this["txt_rangeScara2FittingPins2ValLSL"]));
@@ -673,7 +673,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BTW2:BTW")]
+        [global::System.Configuration.DefaultSettingValueAttribute("GP2:GP")]
         public string txt_rangeScara2FittingPins2LSL {
             get {
                 return ((string)(this["txt_rangeScara2FittingPins2LSL"]));
@@ -685,7 +685,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BUA2:BUA")]
+        [global::System.Configuration.DefaultSettingValueAttribute("EE2:EE")]
         public string txt_rangeScara2FittingPins2USL {
             get {
                 return ((string)(this["txt_rangeScara2FittingPins2USL"]));
@@ -697,7 +697,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BUF2:BUF")]
+        [global::System.Configuration.DefaultSettingValueAttribute("HB2:HB")]
         public string txt_rangeScara2FittingPins3 {
             get {
                 return ((string)(this["txt_rangeScara2FittingPins3"]));
@@ -721,7 +721,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        [global::System.Configuration.DefaultSettingValueAttribute("-1")]
         public double txt_rangeScara2FittingPins3ValLSL {
             get {
                 return ((double)(this["txt_rangeScara2FittingPins3ValLSL"]));
@@ -733,7 +733,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BUE2:BUE")]
+        [global::System.Configuration.DefaultSettingValueAttribute("GX2:GX")]
         public string txt_rangeScara2FittingPins3LSL {
             get {
                 return ((string)(this["txt_rangeScara2FittingPins3LSL"]));
@@ -745,7 +745,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BUI2:BUI")]
+        [global::System.Configuration.DefaultSettingValueAttribute("EE2:EE")]
         public string txt_rangeScara2FittingPins3USL {
             get {
                 return ((string)(this["txt_rangeScara2FittingPins3USL"]));
@@ -757,7 +757,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BUN2:BUN")]
+        [global::System.Configuration.DefaultSettingValueAttribute("HJ2:HJ")]
         public string txt_rangeScara2FittingPins4 {
             get {
                 return ((string)(this["txt_rangeScara2FittingPins4"]));
@@ -781,7 +781,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        [global::System.Configuration.DefaultSettingValueAttribute("-1")]
         public double txt_rangeScara2FittingPins4ValLSL {
             get {
                 return ((double)(this["txt_rangeScara2FittingPins4ValLSL"]));
@@ -793,7 +793,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BUM2:BUM")]
+        [global::System.Configuration.DefaultSettingValueAttribute("HF2:HF")]
         public string txt_rangeScara2FittingPins4LSL {
             get {
                 return ((string)(this["txt_rangeScara2FittingPins4LSL"]));
@@ -805,7 +805,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BUQ2:BUQ")]
+        [global::System.Configuration.DefaultSettingValueAttribute("EE2:EE")]
         public string txt_rangeScara2FittingPins4USL {
             get {
                 return ((string)(this["txt_rangeScara2FittingPins4USL"]));
@@ -817,7 +817,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BVN2:BVN")]
+        [global::System.Configuration.DefaultSettingValueAttribute("IN2:IN")]
         public string txt_rangeScara3FittingPins0 {
             get {
                 return ((string)(this["txt_rangeScara3FittingPins0"]));
@@ -853,7 +853,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BVM2:BVM")]
+        [global::System.Configuration.DefaultSettingValueAttribute("IJ2:IJ")]
         public string txt_rangeScara3FittingPins0LSL {
             get {
                 return ((string)(this["txt_rangeScara3FittingPins0LSL"]));
@@ -865,7 +865,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BVQ2:BVQ")]
+        [global::System.Configuration.DefaultSettingValueAttribute("IQ2:IQ")]
         public string txt_rangeScara3FittingPins0USL {
             get {
                 return ((string)(this["txt_rangeScara3FittingPins0USL"]));
@@ -877,7 +877,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BVV2:BVV")]
+        [global::System.Configuration.DefaultSettingValueAttribute("IV2:IV")]
         public string txt_rangeScara3FittingPins1 {
             get {
                 return ((string)(this["txt_rangeScara3FittingPins1"]));
@@ -913,7 +913,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BVU2:BVU")]
+        [global::System.Configuration.DefaultSettingValueAttribute("IR2:IR")]
         public string txt_rangeScara3FittingPins1LSL {
             get {
                 return ((string)(this["txt_rangeScara3FittingPins1LSL"]));
@@ -925,7 +925,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BVY2:BVY")]
+        [global::System.Configuration.DefaultSettingValueAttribute("IY2:IY")]
         public string txt_rangeScara3FittingPins1USL {
             get {
                 return ((string)(this["txt_rangeScara3FittingPins1USL"]));
@@ -937,7 +937,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BWD2:BWD")]
+        [global::System.Configuration.DefaultSettingValueAttribute("JD2:JD")]
         public string txt_rangeScara3FittingPins2 {
             get {
                 return ((string)(this["txt_rangeScara3FittingPins2"]));
@@ -973,7 +973,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BWC2:BWC")]
+        [global::System.Configuration.DefaultSettingValueAttribute("IZ2:IZ")]
         public string txt_rangeScara3FittingPins2LSL {
             get {
                 return ((string)(this["txt_rangeScara3FittingPins2LSL"]));
@@ -985,7 +985,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BWG2:BWG")]
+        [global::System.Configuration.DefaultSettingValueAttribute("JG2:JG")]
         public string txt_rangeScara3FittingPins2USL {
             get {
                 return ((string)(this["txt_rangeScara3FittingPins2USL"]));
@@ -997,7 +997,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BWL2:BWL")]
+        [global::System.Configuration.DefaultSettingValueAttribute("JL2:JL")]
         public string txt_rangeScara3FittingPins3 {
             get {
                 return ((string)(this["txt_rangeScara3FittingPins3"]));
@@ -1021,7 +1021,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        [global::System.Configuration.DefaultSettingValueAttribute("-1")]
         public double txt_rangeScara3FittingPins3ValLSL {
             get {
                 return ((double)(this["txt_rangeScara3FittingPins3ValLSL"]));
@@ -1033,7 +1033,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BWK2:BWK")]
+        [global::System.Configuration.DefaultSettingValueAttribute("JH2:JH")]
         public string txt_rangeScara3FittingPins3LSL {
             get {
                 return ((string)(this["txt_rangeScara3FittingPins3LSL"]));
@@ -1045,7 +1045,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BWO2:BWO")]
+        [global::System.Configuration.DefaultSettingValueAttribute("EE2:EE")]
         public string txt_rangeScara3FittingPins3USL {
             get {
                 return ((string)(this["txt_rangeScara3FittingPins3USL"]));
@@ -1057,7 +1057,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BWT2:BWT")]
+        [global::System.Configuration.DefaultSettingValueAttribute("JT2:JT")]
         public string txt_rangeScara3FittingPins4 {
             get {
                 return ((string)(this["txt_rangeScara3FittingPins4"]));
@@ -1081,7 +1081,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        [global::System.Configuration.DefaultSettingValueAttribute("-1")]
         public double txt_rangeScara3FittingPins4ValLSL {
             get {
                 return ((double)(this["txt_rangeScara3FittingPins4ValLSL"]));
@@ -1093,7 +1093,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BWS2:BWS")]
+        [global::System.Configuration.DefaultSettingValueAttribute("JP2:JP")]
         public string txt_rangeScara3FittingPins4LSL {
             get {
                 return ((string)(this["txt_rangeScara3FittingPins4LSL"]));
@@ -1105,7 +1105,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BWW2:BWW")]
+        [global::System.Configuration.DefaultSettingValueAttribute("EE2:EE")]
         public string txt_rangeScara3FittingPins4USL {
             get {
                 return ((string)(this["txt_rangeScara3FittingPins4USL"]));
@@ -1117,7 +1117,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BJI2:BJI")]
+        [global::System.Configuration.DefaultSettingValueAttribute("NA2:NA")]
         public string txt_rangeProfileScanPoint0 {
             get {
                 return ((string)(this["txt_rangeProfileScanPoint0"]));
@@ -1153,7 +1153,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BJG2:BJG")]
+        [global::System.Configuration.DefaultSettingValueAttribute("MY2:MY")]
         public string txt_rangeProfileScanPoint0LSL {
             get {
                 return ((string)(this["txt_rangeProfileScanPoint0LSL"]));
@@ -1165,7 +1165,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BJK2:BJK")]
+        [global::System.Configuration.DefaultSettingValueAttribute("NC2:NC")]
         public string txt_rangeProfileScanPoint0USL {
             get {
                 return ((string)(this["txt_rangeProfileScanPoint0USL"]));
@@ -1177,7 +1177,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BJP2:BJP")]
+        [global::System.Configuration.DefaultSettingValueAttribute("NH2:NH")]
         public string txt_rangeProfileScanPoint1 {
             get {
                 return ((string)(this["txt_rangeProfileScanPoint1"]));
@@ -1213,7 +1213,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BJN2:BJN")]
+        [global::System.Configuration.DefaultSettingValueAttribute("NF2:NF")]
         public string txt_rangeProfileScanPoint1LSL {
             get {
                 return ((string)(this["txt_rangeProfileScanPoint1LSL"]));
@@ -1225,7 +1225,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BJR2:BJR")]
+        [global::System.Configuration.DefaultSettingValueAttribute("NJ2:NJ")]
         public string txt_rangeProfileScanPoint1USL {
             get {
                 return ((string)(this["txt_rangeProfileScanPoint1USL"]));
@@ -1237,7 +1237,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BJW2:BJW")]
+        [global::System.Configuration.DefaultSettingValueAttribute("NO2:NO")]
         public string txt_rangeProfileScanPoint2 {
             get {
                 return ((string)(this["txt_rangeProfileScanPoint2"]));
@@ -1273,7 +1273,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BJU2:BJU")]
+        [global::System.Configuration.DefaultSettingValueAttribute("NM2:NM")]
         public string txt_rangeProfileScanPoint2LSL {
             get {
                 return ((string)(this["txt_rangeProfileScanPoint2LSL"]));
@@ -1285,7 +1285,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BJY2:BJY")]
+        [global::System.Configuration.DefaultSettingValueAttribute("NQ2:NQ")]
         public string txt_rangeProfileScanPoint2USL {
             get {
                 return ((string)(this["txt_rangeProfileScanPoint2USL"]));
@@ -1297,7 +1297,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BKD2:BKD")]
+        [global::System.Configuration.DefaultSettingValueAttribute("NV2:NV")]
         public string txt_rangeProfileScanPoint3 {
             get {
                 return ((string)(this["txt_rangeProfileScanPoint3"]));
@@ -1333,7 +1333,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BKB2:BKB")]
+        [global::System.Configuration.DefaultSettingValueAttribute("NT2:NT")]
         public string txt_rangeProfileScanPoint3LSL {
             get {
                 return ((string)(this["txt_rangeProfileScanPoint3LSL"]));
@@ -1345,7 +1345,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BKF2:BKF")]
+        [global::System.Configuration.DefaultSettingValueAttribute("NX2:NX")]
         public string txt_rangeProfileScanPoint3USL {
             get {
                 return ((string)(this["txt_rangeProfileScanPoint3USL"]));
@@ -1357,7 +1357,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BKK2:BKK")]
+        [global::System.Configuration.DefaultSettingValueAttribute("OC2:OC")]
         public string txt_rangeProfileScanPoint4 {
             get {
                 return ((string)(this["txt_rangeProfileScanPoint4"]));
@@ -1393,7 +1393,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BKI2:BKI")]
+        [global::System.Configuration.DefaultSettingValueAttribute("OA2:OA")]
         public string txt_rangeProfileScanPoint4LSL {
             get {
                 return ((string)(this["txt_rangeProfileScanPoint4LSL"]));
@@ -1405,7 +1405,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BKM2:BKM")]
+        [global::System.Configuration.DefaultSettingValueAttribute("OE2:OE")]
         public string txt_rangeProfileScanPoint4USL {
             get {
                 return ((string)(this["txt_rangeProfileScanPoint4USL"]));
@@ -1417,7 +1417,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BKR2:BKR")]
+        [global::System.Configuration.DefaultSettingValueAttribute("OJ2:OJ")]
         public string txt_rangeProfileScanPoint5 {
             get {
                 return ((string)(this["txt_rangeProfileScanPoint5"]));
@@ -1453,7 +1453,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BKP2:BKP")]
+        [global::System.Configuration.DefaultSettingValueAttribute("OH2:OH")]
         public string txt_rangeProfileScanPoint5LSL {
             get {
                 return ((string)(this["txt_rangeProfileScanPoint5LSL"]));
@@ -1465,7 +1465,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BKT2:BKT")]
+        [global::System.Configuration.DefaultSettingValueAttribute("OL2:OL")]
         public string txt_rangeProfileScanPoint5USL {
             get {
                 return ((string)(this["txt_rangeProfileScanPoint5USL"]));
@@ -1477,7 +1477,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BOQ2:BOQ")]
+        [global::System.Configuration.DefaultSettingValueAttribute("PV2:PV")]
         public string txt_rangeJoiningForce {
             get {
                 return ((string)(this["txt_rangeJoiningForce"]));
@@ -1513,7 +1513,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BOO2:BOO")]
+        [global::System.Configuration.DefaultSettingValueAttribute("PT2:PT")]
         public string txt_rangeJoiningForceLSL {
             get {
                 return ((string)(this["txt_rangeJoiningForceLSL"]));
@@ -1525,7 +1525,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BOS2:BOS")]
+        [global::System.Configuration.DefaultSettingValueAttribute("PX2:PX")]
         public string txt_rangeJoiningForceUSL {
             get {
                 return ((string)(this["txt_rangeJoiningForceUSL"]));
@@ -1537,7 +1537,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BPC2:BPC")]
+        [global::System.Configuration.DefaultSettingValueAttribute("QJ2:QJ")]
         public string txt_rangeLaserWeldingSettingDistance {
             get {
                 return ((string)(this["txt_rangeLaserWeldingSettingDistance"]));
@@ -1573,7 +1573,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BPA2:BPA")]
+        [global::System.Configuration.DefaultSettingValueAttribute("QH2:QH")]
         public string txt_rangeLaserWeldingSettingDistanceLSL {
             get {
                 return ((string)(this["txt_rangeLaserWeldingSettingDistanceLSL"]));
@@ -1585,7 +1585,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BPE2:BPE")]
+        [global::System.Configuration.DefaultSettingValueAttribute("QM2:QM")]
         public string txt_rangeLaserWeldingSettingDistanceUSL {
             get {
                 return ((string)(this["txt_rangeLaserWeldingSettingDistanceUSL"]));
@@ -1597,7 +1597,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BPK2:BPK")]
+        [global::System.Configuration.DefaultSettingValueAttribute("QR2:QR")]
         public string txt_rangeLaserWeldingStartPosition {
             get {
                 return ((string)(this["txt_rangeLaserWeldingStartPosition"]));
@@ -1633,7 +1633,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BPI2:BPI")]
+        [global::System.Configuration.DefaultSettingValueAttribute("QP2:QP")]
         public string txt_rangeLaserWeldingStartPositionLSL {
             get {
                 return ((string)(this["txt_rangeLaserWeldingStartPositionLSL"]));
@@ -1645,7 +1645,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BPM2:BPM")]
+        [global::System.Configuration.DefaultSettingValueAttribute("QU2:QU")]
         public string txt_rangeLaserWeldingStartPositionUSL {
             get {
                 return ((string)(this["txt_rangeLaserWeldingStartPositionUSL"]));
@@ -1657,7 +1657,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BPU2:BPU")]
+        [global::System.Configuration.DefaultSettingValueAttribute("RB2:RB")]
         public string txt_rangeLaserWeldingShutdownDistance {
             get {
                 return ((string)(this["txt_rangeLaserWeldingShutdownDistance"]));
@@ -1693,7 +1693,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BPS2:BPS")]
+        [global::System.Configuration.DefaultSettingValueAttribute("QZ2:QZ")]
         public string txt_rangeLaserWeldingShutdownDistanceLSL {
             get {
                 return ((string)(this["txt_rangeLaserWeldingShutdownDistanceLSL"]));
@@ -1705,7 +1705,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BPW2:BPW")]
+        [global::System.Configuration.DefaultSettingValueAttribute("RE2:RE")]
         public string txt_rangeLaserWeldingShutdownDistanceUSL {
             get {
                 return ((string)(this["txt_rangeLaserWeldingShutdownDistanceUSL"]));
@@ -1717,7 +1717,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BQC2:BQC")]
+        [global::System.Configuration.DefaultSettingValueAttribute("RH2:RH")]
         public string txt_rangeLaserWeldingWeldingtime {
             get {
                 return ((string)(this["txt_rangeLaserWeldingWeldingtime"]));
@@ -1753,7 +1753,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BQA2:BQA")]
+        [global::System.Configuration.DefaultSettingValueAttribute("RF2:RF")]
         public string txt_rangeLaserWeldingWeldingtimeLSL {
             get {
                 return ((string)(this["txt_rangeLaserWeldingWeldingtimeLSL"]));
@@ -1765,7 +1765,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BQE2:BQE")]
+        [global::System.Configuration.DefaultSettingValueAttribute("RK2:RK")]
         public string txt_rangeLaserWeldingWeldingtimeUSL {
             get {
                 return ((string)(this["txt_rangeLaserWeldingWeldingtimeUSL"]));
@@ -1777,7 +1777,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BDV2:BDV")]
+        [global::System.Configuration.DefaultSettingValueAttribute("RV2:RV")]
         public string txt_rangeForce {
             get {
                 return ((string)(this["txt_rangeForce"]));
@@ -1813,7 +1813,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BDK2:BDK")]
+        [global::System.Configuration.DefaultSettingValueAttribute("RN2:RN")]
         public string txt_rangeForceLSL {
             get {
                 return ((string)(this["txt_rangeForceLSL"]));
@@ -1825,7 +1825,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BDY2:BDY")]
+        [global::System.Configuration.DefaultSettingValueAttribute("RY2:RY")]
         public string txt_rangeForceUSL {
             get {
                 return ((string)(this["txt_rangeForceUSL"]));
@@ -1837,7 +1837,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AWW2:AWW")]
+        [global::System.Configuration.DefaultSettingValueAttribute("SI2:SI")]
         public string txt_rangeLeaktestStartPressure {
             get {
                 return ((string)(this["txt_rangeLeaktestStartPressure"]));
@@ -1873,7 +1873,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AWU2:AWU")]
+        [global::System.Configuration.DefaultSettingValueAttribute("SG2:SG")]
         public string txt_rangeLeaktestStartPressureLSL {
             get {
                 return ((string)(this["txt_rangeLeaktestStartPressureLSL"]));
@@ -1885,7 +1885,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AWZ2:AWZ")]
+        [global::System.Configuration.DefaultSettingValueAttribute("SL2:SL")]
         public string txt_rangeLeaktestStartPressureUSL {
             get {
                 return ((string)(this["txt_rangeLeaktestStartPressureUSL"]));
@@ -1897,7 +1897,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AXA2:AXA")]
+        [global::System.Configuration.DefaultSettingValueAttribute("SM2:SM")]
         public string txt_rangeLeaktestLeakage {
             get {
                 return ((string)(this["txt_rangeLeaktestLeakage"]));
@@ -1933,7 +1933,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AWR2:AWR")]
+        [global::System.Configuration.DefaultSettingValueAttribute("QH2:QH")]
         public string txt_rangeLeaktestLeakageLSL {
             get {
                 return ((string)(this["txt_rangeLeaktestLeakageLSL"]));
@@ -1945,7 +1945,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AXD2:AXD")]
+        [global::System.Configuration.DefaultSettingValueAttribute("SP2:SP")]
         public string txt_rangeLeaktestLeakageUSL {
             get {
                 return ((string)(this["txt_rangeLeaktestLeakageUSL"]));
@@ -1957,7 +1957,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AYD2:AYD")]
+        [global::System.Configuration.DefaultSettingValueAttribute("TE2:TE")]
         public string txt_rangeEOLM01 {
             get {
                 return ((string)(this["txt_rangeEOLM01"]));
@@ -1969,7 +1969,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("4817.5")]
+        [global::System.Configuration.DefaultSettingValueAttribute("2727")]
         public double txt_rangeEOLM01ValUSL {
             get {
                 return ((double)(this["txt_rangeEOLM01ValUSL"]));
@@ -1981,7 +1981,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("4582.5")]
+        [global::System.Configuration.DefaultSettingValueAttribute("2673")]
         public double txt_rangeEOLM01ValLSL {
             get {
                 return ((double)(this["txt_rangeEOLM01ValLSL"]));
@@ -1993,7 +1993,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AYC2:AYC")]
+        [global::System.Configuration.DefaultSettingValueAttribute("TD2:TD")]
         public string txt_rangeEOLM01LSL {
             get {
                 return ((string)(this["txt_rangeEOLM01LSL"]));
@@ -2005,7 +2005,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AYF2:AYF")]
+        [global::System.Configuration.DefaultSettingValueAttribute("TH2:TH")]
         public string txt_rangeEOLM01USL {
             get {
                 return ((string)(this["txt_rangeEOLM01USL"]));
@@ -2017,7 +2017,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AYK2:AYK")]
+        [global::System.Configuration.DefaultSettingValueAttribute("TL2:TL")]
         public string txt_rangeEOLM02 {
             get {
                 return ((string)(this["txt_rangeEOLM02"]));
@@ -2053,7 +2053,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AYI2:AYI")]
+        [global::System.Configuration.DefaultSettingValueAttribute("TJ2:TJ")]
         public string txt_rangeEOLM02LSL {
             get {
                 return ((string)(this["txt_rangeEOLM02LSL"]));
@@ -2065,7 +2065,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AYN2:AYN")]
+        [global::System.Configuration.DefaultSettingValueAttribute("TO2:TO")]
         public string txt_rangeEOLM02USL {
             get {
                 return ((string)(this["txt_rangeEOLM02USL"]));
@@ -2077,7 +2077,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AYR2:AYR")]
+        [global::System.Configuration.DefaultSettingValueAttribute("TS2:TS")]
         public string txt_rangeEOLM03 {
             get {
                 return ((string)(this["txt_rangeEOLM03"]));
@@ -2113,7 +2113,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AYP2:AYP")]
+        [global::System.Configuration.DefaultSettingValueAttribute("TQ2:TQ")]
         public string txt_rangeEOLM03LSL {
             get {
                 return ((string)(this["txt_rangeEOLM03LSL"]));
@@ -2125,7 +2125,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AYU2:AYU")]
+        [global::System.Configuration.DefaultSettingValueAttribute("TV2:TV")]
         public string txt_rangeEOLM03USL {
             get {
                 return ((string)(this["txt_rangeEOLM03USL"]));
@@ -2137,7 +2137,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AYY2:AYY")]
+        [global::System.Configuration.DefaultSettingValueAttribute("TZ2:TZ")]
         public string txt_rangeEOLM04 {
             get {
                 return ((string)(this["txt_rangeEOLM04"]));
@@ -2149,7 +2149,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1111")]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.9")]
         public double txt_rangeEOLM04ValUSL {
             get {
                 return ((double)(this["txt_rangeEOLM04ValUSL"]));
@@ -2161,7 +2161,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("333")]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.01")]
         public double txt_rangeEOLM04ValLSL {
             get {
                 return ((double)(this["txt_rangeEOLM04ValLSL"]));
@@ -2173,7 +2173,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AYW2:AYW")]
+        [global::System.Configuration.DefaultSettingValueAttribute("TX2:TX")]
         public string txt_rangeEOLM04LSL {
             get {
                 return ((string)(this["txt_rangeEOLM04LSL"]));
@@ -2185,7 +2185,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AZB2:AZB")]
+        [global::System.Configuration.DefaultSettingValueAttribute("UC2:UC")]
         public string txt_rangeEOLM04USL {
             get {
                 return ((string)(this["txt_rangeEOLM04USL"]));
@@ -2197,7 +2197,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BBJ2:BBJ")]
+        [global::System.Configuration.DefaultSettingValueAttribute("UG2:UG")]
         public string txt_rangeEOLM05 {
             get {
                 return ((string)(this["txt_rangeEOLM05"]));
@@ -2209,7 +2209,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1151")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1147")]
         public double txt_rangeEOLM05ValUSL {
             get {
                 return ((double)(this["txt_rangeEOLM05ValUSL"]));
@@ -2221,7 +2221,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("778")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1048")]
         public double txt_rangeEOLM05ValLSL {
             get {
                 return ((double)(this["txt_rangeEOLM05ValLSL"]));
@@ -2233,7 +2233,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BBH2:BBH")]
+        [global::System.Configuration.DefaultSettingValueAttribute("UE2:UE")]
         public string txt_rangeEOLM05LSL {
             get {
                 return ((string)(this["txt_rangeEOLM05LSL"]));
@@ -2245,7 +2245,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BBM2:BBM")]
+        [global::System.Configuration.DefaultSettingValueAttribute("UJ2:UJ")]
         public string txt_rangeEOLM05USL {
             get {
                 return ((string)(this["txt_rangeEOLM05USL"]));
@@ -2257,7 +2257,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AZF2:AZF")]
+        [global::System.Configuration.DefaultSettingValueAttribute("UN2:UN")]
         public string txt_rangeEOLM06 {
             get {
                 return ((string)(this["txt_rangeEOLM06"]));
@@ -2269,7 +2269,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1147")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1122")]
         public double txt_rangeEOLM06ValUSL {
             get {
                 return ((double)(this["txt_rangeEOLM06ValUSL"]));
@@ -2281,7 +2281,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1048")]
+        [global::System.Configuration.DefaultSettingValueAttribute("792")]
         public double txt_rangeEOLM06ValLSL {
             get {
                 return ((double)(this["txt_rangeEOLM06ValLSL"]));
@@ -2293,7 +2293,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AZD2:AZD")]
+        [global::System.Configuration.DefaultSettingValueAttribute("UL2:UL")]
         public string txt_rangeEOLM06LSL {
             get {
                 return ((string)(this["txt_rangeEOLM06LSL"]));
@@ -2305,7 +2305,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AZI2:AZI")]
+        [global::System.Configuration.DefaultSettingValueAttribute("UQ2:UQ")]
         public string txt_rangeEOLM06USL {
             get {
                 return ((string)(this["txt_rangeEOLM06USL"]));
@@ -2317,7 +2317,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AZM2:AZM")]
+        [global::System.Configuration.DefaultSettingValueAttribute("UU2:UU")]
         public string txt_rangeEOLM07 {
             get {
                 return ((string)(this["txt_rangeEOLM07"]));
@@ -2353,7 +2353,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AZK2:AZK")]
+        [global::System.Configuration.DefaultSettingValueAttribute("US2:US")]
         public string txt_rangeEOLM07LSL {
             get {
                 return ((string)(this["txt_rangeEOLM07LSL"]));
@@ -2365,7 +2365,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AZP2:AZP")]
+        [global::System.Configuration.DefaultSettingValueAttribute("UX2:UX")]
         public string txt_rangeEOLM07USL {
             get {
                 return ((string)(this["txt_rangeEOLM07USL"]));
@@ -2377,7 +2377,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AZT2:AZT")]
+        [global::System.Configuration.DefaultSettingValueAttribute("VB2:VB")]
         public string txt_rangeEOLM08 {
             get {
                 return ((string)(this["txt_rangeEOLM08"]));
@@ -2389,7 +2389,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1005")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1147")]
         public double txt_rangeEOLM08ValUSL {
             get {
                 return ((double)(this["txt_rangeEOLM08ValUSL"]));
@@ -2401,7 +2401,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1048")]
         public double txt_rangeEOLM08ValLSL {
             get {
                 return ((double)(this["txt_rangeEOLM08ValLSL"]));
@@ -2413,7 +2413,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AZR2:AZR")]
+        [global::System.Configuration.DefaultSettingValueAttribute("UZ2:UZ")]
         public string txt_rangeEOLM08LSL {
             get {
                 return ((string)(this["txt_rangeEOLM08LSL"]));
@@ -2425,7 +2425,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AZW2:AZW")]
+        [global::System.Configuration.DefaultSettingValueAttribute("VE2:VE")]
         public string txt_rangeEOLM08USL {
             get {
                 return ((string)(this["txt_rangeEOLM08USL"]));
@@ -2437,7 +2437,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BAA2:BAA")]
+        [global::System.Configuration.DefaultSettingValueAttribute("VI2:VI")]
         public string txt_rangeEOLM09 {
             get {
                 return ((string)(this["txt_rangeEOLM09"]));
@@ -2449,7 +2449,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("22000")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1005")]
         public double txt_rangeEOLM09ValUSL {
             get {
                 return ((double)(this["txt_rangeEOLM09ValUSL"]));
@@ -2461,7 +2461,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("200")]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
         public double txt_rangeEOLM09ValLSL {
             get {
                 return ((double)(this["txt_rangeEOLM09ValLSL"]));
@@ -2473,7 +2473,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("AZY2:AZY")]
+        [global::System.Configuration.DefaultSettingValueAttribute("VG2:VG")]
         public string txt_rangeEOLM09LSL {
             get {
                 return ((string)(this["txt_rangeEOLM09LSL"]));
@@ -2485,7 +2485,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BAD2:BAD")]
+        [global::System.Configuration.DefaultSettingValueAttribute("VL2:VL")]
         public string txt_rangeEOLM09USL {
             get {
                 return ((string)(this["txt_rangeEOLM09USL"]));
@@ -2497,7 +2497,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BAH2:BAH")]
+        [global::System.Configuration.DefaultSettingValueAttribute("VP2:VP")]
         public string txt_rangeEOLM10 {
             get {
                 return ((string)(this["txt_rangeEOLM10"]));
@@ -2509,7 +2509,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("2155")]
+        [global::System.Configuration.DefaultSettingValueAttribute("22000")]
         public double txt_rangeEOLM10ValUSL {
             get {
                 return ((double)(this["txt_rangeEOLM10ValUSL"]));
@@ -2521,7 +2521,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        [global::System.Configuration.DefaultSettingValueAttribute("200")]
         public double txt_rangeEOLM10ValLSL {
             get {
                 return ((double)(this["txt_rangeEOLM10ValLSL"]));
@@ -2533,7 +2533,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BAF2:BAF")]
+        [global::System.Configuration.DefaultSettingValueAttribute("VN2:VN")]
         public string txt_rangeEOLM10LSL {
             get {
                 return ((string)(this["txt_rangeEOLM10LSL"]));
@@ -2545,7 +2545,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BAK2:BAK")]
+        [global::System.Configuration.DefaultSettingValueAttribute("VS2:VS")]
         public string txt_rangeEOLM10USL {
             get {
                 return ((string)(this["txt_rangeEOLM10USL"]));
@@ -2557,7 +2557,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BAO2:BAO")]
+        [global::System.Configuration.DefaultSettingValueAttribute("VW2:VW")]
         public string txt_rangeEOLM11 {
             get {
                 return ((string)(this["txt_rangeEOLM11"]));
@@ -2569,7 +2569,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("22000")]
+        [global::System.Configuration.DefaultSettingValueAttribute("2151")]
         public double txt_rangeEOLM11ValUSL {
             get {
                 return ((double)(this["txt_rangeEOLM11ValUSL"]));
@@ -2581,7 +2581,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("200")]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
         public double txt_rangeEOLM11ValLSL {
             get {
                 return ((double)(this["txt_rangeEOLM11ValLSL"]));
@@ -2593,7 +2593,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BAM2:BAM")]
+        [global::System.Configuration.DefaultSettingValueAttribute("VU2:VU")]
         public string txt_rangeEOLM11LSL {
             get {
                 return ((string)(this["txt_rangeEOLM11LSL"]));
@@ -2605,7 +2605,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BAR2:BAR")]
+        [global::System.Configuration.DefaultSettingValueAttribute("VZ2:VZ")]
         public string txt_rangeEOLM11USL {
             get {
                 return ((string)(this["txt_rangeEOLM11USL"]));
@@ -2617,7 +2617,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BEN2:BEN")]
+        [global::System.Configuration.DefaultSettingValueAttribute("YS2:YS")]
         public string txt_rangeScan3DMeasuring0 {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring0"]));
@@ -2653,7 +2653,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BEO2:BEO")]
+        [global::System.Configuration.DefaultSettingValueAttribute("YQ2:YQ")]
         public string txt_rangeScan3DMeasuring0LSL {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring0LSL"]));
@@ -2665,7 +2665,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BER2:BER")]
+        [global::System.Configuration.DefaultSettingValueAttribute("YU2:YU")]
         public string txt_rangeScan3DMeasuring0USL {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring0USL"]));
@@ -2677,7 +2677,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BEU2:BEU")]
+        [global::System.Configuration.DefaultSettingValueAttribute("YZ2:YZ")]
         public string txt_rangeScan3DMeasuring1 {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring1"]));
@@ -2713,7 +2713,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BEV2:BEV")]
+        [global::System.Configuration.DefaultSettingValueAttribute("YX2:YX")]
         public string txt_rangeScan3DMeasuring1LSL {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring1LSL"]));
@@ -2725,7 +2725,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BEY2:BEY")]
+        [global::System.Configuration.DefaultSettingValueAttribute("ZB2:ZB")]
         public string txt_rangeScan3DMeasuring1USL {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring1USL"]));
@@ -2737,7 +2737,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BFB2:BFB")]
+        [global::System.Configuration.DefaultSettingValueAttribute("ZG2:ZG")]
         public string txt_rangeScan3DMeasuring2 {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring2"]));
@@ -2773,7 +2773,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BFC2:BFC")]
+        [global::System.Configuration.DefaultSettingValueAttribute("ZE2:ZE")]
         public string txt_rangeScan3DMeasuring2LSL {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring2LSL"]));
@@ -2785,7 +2785,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BFF2:BFF")]
+        [global::System.Configuration.DefaultSettingValueAttribute("ZI2:ZI")]
         public string txt_rangeScan3DMeasuring2USL {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring2USL"]));
@@ -2797,7 +2797,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BFI2:BFI")]
+        [global::System.Configuration.DefaultSettingValueAttribute("ZN2:ZN")]
         public string txt_rangeScan3DMeasuring3 {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring3"]));
@@ -2833,7 +2833,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BFH2:BFH")]
+        [global::System.Configuration.DefaultSettingValueAttribute("ZL2:ZL")]
         public string txt_rangeScan3DMeasuring3LSL {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring3LSL"]));
@@ -2845,7 +2845,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BFM2:BFM")]
+        [global::System.Configuration.DefaultSettingValueAttribute("ZP2:ZP")]
         public string txt_rangeScan3DMeasuring3USL {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring3USL"]));
@@ -2857,7 +2857,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BFP2:BFP")]
+        [global::System.Configuration.DefaultSettingValueAttribute("ZU2:ZU")]
         public string txt_rangeScan3DMeasuring4 {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring4"]));
@@ -2893,7 +2893,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BFQ2:BFQ")]
+        [global::System.Configuration.DefaultSettingValueAttribute("ZS2:ZS")]
         public string txt_rangeScan3DMeasuring4LSL {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring4LSL"]));
@@ -2905,7 +2905,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BFT2:BFT")]
+        [global::System.Configuration.DefaultSettingValueAttribute("ZW2:ZW")]
         public string txt_rangeScan3DMeasuring4USL {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring4USL"]));
@@ -2917,7 +2917,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BFW2:BFW")]
+        [global::System.Configuration.DefaultSettingValueAttribute("AAB2:AAB")]
         public string txt_rangeScan3DMeasuring5 {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring5"]));
@@ -2953,7 +2953,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BFX2:BFX")]
+        [global::System.Configuration.DefaultSettingValueAttribute("ZZ2:ZZ")]
         public string txt_rangeScan3DMeasuring5LSL {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring5LSL"]));
@@ -2965,7 +2965,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BGA2:BGA")]
+        [global::System.Configuration.DefaultSettingValueAttribute("AAD2:AAD")]
         public string txt_rangeScan3DMeasuring5USL {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring5USL"]));
@@ -2977,7 +2977,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BGD2:BGD")]
+        [global::System.Configuration.DefaultSettingValueAttribute("AAI2:AAI")]
         public string txt_rangeScan3DMeasuring6 {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring6"]));
@@ -3013,7 +3013,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BGE2:BGE")]
+        [global::System.Configuration.DefaultSettingValueAttribute("AAG2:AAG")]
         public string txt_rangeScan3DMeasuring6LSL {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring6LSL"]));
@@ -3025,7 +3025,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BGH2:BGH")]
+        [global::System.Configuration.DefaultSettingValueAttribute("AAK2:AAK")]
         public string txt_rangeScan3DMeasuring6USL {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring6USL"]));
@@ -3037,7 +3037,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BGK2:BGK")]
+        [global::System.Configuration.DefaultSettingValueAttribute("AAP2:AAP")]
         public string txt_rangeScan3DMeasuring7 {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring7"]));
@@ -3073,7 +3073,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BGL2:BGL")]
+        [global::System.Configuration.DefaultSettingValueAttribute("AAN2:AAN")]
         public string txt_rangeScan3DMeasuring7LSL {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring7LSL"]));
@@ -3085,7 +3085,7 @@ namespace LogFileCheck.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BGO2:BGO")]
+        [global::System.Configuration.DefaultSettingValueAttribute("AAR2:AAR")]
         public string txt_rangeScan3DMeasuring7USL {
             get {
                 return ((string)(this["txt_rangeScan3DMeasuring7USL"]));

@@ -244,7 +244,7 @@ namespace LogFileCheck
             SetareValoriCampuriFisiere();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
            
 
@@ -715,15 +715,17 @@ namespace LogFileCheck
             lbl_statusBackColor.Add(lbl_statusScan3DMeasuring5AV);
             lbl_statusBackColor.Add(lbl_statusScan3DMeasuring6AV);
             lbl_statusBackColor.Add(lbl_statusScan3DMeasuring7AV);
-
+          
 
 
             // citirea din fisierul excell a valorilor AV
 
             for (int i = 0; i < listOfAV.Count; i++)
             {
-                ReadExcelFile(rangeDeCititAV[i], i);
+               await Task.Run(() => ReadExcelFile(rangeDeCititAV[i], i));
             }
+
+         
             txt_rangeWeldingDistanceValAV.Text = WeldingdistanceAV[0];
             txt_rangeWeldingEnergyValAV.Text = WeldingEnergyAV[0];
             txt_rangeAirFlowFlowVolumeValAV.Text = AirFlowFlowVolumeAV[0];
@@ -784,20 +786,20 @@ namespace LogFileCheck
 
             for (int i = 0; i < listOfLslUsl.Count; i++)
             {
-                ReadExcelFile4(rangeDeCititLslUsl[i],i);
+                await Task.Run(() => ReadExcelFile4(rangeDeCititLslUsl[i],i));
             }
-            ComparareValoriWeldingdistanceLSL();
-            ComparareValoriWeldingdistanceUSL();
-            ComparareValoriWeldingEnergyLSL();
-            ComparareValoriWeldingEnergyUSL();
-            ComparareValoriAirFlowFlowVolumeLSL();
-            ComparareValoriAirFlowFlowVolumeUSL();
-            ComparareValoriScara1FittingPins0LSL();
-            ComparareValoriScara1FittingPins0USL();
-            ComparareValoriScara1FittingPins1LSL();
-            ComparareValoriScara1FittingPins1USL();
-            ComparareValoriScara1FittingPins2LSL();
-            ComparareValoriScara1FittingPins2USL();
+             ComparareValoriWeldingdistanceLSL();
+             ComparareValoriWeldingdistanceUSL();
+             ComparareValoriWeldingEnergyLSL();
+             ComparareValoriWeldingEnergyUSL();
+             ComparareValoriAirFlowFlowVolumeLSL();
+             ComparareValoriAirFlowFlowVolumeUSL();
+             ComparareValoriScara1FittingPins0LSL();
+             ComparareValoriScara1FittingPins0USL();
+             ComparareValoriScara1FittingPins1LSL();
+             ComparareValoriScara1FittingPins1USL();
+             ComparareValoriScara1FittingPins2LSL();
+             ComparareValoriScara1FittingPins2USL();
 
             ComparareValoriScara1FittingPins3LSL();
             ComparareValoriScara1FittingPins3USL();
@@ -952,7 +954,7 @@ namespace LogFileCheck
             return numarDeRanduri;
         }
         // functia care permite citirea din fisierul excell a valorilor AV
-        public  void ReadExcelFile(string rangeDeCititAV,int i)
+        public void ReadExcelFile(string rangeDeCititAV,int i)
         {
             
 
@@ -966,7 +968,7 @@ namespace LogFileCheck
             //parcurgerea tuturor valorilor din range
             foreach (var cell in range.Value)
             {
-                listOfAV[i].Add(cell.ToString());
+              listOfAV[i].Add(cell.ToString());
             }
             workbook.Close();
             excel.Application.Quit();
